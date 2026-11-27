@@ -52,7 +52,7 @@ uv run --locked python -m pytest -q
 5. **実写基準に届かなければ `exit 1` を返す受入ゲート**
    `campaign release` は、独立プロセス再撮影の一致、登録済み実写との RGB-D 誤差、未学習の実写系列での検出 AP、原寸目視レビュー（`review.json` / `review.md`）が事前固定した閾値を満たさない限り終了コード `1` を返します。
 
-![独立した2つのKitプロセスで同じseedから再撮影したRGB差分の10倍強調GIF（sRGB RMSE 0.003〜0.005）](evidence/campaign-l4/upstream/replay-rgb.gif)
+![独立した2つのKitプロセスで同じseedから再撮影した4フレームの並列比較GIF（左：Run 1とBBox、中央：Run 2と教師マスク、右：白背景に25倍強調したRGB残差マップ。sRGB RMSE 0.00324〜0.00349、マスク差0 px）](docs/assets/replay-comparison.gif)
 
 ---
 

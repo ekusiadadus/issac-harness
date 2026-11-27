@@ -52,7 +52,7 @@ Every check in `harness/` and rule in [`AGENTS.md`](AGENTS.md) exists because an
 5. **Loud failure on real-camera qualification (`campaign release`)**
    Synthetic holdout splits overestimate transfer. `campaign release` checks cross-process replay determinism, registered real-image RGB-D error, byte-deduplicated real-image detection AP, and human full-resolution sign-off (`review.json` / `review.md`), exiting `1` whenever any pre-committed threshold in `release.toml` is missed.
 
-![10x amplified RGB difference GIF across two independent Kit processes re-capturing the same seed (normalized sRGB RMSE: 0.003–0.005)](evidence/campaign-l4/upstream/replay-rgb.gif)
+![Side-by-side 4-frame replay check across two independent Kit processes for the same seed: Run 1 with tight boxes (left), Run 2 with pixel-exact masks (center), and 25x RGB residual heatmap on white (right; normalized sRGB RMSE 0.00324–0.00349, mask diff 0 px)](docs/assets/replay-comparison.gif)
 
 ---
 
