@@ -1,0 +1,1132 @@
+{
+  "status": "captured",
+  "scene": "/var/tmp/isaac-harness-validation/verified-c357538737eb26a6035360b165f064629ec9b203/examples/inspection/scene.usda",
+  "scene_sha256": "8cb1746881b976ed4f52283161605d183db989d515ddc76e397b64d46b3bfa07",
+  "source_files": [
+    {
+      "path": "assets/carton/carton.usdc",
+      "sha256": "b9175439640632377d1bb409b7d092166454d0e4c615e31d71477ed23b3d6120"
+    },
+    {
+      "path": "assets/carton/textures/Cardboard002_1K-JPG_Color.jpg",
+      "sha256": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde"
+    },
+    {
+      "path": "assets/carton/textures/Cardboard002_1K-JPG_NormalGL.jpg",
+      "sha256": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a"
+    },
+    {
+      "path": "assets/carton/textures/Cardboard002_1K-JPG_Roughness.jpg",
+      "sha256": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e"
+    },
+    {
+      "path": "assets/carton/textures/Paper005_1K-JPG_Color.jpg",
+      "sha256": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1"
+    },
+    {
+      "path": "assets/carton/textures/Paper005_1K-JPG_NormalGL.jpg",
+      "sha256": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa"
+    },
+    {
+      "path": "assets/carton/textures/Paper005_1K-JPG_Roughness.jpg",
+      "sha256": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c"
+    },
+    {
+      "path": "assets/carton/textures/label_base.png",
+      "sha256": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522"
+    },
+    {
+      "path": "assets/carton/textures/label_normal.png",
+      "sha256": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8"
+    },
+    {
+      "path": "assets/carton/textures/label_print_base.png",
+      "sha256": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b"
+    },
+    {
+      "path": "assets/carton/textures/label_rough.png",
+      "sha256": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d"
+    },
+    {
+      "path": "assets/carton/textures/tape_normal.png",
+      "sha256": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9"
+    },
+    {
+      "path": "assets/carton/textures/tape_rough.png",
+      "sha256": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939"
+    },
+    {
+      "path": "assets/handset/handset.usdc",
+      "sha256": "c4ccdc040b263b4a8cbfe1800724473d1300575fc255f44906545679889e9029"
+    },
+    {
+      "path": "assets/handset/textures/brushed_steel_base.png",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225"
+    },
+    {
+      "path": "assets/handset/textures/brushed_steel_metal.png",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b"
+    },
+    {
+      "path": "assets/handset/textures/brushed_steel_normal.png",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945"
+    },
+    {
+      "path": "assets/handset/textures/brushed_steel_rough.png",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307"
+    },
+    {
+      "path": "assets/handset/textures/polymer_base.png",
+      "sha256": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb"
+    },
+    {
+      "path": "assets/handset/textures/polymer_normal.png",
+      "sha256": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee"
+    },
+    {
+      "path": "assets/handset/textures/polymer_rough.png",
+      "sha256": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3"
+    },
+    {
+      "path": "assets/tray/textures/brushed_steel_base.png",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225"
+    },
+    {
+      "path": "assets/tray/textures/brushed_steel_metal.png",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b"
+    },
+    {
+      "path": "assets/tray/textures/brushed_steel_normal.png",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945"
+    },
+    {
+      "path": "assets/tray/textures/brushed_steel_rough.png",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307"
+    },
+    {
+      "path": "assets/tray/tray.usdc",
+      "sha256": "5ac0496932df11ead9e3ebc2e86840ce322fa18059b1274f97cc054f804dfcc9"
+    },
+    {
+      "path": "cameras.usda",
+      "sha256": "20ff18ab0f6f23e209b867559d4c40cc2796054d177d2e942786e36ab52b27d0"
+    },
+    {
+      "path": "environment.usda",
+      "sha256": "497eec1e0728694e3e366d9601b18bb04b228c4f1aaa34e289e731ee28b4b652"
+    },
+    {
+      "path": "geometry.usdc",
+      "sha256": "157e60327336a027913e9d88686dac38623ef3a05277582c8b7e7e0ac9a9ba78"
+    },
+    {
+      "path": "lighting/empty_warehouse_01_1k.hdr",
+      "sha256": "9b3d611cadc32c3a0c7e084ce5611c0650293881c4a041e7fa13748fe0dc6451"
+    },
+    {
+      "path": "lighting.usda",
+      "sha256": "ae8d4c64143304f5cdcb290e5ad0bd86d5b7bbf1e472dc00d1b999ac23ff5989"
+    },
+    {
+      "path": "scene.usda",
+      "sha256": "8cb1746881b976ed4f52283161605d183db989d515ddc76e397b64d46b3bfa07"
+    },
+    {
+      "path": "textures/Cardboard002_1K-JPG_Color.jpg",
+      "sha256": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde"
+    },
+    {
+      "path": "textures/Cardboard002_1K-JPG_NormalGL.jpg",
+      "sha256": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a"
+    },
+    {
+      "path": "textures/Cardboard002_1K-JPG_Roughness.jpg",
+      "sha256": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e"
+    },
+    {
+      "path": "textures/Paper005_1K-JPG_Color.jpg",
+      "sha256": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1"
+    },
+    {
+      "path": "textures/Paper005_1K-JPG_NormalGL.jpg",
+      "sha256": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa"
+    },
+    {
+      "path": "textures/Paper005_1K-JPG_Roughness.jpg",
+      "sha256": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c"
+    },
+    {
+      "path": "textures/brushed_steel_base.png",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225"
+    },
+    {
+      "path": "textures/brushed_steel_metal.png",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b"
+    },
+    {
+      "path": "textures/brushed_steel_normal.png",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945"
+    },
+    {
+      "path": "textures/brushed_steel_rough.png",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307"
+    },
+    {
+      "path": "textures/concrete_floor_painted_base.jpg",
+      "sha256": "f99ff99ed191e924d3bcbf4f345bb9973467ae18dceddee34bc013f01702c358"
+    },
+    {
+      "path": "textures/concrete_floor_painted_normal.png",
+      "sha256": "d41acd3546d47f2ceabddb3b73e0ef9e6bf288866c82604f0f88076734999205"
+    },
+    {
+      "path": "textures/concrete_floor_painted_rough.jpg",
+      "sha256": "2bd547b54210fa2ffd48d212c0d461c8b0f7bd6fb57797c2f114dc5ca552fee9"
+    },
+    {
+      "path": "textures/label_base.png",
+      "sha256": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522"
+    },
+    {
+      "path": "textures/label_normal.png",
+      "sha256": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8"
+    },
+    {
+      "path": "textures/label_print_base.png",
+      "sha256": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b"
+    },
+    {
+      "path": "textures/label_rough.png",
+      "sha256": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d"
+    },
+    {
+      "path": "textures/metal_plate_02_base.jpg",
+      "sha256": "6e80877d0e9d5973d96298c6091df7ace906b0a6760afc4f3592e4855f3f1d4c"
+    },
+    {
+      "path": "textures/metal_plate_02_metal.jpg",
+      "sha256": "fb1b120a2be5887dfeebed7a198a8151b292e963713d914b74ed7669434afb41"
+    },
+    {
+      "path": "textures/metal_plate_02_normal.png",
+      "sha256": "a39eee156a992afef4f1453010f2f2ff3c01cd6b5e0ce408259954ce25dd049f"
+    },
+    {
+      "path": "textures/metal_plate_02_rough.jpg",
+      "sha256": "73a6bd6393f6de7be42058584c2d382f2a3e9148ceabc2d02e748e2c860e74d1"
+    },
+    {
+      "path": "textures/plywood_base.jpg",
+      "sha256": "800905650fc6cab2fe7c77c41851f8ea89669f1287ad5ce67c48f435654c0af8"
+    },
+    {
+      "path": "textures/plywood_normal.png",
+      "sha256": "20e6e3fcfe50bfb295f941df3bd34b02c36788eeca88c8cbeafd87bb4fab4c1e"
+    },
+    {
+      "path": "textures/plywood_rough.jpg",
+      "sha256": "c4600551fa90bf1222de07b5d92e09456501f0449a4f315c203770bfcbd97aaf"
+    },
+    {
+      "path": "textures/polymer_base.png",
+      "sha256": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb"
+    },
+    {
+      "path": "textures/polymer_normal.png",
+      "sha256": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee"
+    },
+    {
+      "path": "textures/polymer_rough.png",
+      "sha256": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3"
+    },
+    {
+      "path": "textures/tape_base.png",
+      "sha256": "e4884473bf6b31657d370a65e4c0be246bbb3d31fc9975c3a5838c52739175ad"
+    },
+    {
+      "path": "textures/tape_normal.png",
+      "sha256": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9"
+    },
+    {
+      "path": "textures/tape_rough.png",
+      "sha256": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939"
+    },
+    {
+      "path": "textures/wall_paint_base.png",
+      "sha256": "17a27d94869301be83853f776eae66ba1223582f952d8a8719550b29ca5b2532"
+    },
+    {
+      "path": "textures/wall_paint_normal.png",
+      "sha256": "740ea24dc544d8a6adf0f7b1b8414ead0342bdc161ccda5b1a4def2fe453fcc7"
+    },
+    {
+      "path": "textures/wall_paint_rough.png",
+      "sha256": "a81d86850a761301c2b64a32dddfd5c18886895a8f7380ce5228225b9d268a4a"
+    }
+  ],
+  "versions": {
+    "isaacsim_app": [
+      "6.2.0",
+      "rc.14",
+      "6",
+      "2",
+      "0",
+      "rc",
+      "14",
+      "release.52805.02189a84.gl"
+    ],
+    "replicator_extension": "omni.replicator.core-1.13.38"
+  },
+  "seed": 20261125,
+  "replicator_seed": 20261125,
+  "numpy_rng": "PCG64",
+  "frames_requested": 4,
+  "camera_prim": "/World/Cameras/Overview",
+  "depth": {
+    "annotator": "distance_to_camera",
+    "meaning": "Euclidean camera-origin range",
+    "unit": "meters",
+    "missing_value": 0
+  },
+  "camera_model": {
+    "model": "ideal_pinhole",
+    "intrinsics_px": {
+      "fx": 895.9999364217148,
+      "fy": 895.9999920527139,
+      "cx": 384.0,
+      "cy": 256.0
+    },
+    "focal_length_mm": 41.999998688697815,
+    "horizontal_aperture_mm": 36.000001430511475,
+    "vertical_aperture_mm": 23.999999463558197,
+    "meters_per_unit": 1.0,
+    "camera_to_world_stage_units": [
+      [
+        0.7983452198481258,
+        0.6022000580750948,
+        0.0,
+        0.0
+      ],
+      [
+        -0.24432978064374905,
+        0.32391148062485586,
+        0.9139936055629662,
+        0.0
+      ],
+      [
+        0.5504070023502836,
+        -0.7296824259729474,
+        0.4057285903039234,
+        0.0
+      ],
+      [
+        1.7499999999999998,
+        -2.3199999999999994,
+        1.6399999999999997,
+        0.9999999999999999
+      ]
+    ],
+    "clipping_range_stage_units": [
+      0.019999999552965164,
+      20.0
+    ],
+    "aperture_offset": [
+      0.0,
+      0.0
+    ],
+    "authored_camera_exposure": {
+      "exposure": 0.0,
+      "exposure:fStop": 5.0,
+      "exposure:iso": 100.0,
+      "exposure:responsivity": 1.0,
+      "exposure:time": 1.0
+    },
+    "lens_distortion": "none modeled",
+    "sensor_noise": "none modeled"
+  },
+  "render": {
+    "effective_settings": {
+      "/rtx/rendermode": "PathTracing",
+      "/rtx/post/aa/op": 0,
+      "/rtx/post/histogram/enabled": false,
+      "/rtx/post/tonemap/filmIso": 100.0,
+      "/rtx/post/tonemap/cameraShutter": 1.0,
+      "/rtx/post/tonemap/fNumber": 5.0,
+      "/rtx/post/tonemap/op": 1,
+      "/rtx/post/tonemap/colorMode": 0,
+      "/rtx/pathtracing/spp": 16,
+      "/rtx/pathtracing/maxBounces": 4,
+      "/rtx/pathtracing/totalSpp": 640,
+      "/rtx/pathtracing/optixDenoiser/enabled": true
+    },
+    "resolution": [
+      768,
+      512
+    ],
+    "warmup_frames": 8,
+    "rt_subframes": 8,
+    "configured_engine": "RTX",
+    "active_gpu_index_setting": -1,
+    "gpu_inventory": {
+      "source": "nvidia-smi",
+      "available": true,
+      "rows": [
+        "0, NVIDIA L4, GPU-76e4b7f5-40a4-43bf-5bd1-228ec1089ace, 595.91.07"
+      ],
+      "error": ""
+    },
+    "capture_on_play": false,
+    "frame_step_delta_time": 0.0,
+    "exposure_scope": "USD camera exposure read back; RTX global post settings also read back; no sensor response/noise calibration"
+  },
+  "frames": [
+    {
+      "index": 0,
+      "sampled": {
+        "carton": {
+          "xy_offset_m": [
+            -0.007249140850888142,
+            -0.0231408955281449
+          ],
+          "yaw_deg": -3.048164830104474,
+          "roughness_multiplier": 1.021418180821102,
+          "surface_finish": "standard"
+        },
+        "handheld_scanner": {
+          "xy_offset_m": [
+            -0.007812855425474687,
+            3.282775674573468e-06
+          ],
+          "yaw_deg": 4.564557293501622,
+          "roughness_multiplier": 1.0450932137772193,
+          "surface_finish": "standard"
+        },
+        "light_multiplier": 0.868223694211207,
+        "tape_visible": false,
+        "back_flap_angle_deg": 18.3408281690207
+      },
+      "readback": {
+        "objects": {
+          "carton": {
+            "translate_stage_units": [
+              0.3527508734542266,
+              0.001859104844384129,
+              0.8924999890327454
+            ],
+            "rotate_z_deg": -3.0481648445129395,
+            "surface_finish": "standard",
+            "roughness": {
+              "variant_base_scale": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "effective_scale": [
+                1.0214182138442993,
+                1.0214182138442993,
+                1.0214182138442993,
+                1.0
+              ],
+              "bias": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "shader_path": "/World/Props/Carton/Materials/Carton/Roughness"
+            }
+          },
+          "handheld_scanner": {
+            "translate_stage_units": [
+              -0.3878128506571031,
+              -0.029996716553773173,
+              0.9144999985694885
+            ],
+            "rotate_z_deg": 4.564557075500488,
+            "surface_finish": "standard",
+            "roughness": {
+              "variant_base_scale": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "effective_scale": [
+                1.0450931787490845,
+                1.0450931787490845,
+                1.0450931787490845,
+                1.0
+              ],
+              "bias": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "shader_path": "/World/Props/Handset/Materials/Polymer/Roughness"
+            }
+          }
+        },
+        "lights": {
+          "/World/Lights/OverheadSoftbox": 149.3070068359375,
+          "/World/Lights/SteelEdge": 106.08656311035156,
+          "/World/Lights/FrontFill": 37.326751708984375,
+          "/World/Lights/LabelSoftbox": 245.57073974609375,
+          "/World/Lights/Ambient": 1.7681094408035278
+        },
+        "back_flap": {
+          "angle_deg": 18.34082794189453,
+          "hinge_local_stage_units": [
+            -2.2351741790771484e-08,
+            0.13499999046325684,
+            0.156000018119812
+          ]
+        },
+        "tape_visibility": "invisible"
+      },
+      "readiness_steps": 1,
+      "boxes": [
+        {
+          "class": "carton",
+          "bbox_semantic_id": 0,
+          "segmentation_ids": [
+            2
+          ],
+          "xyxy_px": [
+            390,
+            45,
+            561,
+            141
+          ],
+          "visible_pixels": 10719,
+          "range_depth_m_median": 2.7277286052703857,
+          "occlusion_ratio": -1.0
+        },
+        {
+          "class": "handheld_scanner",
+          "bbox_semantic_id": 1,
+          "segmentation_ids": [
+            3
+          ],
+          "xyxy_px": [
+            266,
+            76,
+            315,
+            89
+          ],
+          "visible_pixels": 374,
+          "range_depth_m_median": 3.202364683151245,
+          "occlusion_ratio": -1.0
+        }
+      ],
+      "segmentation_id_to_labels": {
+        "0": {
+          "class": "BACKGROUND"
+        },
+        "1": {
+          "class": "UNLABELLED"
+        },
+        "2": {
+          "class": "carton"
+        },
+        "3": {
+          "class": "handheld_scanner"
+        },
+        "4": {
+          "class": "parts_tray"
+        }
+      },
+      "bbox_id_to_labels": {
+        "0": {
+          "class": "carton"
+        },
+        "1": {
+          "class": "handheld_scanner"
+        },
+        "2": {
+          "class": "parts_tray"
+        }
+      },
+      "files": [
+        {
+          "path": "frame_0000/rgb.png",
+          "sha256": "0880219cb80206085601b3a9be93abb738def6f34177addb5f86835febc5b8e8"
+        },
+        {
+          "path": "frame_0000/semantic_ids.npy",
+          "sha256": "fb40c4a19d4fecfbaffbb5f01da8b4711ad5c71d3d99848acc5aefc006a8bff6"
+        },
+        {
+          "path": "frame_0000/distance_to_camera_m.npy",
+          "sha256": "5e3f036f2596dfc45918f5597f41e76751a16602d5535f8f3e5110505b4e53e8"
+        },
+        {
+          "path": "frame_0000/annotation.json",
+          "sha256": "98141ea8cbe8da1a003ba66ffb5142bf75b029f050cb23d18d134b73cc237cac"
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "sampled": {
+        "carton": {
+          "xy_offset_m": [
+            0.014224392362743712,
+            -0.021011877632075945
+          ],
+          "yaw_deg": 0.9610150132836104,
+          "roughness_multiplier": 0.8521690646699782,
+          "surface_finish": "standard"
+        },
+        "handheld_scanner": {
+          "xy_offset_m": [
+            0.0041407241832276415,
+            -0.006241634401359979
+          ],
+          "yaw_deg": -7.254160653585034,
+          "roughness_multiplier": 0.9328246003258762,
+          "surface_finish": "standard"
+        },
+        "light_multiplier": 1.1244841576643283,
+        "tape_visible": true,
+        "back_flap_angle_deg": 3.664229451725898
+      },
+      "readback": {
+        "objects": {
+          "carton": {
+            "translate_stage_units": [
+              0.37422440666785844,
+              0.0039881227404530845,
+              0.8924999890327454
+            ],
+            "rotate_z_deg": 0.961014986038208,
+            "surface_finish": "standard",
+            "roughness": {
+              "variant_base_scale": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "effective_scale": [
+                0.8521690368652344,
+                0.8521690368652344,
+                0.8521690368652344,
+                1.0
+              ],
+              "bias": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "shader_path": "/World/Props/Carton/Materials/Carton/Roughness"
+            }
+          },
+          "handheld_scanner": {
+            "translate_stage_units": [
+              -0.3758592710484008,
+              -0.03624163373080773,
+              0.9144999985694885
+            ],
+            "rotate_z_deg": -7.2541608810424805,
+            "surface_finish": "standard",
+            "roughness": {
+              "variant_base_scale": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "effective_scale": [
+                0.9328246116638184,
+                0.9328246116638184,
+                0.9328246116638184,
+                1.0
+              ],
+              "bias": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "shader_path": "/World/Props/Handset/Materials/Polymer/Roughness"
+            }
+          }
+        },
+        "lights": {
+          "/World/Lights/OverheadSoftbox": 193.37570190429688,
+          "/World/Lights/SteelEdge": 137.39852905273438,
+          "/World/Lights/FrontFill": 48.34392547607422,
+          "/World/Lights/LabelSoftbox": 318.0521545410156,
+          "/World/Lights/Ambient": 2.28997540473938
+        },
+        "back_flap": {
+          "angle_deg": 3.664229393005371,
+          "hinge_local_stage_units": [
+            -2.2351741790771484e-08,
+            0.13499999046325684,
+            0.156000018119812
+          ]
+        },
+        "tape_visibility": "inherited"
+      },
+      "readiness_steps": 1,
+      "boxes": [
+        {
+          "class": "carton",
+          "bbox_semantic_id": 0,
+          "segmentation_ids": [
+            2
+          ],
+          "xyxy_px": [
+            397,
+            53,
+            565,
+            141
+          ],
+          "visible_pixels": 10084,
+          "range_depth_m_median": 2.704573631286621,
+          "occlusion_ratio": -1.0
+        },
+        {
+          "class": "handheld_scanner",
+          "bbox_semantic_id": 1,
+          "segmentation_ids": [
+            3
+          ],
+          "xyxy_px": [
+            266,
+            77,
+            318,
+            89
+          ],
+          "visible_pixels": 376,
+          "range_depth_m_median": 3.190258026123047,
+          "occlusion_ratio": -1.0
+        }
+      ],
+      "segmentation_id_to_labels": {
+        "0": {
+          "class": "BACKGROUND"
+        },
+        "1": {
+          "class": "UNLABELLED"
+        },
+        "2": {
+          "class": "carton"
+        },
+        "3": {
+          "class": "handheld_scanner"
+        },
+        "4": {
+          "class": "parts_tray"
+        }
+      },
+      "bbox_id_to_labels": {
+        "0": {
+          "class": "carton"
+        },
+        "1": {
+          "class": "handheld_scanner"
+        },
+        "2": {
+          "class": "parts_tray"
+        }
+      },
+      "files": [
+        {
+          "path": "frame_0001/rgb.png",
+          "sha256": "0150aa2617f34511d123d3c9d97bccb861117649f39ab36c7f97ccfdf8b0ee1b"
+        },
+        {
+          "path": "frame_0001/semantic_ids.npy",
+          "sha256": "144b4034a5afb6c83cef897f91a77a7cad3c05944d93c665ebd5a3e1da572ad7"
+        },
+        {
+          "path": "frame_0001/distance_to_camera_m.npy",
+          "sha256": "b5184cb9201da5242264ac17a4f91de37ac4d677c59b6834610193fc7565943e"
+        },
+        {
+          "path": "frame_0001/annotation.json",
+          "sha256": "786c499d64c563d25e27e2afd71a68d58d5613e9e5c22240f7f3e4e3b6693756"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "sampled": {
+        "carton": {
+          "xy_offset_m": [
+            -0.002458650041215881,
+            -0.0054082830049381955
+          ],
+          "yaw_deg": 2.248182232754207,
+          "roughness_multiplier": 0.9422343941425313,
+          "surface_finish": "worn"
+        },
+        "handheld_scanner": {
+          "xy_offset_m": [
+            -0.0034700573511493894,
+            0.005400828165415334
+          ],
+          "yaw_deg": -0.36040316162247876,
+          "roughness_multiplier": 0.8711779050003924,
+          "surface_finish": "matte"
+        },
+        "light_multiplier": 1.068247145126898,
+        "tape_visible": false,
+        "back_flap_angle_deg": 3.332140084760706
+      },
+      "readback": {
+        "objects": {
+          "carton": {
+            "translate_stage_units": [
+              0.3575413642638989,
+              0.019591717367590834,
+              0.8924999890327454
+            ],
+            "rotate_z_deg": 2.2481822967529297,
+            "surface_finish": "worn",
+            "roughness": {
+              "variant_base_scale": [
+                0.8500000238418579,
+                0.8500000238418579,
+                0.8500000238418579,
+                1.0
+              ],
+              "effective_scale": [
+                0.8008992671966553,
+                0.8008992671966553,
+                0.8008992671966553,
+                1.0
+              ],
+              "bias": [
+                0.11999999731779099,
+                0.11999999731779099,
+                0.11999999731779099,
+                0.0
+              ],
+              "shader_path": "/World/Props/Carton/Materials/Carton/Roughness"
+            }
+          },
+          "handheld_scanner": {
+            "translate_stage_units": [
+              -0.38347005258277783,
+              -0.024599171164032412,
+              0.9144999985694885
+            ],
+            "rotate_z_deg": -0.3604031503200531,
+            "surface_finish": "matte",
+            "roughness": {
+              "variant_base_scale": [
+                1.100000023841858,
+                1.100000023841858,
+                1.100000023841858,
+                1.0
+              ],
+              "effective_scale": [
+                0.9582957029342651,
+                0.9582957029342651,
+                0.9582957029342651,
+                1.0
+              ],
+              "bias": [
+                0.07999999821186066,
+                0.07999999821186066,
+                0.07999999821186066,
+                0.0
+              ],
+              "shader_path": "/World/Props/Handset/Materials/Polymer/Roughness"
+            }
+          }
+        },
+        "lights": {
+          "/World/Lights/OverheadSoftbox": 183.7047119140625,
+          "/World/Lights/SteelEdge": 130.52703857421875,
+          "/World/Lights/FrontFill": 45.926177978515625,
+          "/World/Lights/LabelSoftbox": 302.14593505859375,
+          "/World/Lights/Ambient": 2.175450563430786
+        },
+        "back_flap": {
+          "angle_deg": 3.3321399688720703,
+          "hinge_local_stage_units": [
+            -2.2351741790771484e-08,
+            0.13499999046325684,
+            0.156000018119812
+          ]
+        },
+        "tape_visibility": "invisible"
+      },
+      "readiness_steps": 1,
+      "boxes": [
+        {
+          "class": "carton",
+          "bbox_semantic_id": 0,
+          "segmentation_ids": [
+            2
+          ],
+          "xyxy_px": [
+            398,
+            51,
+            561,
+            139
+          ],
+          "visible_pixels": 9873,
+          "range_depth_m_median": 2.7239723205566406,
+          "occlusion_ratio": -1.0
+        },
+        {
+          "class": "handheld_scanner",
+          "bbox_semantic_id": 1,
+          "segmentation_ids": [
+            3
+          ],
+          "xyxy_px": [
+            266,
+            76,
+            317,
+            89
+          ],
+          "visible_pixels": 390,
+          "range_depth_m_median": 3.2008605003356934,
+          "occlusion_ratio": -1.0
+        }
+      ],
+      "segmentation_id_to_labels": {
+        "0": {
+          "class": "BACKGROUND"
+        },
+        "1": {
+          "class": "UNLABELLED"
+        },
+        "2": {
+          "class": "carton"
+        },
+        "3": {
+          "class": "handheld_scanner"
+        },
+        "4": {
+          "class": "parts_tray"
+        }
+      },
+      "bbox_id_to_labels": {
+        "0": {
+          "class": "carton"
+        },
+        "1": {
+          "class": "handheld_scanner"
+        },
+        "2": {
+          "class": "parts_tray"
+        }
+      },
+      "files": [
+        {
+          "path": "frame_0002/rgb.png",
+          "sha256": "346b35c0dad8bcd422c752fdf2342616f0e5ac745f54d20e82170e802f5d3143"
+        },
+        {
+          "path": "frame_0002/semantic_ids.npy",
+          "sha256": "279ba0a11d092a34a64ebe3cef40f469da494d666ca3586cada011e1652e79b1"
+        },
+        {
+          "path": "frame_0002/distance_to_camera_m.npy",
+          "sha256": "4b763460d70da6c7a2bc504814c91cb1cf9e8e87f3596433e484f9f046432d3f"
+        },
+        {
+          "path": "frame_0002/annotation.json",
+          "sha256": "411fe8314105dbf11b20dce0477e53568c7ecc820893e8b6706c2f94ccbf7053"
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "sampled": {
+        "carton": {
+          "xy_offset_m": [
+            -0.0016423779552312452,
+            0.0041459270932646015
+          ],
+          "yaw_deg": 7.316500433360083,
+          "roughness_multiplier": 0.9972107881014716,
+          "surface_finish": "standard"
+        },
+        "handheld_scanner": {
+          "xy_offset_m": [
+            0.005295434267911318,
+            0.006425906913150986
+          ],
+          "yaw_deg": -4.6772619212013655,
+          "roughness_multiplier": 0.9079135738481006,
+          "surface_finish": "standard"
+        },
+        "light_multiplier": 0.9973866740035516,
+        "tape_visible": true,
+        "back_flap_angle_deg": 10.224329618579418
+      },
+      "readback": {
+        "objects": {
+          "carton": {
+            "translate_stage_units": [
+              0.3583576363498835,
+              0.02914592746579363,
+              0.8924999890327454
+            ],
+            "rotate_z_deg": 7.316500663757324,
+            "surface_finish": "standard",
+            "roughness": {
+              "variant_base_scale": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "effective_scale": [
+                0.9972108006477356,
+                0.9972108006477356,
+                0.9972108006477356,
+                1.0
+              ],
+              "bias": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "shader_path": "/World/Props/Carton/Materials/Carton/Roughness"
+            }
+          },
+          "handheld_scanner": {
+            "translate_stage_units": [
+              -0.3747045609637171,
+              -0.02357409241629676,
+              0.9144999985694885
+            ],
+            "rotate_z_deg": -4.677261829376221,
+            "surface_finish": "standard",
+            "roughness": {
+              "variant_base_scale": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "effective_scale": [
+                0.9079135656356812,
+                0.9079135656356812,
+                0.9079135656356812,
+                1.0
+              ],
+              "bias": [
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "shader_path": "/World/Props/Handset/Materials/Polymer/Roughness"
+            }
+          }
+        },
+        "lights": {
+          "/World/Lights/OverheadSoftbox": 171.5189666748047,
+          "/World/Lights/SteelEdge": 121.86872863769531,
+          "/World/Lights/FrontFill": 42.87974166870117,
+          "/World/Lights/LabelSoftbox": 282.1035461425781,
+          "/World/Lights/Ambient": 2.0311455726623535
+        },
+        "back_flap": {
+          "angle_deg": 10.224329948425293,
+          "hinge_local_stage_units": [
+            -2.2351741790771484e-08,
+            0.13499999046325684,
+            0.156000018119812
+          ]
+        },
+        "tape_visibility": "inherited"
+      },
+      "readiness_steps": 1,
+      "boxes": [
+        {
+          "class": "carton",
+          "bbox_semantic_id": 0,
+          "segmentation_ids": [
+            2
+          ],
+          "xyxy_px": [
+            402,
+            47,
+            558,
+            138
+          ],
+          "visible_pixels": 10004,
+          "range_depth_m_median": 2.7284977436065674,
+          "occlusion_ratio": -1.0
+        },
+        {
+          "class": "handheld_scanner",
+          "bbox_semantic_id": 1,
+          "segmentation_ids": [
+            3
+          ],
+          "xyxy_px": [
+            267,
+            76,
+            320,
+            89
+          ],
+          "visible_pixels": 399,
+          "range_depth_m_median": 3.1959102153778076,
+          "occlusion_ratio": -1.0
+        }
+      ],
+      "segmentation_id_to_labels": {
+        "0": {
+          "class": "BACKGROUND"
+        },
+        "1": {
+          "class": "UNLABELLED"
+        },
+        "2": {
+          "class": "carton"
+        },
+        "3": {
+          "class": "handheld_scanner"
+        },
+        "4": {
+          "class": "parts_tray"
+        }
+      },
+      "bbox_id_to_labels": {
+        "0": {
+          "class": "carton"
+        },
+        "1": {
+          "class": "handheld_scanner"
+        },
+        "2": {
+          "class": "parts_tray"
+        }
+      },
+      "files": [
+        {
+          "path": "frame_0003/rgb.png",
+          "sha256": "e12668078cc807d7fb298f22c9c2a27c6faa168e516f012bc3bd9efabb1e9aed"
+        },
+        {
+          "path": "frame_0003/semantic_ids.npy",
+          "sha256": "1e4fae0e1d9aca6195af3174ef2a82cc8ca72f9e1e3036021f039f4bba88bd33"
+        },
+        {
+          "path": "frame_0003/distance_to_camera_m.npy",
+          "sha256": "37e20ba17110d45d97aa3fcfcbb05f7954340f7ebb17ee4c63eec757cb2514d1"
+        },
+        {
+          "path": "frame_0003/annotation.json",
+          "sha256": "5859a03a68586d274684cbd63960cc2a25f1e7fc132c8276adc000201f94ad8c"
+        }
+      ]
+    }
+  ]
+}

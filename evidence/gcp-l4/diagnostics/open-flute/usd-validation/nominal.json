@@ -1,0 +1,272 @@
+{
+    "status": "FAIL",
+    "rules": [
+        {
+            "rule": {
+                "type": "RULE",
+                "name": "ManifoldChecker"
+            },
+            "status": "FAIL",
+            "issues": [
+                {
+                    "type": "ISSUE",
+                    "message": "The face winding is not consistent.",
+                    "severity": "WARNING",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "ManifoldChecker"
+                    },
+                    "at": {
+                        "type": "SCHEMA",
+                        "path": "/World/Props/Carton/CorrugationFront",
+                        "schema_class": "Mesh"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.007",
+                        "version": "1.0.0"
+                    }
+                },
+                {
+                    "type": "ISSUE",
+                    "message": "The face winding is not consistent.",
+                    "severity": "WARNING",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "ManifoldChecker"
+                    },
+                    "at": {
+                        "type": "SCHEMA",
+                        "path": "/World/Props/Carton/CorrugationBack",
+                        "schema_class": "Mesh"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.007",
+                        "version": "1.0.0"
+                    }
+                },
+                {
+                    "type": "ISSUE",
+                    "message": "The face winding is not consistent.",
+                    "severity": "WARNING",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "ManifoldChecker"
+                    },
+                    "at": {
+                        "type": "SCHEMA",
+                        "path": "/World/Props/Carton/CorrugationFront",
+                        "schema_class": "Mesh"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.007",
+                        "version": "1.0.0"
+                    }
+                },
+                {
+                    "type": "ISSUE",
+                    "message": "The face winding is not consistent.",
+                    "severity": "WARNING",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "ManifoldChecker"
+                    },
+                    "at": {
+                        "type": "SCHEMA",
+                        "path": "/World/Props/Carton/CorrugationBack",
+                        "schema_class": "Mesh"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.007",
+                        "version": "1.0.0"
+                    }
+                }
+            ]
+        },
+        {
+            "rule": {
+                "type": "RULE",
+                "name": "IndexedPrimvarChecker"
+            },
+            "status": "FAIL",
+            "issues": [
+                {
+                    "type": "ISSUE",
+                    "message": "primvars:st contains repeated values that can be indexed.",
+                    "severity": "WARNING",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "IndexedPrimvarChecker"
+                    },
+                    "at": {
+                        "type": "PROPERTY",
+                        "path": "/World/Props/Carton/CorrugationFront",
+                        "name": "primvars:st"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.009",
+                        "version": "1.0.0"
+                    }
+                },
+                {
+                    "type": "ISSUE",
+                    "message": "primvars:st contains repeated values that can be indexed.",
+                    "severity": "WARNING",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "IndexedPrimvarChecker"
+                    },
+                    "at": {
+                        "type": "PROPERTY",
+                        "path": "/World/Props/Carton/CorrugationBack",
+                        "name": "primvars:st"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.009",
+                        "version": "1.0.0"
+                    }
+                },
+                {
+                    "type": "ISSUE",
+                    "message": "primvars:st contains repeated values that can be indexed.",
+                    "severity": "WARNING",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "IndexedPrimvarChecker"
+                    },
+                    "at": {
+                        "type": "PROPERTY",
+                        "path": "/World/Props/Carton/CorrugationFront",
+                        "name": "primvars:st"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.009",
+                        "version": "1.0.0"
+                    }
+                },
+                {
+                    "type": "ISSUE",
+                    "message": "primvars:st contains repeated values that can be indexed.",
+                    "severity": "WARNING",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "IndexedPrimvarChecker"
+                    },
+                    "at": {
+                        "type": "PROPERTY",
+                        "path": "/World/Props/Carton/CorrugationBack",
+                        "name": "primvars:st"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.009",
+                        "version": "1.0.0"
+                    }
+                }
+            ]
+        },
+        {
+            "rule": {
+                "type": "RULE",
+                "name": "NormalsExistChecker"
+            },
+            "status": "FAIL",
+            "issues": [
+                {
+                    "type": "ISSUE",
+                    "message": "Either normals should be authored or subdivision should be set to Catmull-Clark or Loop ",
+                    "severity": "FAILURE",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "NormalsExistChecker"
+                    },
+                    "at": {
+                        "type": "SCHEMA",
+                        "path": "/World/Props/Carton/CorrugationFront",
+                        "schema_class": "Mesh"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.027",
+                        "version": "1.0.0"
+                    }
+                },
+                {
+                    "type": "ISSUE",
+                    "message": "Either normals should be authored or subdivision should be set to Catmull-Clark or Loop ",
+                    "severity": "FAILURE",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "NormalsExistChecker"
+                    },
+                    "at": {
+                        "type": "SCHEMA",
+                        "path": "/World/Props/Carton/CorrugationBack",
+                        "schema_class": "Mesh"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.027",
+                        "version": "1.0.0"
+                    }
+                },
+                {
+                    "type": "ISSUE",
+                    "message": "Either normals should be authored or subdivision should be set to Catmull-Clark or Loop ",
+                    "severity": "FAILURE",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "NormalsExistChecker"
+                    },
+                    "at": {
+                        "type": "SCHEMA",
+                        "path": "/World/Props/Carton/CorrugationFront",
+                        "schema_class": "Mesh"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.027",
+                        "version": "1.0.0"
+                    }
+                },
+                {
+                    "type": "ISSUE",
+                    "message": "Either normals should be authored or subdivision should be set to Catmull-Clark or Loop ",
+                    "severity": "FAILURE",
+                    "rule": {
+                        "type": "RULE",
+                        "name": "NormalsExistChecker"
+                    },
+                    "at": {
+                        "type": "SCHEMA",
+                        "path": "/World/Props/Carton/CorrugationBack",
+                        "schema_class": "Mesh"
+                    },
+                    "suggestion": null,
+                    "suggestions": [],
+                    "requirement": {
+                        "code": "com.nvidia.usd.VG.027",
+                        "version": "1.0.0"
+                    }
+                }
+            ]
+        }
+    ]
+}

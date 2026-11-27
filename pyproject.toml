@@ -1,0 +1,28 @@
+[project]
+name = "isaac-scene-harness"
+version = "0.1.0"
+description = "Portable OpenUSD look development and scene verification for Isaac environments"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "usd-core==26.11",
+    "pillow==13.0.0",
+    "zxing-cpp==3.2.0",
+    "numpy>=2.2,<3",
+    "scipy>=1.15,<2",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[dependency-groups]
+dev = [
+    "pytest>=8,<10",
+]
+
+transfer = [
+    "opencv-python-headless==4.14.0.94",
+    "scikit-learn==1.9.1",
+]

@@ -1,0 +1,34 @@
+{
+  "profile": "Robotics-Prop",
+  "version": "5.0.0",
+  "assets": [
+    {
+      "asset": "carton.usdc",
+      "sha256": "b9175439640632377d1bb409b7d092166454d0e4c615e31d71477ed23b3d6120",
+      "features": 27,
+      "blocking": [],
+      "status": "pass",
+      "exit_code": 0,
+      "report": "carton.json"
+    },
+    {
+      "asset": "handset.usdc",
+      "sha256": "c4ccdc040b263b4a8cbfe1800724473d1300575fc255f44906545679889e9029",
+      "features": 27,
+      "blocking": [],
+      "status": "pass",
+      "exit_code": 0,
+      "report": "handset.json"
+    },
+    {
+      "asset": "tray.usdc",
+      "sha256": "5ac0496932df11ead9e3ebc2e86840ce322fa18059b1274f97cc054f804dfcc9",
+      "features": 27,
+      "blocking": [],
+      "status": "pass",
+      "exit_code": 0,
+      "report": "tray.json"
+    }
+  ],
+  "status": "pass"
+}

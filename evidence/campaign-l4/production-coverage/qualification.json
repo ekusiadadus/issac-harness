@@ -1,0 +1,45 @@
+{
+  "status": "pass",
+  "campaign_key": "b37588e855247082358d7c7b79e31c2d34f866ca4da388480478c370ffcf83ac",
+  "policy_sha256": "f39b0f9d0b53b06a622580c8b3d405880eec711c1e4cb0c3c1733806bc1f552f",
+  "evidence_sha256": {},
+  "checks": [
+    {
+      "criterion": "minimum_frames",
+      "observed": 32,
+      "pass": true
+    },
+    {
+      "criterion": "minimum_cameras",
+      "observed": 4,
+      "pass": true
+    },
+    {
+      "criterion": "minimum_layouts",
+      "observed": 4,
+      "pass": true
+    },
+    {
+      "criterion": "min_visible_per_class",
+      "observed": {
+        "cracker_box": 30,
+        "sugar_box": 31,
+        "mustard_bottle": 32,
+        "carton": 30,
+        "handset": 31,
+        "tray": 32
+      },
+      "pass": true
+    },
+    {
+      "criterion": "distinct_mark_visible",
+      "observed": 2,
+      "pass": true
+    },
+    {
+      "criterion": "distinct_texture_content_paper",
+      "observed": 8,
+      "pass": true
+    }
+  ]
+}

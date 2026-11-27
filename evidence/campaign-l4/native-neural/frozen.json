@@ -1,0 +1,15 @@
+{
+  "campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+  "model_sha256": "51d7c24585c857961c7ea2e875aac2da41b7421fb91bb5efff3677dfac75dcb1",
+  "implementation_sha256": "e7298acbb35d9664d887875b87bae70092bb9b3cf3e20b25f89cda75c7413951",
+  "evaluator_sha256": "6b7cde1628039ba1db60264c3efe6620a5430540eacfce443fd49dfc93a19d1b",
+  "method": "ssdlite",
+  "native_index_sha256": "f6531cd3b74ad6de3064e2c11563b110e054a2b4a697e017f6662dab08651f66",
+  "holdout_layout": "cross_pick",
+  "real_index_sha256": "dbadaa6c9145d1666355e31b829007b7a3e57963e74dd49778c0fe58d583d5c3",
+  "evaluated_classes": [
+    2,
+    3,
+    5
+  ]
+}

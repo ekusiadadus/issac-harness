@@ -1,0 +1,729 @@
+{
+  "campaign_key": "b37588e855247082358d7c7b79e31c2d34f866ca4da388480478c370ffcf83ac",
+  "commit": "dc99789729e8f5fd70ff59ddac2614eb8e2b564e",
+  "capture_code_commit": "dc99789729e8f5fd70ff59ddac2614eb8e2b564e",
+  "items": [
+    {
+      "input": "../../inspection/assets/carton/carton.usdc",
+      "read_from": "git",
+      "sha256": "b9175439640632377d1bb409b7d092166454d0e4c615e31d71477ed23b3d6120",
+      "observed": "b9175439640632377d1bb409b7d092166454d0e4c615e31d71477ed23b3d6120",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/Cardboard002_1K-JPG_Color.jpg",
+      "read_from": "git",
+      "sha256": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde",
+      "observed": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/Cardboard002_1K-JPG_NormalGL.jpg",
+      "read_from": "git",
+      "sha256": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a",
+      "observed": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/Cardboard002_1K-JPG_Roughness.jpg",
+      "read_from": "git",
+      "sha256": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e",
+      "observed": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/Paper005_1K-JPG_Color.jpg",
+      "read_from": "git",
+      "sha256": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1",
+      "observed": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/Paper005_1K-JPG_NormalGL.jpg",
+      "read_from": "git",
+      "sha256": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa",
+      "observed": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/Paper005_1K-JPG_Roughness.jpg",
+      "read_from": "git",
+      "sha256": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c",
+      "observed": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/label_base.png",
+      "read_from": "git",
+      "sha256": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522",
+      "observed": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/label_normal.png",
+      "read_from": "git",
+      "sha256": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8",
+      "observed": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/label_print_base.png",
+      "read_from": "git",
+      "sha256": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b",
+      "observed": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/label_rough.png",
+      "read_from": "git",
+      "sha256": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d",
+      "observed": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/tape_normal.png",
+      "read_from": "git",
+      "sha256": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9",
+      "observed": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/carton/textures/tape_rough.png",
+      "read_from": "git",
+      "sha256": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939",
+      "observed": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/handset/handset.usdc",
+      "read_from": "git",
+      "sha256": "c4ccdc040b263b4a8cbfe1800724473d1300575fc255f44906545679889e9029",
+      "observed": "c4ccdc040b263b4a8cbfe1800724473d1300575fc255f44906545679889e9029",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/handset/textures/brushed_steel_base.png",
+      "read_from": "git",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225",
+      "observed": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/handset/textures/brushed_steel_metal.png",
+      "read_from": "git",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b",
+      "observed": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/handset/textures/brushed_steel_normal.png",
+      "read_from": "git",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945",
+      "observed": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/handset/textures/brushed_steel_rough.png",
+      "read_from": "git",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307",
+      "observed": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/handset/textures/polymer_base.png",
+      "read_from": "git",
+      "sha256": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb",
+      "observed": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/handset/textures/polymer_normal.png",
+      "read_from": "git",
+      "sha256": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee",
+      "observed": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/handset/textures/polymer_rough.png",
+      "read_from": "git",
+      "sha256": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3",
+      "observed": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/tray/textures/brushed_steel_base.png",
+      "read_from": "git",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225",
+      "observed": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/tray/textures/brushed_steel_metal.png",
+      "read_from": "git",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b",
+      "observed": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/tray/textures/brushed_steel_normal.png",
+      "read_from": "git",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945",
+      "observed": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/tray/textures/brushed_steel_rough.png",
+      "read_from": "git",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307",
+      "observed": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/assets/tray/tray.usdc",
+      "read_from": "git",
+      "sha256": "5ac0496932df11ead9e3ebc2e86840ce322fa18059b1274f97cc054f804dfcc9",
+      "observed": "5ac0496932df11ead9e3ebc2e86840ce322fa18059b1274f97cc054f804dfcc9",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/cameras.usda",
+      "read_from": "git",
+      "sha256": "20ff18ab0f6f23e209b867559d4c40cc2796054d177d2e942786e36ab52b27d0",
+      "observed": "20ff18ab0f6f23e209b867559d4c40cc2796054d177d2e942786e36ab52b27d0",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/environment.usda",
+      "read_from": "git",
+      "sha256": "497eec1e0728694e3e366d9601b18bb04b228c4f1aaa34e289e731ee28b4b652",
+      "observed": "497eec1e0728694e3e366d9601b18bb04b228c4f1aaa34e289e731ee28b4b652",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/geometry.usdc",
+      "read_from": "git",
+      "sha256": "157e60327336a027913e9d88686dac38623ef3a05277582c8b7e7e0ac9a9ba78",
+      "observed": "157e60327336a027913e9d88686dac38623ef3a05277582c8b7e7e0ac9a9ba78",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/lighting.usda",
+      "read_from": "git",
+      "sha256": "ae8d4c64143304f5cdcb290e5ad0bd86d5b7bbf1e472dc00d1b999ac23ff5989",
+      "observed": "ae8d4c64143304f5cdcb290e5ad0bd86d5b7bbf1e472dc00d1b999ac23ff5989",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/lighting/empty_warehouse_01_1k.hdr",
+      "read_from": "git",
+      "sha256": "9b3d611cadc32c3a0c7e084ce5611c0650293881c4a041e7fa13748fe0dc6451",
+      "observed": "9b3d611cadc32c3a0c7e084ce5611c0650293881c4a041e7fa13748fe0dc6451",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/scene.usda",
+      "read_from": "git",
+      "sha256": "8cb1746881b976ed4f52283161605d183db989d515ddc76e397b64d46b3bfa07",
+      "observed": "8cb1746881b976ed4f52283161605d183db989d515ddc76e397b64d46b3bfa07",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/Cardboard002_1K-JPG_Color.jpg",
+      "read_from": "git",
+      "sha256": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde",
+      "observed": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/Cardboard002_1K-JPG_NormalGL.jpg",
+      "read_from": "git",
+      "sha256": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a",
+      "observed": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/Cardboard002_1K-JPG_Roughness.jpg",
+      "read_from": "git",
+      "sha256": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e",
+      "observed": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/Paper005_1K-JPG_Color.jpg",
+      "read_from": "git",
+      "sha256": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1",
+      "observed": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/Paper005_1K-JPG_NormalGL.jpg",
+      "read_from": "git",
+      "sha256": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa",
+      "observed": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/Paper005_1K-JPG_Roughness.jpg",
+      "read_from": "git",
+      "sha256": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c",
+      "observed": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/brushed_steel_base.png",
+      "read_from": "git",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225",
+      "observed": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/brushed_steel_metal.png",
+      "read_from": "git",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b",
+      "observed": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/brushed_steel_normal.png",
+      "read_from": "git",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945",
+      "observed": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/brushed_steel_rough.png",
+      "read_from": "git",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307",
+      "observed": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/concrete_floor_painted_base.jpg",
+      "read_from": "git",
+      "sha256": "f99ff99ed191e924d3bcbf4f345bb9973467ae18dceddee34bc013f01702c358",
+      "observed": "f99ff99ed191e924d3bcbf4f345bb9973467ae18dceddee34bc013f01702c358",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/concrete_floor_painted_normal.png",
+      "read_from": "git",
+      "sha256": "d41acd3546d47f2ceabddb3b73e0ef9e6bf288866c82604f0f88076734999205",
+      "observed": "d41acd3546d47f2ceabddb3b73e0ef9e6bf288866c82604f0f88076734999205",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/concrete_floor_painted_rough.jpg",
+      "read_from": "git",
+      "sha256": "2bd547b54210fa2ffd48d212c0d461c8b0f7bd6fb57797c2f114dc5ca552fee9",
+      "observed": "2bd547b54210fa2ffd48d212c0d461c8b0f7bd6fb57797c2f114dc5ca552fee9",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/label_base.png",
+      "read_from": "git",
+      "sha256": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522",
+      "observed": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/label_normal.png",
+      "read_from": "git",
+      "sha256": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8",
+      "observed": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/label_print_base.png",
+      "read_from": "git",
+      "sha256": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b",
+      "observed": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/label_rough.png",
+      "read_from": "git",
+      "sha256": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d",
+      "observed": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/metal_plate_02_base.jpg",
+      "read_from": "git",
+      "sha256": "6e80877d0e9d5973d96298c6091df7ace906b0a6760afc4f3592e4855f3f1d4c",
+      "observed": "6e80877d0e9d5973d96298c6091df7ace906b0a6760afc4f3592e4855f3f1d4c",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/metal_plate_02_metal.jpg",
+      "read_from": "git",
+      "sha256": "fb1b120a2be5887dfeebed7a198a8151b292e963713d914b74ed7669434afb41",
+      "observed": "fb1b120a2be5887dfeebed7a198a8151b292e963713d914b74ed7669434afb41",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/metal_plate_02_normal.png",
+      "read_from": "git",
+      "sha256": "a39eee156a992afef4f1453010f2f2ff3c01cd6b5e0ce408259954ce25dd049f",
+      "observed": "a39eee156a992afef4f1453010f2f2ff3c01cd6b5e0ce408259954ce25dd049f",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/metal_plate_02_rough.jpg",
+      "read_from": "git",
+      "sha256": "73a6bd6393f6de7be42058584c2d382f2a3e9148ceabc2d02e748e2c860e74d1",
+      "observed": "73a6bd6393f6de7be42058584c2d382f2a3e9148ceabc2d02e748e2c860e74d1",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/plywood_base.jpg",
+      "read_from": "git",
+      "sha256": "800905650fc6cab2fe7c77c41851f8ea89669f1287ad5ce67c48f435654c0af8",
+      "observed": "800905650fc6cab2fe7c77c41851f8ea89669f1287ad5ce67c48f435654c0af8",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/plywood_normal.png",
+      "read_from": "git",
+      "sha256": "20e6e3fcfe50bfb295f941df3bd34b02c36788eeca88c8cbeafd87bb4fab4c1e",
+      "observed": "20e6e3fcfe50bfb295f941df3bd34b02c36788eeca88c8cbeafd87bb4fab4c1e",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/plywood_rough.jpg",
+      "read_from": "git",
+      "sha256": "c4600551fa90bf1222de07b5d92e09456501f0449a4f315c203770bfcbd97aaf",
+      "observed": "c4600551fa90bf1222de07b5d92e09456501f0449a4f315c203770bfcbd97aaf",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/polymer_base.png",
+      "read_from": "git",
+      "sha256": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb",
+      "observed": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/polymer_normal.png",
+      "read_from": "git",
+      "sha256": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee",
+      "observed": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/polymer_rough.png",
+      "read_from": "git",
+      "sha256": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3",
+      "observed": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/tape_base.png",
+      "read_from": "git",
+      "sha256": "e4884473bf6b31657d370a65e4c0be246bbb3d31fc9975c3a5838c52739175ad",
+      "observed": "e4884473bf6b31657d370a65e4c0be246bbb3d31fc9975c3a5838c52739175ad",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/tape_normal.png",
+      "read_from": "git",
+      "sha256": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9",
+      "observed": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/tape_rough.png",
+      "read_from": "git",
+      "sha256": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939",
+      "observed": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/wall_paint_base.png",
+      "read_from": "git",
+      "sha256": "17a27d94869301be83853f776eae66ba1223582f952d8a8719550b29ca5b2532",
+      "observed": "17a27d94869301be83853f776eae66ba1223582f952d8a8719550b29ca5b2532",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/wall_paint_normal.png",
+      "read_from": "git",
+      "sha256": "740ea24dc544d8a6adf0f7b1b8414ead0342bdc161ccda5b1a4def2fe453fcc7",
+      "observed": "740ea24dc544d8a6adf0f7b1b8414ead0342bdc161ccda5b1a4def2fe453fcc7",
+      "matches": true
+    },
+    {
+      "input": "../../inspection/textures/wall_paint_rough.png",
+      "read_from": "git",
+      "sha256": "a81d86850a761301c2b64a32dddfd5c18886895a8f7380ce5228225b9d268a4a",
+      "observed": "a81d86850a761301c2b64a32dddfd5c18886895a8f7380ce5228225b9d268a4a",
+      "matches": true
+    },
+    {
+      "input": "../handling-mark.png",
+      "read_from": "git",
+      "sha256": "621e684cf9d5eb4546925ff33ad9a7bb41f3e08b7dbadb1e8984c720d6d52377",
+      "observed": "621e684cf9d5eb4546925ff33ad9a7bb41f3e08b7dbadb1e8984c720d6d52377",
+      "matches": true
+    },
+    {
+      "input": "../ycb/models/obj_000002.jpg",
+      "read_from": "git",
+      "sha256": "73e8d2ad7e6259dbc02a484d83609de51a3b605acfc107c02da1990f0ee85b4d",
+      "observed": "73e8d2ad7e6259dbc02a484d83609de51a3b605acfc107c02da1990f0ee85b4d",
+      "matches": true
+    },
+    {
+      "input": "../ycb/models/obj_000002.usdc",
+      "read_from": "git",
+      "sha256": "246c69cca8be78654cd31ea01fa227876efa9affe7ae4ef36b608d8856b79d86",
+      "observed": "246c69cca8be78654cd31ea01fa227876efa9affe7ae4ef36b608d8856b79d86",
+      "matches": true
+    },
+    {
+      "input": "../ycb/models/obj_000003.jpg",
+      "read_from": "git",
+      "sha256": "e6633e1bb92b9ca5e463817fdc84ff028d4a1250bb989c3115bb482b8c5e3a41",
+      "observed": "e6633e1bb92b9ca5e463817fdc84ff028d4a1250bb989c3115bb482b8c5e3a41",
+      "matches": true
+    },
+    {
+      "input": "../ycb/models/obj_000003.usdc",
+      "read_from": "git",
+      "sha256": "9f89d2d76bf177ffe44e92dbb20699e1d7cfcddfecd72e61a1e7fb4ed3de85c4",
+      "observed": "9f89d2d76bf177ffe44e92dbb20699e1d7cfcddfecd72e61a1e7fb4ed3de85c4",
+      "matches": true
+    },
+    {
+      "input": "../ycb/models/obj_000005.jpg",
+      "read_from": "git",
+      "sha256": "c086f493b0dc2a44e749297237e43f165907ad2a1b48590464adc6868cba48d5",
+      "observed": "c086f493b0dc2a44e749297237e43f165907ad2a1b48590464adc6868cba48d5",
+      "matches": true
+    },
+    {
+      "input": "../ycb/models/obj_000005.usdc",
+      "read_from": "git",
+      "sha256": "6c035f0081844c61d646628c03e0d74a6e39c414e1386b4114cd0b61ace22b96",
+      "observed": "6c035f0081844c61d646628c03e0d74a6e39c414e1386b4114cd0b61ace22b96",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish00/base.png",
+      "read_from": "git",
+      "sha256": "c5d5f0a22c43105cc9a5a71dae3295d005549222d9609d880c7b6d3a9bc65af9",
+      "observed": "c5d5f0a22c43105cc9a5a71dae3295d005549222d9609d880c7b6d3a9bc65af9",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish00/normal.png",
+      "read_from": "git",
+      "sha256": "5d88e497fa8f675f2b41505d21c8c5bba61dc7ee768ac779d6ca8d32b64613c0",
+      "observed": "5d88e497fa8f675f2b41505d21c8c5bba61dc7ee768ac779d6ca8d32b64613c0",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish00/rough.png",
+      "read_from": "git",
+      "sha256": "0682a69550af38f3f58ee8cb7e68da9cfec75fa601fe715449b34bd1c3e51e2c",
+      "observed": "0682a69550af38f3f58ee8cb7e68da9cfec75fa601fe715449b34bd1c3e51e2c",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish01/base.png",
+      "read_from": "git",
+      "sha256": "e5747951f277cdd39f9230a714c71d478b02bd6482ddfdd30ea48ac96f9a54de",
+      "observed": "e5747951f277cdd39f9230a714c71d478b02bd6482ddfdd30ea48ac96f9a54de",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish01/normal.png",
+      "read_from": "git",
+      "sha256": "06b61942dd206039585a40ff97cee36276933d90981a9eb914a4280f8fbe9fb3",
+      "observed": "06b61942dd206039585a40ff97cee36276933d90981a9eb914a4280f8fbe9fb3",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish01/rough.png",
+      "read_from": "git",
+      "sha256": "cd319bb0e85b4eb1667aac0e2d6b67f9b633f2b880d94ec0e81bcb85947de01c",
+      "observed": "cd319bb0e85b4eb1667aac0e2d6b67f9b633f2b880d94ec0e81bcb85947de01c",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish02/base.png",
+      "read_from": "git",
+      "sha256": "73d82fffba968171a128fa57a6873d95f32d61ce1ba44fc2e99f7795ffffbf99",
+      "observed": "73d82fffba968171a128fa57a6873d95f32d61ce1ba44fc2e99f7795ffffbf99",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish02/normal.png",
+      "read_from": "git",
+      "sha256": "c60125c5fa78a9e91d3eb8de6566bf9b1545300a7149d57790f1b3fb2de9d12a",
+      "observed": "c60125c5fa78a9e91d3eb8de6566bf9b1545300a7149d57790f1b3fb2de9d12a",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish02/rough.png",
+      "read_from": "git",
+      "sha256": "316e7b847fb20464981c54a83e9398eb5dab14d72e5ab77bbc1a126830b33e03",
+      "observed": "316e7b847fb20464981c54a83e9398eb5dab14d72e5ab77bbc1a126830b33e03",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish03/base.png",
+      "read_from": "git",
+      "sha256": "8ce43917599d7d4b550ed7fe54045c79ca2fae98d4edb8f6823e4396294c6322",
+      "observed": "8ce43917599d7d4b550ed7fe54045c79ca2fae98d4edb8f6823e4396294c6322",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish03/normal.png",
+      "read_from": "git",
+      "sha256": "06bba6009c4d101bee54090fe27fec6c4c3d5036ceba0fc4e48bd110c034739c",
+      "observed": "06bba6009c4d101bee54090fe27fec6c4c3d5036ceba0fc4e48bd110c034739c",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish03/rough.png",
+      "read_from": "git",
+      "sha256": "81652eb4f16fd2e8dae236180449700ca42739a8e32d04d18977845ed15081ae",
+      "observed": "81652eb4f16fd2e8dae236180449700ca42739a8e32d04d18977845ed15081ae",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish04/base.png",
+      "read_from": "git",
+      "sha256": "9709e6002ea41719c6fd893f1bba183a7d73dda6eda23798184f543a1e66280f",
+      "observed": "9709e6002ea41719c6fd893f1bba183a7d73dda6eda23798184f543a1e66280f",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish04/normal.png",
+      "read_from": "git",
+      "sha256": "6ad144fd7e51bca152774bb1ff5d418613974ca780a7e78f91fb6cde1dfbf05c",
+      "observed": "6ad144fd7e51bca152774bb1ff5d418613974ca780a7e78f91fb6cde1dfbf05c",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish04/rough.png",
+      "read_from": "git",
+      "sha256": "b76f9d8c75ac227f07eb00f92b1b875dc64aaa503252a16b2937f354b4a81ae7",
+      "observed": "b76f9d8c75ac227f07eb00f92b1b875dc64aaa503252a16b2937f354b4a81ae7",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish05/base.png",
+      "read_from": "git",
+      "sha256": "b605ad5592aed9969ad6c03ccd7fc89b4c7bbd5f2d3bbdabd28a64a3ecc419b0",
+      "observed": "b605ad5592aed9969ad6c03ccd7fc89b4c7bbd5f2d3bbdabd28a64a3ecc419b0",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish05/normal.png",
+      "read_from": "git",
+      "sha256": "deb1727ddd4841052ffa0c552c40bed6b5c382ff6a68a463c7bc8110b77873fe",
+      "observed": "deb1727ddd4841052ffa0c552c40bed6b5c382ff6a68a463c7bc8110b77873fe",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish05/rough.png",
+      "read_from": "git",
+      "sha256": "c7fd4be5d049f09464b6bdd620cb7cd54fa92084562e8030a159ee8c5fc53ed1",
+      "observed": "c7fd4be5d049f09464b6bdd620cb7cd54fa92084562e8030a159ee8c5fc53ed1",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish06/base.png",
+      "read_from": "git",
+      "sha256": "8bc37cc7b18a8759bea066a1245ec76a9f824342292f3017ec209355ac85456a",
+      "observed": "8bc37cc7b18a8759bea066a1245ec76a9f824342292f3017ec209355ac85456a",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish06/normal.png",
+      "read_from": "git",
+      "sha256": "c45382cf2eedbf4d98f670c796a97e0fd7ebc6620efd0b79b131349a73155ae0",
+      "observed": "c45382cf2eedbf4d98f670c796a97e0fd7ebc6620efd0b79b131349a73155ae0",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish06/rough.png",
+      "read_from": "git",
+      "sha256": "3c74a05a9089ad435f888cde10e44fc72b24ccccbe36bb28861158f554820280",
+      "observed": "3c74a05a9089ad435f888cde10e44fc72b24ccccbe36bb28861158f554820280",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish07/base.png",
+      "read_from": "git",
+      "sha256": "2091533b8625a7e43446069f9b70d4df5e2851cd64c07a78a7b007861d5720bf",
+      "observed": "2091533b8625a7e43446069f9b70d4df5e2851cd64c07a78a7b007861d5720bf",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish07/normal.png",
+      "read_from": "git",
+      "sha256": "2e60be225d3b64d0d7b921870747975bcd3784a0695a9ad8972ca514ab7b2c98",
+      "observed": "2e60be225d3b64d0d7b921870747975bcd3784a0695a9ad8972ca514ab7b2c98",
+      "matches": true
+    },
+    {
+      "input": "finishes/finish07/rough.png",
+      "read_from": "git",
+      "sha256": "609da204bef5313c418ddcbd758fe80a0bddd361d9d940dd5fbf90ef5a0eb972",
+      "observed": "609da204bef5313c418ddcbd758fe80a0bddd361d9d940dd5fbf90ef5a0eb972",
+      "matches": true
+    },
+    {
+      "input": "production.toml",
+      "read_from": "git",
+      "sha256": "e61ebe3b2cec13ea3ecf269467e2d1054ebb25ea4efff4a2bcbccb9ca10cc62e",
+      "observed": "e61ebe3b2cec13ea3ecf269467e2d1054ebb25ea4efff4a2bcbccb9ca10cc62e",
+      "matches": true
+    },
+    {
+      "input": "scene.usda",
+      "read_from": "git",
+      "sha256": "fff039c9523a83894dddbcd85668616f6f585b6f9ff8c5995faac96bd77d48bf",
+      "observed": "fff039c9523a83894dddbcd85668616f6f585b6f9ff8c5995faac96bd77d48bf",
+      "matches": true
+    },
+    {
+      "input": "capture_campaign.py",
+      "read_from": "git",
+      "sha256": "cbd5669603a847d41924290d541529626352926eca04ddecbef81cd15e0a86b3",
+      "observed": "cbd5669603a847d41924290d541529626352926eca04ddecbef81cd15e0a86b3",
+      "matches": true
+    },
+    {
+      "input": "capture_isaac.py",
+      "read_from": "git",
+      "sha256": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+      "observed": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+      "matches": true
+    },
+    {
+      "input": "generate_dataset.py",
+      "read_from": "git",
+      "sha256": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+      "observed": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+      "matches": true
+    },
+    {
+      "input": "campaign.py",
+      "read_from": "git",
+      "sha256": "7bc7257c0facf5af35cf6092cb0c1420c8a65ca5c9e2a9767b4f1cd0ef79588d",
+      "observed": "7bc7257c0facf5af35cf6092cb0c1420c8a65ca5c9e2a9767b4f1cd0ef79588d",
+      "matches": true
+    },
+    {
+      "input": "visibility.py",
+      "read_from": "git",
+      "sha256": "9f7fa8711ee458cb97f265e3a5386498b42e7143dea144b40ac997fd1826c9d2",
+      "observed": "9f7fa8711ee458cb97f265e3a5386498b42e7143dea144b40ac997fd1826c9d2",
+      "matches": true
+    }
+  ],
+  "status": "pass"
+}

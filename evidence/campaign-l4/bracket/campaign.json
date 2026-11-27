@@ -1,0 +1,214 @@
+{
+  "format": 2,
+  "seed": 19,
+  "classes": {
+    "master_chef_can": 1,
+    "cracker_box": 2,
+    "sugar_box": 3,
+    "soup_can": 4,
+    "mustard_bottle": 5,
+    "banana": 10,
+    "cleanser": 12,
+    "power_drill": 15,
+    "scissors": 17
+  },
+  "instances": [
+    {
+      "id": "obj1",
+      "class": "master_chef_can",
+      "prim": "/World/Props/Obj1",
+      "asset": "models/obj_000001.usdc"
+    },
+    {
+      "id": "obj2",
+      "class": "cracker_box",
+      "prim": "/World/Props/Obj2",
+      "asset": "models/obj_000002.usdc"
+    },
+    {
+      "id": "obj3",
+      "class": "sugar_box",
+      "prim": "/World/Props/Obj3",
+      "asset": "models/obj_000003.usdc"
+    },
+    {
+      "id": "obj4",
+      "class": "soup_can",
+      "prim": "/World/Props/Obj4",
+      "asset": "models/obj_000004.usdc"
+    },
+    {
+      "id": "obj5",
+      "class": "mustard_bottle",
+      "prim": "/World/Props/Obj5",
+      "asset": "models/obj_000005.usdc"
+    },
+    {
+      "id": "obj10",
+      "class": "banana",
+      "prim": "/World/Props/Obj10",
+      "asset": "models/obj_000010.usdc"
+    },
+    {
+      "id": "obj12",
+      "class": "cleanser",
+      "prim": "/World/Props/Obj12",
+      "asset": "models/obj_000012.usdc"
+    },
+    {
+      "id": "obj15",
+      "class": "power_drill",
+      "prim": "/World/Props/Obj15",
+      "asset": "models/obj_000015.usdc"
+    },
+    {
+      "id": "obj17",
+      "class": "scissors",
+      "prim": "/World/Props/Obj17",
+      "asset": "models/obj_000017.usdc"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../inspection/lighting/empty_warehouse_01_1k.hdr",
+      "sha256": "9b3d611cadc32c3a0c7e084ce5611c0650293881c4a041e7fa13748fe0dc6451"
+    },
+    {
+      "path": "../../inspection/textures/plywood_base.jpg",
+      "sha256": "800905650fc6cab2fe7c77c41851f8ea89669f1287ad5ce67c48f435654c0af8"
+    },
+    {
+      "path": "bracket-poses.json",
+      "sha256": "4e33d8076fc9f26e8c6ddecb0b98dceecc76381d87e528a31f13b3b0d165a7c9"
+    },
+    {
+      "path": "bracket.toml",
+      "sha256": "dae5b3121a79f89205668a9b4a14b85655ecb876c5770636842b43a6460f7478"
+    },
+    {
+      "path": "models/obj_000001.jpg",
+      "sha256": "3fec05f0a3cc95d15932aceb4cd78d1adb819379e479beefd7c128d3bcc7811f"
+    },
+    {
+      "path": "models/obj_000001.usdc",
+      "sha256": "0c418a827917663d38adaf171319cc036b957ee6845edd8d3c416864e842bdda"
+    },
+    {
+      "path": "models/obj_000002.jpg",
+      "sha256": "73e8d2ad7e6259dbc02a484d83609de51a3b605acfc107c02da1990f0ee85b4d"
+    },
+    {
+      "path": "models/obj_000002.usdc",
+      "sha256": "246c69cca8be78654cd31ea01fa227876efa9affe7ae4ef36b608d8856b79d86"
+    },
+    {
+      "path": "models/obj_000003.jpg",
+      "sha256": "e6633e1bb92b9ca5e463817fdc84ff028d4a1250bb989c3115bb482b8c5e3a41"
+    },
+    {
+      "path": "models/obj_000003.usdc",
+      "sha256": "9f89d2d76bf177ffe44e92dbb20699e1d7cfcddfecd72e61a1e7fb4ed3de85c4"
+    },
+    {
+      "path": "models/obj_000004.jpg",
+      "sha256": "85ce4c14451574bc2774b881dbeb85ae550668efdcd0be434bdc5882f719473c"
+    },
+    {
+      "path": "models/obj_000004.usdc",
+      "sha256": "2b2f865ef3ae4e74e0a36c1d1311fa10f4c352c5ff994c6c3b5c5ba9bdc55425"
+    },
+    {
+      "path": "models/obj_000005.jpg",
+      "sha256": "c086f493b0dc2a44e749297237e43f165907ad2a1b48590464adc6868cba48d5"
+    },
+    {
+      "path": "models/obj_000005.usdc",
+      "sha256": "6c035f0081844c61d646628c03e0d74a6e39c414e1386b4114cd0b61ace22b96"
+    },
+    {
+      "path": "models/obj_000010.jpg",
+      "sha256": "5a8dda82e5e29aac8d7e86d75699748273c5bd6a34e11dbc81d195a0446ca70b"
+    },
+    {
+      "path": "models/obj_000010.usdc",
+      "sha256": "867b80b831101bec5e8d4fffa0dfc32c3eaf60c489454cb5ccc591fec3fcad18"
+    },
+    {
+      "path": "models/obj_000012.jpg",
+      "sha256": "56969ec1ee4b370577cd352e319f6d59299a7c934bd1f0ba4758a278cf976ef0"
+    },
+    {
+      "path": "models/obj_000012.usdc",
+      "sha256": "d091091f811321a50032beded8a2bac4afcc224d7a63f89acc7cb4398cda3ae8"
+    },
+    {
+      "path": "models/obj_000015.jpg",
+      "sha256": "764ff5e21e6ee3065232c38e0f37bc658aa4569e90714e670feb137a8b083125"
+    },
+    {
+      "path": "models/obj_000015.usdc",
+      "sha256": "e845200e009ee33cb9fba9eae78792ea73e6122b423a1429a135b42c86e79e39"
+    },
+    {
+      "path": "models/obj_000017.jpg",
+      "sha256": "24b0ceeeaa7f41cf48506344c7c476d94acc4c219cdca45a23b7bcd292be46cd"
+    },
+    {
+      "path": "models/obj_000017.usdc",
+      "sha256": "30549f3f530d0bf1fd4e007dd662202caf65cbf878e74c948c2224ef7af6dd48"
+    },
+    {
+      "path": "paired.usda",
+      "sha256": "8cc3cd39e186b35d8c346dc4c4301342a78838b626c4cd20d5d26312dcd96aeb"
+    }
+  ],
+  "renderer": {
+    "/rtx/rendermode": "PathTracing",
+    "/rtx/post/aa/op": 0,
+    "/rtx/post/histogram/enabled": false,
+    "/rtx/post/tonemap/filmIso": 100.0,
+    "/rtx/post/tonemap/cameraShutter": 1.0,
+    "/rtx/post/tonemap/fNumber": 5.0,
+    "/rtx/post/tonemap/op": 1,
+    "/rtx/post/tonemap/colorMode": 0,
+    "/rtx/pathtracing/spp": 32,
+    "/rtx/pathtracing/maxBounces": 4,
+    "/rtx/pathtracing/totalSpp": 896,
+    "/rtx/pathtracing/optixDenoiser/enabled": true
+  },
+  "resolution": [
+    640,
+    480
+  ],
+  "rt_subframes": 4,
+  "warmup_frames": 24,
+  "engine": {
+    "isaacsim_app": [
+      "6.2.0",
+      "rc.14",
+      "6",
+      "2",
+      "0",
+      "rc",
+      "14",
+      "release.52805.02189a84.gl"
+    ],
+    "replicator_extension": "omni.replicator.core-1.13.38"
+  },
+  "code": {
+    "capture_campaign.py": "0b96fdba7dd2c430f75e401f8c636d240877b24a86db554caebe95d31c24caa5",
+    "capture_isaac.py": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+    "generate_dataset.py": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+    "campaign.py": "ac779cdf90c831d9743684e679dc0d51577cc39e10926ede5bf61cb108028a59",
+    "visibility.py": "de9b5861db8de97e9f5c63da97fb0799dbc1d3da5f92cad2ab6407fc1aa9f09d"
+  },
+  "depth": "Euclidean metres from optical center; background may be infinite",
+  "exposure": {
+    "iso": 100,
+    "time": 1,
+    "fstop": 5,
+    "responsivity": 1,
+    "compensation_ev": 0
+  },
+  "campaign_key": "ed1318fbf91857f2ca3f219fcad9a7dca5735880926e597af76a49dba9a7953e"
+}

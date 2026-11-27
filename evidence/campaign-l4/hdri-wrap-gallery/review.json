@@ -1,0 +1,26 @@
+{
+  "campaign_key": "5434f108952d19fc3a091652a8855cb4310e7ca3e698a6b2d1ca29cbf0228d90",
+  "frames": {
+    "0": {
+      "rgb_sha256": "b8c08fc18b1f313caef826611783e6218da7df65934b3d33615dea41ab9bfe75",
+      "observation": "窓を背にした二商品は暗く、赤い箱の輪郭は読めるが側面文字に光が足りない。",
+      "decision": "fail"
+    },
+    "1": {
+      "rgb_sha256": "64b4c82ded3aaeb7e0c2b7acfc04217d85ae45bd83876fb3f1efac5c13b3505e",
+      "observation": "同一環境の１段差で紙と箱が明るくなった。元画像の文字が商品検査に使えるほど鮮明ではない。",
+      "decision": "fail"
+    },
+    "2": {
+      "rgb_sha256": "e2d5252b36ba478e745bab87608dd84c794aa800a91d9a20a128165db1943faf",
+      "observation": "別の工房は床・三角コーンの方向が変わり、二商品と同じ輪郭を維持する。前面の明るさが足りない。",
+      "decision": "fail"
+    },
+    "3": {
+      "rgb_sha256": "ef8b9847c50511ba14afee15b35fae70bf6b536c6732c6045f44150d9479e3ff",
+      "observation": "台面の色と右の小物への影は出るが、砂糖箱の正面と右側の紙面のコントラストは低い。",
+      "decision": "fail"
+    }
+  },
+  "review_method": "Visual inspection of the archived RGB, visible instance contours, tight boxes and metric range side by side. Decisions concern appearance for package inspection, or alignment for sensor-color."
+}

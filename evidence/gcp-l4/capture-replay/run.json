@@ -1,0 +1,122 @@
+{
+  "project": "梱包作業台",
+  "backend": "rtx",
+  "started_utc": "2026-11-24T17:51:24.412129+00:00",
+  "status": "rendered",
+  "cases": {
+    "nominal": {
+      "renderer": {
+        "renderer": "Isaac Sim RTX PathTracing",
+        "manifests": [
+          "replicator-1536x1024/manifest.json"
+        ]
+      },
+      "frames": {
+        "overview": {
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "2fa30af3fcdaf08f5a2556d90ecb21b1ad94150086dc0d427527cdc38b9064af",
+          "mean_luma_8bit": 84.53,
+          "near_black_pct": 0.213,
+          "near_white_pct": 0.0,
+          "target_rect_px": [
+            789,
+            103,
+            1136,
+            299
+          ],
+          "target_mean_luma_8bit": 115.91
+        },
+        "detail": {
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "a5918a5590486340729ef66dca7c056852ae44eca970c36b9f16cc60299a15cd",
+          "mean_luma_8bit": 130.54,
+          "near_black_pct": 0.003,
+          "near_white_pct": 0.0,
+          "target_rect_px": [
+            501,
+            498,
+            980,
+            744
+          ],
+          "target_mean_luma_8bit": 178.11,
+          "barcode": {
+            "expected": "0426112500014",
+            "decoded": [
+              "0426112500014"
+            ],
+            "matches": true
+          }
+        }
+      }
+    },
+    "low_overhead": {
+      "renderer": {
+        "renderer": "Isaac Sim RTX PathTracing",
+        "manifests": [
+          "replicator-1536x1024/manifest.json"
+        ]
+      },
+      "frames": {
+        "overview": {
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "7bd89e1638cdead065295d762089b290b6e1c9389036ae99e1e323de4e43db68",
+          "mean_luma_8bit": 73.84,
+          "near_black_pct": 0.238,
+          "near_white_pct": 0.0,
+          "target_rect_px": [
+            789,
+            103,
+            1136,
+            299
+          ],
+          "target_mean_luma_8bit": 107.64
+        },
+        "detail": {
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "de2ba219fe505aa52144de2b0776d9a6846fb5ae8db1214519952b4ff690d270",
+          "mean_luma_8bit": 121.45,
+          "near_black_pct": 0.005,
+          "near_white_pct": 0.0,
+          "target_rect_px": [
+            501,
+            498,
+            980,
+            744
+          ],
+          "target_mean_luma_8bit": 176.97,
+          "barcode": {
+            "expected": "0426112500014",
+            "decoded": [
+              "0426112500014"
+            ],
+            "matches": true
+          }
+        }
+      }
+    }
+  },
+  "code_commit": "a97265389ad60ef4e3f6e50f0ee278916c3a36a4",
+  "tracked_changes": false,
+  "references": {
+    "overview": {
+      "file": "reference-overview.jpg",
+      "sha256": "97a6789a6c49183c04a006f61d490c5b6117e011345b26682f30af896acdb9b8"
+    },
+    "detail": {
+      "file": "reference-detail.jpg",
+      "sha256": "88245930f1f148106ded4905a53ee5c655740595f6cf26703fcf8db2b4654aed"
+    }
+  }
+}

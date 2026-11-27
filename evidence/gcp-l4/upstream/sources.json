@@ -1,0 +1,27 @@
+{
+  "repository": "isaac-sim/IsaacSim",
+  "tag": "v6.2.0",
+  "commit": "74a9356b20250dd60337d90b4b4d913c9454d32b",
+  "scripts": [
+    {
+      "path": "skills/isaac-sim-validator/scripts/validate_sim.sh",
+      "source": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/74a9356b20250dd60337d90b4b4d913c9454d32b/skills/isaac-sim-validator/scripts/validate_sim.sh",
+      "sha256": "ef20948f6ddb6c1f2e192828ded292df4b2a9c04030531b1c3b6edf9cc2a91d3"
+    },
+    {
+      "path": "skills/validation-diff-gifs/scripts/sdg_tolerance_diff_gifs.sh",
+      "source": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/74a9356b20250dd60337d90b4b4d913c9454d32b/skills/validation-diff-gifs/scripts/sdg_tolerance_diff_gifs.sh",
+      "sha256": "b9915117561163caba248fce31f8e36c7cd1ad721efa448c4a8d0bc81d36330b"
+    },
+    {
+      "path": "skills/validation-diff-gifs/scripts/diff_gif_common.inc",
+      "source": "https://raw.githubusercontent.com/isaac-sim/IsaacSim/74a9356b20250dd60337d90b4b4d913c9454d32b/skills/validation-diff-gifs/scripts/diff_gif_common.inc",
+      "sha256": "cce93b4416b32f47f945c9ccd942c1460470270bf82744ba5850ba84249f37ba"
+    }
+  ],
+  "applied": [
+    "validate_sim.sh --level 2 runtime/capture_isaac.py",
+    "validate_sim.sh --level 2 runtime/generate_dataset.py",
+    "sdg_tolerance_diff_gifs.sh candidate golden - 10 2: symlinks rgb/rgb_0000.png ... to each actual pilot/replay RGB"
+  ]
+}

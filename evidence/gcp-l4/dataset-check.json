@@ -1,0 +1,86 @@
+{
+  "status": "pass",
+  "seed": 20261125,
+  "frames": [
+    {
+      "carton": {
+        "pixels": 10719,
+        "median_range_m": 2.7277286052703857
+      },
+      "handheld_scanner": {
+        "pixels": 374,
+        "median_range_m": 3.202364683151245
+      }
+    },
+    {
+      "carton": {
+        "pixels": 10084,
+        "median_range_m": 2.704573631286621
+      },
+      "handheld_scanner": {
+        "pixels": 376,
+        "median_range_m": 3.190258026123047
+      }
+    },
+    {
+      "carton": {
+        "pixels": 9873,
+        "median_range_m": 2.7239723205566406
+      },
+      "handheld_scanner": {
+        "pixels": 390,
+        "median_range_m": 3.2008605003356934
+      }
+    },
+    {
+      "carton": {
+        "pixels": 10004,
+        "median_range_m": 2.7284977436065674
+      },
+      "handheld_scanner": {
+        "pixels": 399,
+        "median_range_m": 3.1959102153778076
+      }
+    }
+  ],
+  "manifest_sha256": "a348dcb7e2490a6ed5d4152964975c52aa8964bdfd1427e8516b00f48b4a3560",
+  "replay_manifest_sha256": "11aaaa82bd4f59d0a30a5e14482def6882bff94c30ecda7aba76224e6cf421b0",
+  "replay_thresholds": {
+    "rgb_rmse_srgb": 0.025,
+    "max_target_range_error_m": 0.001
+  },
+  "replay": [
+    {
+      "rgb_rmse_srgb": 0.0032401944044977427,
+      "semantic_ids_exact": true,
+      "range_exact": true,
+      "target_masks_exact": true,
+      "max_target_range_error_m": 0.0,
+      "boxes_exact": true
+    },
+    {
+      "rgb_rmse_srgb": 0.0033255380112677813,
+      "semantic_ids_exact": true,
+      "range_exact": true,
+      "target_masks_exact": true,
+      "max_target_range_error_m": 0.0,
+      "boxes_exact": true
+    },
+    {
+      "rgb_rmse_srgb": 0.0032941894605755806,
+      "semantic_ids_exact": true,
+      "range_exact": true,
+      "target_masks_exact": true,
+      "max_target_range_error_m": 0.0,
+      "boxes_exact": true
+    },
+    {
+      "rgb_rmse_srgb": 0.0034853608813136816,
+      "semantic_ids_exact": true,
+      "range_exact": true,
+      "target_masks_exact": true,
+      "max_target_range_error_m": 0.0,
+      "boxes_exact": true
+    }
+  ]
+}

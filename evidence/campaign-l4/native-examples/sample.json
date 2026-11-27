@@ -1,0 +1,15 @@
+{
+  "full_dataset_path": "../../../out/rtx-20261125/native",
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    17,
+    43,
+    54,
+    95
+  ],
+  "full_collection_in_worktree": true,
+  "kind": "selected_complete_frames"
+}

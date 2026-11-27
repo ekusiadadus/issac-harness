@@ -1,0 +1,248 @@
+# Example registry: IDs 2, 3 and 5 deliberately match BOP YCB-V.
+stage = "scene.usda"
+camera_prim = "/World/Cameras/Campaign"
+width = 960
+height = 720
+poses = "compare-poses.json"
+
+[classes]
+cracker_box = 2
+sugar_box = 3
+mustard_bottle = 5
+carton = 21
+handset = 22
+tray = 23
+
+[[instances]]
+id = "crate"
+class = "carton"
+prim = "/World/Props/Carton"
+jitter_xy_m = [0.018, 0.013]
+yaw_deg = [-48, 48]
+probability = 0.91
+
+[[instances]]
+id = "bin"
+class = "tray"
+prim = "/World/Props/Tray"
+jitter_xy_m = [0.008, 0.008]
+yaw_deg = [-7, 7]
+probability = 1.0
+
+[[instances]]
+id = "device"
+class = "handset"
+prim = "/World/Props/Handset"
+jitter_xy_m = [0.07, 0.05]
+yaw_deg = [-115, 115]
+probability = 0.92
+
+[[instances]]
+id = "crackers"
+class = "cracker_box"
+prim = "/World/Props/CrackerBox"
+jitter_xy_m = [0.028, 0.025]
+yaw_deg = [-165, 165]
+probability = 0.96
+asset = "../ycb/models/obj_000002.usdc"
+
+[[instances]]
+id = "sugar"
+class = "sugar_box"
+prim = "/World/Props/Sugar"
+jitter_xy_m = [0.03, 0.03]
+yaw_deg = [-170, 170]
+probability = 0.96
+asset = "../ycb/models/obj_000003.usdc"
+
+[[instances]]
+id = "mustard"
+class = "mustard_bottle"
+prim = "/World/Props/Mustard"
+jitter_xy_m = [0.024, 0.027]
+yaw_deg = [-180, 180]
+probability = 0.94
+asset = "../ycb/models/obj_000005.usdc"
+
+[[cameras]]
+id = "front"
+target = [0.0, 0.0, 0.97]
+target_jitter = [0.14, 0.09, 0.05]
+azimuth_deg = [-113, -73]
+elevation_deg = [27, 46]
+distance_m = [1.3, 2.05]
+focal_px = [790, 1110]
+
+[[cameras]]
+id = "left"
+target = [0.0, 0.0, 0.97]
+target_jitter = [0.14, 0.09, 0.05]
+azimuth_deg = [-156, -122]
+elevation_deg = [31, 56]
+distance_m = [1.38, 1.98]
+focal_px = [770, 1060]
+
+[[cameras]]
+id = "right"
+target = [0.0, 0.0, 0.97]
+target_jitter = [0.14, 0.09, 0.05]
+azimuth_deg = [-62, -27]
+elevation_deg = [26, 53]
+distance_m = [1.4, 2.02]
+focal_px = [800, 1120]
+
+[[cameras]]
+id = "overhead"
+target = [0.0, 0.0, 0.97]
+target_jitter = [0.14, 0.09, 0.05]
+azimuth_deg = [-137, -42]
+elevation_deg = [63, 84]
+distance_m = [1.2, 1.87]
+focal_px = [780, 1050]
+
+[[layouts]]
+id = "packing_left"
+[layouts.anchors]
+crate = [-0.5, 0.03, 0.8925]
+bin = [0.49, -0.08, 0.8925]
+device = [-0.08, 0.12, 0.8925]
+crackers = [0.02, -0.16, 0.8925]
+sugar = [0.22, 0.22, 0.8925]
+mustard = [-0.23, -0.18, 0.8925]
+
+[[layouts]]
+id = "packing_right"
+[layouts.anchors]
+crate = [0.52, 0.01, 0.8925]
+bin = [-0.49, -0.06, 0.8925]
+device = [-0.12, 0.16, 0.8925]
+crackers = [-0.02, -0.18, 0.8925]
+sugar = [-0.25, 0.2, 0.8925]
+mustard = [0.19, 0.14, 0.8925]
+
+[[layouts]]
+id = "scan_queue"
+[layouts.anchors]
+crate = [-0.48, 0.04, 0.8925]
+bin = [0.46, 0.13, 0.8925]
+device = [-0.19, -0.21, 0.8925]
+crackers = [0.0, 0.19, 0.8925]
+sugar = [0.04, -0.12, 0.8925]
+mustard = [0.39, -0.21, 0.8925]
+
+[[layouts]]
+id = "cross_pick"
+[layouts.anchors]
+crate = [0.43, 0.02, 0.8925]
+bin = [-0.48, 0.11, 0.8925]
+device = [-0.35, -0.25, 0.8925]
+crackers = [0.02, 0.2, 0.8925]
+sugar = [-0.06, -0.13, 0.8925]
+mustard = [-0.17, 0.065, 0.8925]
+
+[[edits]]
+id = "key"
+prim = "/World/Lights/OverheadSoftbox"
+kind = "scale"
+attribute = "inputs:intensity"
+uniform = [0.42, 2.4]
+
+[[edits]]
+id = "side"
+prim = "/World/Lights/SteelEdge"
+kind = "scale"
+attribute = "inputs:intensity"
+uniform = [0.25, 2.15]
+
+[[edits]]
+id = "fill"
+prim = "/World/Lights/LabelSoftbox"
+kind = "scale"
+attribute = "inputs:intensity"
+uniform = [0.31, 1.9]
+
+[[edits]]
+id = "dome"
+prim = "/World/Lights/Ambient"
+kind = "scale"
+attribute = "inputs:intensity"
+uniform = [0.55, 1.85]
+
+[[edits]]
+id = "bench"
+prim = "/World/Environment/Worktop"
+kind = "binding"
+choices = ["/World/Materials/Wood", "/World/Materials/BrushedSteel", "/World/Materials/Concrete"]
+
+[[edits]]
+id = "wall"
+prim = "/World/Environment/BackWall"
+kind = "binding"
+choices = ["/World/Materials/Wall_Paint", "/World/Materials/Concrete"]
+
+[[edits]]
+id = "polymer"
+prim = "/World/Props/Handset"
+kind = "variant"
+variant_set = "surface_finish"
+choices = ["standard", "matte"]
+
+[[edits]]
+id = "carton_tape"
+prim = "/World/Props/Carton/TapeVisible"
+kind = "visibility"
+choices = [true, false]
+
+[[edits]]
+id = "foam_pad"
+prim = "/World/Props/InspectionPad"
+kind = "visibility"
+choices = [false]
+
+[[edits]]
+id = "paper"
+prim = "/World/Props/Carton/Materials/Carton"
+kind = "texture_set"
+choices = ["finish00", "finish01", "finish02", "finish03", "finish04", "finish05", "finish06", "finish07"]
+[edits.attributes]
+base = "/World/Props/Carton/Materials/Carton/BaseColor.inputs:file"
+rough = "/World/Props/Carton/Materials/Carton/Roughness.inputs:file"
+normal = "/World/Props/Carton/Materials/Carton/Normal.inputs:file"
+[edits.bundles.finish00]
+base = "finishes/finish00/base.png"
+rough = "finishes/finish00/rough.png"
+normal = "finishes/finish00/normal.png"
+[edits.bundles.finish01]
+base = "finishes/finish01/base.png"
+rough = "finishes/finish01/rough.png"
+normal = "finishes/finish01/normal.png"
+[edits.bundles.finish02]
+base = "finishes/finish02/base.png"
+rough = "finishes/finish02/rough.png"
+normal = "finishes/finish02/normal.png"
+[edits.bundles.finish03]
+base = "finishes/finish03/base.png"
+rough = "finishes/finish03/rough.png"
+normal = "finishes/finish03/normal.png"
+[edits.bundles.finish04]
+base = "finishes/finish04/base.png"
+rough = "finishes/finish04/rough.png"
+normal = "finishes/finish04/normal.png"
+[edits.bundles.finish05]
+base = "finishes/finish05/base.png"
+rough = "finishes/finish05/rough.png"
+normal = "finishes/finish05/normal.png"
+[edits.bundles.finish06]
+base = "finishes/finish06/base.png"
+rough = "finishes/finish06/rough.png"
+normal = "finishes/finish06/normal.png"
+[edits.bundles.finish07]
+base = "finishes/finish07/base.png"
+rough = "finishes/finish07/rough.png"
+normal = "finishes/finish07/normal.png"
+
+[[edits]]
+id = "mark_visible"
+prim = "/World/Props/Carton/WallFront/HandlingMark"
+kind = "visibility"
+choices = [false, true]

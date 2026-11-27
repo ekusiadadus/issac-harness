@@ -1,0 +1,14 @@
+🔍 Validating: /Users/ekusiadadus/dev/issac-harness/runtime/capture_campaign.py (Level 2)
+
+📋 Level 1: Syntax Checks
+  ✅ Python syntax valid
+  ✅ SimulationApp import found
+  ✅ SimulationApp instantiated
+  ✅ simulation_app.close() called
+
+📋 Level 2: Structure Checks
+  ✅ Headless mode enabled
+  ✅ Stage creation/loading found
+  ✅ SimulationApp created before other isaacsim imports
+
+Level 2 complete. Errors: 0, Warnings: 0

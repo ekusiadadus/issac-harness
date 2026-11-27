@@ -1,0 +1,119 @@
+{
+  "dataset": "BOP YCB-Video",
+  "snapshot": "5c2c4aa229800355648cd268040aa814f8dc94f0",
+  "archive_base_url": "https://huggingface.co/datasets/bop-benchmark/ycbv/resolve/5c2c4aa229800355648cd268040aa814f8dc94f0/",
+  "archives": {
+    "ycbv_models.zip": "1e517a9b513cadb8eaf406ac3ce3c5f1d6fc4a80161c866b4e2a73d13de5e554",
+    "ycbv_test_bop19.zip": "c0c11251849877e7b2f373f6c7acf54739dc69d0fb2649c20050ca977bf5513d",
+    "ycbv_base.zip": "98440f8bd403100b21cf11a6729fabe8b3d5ce714472edc57a18b7f1fcd4bb18"
+  },
+  "converted_models": [
+    {
+      "id": 1,
+      "ply_sha256": "af8774fe78b700e5ac7f55e48411c3389813753293d20dba420704c89fed6285",
+      "source_atlas_sha256": "58dd75e68ee169389471f1cc53011736fb08e3d2efd75e246cd7543a97696173",
+      "vertices": 9951,
+      "faces": 15728,
+      "output_atlas_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "id": 2,
+      "ply_sha256": "121df764d2214a16d59fd77a31e168ca9e79ba0f30a5e529de86c8cd19c1686f",
+      "source_atlas_sha256": "9a04bc0e7a10766e44aee4bdfc719462b0b6cc53d186bc6d4e8b890691acdf59",
+      "vertices": 8291,
+      "faces": 15728,
+      "output_atlas_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "id": 3,
+      "ply_sha256": "d22f8ddd76c00f4003f1dc04252e599ed840d5cf638d7a1fe7f5569ddfe5eb3d",
+      "source_atlas_sha256": "2bc96cec830648eb0c4d491948464863b449309f4a61764a5b3f86a785474c5d",
+      "vertices": 8300,
+      "faces": 15728,
+      "output_atlas_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "id": 4,
+      "ply_sha256": "fea7ae381b760b4852463fce4effa53fe9535dc5c8c1ee89de2be85a30b32211",
+      "source_atlas_sha256": "33183a894eb75ae04ae5188a3ae689fe8d06ec6b9f9624da1bf853c2a25e70d2",
+      "vertices": 8404,
+      "faces": 15728,
+      "output_atlas_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "id": 5,
+      "ply_sha256": "c1d093e33fe9b447812b2950c26b80fb26648a4205445986c9cc8b1731496811",
+      "source_atlas_sha256": "5ab81c84e1b0a945c9f1a3f20fe765720ab607ca2841a1da3454b9cf443893b1",
+      "vertices": 10983,
+      "faces": 15728,
+      "output_atlas_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "id": 10,
+      "ply_sha256": "39f645ba8c4cd8457f9f22e19f50c557b259f8c5b2f21a39ebb3dde5f97c256c",
+      "source_atlas_sha256": "b68de45c4d92a2f8d3e8da357912b16b972ef37f25b56bcb593d4cf9fdc4ba2d",
+      "vertices": 10710,
+      "faces": 15728,
+      "output_atlas_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "id": 12,
+      "ply_sha256": "073401d538dbdc7ed5f8f782ff3a31196bc2fbd50512ddc9d41aa3965d8f590f",
+      "source_atlas_sha256": "4a3e23d50817bee611d2b4d1da1ff2aa2563f62a04e86cb4965a6d09a13d7666",
+      "vertices": 8251,
+      "faces": 15728,
+      "output_atlas_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "id": 15,
+      "ply_sha256": "dd0c7bc5c3ee29e48a7087f58ab6df518cf3326e6b3b4b05071741014cbd31cf",
+      "source_atlas_sha256": "c43c1f9df2529613b3021f89aee21e148fbb3b5e4e8b9606d1d9db761b59c1a5",
+      "vertices": 9174,
+      "faces": 15728,
+      "output_atlas_size": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "id": 17,
+      "ply_sha256": "c6062f41708b3663b33d27d7042eafeed7b66e0f97f8421c368754c1d92dbaf9",
+      "source_atlas_sha256": "be06b5b0378c3fb73e69b6427d078972b5f4979da028d5e2b531894e113b81be",
+      "vertices": 8628,
+      "faces": 15728,
+      "output_atlas_size": [
+        2048,
+        2048
+      ]
+    }
+  ],
+  "real_scenes": [
+    50,
+    51
+  ],
+  "frame_selection": "first, evenly spaced by keyframe rank, last",
+  "units": "BOP PLY/pose translations mm; authored USD metres",
+  "appearance": "photographic scanned albedo; constant roughness is an estimate",
+  "license": "YCB-LICENSE.txt"
+}

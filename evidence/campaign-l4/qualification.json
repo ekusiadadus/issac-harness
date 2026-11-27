@@ -1,0 +1,141 @@
+{
+  "status": "fail",
+  "campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+  "policy_sha256": "657d6e4e3d505bdf1f98c20e95ef3182d741967f8b5902e63bcc3e31aea6fc6f",
+  "evidence_sha256": {
+    "registered_quality": "2a492020f05b2b9ec273df402551d8cff16096c429f3f2c65c2602ef9ab5a0ff",
+    "transfer": "7dc41d76cb4cf96be426855aea3f89a8808519e363947bebe27f8a2c85fb5090",
+    "training_lineage": "811392903b3a3340028d53abc22d5343c3f88940e648ff4ad0f0cf1a82b191d1",
+    "replay": "657c45e73ea80846ef68b41c95a8a4d5fadd7a91163e410e287ca2b37a5a61eb",
+    "review": "a8173c5b5f057ed9cd5ba499f87338037fa7af37e823d8c946095c63f8ddbce4"
+  },
+  "checks": [
+    {
+      "criterion": "minimum_frames",
+      "observed": 256,
+      "pass": true
+    },
+    {
+      "criterion": "minimum_cameras",
+      "observed": 4,
+      "pass": true
+    },
+    {
+      "criterion": "minimum_layouts",
+      "observed": 4,
+      "pass": true
+    },
+    {
+      "criterion": "min_visible_per_class",
+      "observed": {
+        "cracker_box": 250,
+        "sugar_box": 248,
+        "mustard_bottle": 244,
+        "carton": 230,
+        "handset": 241,
+        "tray": 256
+      },
+      "pass": true
+    },
+    {
+      "criterion": "distinct_bench",
+      "observed": 3,
+      "pass": true
+    },
+    {
+      "criterion": "distinct_wall",
+      "observed": 2,
+      "pass": true
+    },
+    {
+      "criterion": "distinct_paper",
+      "observed": 8,
+      "pass": true
+    },
+    {
+      "criterion": "distinct_polymer",
+      "observed": 2,
+      "pass": true
+    },
+    {
+      "criterion": "distinct_carton_tape",
+      "observed": 2,
+      "pass": true
+    },
+    {
+      "criterion": "registered_real_views",
+      "observed": "fail",
+      "pass": false
+    },
+    {
+      "criterion": "registered_input_matches_policy",
+      "observed": {
+        "poses_sha256": "bfd08fbd41c44ab77a3b704af604dda7a48e518a31c849abe8a4fa1018c5e594",
+        "quality_policy_sha256": "1105449e39916ac36dc1897e1b49ce3b2350d1477add870708a815e4a5986667",
+        "expected_views": 6,
+        "measured_views": 6
+      },
+      "pass": true
+    },
+    {
+      "criterion": "held_out_real_AP50",
+      "observed": 0.2493500665856059,
+      "pass": false
+    },
+    {
+      "criterion": "training_input_matches_capture",
+      "observed": {
+        "native_fit": 192,
+        "real_test": 88,
+        "campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a"
+      },
+      "pass": true
+    },
+    {
+      "criterion": "independent_replay",
+      "observed": "pass",
+      "pass": true
+    },
+    {
+      "criterion": "visual_review_capture",
+      "observed": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+      "pass": true
+    },
+    {
+      "criterion": "visual_review_0",
+      "observed": {
+        "rgb_sha256": "c5b52f96dc196abf498efada29496320baa472b1ed9f6354ac88ea62bd166b91",
+        "observation": "トレーは画像左端で切れているが、見えている縁とマスクが一致する。段ボールは同じ矢印が内壁・外壁・フラップに繰り返し現れる。個別に貼る荷扱いシールには専用の UV または独立した面が要る。",
+        "decision": "fail"
+      },
+      "pass": false
+    },
+    {
+      "criterion": "visual_review_17",
+      "observed": {
+        "rgb_sha256": "8737795b8fb8bb98e87b25e454f908f38c21a0b1dc384616bc78a72f2f84a309",
+        "observation": "赤い箱の文字、瓶の一部が手前の段ボールで隠れる順序は RGB と教師で対応する。両フラップにほぼ同形の矢印が並び、端末表面は広い灰色の面として見える。",
+        "decision": "fail"
+      },
+      "pass": false
+    },
+    {
+      "criterion": "visual_review_43",
+      "observed": {
+        "rgb_sha256": "d13c77e2fa7d4d5b8f4b61e853d571d1e8897f3ec927eaa58a16ae386f07b72f",
+        "observation": "この距離では商品の印刷面と輪郭を識別できる。トレー縁、端末の角、瓶の黄いろい縁にマスクが重なり、箱と端末はそれぞれ異なる個体として矩形に収まる。",
+        "decision": "pass"
+      },
+      "pass": true
+    },
+    {
+      "criterion": "visual_review_95",
+      "observed": {
+        "rgb_sha256": "86fda5cf0d27036eb3434cfb18293919c56d234c7bc256836e7592270253e928",
+        "observation": "赤い箱と黄色い瓶の接地部に反射があり、右端のトレーは画角に従って切れている。手前の天板の研磨溝とトレーの横縞が揃い、段ボールでも矢印が反復している。",
+        "decision": "fail"
+      },
+      "pass": false
+    }
+  ]
+}

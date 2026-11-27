@@ -1,0 +1,32 @@
+{
+  "status": "pass",
+  "frames": 2,
+  "resolution": [
+    960,
+    720
+  ],
+  "distinct_rgb": 2,
+  "instances_count_by_class": {
+    "carton": 2,
+    "tray": 2,
+    "handset": 2,
+    "cracker_box": 2,
+    "sugar_box": 1,
+    "mustard_bottle": 2
+  },
+  "camera_samples": {
+    "left": 1,
+    "right": 1
+  },
+  "layouts": {
+    "packing_right": 2
+  },
+  "empty_frames": 0,
+  "boxes": 11,
+  "campaign_key": "7f7ac4c6aac804111edfc353f910d20d9b9a4a5541232e83333bf6cf8056cd59",
+  "export_sha256": {
+    "frames.sha256.jsonl": "6663dc90b20f41758f376599a0002110d056ea477debe8d185d5e4f699cef73f",
+    "coco.json": "00e63c16e4b240a75763f7bbbfc5cfa3fa6bf1f9f343c3a36151356861a2533e",
+    "training.jsonl": "712762af693419f6fdca54377fff2f6f4afcede078f6a8880492d6f18b98ef2f"
+  }
+}

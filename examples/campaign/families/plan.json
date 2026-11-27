@@ -1,0 +1,12 @@
+{
+  "frames": 8,
+  "seed": 0,
+  "config_sha256": "f20b2a4da2ab94bd536a227b528098e54e8e8c2600b8e37b8b218ae10f37bd5f",
+  "status": "planned",
+  "shards": [
+    {
+      "start": 0,
+      "count": 8
+    }
+  ]
+}

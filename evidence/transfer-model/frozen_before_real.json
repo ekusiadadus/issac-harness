@@ -1,0 +1,9 @@
+{
+  "frozen_at_utc": "2026-11-25T00:34:33.814036+00:00",
+  "model_sha256": "9b5f8f2b749f920276f6e0d7751c491cdba1ac92c6d1cd744fe0534f80c5855b",
+  "source_sha256": "cbe269ee05707fa1d92fd96f5eb8e566aad5c51140266e137c6f972ded3691e2",
+  "mask_manifest_sha256": "79928a6457a67cfbe64da3dc4f19576395db7aeb5894e62180679a459349242a",
+  "synthetic_holdout_metrics_sha256": "baa2a77bc6d542233e59cbc8debae5115061b224775197e84f1f9f4124fb5618",
+  "train_index_sha256": "64579f939053585a37c563c1b63f47fb86662a021237c9f053d64119930acec4",
+  "decision": "No further fitting or hyperparameter changes before first real evaluation."
+}

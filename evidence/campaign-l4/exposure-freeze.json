@@ -1,0 +1,312 @@
+{
+  "format": 1,
+  "method": "observed_native_bracket_equal_reference_mean_srgb_mae",
+  "campaign_key": "ed1318fbf91857f2ca3f219fcad9a7dca5735880926e597af76a49dba9a7953e",
+  "campaign_header_sha256": "d9abf113faab9d5397adc8a554699e911c131f50a5e808039387e03171bfd8f5",
+  "gain_field": "edits.light_gain",
+  "chosen_gain": 0.0625,
+  "calibration_references": [
+    "000050_000620",
+    "000051_000001"
+  ],
+  "erosion_px": 2,
+  "candidate_count": 5,
+  "candidates": [
+    {
+      "gain": 0.015625,
+      "mean_reference_srgb_mae": 0.2810112490130241,
+      "pooled_srgb_mae": 0.28176980067088503,
+      "matched_pixels": 114727,
+      "matched_channels": 344181,
+      "sim_clipped_channel_fraction": 0.0,
+      "real_clipped_channel_fraction": 0.16412294693780308,
+      "per_reference": [
+        {
+          "frame": 4,
+          "reference": "000050_000620",
+          "gain": 0.015625,
+          "matched_pixels": 54900,
+          "matched_channels": 164700,
+          "classes": {
+            "cracker_box": 17552,
+            "soup_can": 414,
+            "mustard_bottle": 14081,
+            "banana": 7751,
+            "power_drill": 15102
+          },
+          "srgb_mae": 0.2633480957653249,
+          "sim_clipped_channel_fraction": 0.0,
+          "real_clipped_channel_fraction": 0.1214996964177292,
+          "sha256": {
+            "real_rgb": "f51b8e0ed5a1285577ad9fcf2050196476ad45b24b09552322b3075bcd4e37d8",
+            "real_classes": "ca572fc0e333f18d90f943ac351312a9c0769176ba2e228a5a5c8315103f220f",
+            "sim_rgb": "474b33f77f9c3a6feda90a916d50bed17c6453df78bf28cdba06426a89a150e5",
+            "sim_classes": "24f87ca52eb7d859ec03a01f11eab2a75c1b1e032cb1007957721d088f7a1294",
+            "annotation": "50087feed04a34f2330aa3d4147b01345630d5cae961f01adad61977e8d8b505"
+          }
+        },
+        {
+          "frame": 9,
+          "reference": "000051_000001",
+          "gain": 0.015625,
+          "matched_pixels": 59827,
+          "matched_channels": 179481,
+          "classes": {
+            "master_chef_can": 13382,
+            "sugar_box": 16254,
+            "soup_can": 8338,
+            "cleanser": 18300,
+            "scissors": 3553
+          },
+          "srgb_mae": 0.2986744022607232,
+          "sim_clipped_channel_fraction": 0.0,
+          "real_clipped_channel_fraction": 0.20323599712504387,
+          "sha256": {
+            "real_rgb": "14db404266b985c1139bab6db30b2c5e1c4e16f17bc85096535536954f240311",
+            "real_classes": "0302cf835d446aeaf2db2b06028c7a6eedb3e2d14e621f8a8a206752194362ea",
+            "sim_rgb": "519e02fb233458f6c1e8b648e52e952c5e01f9eec786c4e05ce26b9de2f1a802",
+            "sim_classes": "456c0fc13014639af2f1d64ea9d3f94b4e117dad6deaf6db2ab8e6d6282a2bc2",
+            "annotation": "6cd96f3fa9e6b64ec4a6fa6167aa210eda61fb0d969ed195a2f5509012a97d34"
+          }
+        }
+      ]
+    },
+    {
+      "gain": 0.03125,
+      "mean_reference_srgb_mae": 0.22125944058815145,
+      "pooled_srgb_mae": 0.22174388293528413,
+      "matched_pixels": 114727,
+      "matched_channels": 344181,
+      "sim_clipped_channel_fraction": 0.0,
+      "real_clipped_channel_fraction": 0.16412294693780308,
+      "per_reference": [
+        {
+          "frame": 3,
+          "reference": "000050_000620",
+          "gain": 0.03125,
+          "matched_pixels": 54900,
+          "matched_channels": 164700,
+          "classes": {
+            "cracker_box": 17552,
+            "soup_can": 414,
+            "mustard_bottle": 14081,
+            "banana": 7751,
+            "power_drill": 15102
+          },
+          "srgb_mae": 0.2099790230603474,
+          "sim_clipped_channel_fraction": 0.0,
+          "real_clipped_channel_fraction": 0.1214996964177292,
+          "sha256": {
+            "real_rgb": "f51b8e0ed5a1285577ad9fcf2050196476ad45b24b09552322b3075bcd4e37d8",
+            "real_classes": "ca572fc0e333f18d90f943ac351312a9c0769176ba2e228a5a5c8315103f220f",
+            "sim_rgb": "537c52f4095b891e0cab196d3d0d5f8126c188fbaec7b6381ee03d513cc4a02c",
+            "sim_classes": "24f87ca52eb7d859ec03a01f11eab2a75c1b1e032cb1007957721d088f7a1294",
+            "annotation": "f8411e858a396922c88db428ba98596c4ce4848e575aa70193ce2ee9087304b9"
+          }
+        },
+        {
+          "frame": 8,
+          "reference": "000051_000001",
+          "gain": 0.03125,
+          "matched_pixels": 59827,
+          "matched_channels": 179481,
+          "classes": {
+            "master_chef_can": 13382,
+            "sugar_box": 16254,
+            "soup_can": 8338,
+            "cleanser": 18300,
+            "scissors": 3553
+          },
+          "srgb_mae": 0.23253985811595548,
+          "sim_clipped_channel_fraction": 0.0,
+          "real_clipped_channel_fraction": 0.20323599712504387,
+          "sha256": {
+            "real_rgb": "14db404266b985c1139bab6db30b2c5e1c4e16f17bc85096535536954f240311",
+            "real_classes": "0302cf835d446aeaf2db2b06028c7a6eedb3e2d14e621f8a8a206752194362ea",
+            "sim_rgb": "4bfc29931e557245a2cdef0ea10e95040f62c7485c6d2666f7bc4a8d447b60f7",
+            "sim_classes": "456c0fc13014639af2f1d64ea9d3f94b4e117dad6deaf6db2ab8e6d6282a2bc2",
+            "annotation": "1fe15f4f502e568018d310308432c949bc9e599d50f29bd49a2717012a3de182"
+          }
+        }
+      ]
+    },
+    {
+      "gain": 0.0625,
+      "mean_reference_srgb_mae": 0.17521329665350505,
+      "pooled_srgb_mae": 0.17549450582630627,
+      "matched_pixels": 114727,
+      "matched_channels": 344181,
+      "sim_clipped_channel_fraction": 0.0022052350362164095,
+      "real_clipped_channel_fraction": 0.16412294693780308,
+      "per_reference": [
+        {
+          "frame": 2,
+          "reference": "000050_000620",
+          "gain": 0.0625,
+          "matched_pixels": 54900,
+          "matched_channels": 164700,
+          "classes": {
+            "cracker_box": 17552,
+            "soup_can": 414,
+            "mustard_bottle": 14081,
+            "banana": 7751,
+            "power_drill": 15102
+          },
+          "srgb_mae": 0.16866523804421585,
+          "sim_clipped_channel_fraction": 0.004602307225258045,
+          "real_clipped_channel_fraction": 0.1214996964177292,
+          "sha256": {
+            "real_rgb": "f51b8e0ed5a1285577ad9fcf2050196476ad45b24b09552322b3075bcd4e37d8",
+            "real_classes": "ca572fc0e333f18d90f943ac351312a9c0769176ba2e228a5a5c8315103f220f",
+            "sim_rgb": "fa1c408de112bdfce04ec8ae4d552aa5c652e88859ee30b9cd8329d73e702073",
+            "sim_classes": "24f87ca52eb7d859ec03a01f11eab2a75c1b1e032cb1007957721d088f7a1294",
+            "annotation": "10d918da2bedd65ff38ea2b94f167b24770e8ad41bbe97770e1ef40d41d95620"
+          }
+        },
+        {
+          "frame": 7,
+          "reference": "000051_000001",
+          "gain": 0.0625,
+          "matched_pixels": 59827,
+          "matched_channels": 179481,
+          "classes": {
+            "master_chef_can": 13382,
+            "sugar_box": 16254,
+            "soup_can": 8338,
+            "cleanser": 18300,
+            "scissors": 3553
+          },
+          "srgb_mae": 0.18176135526279422,
+          "sim_clipped_channel_fraction": 5.571620394359291e-06,
+          "real_clipped_channel_fraction": 0.20323599712504387,
+          "sha256": {
+            "real_rgb": "14db404266b985c1139bab6db30b2c5e1c4e16f17bc85096535536954f240311",
+            "real_classes": "0302cf835d446aeaf2db2b06028c7a6eedb3e2d14e621f8a8a206752194362ea",
+            "sim_rgb": "6a604ff28a318e194d975e5a48802f651d7f942a7b152e1fff241eda48d2fd76",
+            "sim_classes": "456c0fc13014639af2f1d64ea9d3f94b4e117dad6deaf6db2ab8e6d6282a2bc2",
+            "annotation": "2513ac0a9d5ad4ed4a7b9c8fc9d249b0a010b534da54ea9df36e05c5456b774b"
+          }
+        }
+      ]
+    },
+    {
+      "gain": 0.125,
+      "mean_reference_srgb_mae": 0.20144606948367735,
+      "pooled_srgb_mae": 0.20120277571690365,
+      "matched_pixels": 114727,
+      "matched_channels": 344181,
+      "sim_clipped_channel_fraction": 0.19633855442339931,
+      "real_clipped_channel_fraction": 0.16412294693780308,
+      "per_reference": [
+        {
+          "frame": 1,
+          "reference": "000050_000620",
+          "gain": 0.125,
+          "matched_pixels": 54900,
+          "matched_channels": 164700,
+          "classes": {
+            "cracker_box": 17552,
+            "soup_can": 414,
+            "mustard_bottle": 14081,
+            "banana": 7751,
+            "power_drill": 15102
+          },
+          "srgb_mae": 0.2071112539733562,
+          "sim_clipped_channel_fraction": 0.1962234365513054,
+          "real_clipped_channel_fraction": 0.1214996964177292,
+          "sha256": {
+            "real_rgb": "f51b8e0ed5a1285577ad9fcf2050196476ad45b24b09552322b3075bcd4e37d8",
+            "real_classes": "ca572fc0e333f18d90f943ac351312a9c0769176ba2e228a5a5c8315103f220f",
+            "sim_rgb": "e6bec63abf8c6882ae23973f463147e666e20984c1e3c4105ffe1020972dcd62",
+            "sim_classes": "24f87ca52eb7d859ec03a01f11eab2a75c1b1e032cb1007957721d088f7a1294",
+            "annotation": "1ad4833f6f0fbf22c2d3c7e714d1ec49338a162b60d5754f538cf979174c0816"
+          }
+        },
+        {
+          "frame": 6,
+          "reference": "000051_000001",
+          "gain": 0.125,
+          "matched_pixels": 59827,
+          "matched_channels": 179481,
+          "classes": {
+            "master_chef_can": 13382,
+            "sugar_box": 16254,
+            "soup_can": 8338,
+            "cleanser": 18300,
+            "scissors": 3553
+          },
+          "srgb_mae": 0.1957808849939985,
+          "sim_clipped_channel_fraction": 0.1964441918643199,
+          "real_clipped_channel_fraction": 0.20323599712504387,
+          "sha256": {
+            "real_rgb": "14db404266b985c1139bab6db30b2c5e1c4e16f17bc85096535536954f240311",
+            "real_classes": "0302cf835d446aeaf2db2b06028c7a6eedb3e2d14e621f8a8a206752194362ea",
+            "sim_rgb": "369f09900939bd6027f0ad19476f36913df15b946ac295d8fe795f7ebeebd669",
+            "sim_classes": "456c0fc13014639af2f1d64ea9d3f94b4e117dad6deaf6db2ab8e6d6282a2bc2",
+            "annotation": "bb65e47ab23114719abb07f9c3098e30db24ce2c2e3164b641290d7881afbc12"
+          }
+        }
+      ]
+    },
+    {
+      "gain": 0.25,
+      "mean_reference_srgb_mae": 0.2840208140674122,
+      "pooled_srgb_mae": 0.2838075907506715,
+      "matched_pixels": 114727,
+      "matched_channels": 344181,
+      "sim_clipped_channel_fraction": 0.3932088058318152,
+      "real_clipped_channel_fraction": 0.16412294693780308,
+      "per_reference": [
+        {
+          "frame": 0,
+          "reference": "000050_000620",
+          "gain": 0.25,
+          "matched_pixels": 54900,
+          "matched_channels": 164700,
+          "classes": {
+            "cracker_box": 17552,
+            "soup_can": 414,
+            "mustard_bottle": 14081,
+            "banana": 7751,
+            "power_drill": 15102
+          },
+          "srgb_mae": 0.2889857971118016,
+          "sim_clipped_channel_fraction": 0.3780995749848209,
+          "real_clipped_channel_fraction": 0.1214996964177292,
+          "sha256": {
+            "real_rgb": "f51b8e0ed5a1285577ad9fcf2050196476ad45b24b09552322b3075bcd4e37d8",
+            "real_classes": "ca572fc0e333f18d90f943ac351312a9c0769176ba2e228a5a5c8315103f220f",
+            "sim_rgb": "90e8cfbe35f61635d3e4b68d90a9d40c289dff4c1cac7dea30f2fad1eae62a25",
+            "sim_classes": "24f87ca52eb7d859ec03a01f11eab2a75c1b1e032cb1007957721d088f7a1294",
+            "annotation": "97bf70160373baccc2e74145bfed61de1e1e3195f2d3f99e8d47d44029b9b925"
+          }
+        },
+        {
+          "frame": 5,
+          "reference": "000051_000001",
+          "gain": 0.25,
+          "matched_pixels": 59827,
+          "matched_channels": 179481,
+          "classes": {
+            "master_chef_can": 13382,
+            "sugar_box": 16254,
+            "soup_can": 8338,
+            "cleanser": 18300,
+            "scissors": 3553
+          },
+          "srgb_mae": 0.2790558310230227,
+          "sim_clipped_channel_fraction": 0.40707372925267854,
+          "real_clipped_channel_fraction": 0.20323599712504387,
+          "sha256": {
+            "real_rgb": "14db404266b985c1139bab6db30b2c5e1c4e16f17bc85096535536954f240311",
+            "real_classes": "0302cf835d446aeaf2db2b06028c7a6eedb3e2d14e621f8a8a206752194362ea",
+            "sim_rgb": "0fe57cb9c275a31ad3cb0adc08d2e6134e57dc11ab1facaf00527687ff60eab8",
+            "sim_classes": "456c0fc13014639af2f1d64ea9d3f94b4e117dad6deaf6db2ab8e6d6282a2bc2",
+            "annotation": "5a1f55b42dc60dbf4886a03e0ea8d06b5220f78735f849a6b5bb99110951f65e"
+          }
+        }
+      ]
+    }
+  ],
+  "held_out_policy": "Only explicitly named calibration references were scored; no held-out reference was fitted."
+}

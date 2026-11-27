@@ -1,0 +1,35 @@
+{
+  "status": "pass",
+  "frames": 6,
+  "resolution": [
+    640,
+    480
+  ],
+  "distinct_rgb": 6,
+  "instances_count_by_class": {
+    "cracker_box": 3,
+    "soup_can": 6,
+    "mustard_bottle": 3,
+    "banana": 3,
+    "power_drill": 3,
+    "master_chef_can": 3,
+    "sugar_box": 3,
+    "cleanser": 3,
+    "scissors": 3
+  },
+  "camera_samples": {
+    "000050_000620": 1,
+    "000050_001150": 1,
+    "000050_001874": 1,
+    "000051_000001": 1,
+    "000051_001076": 1,
+    "000051_001927": 1
+  },
+  "layouts": {
+    "real_scene_50": 3,
+    "real_scene_51": 3
+  },
+  "empty_frames": 0,
+  "boxes": 30,
+  "campaign_key": "aba25073a3990a9660e0f24dd42475f097cb45dde4e14c88cc3f7bfc795ee08c"
+}

@@ -1,0 +1,21 @@
+WARNING:usd_validation_nvidia.cli._validation:[IndexedPrimvarChecker] primvars:st contains repeated values that can be indexed. At Attribute (primvars:st) Prim </World/Props/Carton/CorrugationFront>
+WARNING:usd_validation_nvidia.cli._validation:[IndexedPrimvarChecker] primvars:st contains repeated values that can be indexed. At Attribute (primvars:st) Prim </World/Props/Carton/CorrugationBack>
+WARNING:usd_validation_nvidia.cli._validation:[IndexedPrimvarChecker] primvars:st contains repeated values that can be indexed. At Attribute (primvars:st) Prim </World/Props/Carton/CorrugationFront>
+WARNING:usd_validation_nvidia.cli._validation:[IndexedPrimvarChecker] primvars:st contains repeated values that can be indexed. At Attribute (primvars:st) Prim </World/Props/Carton/CorrugationBack>
+WARNING:usd_validation_nvidia.cli._validation:[ManifoldChecker] The face winding is not consistent. At Prim </World/Props/Carton/CorrugationFront>
+WARNING:usd_validation_nvidia.cli._validation:[ManifoldChecker] The face winding is not consistent. At Prim </World/Props/Carton/CorrugationBack>
+WARNING:usd_validation_nvidia.cli._validation:[ManifoldChecker] The face winding is not consistent. At Prim </World/Props/Carton/CorrugationFront>
+WARNING:usd_validation_nvidia.cli._validation:[ManifoldChecker] The face winding is not consistent. At Prim </World/Props/Carton/CorrugationBack>
+ERROR:usd_validation_nvidia.cli._validation:[NormalsExistChecker] Either normals should be authored or subdivision should be set to Catmull-Clark or Loop  At Prim </World/Props/Carton/CorrugationFront>
+ERROR:usd_validation_nvidia.cli._validation:[NormalsExistChecker] Either normals should be authored or subdivision should be set to Catmull-Clark or Loop  At Prim </World/Props/Carton/CorrugationBack>
+ERROR:usd_validation_nvidia.cli._validation:[NormalsExistChecker] Either normals should be authored or subdivision should be set to Catmull-Clark or Loop  At Prim </World/Props/Carton/CorrugationFront>
+ERROR:usd_validation_nvidia.cli._validation:[NormalsExistChecker] Either normals should be authored or subdivision should be set to Catmull-Clark or Loop  At Prim </World/Props/Carton/CorrugationBack>
+ERROR:usd_validation_nvidia.cli._validation:ManifoldChecker: 0 Failures / 4 Warnings / 0 Errors / 0 Infos 
+ERROR:usd_validation_nvidia.cli._validation:IndexedPrimvarChecker: 0 Failures / 4 Warnings / 0 Errors / 0 Infos 
+ERROR:usd_validation_nvidia.cli._validation:NormalsExistChecker: 4 Failures / 0 Warnings / 0 Errors / 0 Infos 
+ERROR:usd_validation_nvidia.cli._validation:--------------------------------------------------------------------------------------------------------------------------------
+ERROR:usd_validation_nvidia.cli._validation:Summary per Severity:
+ERROR:usd_validation_nvidia.cli._validation:Failures: 4
+ERROR:usd_validation_nvidia.cli._validation:Warnings: 8
+ERROR:usd_validation_nvidia.cli._validation:Errors: 0
+ERROR:usd_validation_nvidia.cli._validation:Infos: 0

@@ -1,0 +1,472 @@
+{
+  "format": 2,
+  "seed": 20261125,
+  "classes": {
+    "cracker_box": 2,
+    "sugar_box": 3,
+    "mustard_bottle": 5,
+    "carton": 21,
+    "handset": 22,
+    "tray": 23
+  },
+  "instances": [
+    {
+      "id": "crate",
+      "class": "carton",
+      "prim": "/World/Props/Carton",
+      "jitter_xy_m": [
+        0.018,
+        0.013
+      ],
+      "yaw_deg": [
+        -48,
+        48
+      ],
+      "probability": 0.91
+    },
+    {
+      "id": "bin",
+      "class": "tray",
+      "prim": "/World/Props/Tray",
+      "jitter_xy_m": [
+        0.008,
+        0.008
+      ],
+      "yaw_deg": [
+        -7,
+        7
+      ],
+      "probability": 1.0
+    },
+    {
+      "id": "device",
+      "class": "handset",
+      "prim": "/World/Props/Handset",
+      "jitter_xy_m": [
+        0.07,
+        0.05
+      ],
+      "yaw_deg": [
+        -115,
+        115
+      ],
+      "probability": 0.92
+    },
+    {
+      "id": "crackers",
+      "class": "cracker_box",
+      "prim": "/World/Props/CrackerBox",
+      "jitter_xy_m": [
+        0.028,
+        0.025
+      ],
+      "yaw_deg": [
+        -165,
+        165
+      ],
+      "probability": 0.96,
+      "asset": "../ycb/models/obj_000002.usdc"
+    },
+    {
+      "id": "sugar",
+      "class": "sugar_box",
+      "prim": "/World/Props/Sugar",
+      "jitter_xy_m": [
+        0.03,
+        0.03
+      ],
+      "yaw_deg": [
+        -170,
+        170
+      ],
+      "probability": 0.96,
+      "asset": "../ycb/models/obj_000003.usdc"
+    },
+    {
+      "id": "mustard",
+      "class": "mustard_bottle",
+      "prim": "/World/Props/Mustard",
+      "jitter_xy_m": [
+        0.024,
+        0.027
+      ],
+      "yaw_deg": [
+        -180,
+        180
+      ],
+      "probability": 0.94,
+      "asset": "../ycb/models/obj_000005.usdc"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../inspection/assets/carton/carton.usdc",
+      "sha256": "b9175439640632377d1bb409b7d092166454d0e4c615e31d71477ed23b3d6120"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/Cardboard002_1K-JPG_Color.jpg",
+      "sha256": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/Cardboard002_1K-JPG_NormalGL.jpg",
+      "sha256": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/Cardboard002_1K-JPG_Roughness.jpg",
+      "sha256": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/Paper005_1K-JPG_Color.jpg",
+      "sha256": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/Paper005_1K-JPG_NormalGL.jpg",
+      "sha256": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/Paper005_1K-JPG_Roughness.jpg",
+      "sha256": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/label_base.png",
+      "sha256": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/label_normal.png",
+      "sha256": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/label_print_base.png",
+      "sha256": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/label_rough.png",
+      "sha256": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/tape_normal.png",
+      "sha256": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9"
+    },
+    {
+      "path": "../../inspection/assets/carton/textures/tape_rough.png",
+      "sha256": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939"
+    },
+    {
+      "path": "../../inspection/assets/handset/handset.usdc",
+      "sha256": "c4ccdc040b263b4a8cbfe1800724473d1300575fc255f44906545679889e9029"
+    },
+    {
+      "path": "../../inspection/assets/handset/textures/brushed_steel_base.png",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225"
+    },
+    {
+      "path": "../../inspection/assets/handset/textures/brushed_steel_metal.png",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b"
+    },
+    {
+      "path": "../../inspection/assets/handset/textures/brushed_steel_normal.png",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945"
+    },
+    {
+      "path": "../../inspection/assets/handset/textures/brushed_steel_rough.png",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307"
+    },
+    {
+      "path": "../../inspection/assets/handset/textures/polymer_base.png",
+      "sha256": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb"
+    },
+    {
+      "path": "../../inspection/assets/handset/textures/polymer_normal.png",
+      "sha256": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee"
+    },
+    {
+      "path": "../../inspection/assets/handset/textures/polymer_rough.png",
+      "sha256": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3"
+    },
+    {
+      "path": "../../inspection/assets/tray/textures/brushed_steel_base.png",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225"
+    },
+    {
+      "path": "../../inspection/assets/tray/textures/brushed_steel_metal.png",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b"
+    },
+    {
+      "path": "../../inspection/assets/tray/textures/brushed_steel_normal.png",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945"
+    },
+    {
+      "path": "../../inspection/assets/tray/textures/brushed_steel_rough.png",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307"
+    },
+    {
+      "path": "../../inspection/assets/tray/tray.usdc",
+      "sha256": "5ac0496932df11ead9e3ebc2e86840ce322fa18059b1274f97cc054f804dfcc9"
+    },
+    {
+      "path": "../../inspection/cameras.usda",
+      "sha256": "20ff18ab0f6f23e209b867559d4c40cc2796054d177d2e942786e36ab52b27d0"
+    },
+    {
+      "path": "../../inspection/environment.usda",
+      "sha256": "497eec1e0728694e3e366d9601b18bb04b228c4f1aaa34e289e731ee28b4b652"
+    },
+    {
+      "path": "../../inspection/geometry.usdc",
+      "sha256": "157e60327336a027913e9d88686dac38623ef3a05277582c8b7e7e0ac9a9ba78"
+    },
+    {
+      "path": "../../inspection/lighting.usda",
+      "sha256": "ae8d4c64143304f5cdcb290e5ad0bd86d5b7bbf1e472dc00d1b999ac23ff5989"
+    },
+    {
+      "path": "../../inspection/lighting/empty_warehouse_01_1k.hdr",
+      "sha256": "9b3d611cadc32c3a0c7e084ce5611c0650293881c4a041e7fa13748fe0dc6451"
+    },
+    {
+      "path": "../../inspection/scene.usda",
+      "sha256": "8cb1746881b976ed4f52283161605d183db989d515ddc76e397b64d46b3bfa07"
+    },
+    {
+      "path": "../../inspection/textures/Cardboard002_1K-JPG_Color.jpg",
+      "sha256": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde"
+    },
+    {
+      "path": "../../inspection/textures/Cardboard002_1K-JPG_NormalGL.jpg",
+      "sha256": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a"
+    },
+    {
+      "path": "../../inspection/textures/Cardboard002_1K-JPG_Roughness.jpg",
+      "sha256": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e"
+    },
+    {
+      "path": "../../inspection/textures/Paper005_1K-JPG_Color.jpg",
+      "sha256": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1"
+    },
+    {
+      "path": "../../inspection/textures/Paper005_1K-JPG_NormalGL.jpg",
+      "sha256": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa"
+    },
+    {
+      "path": "../../inspection/textures/Paper005_1K-JPG_Roughness.jpg",
+      "sha256": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c"
+    },
+    {
+      "path": "../../inspection/textures/brushed_steel_base.png",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225"
+    },
+    {
+      "path": "../../inspection/textures/brushed_steel_metal.png",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b"
+    },
+    {
+      "path": "../../inspection/textures/brushed_steel_normal.png",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945"
+    },
+    {
+      "path": "../../inspection/textures/brushed_steel_rough.png",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307"
+    },
+    {
+      "path": "../../inspection/textures/concrete_floor_painted_base.jpg",
+      "sha256": "f99ff99ed191e924d3bcbf4f345bb9973467ae18dceddee34bc013f01702c358"
+    },
+    {
+      "path": "../../inspection/textures/concrete_floor_painted_normal.png",
+      "sha256": "d41acd3546d47f2ceabddb3b73e0ef9e6bf288866c82604f0f88076734999205"
+    },
+    {
+      "path": "../../inspection/textures/concrete_floor_painted_rough.jpg",
+      "sha256": "2bd547b54210fa2ffd48d212c0d461c8b0f7bd6fb57797c2f114dc5ca552fee9"
+    },
+    {
+      "path": "../../inspection/textures/label_base.png",
+      "sha256": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522"
+    },
+    {
+      "path": "../../inspection/textures/label_normal.png",
+      "sha256": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8"
+    },
+    {
+      "path": "../../inspection/textures/label_print_base.png",
+      "sha256": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b"
+    },
+    {
+      "path": "../../inspection/textures/label_rough.png",
+      "sha256": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d"
+    },
+    {
+      "path": "../../inspection/textures/metal_plate_02_base.jpg",
+      "sha256": "6e80877d0e9d5973d96298c6091df7ace906b0a6760afc4f3592e4855f3f1d4c"
+    },
+    {
+      "path": "../../inspection/textures/metal_plate_02_metal.jpg",
+      "sha256": "fb1b120a2be5887dfeebed7a198a8151b292e963713d914b74ed7669434afb41"
+    },
+    {
+      "path": "../../inspection/textures/metal_plate_02_normal.png",
+      "sha256": "a39eee156a992afef4f1453010f2f2ff3c01cd6b5e0ce408259954ce25dd049f"
+    },
+    {
+      "path": "../../inspection/textures/metal_plate_02_rough.jpg",
+      "sha256": "73a6bd6393f6de7be42058584c2d382f2a3e9148ceabc2d02e748e2c860e74d1"
+    },
+    {
+      "path": "../../inspection/textures/plywood_base.jpg",
+      "sha256": "800905650fc6cab2fe7c77c41851f8ea89669f1287ad5ce67c48f435654c0af8"
+    },
+    {
+      "path": "../../inspection/textures/plywood_normal.png",
+      "sha256": "20e6e3fcfe50bfb295f941df3bd34b02c36788eeca88c8cbeafd87bb4fab4c1e"
+    },
+    {
+      "path": "../../inspection/textures/plywood_rough.jpg",
+      "sha256": "c4600551fa90bf1222de07b5d92e09456501f0449a4f315c203770bfcbd97aaf"
+    },
+    {
+      "path": "../../inspection/textures/polymer_base.png",
+      "sha256": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb"
+    },
+    {
+      "path": "../../inspection/textures/polymer_normal.png",
+      "sha256": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee"
+    },
+    {
+      "path": "../../inspection/textures/polymer_rough.png",
+      "sha256": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3"
+    },
+    {
+      "path": "../../inspection/textures/tape_base.png",
+      "sha256": "e4884473bf6b31657d370a65e4c0be246bbb3d31fc9975c3a5838c52739175ad"
+    },
+    {
+      "path": "../../inspection/textures/tape_normal.png",
+      "sha256": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9"
+    },
+    {
+      "path": "../../inspection/textures/tape_rough.png",
+      "sha256": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939"
+    },
+    {
+      "path": "../../inspection/textures/wall_paint_base.png",
+      "sha256": "17a27d94869301be83853f776eae66ba1223582f952d8a8719550b29ca5b2532"
+    },
+    {
+      "path": "../../inspection/textures/wall_paint_normal.png",
+      "sha256": "740ea24dc544d8a6adf0f7b1b8414ead0342bdc161ccda5b1a4def2fe453fcc7"
+    },
+    {
+      "path": "../../inspection/textures/wall_paint_rough.png",
+      "sha256": "a81d86850a761301c2b64a32dddfd5c18886895a8f7380ce5228225b9d268a4a"
+    },
+    {
+      "path": "../finishes/finish03/base.png",
+      "sha256": "8ce43917599d7d4b550ed7fe54045c79ca2fae98d4edb8f6823e4396294c6322"
+    },
+    {
+      "path": "../finishes/finish03/normal.png",
+      "sha256": "06bba6009c4d101bee54090fe27fec6c4c3d5036ceba0fc4e48bd110c034739c"
+    },
+    {
+      "path": "../finishes/finish03/rough.png",
+      "sha256": "81652eb4f16fd2e8dae236180449700ca42739a8e32d04d18977845ed15081ae"
+    },
+    {
+      "path": "../finishes/finish07/base.png",
+      "sha256": "2091533b8625a7e43446069f9b70d4df5e2851cd64c07a78a7b007861d5720bf"
+    },
+    {
+      "path": "../finishes/finish07/normal.png",
+      "sha256": "2e60be225d3b64d0d7b921870747975bcd3784a0695a9ad8972ca514ab7b2c98"
+    },
+    {
+      "path": "../finishes/finish07/rough.png",
+      "sha256": "609da204bef5313c418ddcbd758fe80a0bddd361d9d940dd5fbf90ef5a0eb972"
+    },
+    {
+      "path": "../handling-mark.png",
+      "sha256": "621e684cf9d5eb4546925ff33ad9a7bb41f3e08b7dbadb1e8984c720d6d52377"
+    },
+    {
+      "path": "../ycb/models/obj_000002.jpg",
+      "sha256": "73e8d2ad7e6259dbc02a484d83609de51a3b605acfc107c02da1990f0ee85b4d"
+    },
+    {
+      "path": "../ycb/models/obj_000002.usdc",
+      "sha256": "246c69cca8be78654cd31ea01fa227876efa9affe7ae4ef36b608d8856b79d86"
+    },
+    {
+      "path": "../ycb/models/obj_000003.jpg",
+      "sha256": "e6633e1bb92b9ca5e463817fdc84ff028d4a1250bb989c3115bb482b8c5e3a41"
+    },
+    {
+      "path": "../ycb/models/obj_000003.usdc",
+      "sha256": "9f89d2d76bf177ffe44e92dbb20699e1d7cfcddfecd72e61a1e7fb4ed3de85c4"
+    },
+    {
+      "path": "../ycb/models/obj_000005.jpg",
+      "sha256": "c086f493b0dc2a44e749297237e43f165907ad2a1b48590464adc6868cba48d5"
+    },
+    {
+      "path": "../ycb/models/obj_000005.usdc",
+      "sha256": "6c035f0081844c61d646628c03e0d74a6e39c414e1386b4114cd0b61ace22b96"
+    },
+    {
+      "path": "production.toml",
+      "sha256": "6d92d9d45043398e38e004809fe6f12232fc1693836ed237214cb748e3e7620c"
+    },
+    {
+      "path": "scene.usda",
+      "sha256": "378c8604a920b8d802bc7f9dee5c84186ab4e36bc15b4ef15b492d7269b9ccb1"
+    }
+  ],
+  "renderer": {
+    "/rtx/rendermode": "PathTracing",
+    "/rtx/post/aa/op": 0,
+    "/rtx/post/histogram/enabled": false,
+    "/rtx/post/tonemap/filmIso": 100.0,
+    "/rtx/post/tonemap/cameraShutter": 1.0,
+    "/rtx/post/tonemap/fNumber": 5.0,
+    "/rtx/post/tonemap/op": 1,
+    "/rtx/post/tonemap/colorMode": 0,
+    "/rtx/pathtracing/spp": 16,
+    "/rtx/pathtracing/maxBounces": 4,
+    "/rtx/pathtracing/totalSpp": 432,
+    "/rtx/pathtracing/optixDenoiser/enabled": true
+  },
+  "resolution": [
+    960,
+    720
+  ],
+  "rt_subframes": 3,
+  "warmup_frames": 24,
+  "engine": {
+    "isaacsim_app": [
+      "6.2.0",
+      "rc.14",
+      "6",
+      "2",
+      "0",
+      "rc",
+      "14",
+      "release.52805.02189a84.gl"
+    ],
+    "replicator_extension": "omni.replicator.core-1.13.38"
+  },
+  "code": {
+    "capture_campaign.py": "0b96fdba7dd2c430f75e401f8c636d240877b24a86db554caebe95d31c24caa5",
+    "capture_isaac.py": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+    "generate_dataset.py": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+    "campaign.py": "ac779cdf90c831d9743684e679dc0d51577cc39e10926ede5bf61cb108028a59",
+    "visibility.py": "de9b5861db8de97e9f5c63da97fb0799dbc1d3da5f92cad2ab6407fc1aa9f09d"
+  },
+  "depth": "Euclidean metres from optical center; background may be infinite",
+  "exposure": {
+    "iso": 100,
+    "time": 1,
+    "fstop": 5,
+    "responsivity": 1,
+    "compensation_ev": 0
+  },
+  "campaign_key": "7f7ac4c6aac804111edfc353f910d20d9b9a4a5541232e83333bf6cf8056cd59"
+}

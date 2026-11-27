@@ -1,0 +1,183 @@
+{
+  "index": 1,
+  "sampled": {
+    "carton": {
+      "xy_offset_m": [
+        0.014224392362743712,
+        -0.021011877632075945
+      ],
+      "yaw_deg": 0.9610150132836104,
+      "roughness_multiplier": 0.8521690646699782,
+      "surface_finish": "standard"
+    },
+    "handheld_scanner": {
+      "xy_offset_m": [
+        0.0041407241832276415,
+        -0.006241634401359979
+      ],
+      "yaw_deg": -7.254160653585034,
+      "roughness_multiplier": 0.9328246003258762,
+      "surface_finish": "standard"
+    },
+    "light_multiplier": 1.1244841576643283,
+    "tape_visible": true,
+    "back_flap_angle_deg": 3.664229451725898
+  },
+  "readback": {
+    "objects": {
+      "carton": {
+        "translate_stage_units": [
+          0.37422440666785844,
+          0.0039881227404530845,
+          0.8924999890327454
+        ],
+        "rotate_z_deg": 0.961014986038208,
+        "surface_finish": "standard",
+        "roughness": {
+          "variant_base_scale": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "effective_scale": [
+            0.8521690368652344,
+            0.8521690368652344,
+            0.8521690368652344,
+            1.0
+          ],
+          "bias": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shader_path": "/World/Props/Carton/Materials/Carton/Roughness"
+        }
+      },
+      "handheld_scanner": {
+        "translate_stage_units": [
+          -0.3758592710484008,
+          -0.03624163373080773,
+          0.9144999985694885
+        ],
+        "rotate_z_deg": -7.2541608810424805,
+        "surface_finish": "standard",
+        "roughness": {
+          "variant_base_scale": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "effective_scale": [
+            0.9328246116638184,
+            0.9328246116638184,
+            0.9328246116638184,
+            1.0
+          ],
+          "bias": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shader_path": "/World/Props/Handset/Materials/Polymer/Roughness"
+        }
+      }
+    },
+    "lights": {
+      "/World/Lights/OverheadSoftbox": 193.37570190429688,
+      "/World/Lights/SteelEdge": 137.39852905273438,
+      "/World/Lights/FrontFill": 48.34392547607422,
+      "/World/Lights/LabelSoftbox": 318.0521545410156,
+      "/World/Lights/Ambient": 2.28997540473938
+    },
+    "back_flap": {
+      "angle_deg": 3.664229393005371,
+      "hinge_local_stage_units": [
+        -2.2351741790771484e-08,
+        0.13499999046325684,
+        0.156000018119812
+      ]
+    },
+    "tape_visibility": "inherited"
+  },
+  "readiness_steps": 1,
+  "boxes": [
+    {
+      "class": "carton",
+      "bbox_semantic_id": 0,
+      "segmentation_ids": [
+        2
+      ],
+      "xyxy_px": [
+        397,
+        53,
+        565,
+        141
+      ],
+      "visible_pixels": 10084,
+      "range_depth_m_median": 2.704573631286621,
+      "occlusion_ratio": -1.0
+    },
+    {
+      "class": "handheld_scanner",
+      "bbox_semantic_id": 1,
+      "segmentation_ids": [
+        3
+      ],
+      "xyxy_px": [
+        266,
+        77,
+        318,
+        89
+      ],
+      "visible_pixels": 376,
+      "range_depth_m_median": 3.190258026123047,
+      "occlusion_ratio": -1.0
+    }
+  ],
+  "segmentation_id_to_labels": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "2": {
+      "class": "carton"
+    },
+    "3": {
+      "class": "handheld_scanner"
+    },
+    "4": {
+      "class": "parts_tray"
+    }
+  },
+  "bbox_id_to_labels": {
+    "0": {
+      "class": "carton"
+    },
+    "1": {
+      "class": "handheld_scanner"
+    },
+    "2": {
+      "class": "parts_tray"
+    }
+  },
+  "files": [
+    {
+      "path": "frame_0001/rgb.png",
+      "sha256": "0150aa2617f34511d123d3c9d97bccb861117649f39ab36c7f97ccfdf8b0ee1b"
+    },
+    {
+      "path": "frame_0001/semantic_ids.npy",
+      "sha256": "144b4034a5afb6c83cef897f91a77a7cad3c05944d93c665ebd5a3e1da572ad7"
+    },
+    {
+      "path": "frame_0001/distance_to_camera_m.npy",
+      "sha256": "b5184cb9201da5242264ac17a4f91de37ac4d677c59b6834610193fc7565943e"
+    }
+  ]
+}

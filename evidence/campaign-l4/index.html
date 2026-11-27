@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Isaac Sim・RTX の撮影と実写評価</title>
+<style>
+*{box-sizing:border-box}body{margin:0;color:#1e2427;background:#f8f8f5;font:16px/1.65 system-ui,-apple-system,sans-serif}main{max-width:1160px;margin:auto;padding:36px 5vw 60px}h1{font-size:clamp(1.8rem,4vw,3rem);line-height:1.15;letter-spacing:-.04em}h2{font-size:1.32rem}a{color:#10536b;text-underline-offset:3px}figure{margin:1.3rem 0 2rem}img{display:block;width:100%;height:auto;background:#222}figcaption{margin:.5rem 0 0;color:#394349}p{max-width:74ch}nav{line-height:2.25}section{border-top:1px solid #b7c1c2;padding-top:.75rem}.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.4rem}@media(max-width:650px){.pair{grid-template-columns:1fr}main{padding-top:14px}}
+</style>
+<main>
+<h1>Isaac Sim・RTX の撮影と実写評価</h1>
+<p>GCP の NVIDIA L4 で、6 クラス・4 カメラ系統・4 配置から 256 枚を撮影した。RGB、個体マスク、距離、学習用矩形を同時に記録した。</p>
+<p><strong>主データの受入結果は不合格。</strong> 実写と位置合わせした未使用の 6 視点では、形と距離が事前の基準を満たし、色誤差が基準を超えた。合成画像で学習した検出器の実写 AP50 は SIFT が 24.94%、SSDLite が 0%。</p>
+<nav><a href="README.md">測定条件と結果</a> ・ <a href="qualification.json">受入判定</a> ・ <a href="../../README.md">自分の USD で使う</a></nav>
+<section><h2>実写と同じ被写体・カメラで比べる</h2>
+<figure><a href="exposure-comparison.jpg"><img src="exposure-comparison.jpg" alt="2 つの実写 RGB-D 系列で実写、初回の明るすぎる RTX、校正で選んだ光量の RTX を横に並べた画像"></a><figcaption>校正に使った 2 視点。左が実写、中央が初回の RTX、右が光量を 1/16 にした RTX。未使用の視点で結果を検査した。 <a href="heldout-quality/strips/00000003.png">未使用の実写との比較</a></figcaption></figure></section>
+<section><h2>異なる USD で材質と照明を切り替える</h2>
+<div class="pair">
+<figure><a href="workshop-inspection/frames/00000002/rgb.png"><img src="workshop-inspection/frames/00000002/rgb.png" loading="lazy" alt="工房の写真環境光だけで撮影した製品と合板"></a><figcaption>写真 HDRI で照明した 2 個体。</figcaption></figure>
+<figure><a href="workshop-inspection/frames/00000003/rgb.png"><img src="workshop-inspection/frames/00000003/rgb.png" loading="lazy" alt="同じカメラと工房で手前から面光源を加えた同じ製品"></a><figcaption>面光源を追加した同じ構図。各原寸 1440 × 1080。 <a href="workshop-gallery/index.html">4 枚の RGB・輪郭・距離</a></figcaption></figure></div></section>
+<section><h2>印刷を切り替えたときの教師マスク</h2>
+<figure><a href="material-qa/decal-control.png"><img src="material-qa/decal-control.png" loading="lazy" alt="印刷なし、修正前、修正後の接写と個体マスク。修正前は印刷の下に黒い穴が生じ、修正後は箱のマスクが連続する"></a><figcaption>上段は RTX の RGB、下段の緑は箱の個体 ID。修正後は印刷の投影範囲 14,228 画素の全てが同じ箱に属する。 <a href="mark-qualification/qualification.json">表示・非表示の両方向の測定</a></figcaption></figure></section>
+<section><h2>教師ラベルと検出結果</h2><nav><a href="review/index.html">256 枚から選んだ RGB・マスク・距離</a> ・ <a href="sensor-color/gallery/index.html">実カメラ校正の適用後</a> ・ <a href="native-model/overlays/scene_54_frame_000001.jpg">SIFT の実写予測</a> ・ <a href="native-neural/overlays/scene_54_frame_000001.jpg">SSDLite の実写予測</a> ・ <a href="physics/final/index.json">Isaac Lab の把持・接触試験</a></nav></section>
+</main></html>

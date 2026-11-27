@@ -1,0 +1,26 @@
+{
+  "campaign_key": "80b608311affb6b5fbf81a88fa620d688d34e3ca5068d7a7560381708ea6c536",
+  "frames": {
+    "0": {
+      "rgb_sha256": "e709b90c58a7e44538f43d78ee078ef63a59e81c8e930e3b334f92d594ae282a",
+      "observation": "窓はよく見えるが、黒っぽい支持面と赤い箱の紙面、右の白い箱の側面が暗く、撮影対象の印刷を読むには照明が足りない。",
+      "decision": "fail"
+    },
+    "1": {
+      "rgb_sha256": "7b8304ff394faf907fdd5bd29b093504f7f5fd3f1a531c0ef80859e3e49ad84e",
+      "observation": "面光源により台の木目の向きと箱の左側の白い成分表が見え、床面や窓の明るさは保たれている。",
+      "decision": "pass"
+    },
+    "2": {
+      "rgb_sha256": "e30830cef663d4f2653dd837020b19c3db7333876fc42ac7c37812239a7e761f",
+      "observation": "工房床のコーンが背景に入る。天板と箱が暗く、赤い箱の暗い角と台面が分離しにくい。",
+      "decision": "fail"
+    },
+    "3": {
+      "rgb_sha256": "bac6334661cb49242f1faf218c748fbce95cd0f631da065767d317c5f331602d",
+      "observation": "赤い箱の背面ラベルと白い箱の上部ロゴが読め、木目を挟む左右の矩形とマスクが別々に合っている。",
+      "decision": "pass"
+    }
+  },
+  "scope": "Visibility of printed product faces and foreground mask alignment under fixed HDRI and a local inspection light."
+}

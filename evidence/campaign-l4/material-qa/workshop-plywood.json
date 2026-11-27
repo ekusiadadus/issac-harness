@@ -1,0 +1,46 @@
+{
+  "scene": "/Users/ekusiadadus/dev/issac-harness/examples/campaign/warehouse-light/inspection.usda",
+  "meshes": [
+    {
+      "mesh": "/World/Surface",
+      "materials": [
+        {
+          "material": "/World/Plywood",
+          "uv": "st",
+          "texture": "/World/Plywood/BaseColor",
+          "image": "/Users/ekusiadadus/dev/issac-harness/examples/inspection/textures/plywood_base.jpg",
+          "image_size": [
+            1024,
+            1024
+          ],
+          "sha256": "800905650fc6cab2fe7c77c41851f8ea89669f1287ad5ce67c48f435654c0af8",
+          "wrapS": "repeat",
+          "wrapT": "repeat",
+          "faces": [
+            0
+          ],
+          "uv_range": [
+            [
+              0.0,
+              1.6799999475479126
+            ],
+            [
+              0.0,
+              1.2000000476837158
+            ]
+          ],
+          "repeat_span": [
+            1.6799999475479126,
+            1.2000000476837158
+          ],
+          "min_texels_per_metre": 2047.9999999999998,
+          "median_texels_per_metre": 2048.0
+        }
+      ],
+      "errors": [],
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "ok": true
+}

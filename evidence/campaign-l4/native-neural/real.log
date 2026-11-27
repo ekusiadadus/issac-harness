@@ -1,0 +1,281 @@
+predicted test/000049/rgb/000001.png
+predicted test/000049/rgb/000109.png
+predicted test/000049/rgb/000537.png
+predicted test/000049/rgb/000591.png
+predicted test/000049/rgb/000762.png
+predicted test/000049/rgb/001130.png
+predicted test/000049/rgb/001269.png
+predicted test/000049/rgb/001582.png
+predicted test/000049/rgb/001631.png
+predicted test/000049/rgb/001688.png
+predicted test/000049/rgb/002123.png
+predicted test/000052/rgb/000001.png
+predicted test/000052/rgb/000061.png
+predicted test/000052/rgb/000092.png
+predicted test/000052/rgb/000132.png
+predicted test/000052/rgb/000167.png
+predicted test/000052/rgb/000388.png
+predicted test/000052/rgb/000537.png
+predicted test/000052/rgb/000567.png
+predicted test/000052/rgb/000594.png
+predicted test/000052/rgb/000643.png
+predicted test/000052/rgb/000678.png
+predicted test/000053/rgb/000001.png
+predicted test/000053/rgb/000084.png
+predicted test/000053/rgb/000131.png
+predicted test/000053/rgb/000152.png
+predicted test/000053/rgb/000167.png
+predicted test/000053/rgb/000434.png
+predicted test/000053/rgb/000534.png
+predicted test/000053/rgb/000551.png
+predicted test/000053/rgb/000579.png
+predicted test/000053/rgb/000610.png
+predicted test/000053/rgb/000677.png
+predicted test/000054/rgb/000001.png
+predicted test/000054/rgb/000063.png
+predicted test/000054/rgb/000390.png
+predicted test/000054/rgb/000543.png
+predicted test/000054/rgb/000589.png
+predicted test/000054/rgb/001012.png
+predicted test/000054/rgb/001039.png
+predicted test/000054/rgb/001096.png
+predicted test/000054/rgb/001531.png
+predicted test/000054/rgb/001568.png
+predicted test/000054/rgb/001613.png
+predicted test/000055/rgb/000022.png
+predicted test/000055/rgb/000205.png
+predicted test/000055/rgb/000546.png
+predicted test/000055/rgb/000612.png
+predicted test/000055/rgb/000654.png
+predicted test/000055/rgb/001041.png
+predicted test/000055/rgb/001055.png
+predicted test/000055/rgb/001120.png
+predicted test/000055/rgb/001176.png
+predicted test/000055/rgb/001567.png
+predicted test/000055/rgb/001625.png
+predicted test/000056/rgb/000001.png
+predicted test/000056/rgb/000075.png
+predicted test/000056/rgb/000128.png
+predicted test/000056/rgb/000515.png
+predicted test/000056/rgb/000553.png
+predicted test/000056/rgb/000587.png
+predicted test/000056/rgb/000608.png
+predicted test/000056/rgb/000956.png
+predicted test/000056/rgb/001047.png
+predicted test/000056/rgb/001071.png
+predicted test/000056/rgb/001135.png
+predicted test/000058/rgb/000030.png
+predicted test/000058/rgb/000114.png
+predicted test/000058/rgb/000163.png
+predicted test/000058/rgb/000531.png
+predicted test/000058/rgb/000583.png
+predicted test/000058/rgb/000635.png
+predicted test/000058/rgb/000670.png
+predicted test/000058/rgb/001051.png
+predicted test/000058/rgb/001113.png
+predicted test/000058/rgb/001180.png
+predicted test/000058/rgb/001614.png
+predicted test/000059/rgb/000001.png
+predicted test/000059/rgb/000088.png
+predicted test/000059/rgb/000164.png
+predicted test/000059/rgb/000510.png
+predicted test/000059/rgb/000545.png
+predicted test/000059/rgb/000648.png
+predicted test/000059/rgb/001034.png
+predicted test/000059/rgb/001064.png
+predicted test/000059/rgb/001076.png
+predicted test/000059/rgb/001124.png
+predicted test/000059/rgb/001490.png
+{
+  "classes": {
+    "2": {
+      "ap": 0.0,
+      "recall": 0.0,
+      "gt": 22,
+      "predictions": 2756,
+      "ap50_95": 0.0
+    },
+    "3": {
+      "ap": 0.0,
+      "recall": 0.0,
+      "gt": 44,
+      "predictions": 1,
+      "ap50_95": 0.0
+    },
+    "5": {
+      "ap": 0.0,
+      "recall": 0.0,
+      "gt": 11,
+      "predictions": 14,
+      "ap50_95": 0.0
+    }
+  },
+  "macro_ap50": 0.0,
+  "macro_ap50_95": 0.0,
+  "macro_recall50": 0.0,
+  "per_scene": {
+    "49": {
+      "2": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 269
+      },
+      "3": {
+        "ap": 0.0,
+        "recall": 0.0,
+        "gt": 11,
+        "predictions": 0
+      },
+      "5": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 1
+      }
+    },
+    "52": {
+      "2": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 424
+      },
+      "3": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 0
+      },
+      "5": {
+        "ap": 0.0,
+        "recall": 0.0,
+        "gt": 11,
+        "predictions": 0
+      }
+    },
+    "53": {
+      "2": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 433
+      },
+      "3": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 0
+      },
+      "5": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 0
+      }
+    },
+    "54": {
+      "2": {
+        "ap": 0.0,
+        "recall": 0.0,
+        "gt": 11,
+        "predictions": 385
+      },
+      "3": {
+        "ap": 0.0,
+        "recall": 0.0,
+        "gt": 11,
+        "predictions": 0
+      },
+      "5": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 4
+      }
+    },
+    "55": {
+      "2": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 264
+      },
+      "3": {
+        "ap": 0.0,
+        "recall": 0.0,
+        "gt": 11,
+        "predictions": 0
+      },
+      "5": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 4
+      }
+    },
+    "56": {
+      "2": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 348
+      },
+      "3": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 0
+      },
+      "5": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 4
+      }
+    },
+    "58": {
+      "2": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 197
+      },
+      "3": {
+        "ap": 0.0,
+        "recall": 0.0,
+        "gt": 11,
+        "predictions": 1
+      },
+      "5": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 1
+      }
+    },
+    "59": {
+      "2": {
+        "ap": 0.0,
+        "recall": 0.0,
+        "gt": 11,
+        "predictions": 436
+      },
+      "3": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 0
+      },
+      "5": {
+        "ap": null,
+        "recall": null,
+        "gt": 0,
+        "predictions": 0
+      }
+    }
+  },
+  "images": 88,
+  "model_sha256": "51d7c24585c857961c7ea2e875aac2da41b7421fb91bb5efff3677dfac75dcb1",
+  "score_threshold": 0.05
+}

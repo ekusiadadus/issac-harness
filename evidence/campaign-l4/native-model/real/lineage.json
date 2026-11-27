@@ -1,0 +1,20 @@
+{
+  "campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+  "model_sha256": "a89391b77622e4b0e96319515aa69889948ea26ad6ceb9f784dd31d5a43a8028",
+  "implementation_sha256": "f584e36d74534384a8c65dc17b7b6f73ed7f6e6a252cbf97671256156057d6bc",
+  "evaluator_sha256": "6b7cde1628039ba1db60264c3efe6620a5430540eacfce443fd49dfc93a19d1b",
+  "method": "sift",
+  "native_index_sha256": "f6531cd3b74ad6de3064e2c11563b110e054a2b4a697e017f6662dab08651f66",
+  "holdout_layout": "cross_pick",
+  "real_index_sha256": "dbadaa6c9145d1666355e31b829007b7a3e57963e74dd49778c0fe58d583d5c3",
+  "evaluated_classes": [
+    2,
+    3,
+    5
+  ],
+  "scope": "real",
+  "input_audit_sha256": "f30bc4af8a90b697bffb9da766ed0d8e0c655f18343bc35b9fb8ef2f4cde0c74",
+  "metrics_sha256": "7dc41d76cb4cf96be426855aea3f89a8808519e363947bebe27f8a2c85fb5090",
+  "fit_images": 192,
+  "evaluated_images": 88
+}

@@ -1,0 +1,509 @@
+{
+  "status": "fail",
+  "campaign_key": "b2e7164648060a552b9063391a45d9d95851a9e961224938cf9f83d32c68e647",
+  "config": "examples/campaign/ycb/quality.toml",
+  "config_sha256": "1105449e39916ac36dc1897e1b49ce3b2350d1477add870708a815e4a5986667",
+  "references": "examples/campaign/ycb/real",
+  "erosion_px": 2,
+  "scenes": {
+    "real_scene_50": {
+      "frames": 3,
+      "class_samples": 15,
+      "valid_depth_pixels": 204156,
+      "matched_rgb_channels": 679944,
+      "metrics": {
+        "iou_macro": 0.9901144331551406,
+        "z_median_abs_m": 0.001553074479557548,
+        "rgb_mae": 0.177539003788778
+      },
+      "thresholds": {
+        "iou_macro_min": 0.8,
+        "z_median_abs_m_max": 0.015,
+        "rgb_mae_max": 0.1
+      },
+      "status": "fail"
+    },
+    "real_scene_51": {
+      "frames": 3,
+      "class_samples": 15,
+      "valid_depth_pixels": 166042,
+      "matched_rgb_channels": 529992,
+      "metrics": {
+        "iou_macro": 0.9402099440667333,
+        "z_median_abs_m": 0.0016145637014964298,
+        "rgb_mae": 0.24363951183576874
+      },
+      "thresholds": {
+        "iou_macro_min": 0.8,
+        "z_median_abs_m_max": 0.015,
+        "rgb_mae_max": 0.1
+      },
+      "status": "fail"
+    }
+  },
+  "frames": [
+    {
+      "frame": 0,
+      "scene": "real_scene_50",
+      "reference": "000050_000701",
+      "real_sha256": {
+        "rgb.png": "f8d86b3469e85648bee18f2c1d137bbc4d5988f24b4c4a9036fc323e4015b3e6",
+        "classes.png": "21de599334f022690d7f3386a3d62759db0f9cf0718c07217b2b4be0b8111d6e",
+        "z-depth.png": "9ff099e0d4c3fae2fafab531b16342836aa8ddb1343d2a099eb1e71ba034d034"
+      },
+      "classes": {
+        "cracker_box": {
+          "id": 2,
+          "real_pixels": 21097,
+          "sim_pixels": 21243,
+          "intersection_pixels": 20865,
+          "union_pixels": 21475,
+          "iou": 0.9715948777648429,
+          "matched_interior_pixels": 19169,
+          "valid_depth_pixels": 15929,
+          "z_median_abs_m": 0.002115156041272215,
+          "rgb_mae": 0.1735456587211719
+        },
+        "soup_can": {
+          "id": 4,
+          "real_pixels": 723,
+          "sim_pixels": 731,
+          "intersection_pixels": 722,
+          "union_pixels": 732,
+          "iou": 0.9863387978142076,
+          "matched_interior_pixels": 177,
+          "valid_depth_pixels": 0,
+          "z_median_abs_m": null,
+          "rgb_mae": 0.312078579077582
+        },
+        "mustard_bottle": {
+          "id": 5,
+          "real_pixels": 17139,
+          "sim_pixels": 17094,
+          "intersection_pixels": 17059,
+          "union_pixels": 17174,
+          "iou": 0.9933038313730057,
+          "matched_interior_pixels": 15620,
+          "valid_depth_pixels": 14831,
+          "z_median_abs_m": 0.0013443029939628204,
+          "rgb_mae": 0.14400341442594963
+        },
+        "banana": {
+          "id": 10,
+          "real_pixels": 9701,
+          "sim_pixels": 9698,
+          "intersection_pixels": 9682,
+          "union_pixels": 9717,
+          "iou": 0.9963980652464752,
+          "matched_interior_pixels": 8418,
+          "valid_depth_pixels": 8140,
+          "z_median_abs_m": 0.0010062368774720332,
+          "rgb_mae": 0.15005551440501758
+        },
+        "power_drill": {
+          "id": 15,
+          "real_pixels": 18336,
+          "sim_pixels": 18351,
+          "intersection_pixels": 18319,
+          "union_pixels": 18368,
+          "iou": 0.9973323170731707,
+          "matched_interior_pixels": 16322,
+          "valid_depth_pixels": 13225,
+          "z_median_abs_m": 0.0022976457157420915,
+          "rgb_mae": 0.1790503694840678
+        }
+      },
+      "iou_macro": 0.9889935778543404,
+      "z_median_abs_m": 0.001658571487545446,
+      "rgb_mae": 0.16442058461187486,
+      "valid_depth_pixels": 52125,
+      "matched_rgb_channels": 179118
+    },
+    {
+      "frame": 1,
+      "scene": "real_scene_50",
+      "reference": "000050_001098",
+      "real_sha256": {
+        "rgb.png": "9b6f4adb0ef64f43715bb6533cab7cf239fea6cf76d6efbe399e52c901c0849f",
+        "classes.png": "68a2bd8309db137f00cbf80a0c64b7dccdc6e9343c5d93ae1e7848a8ef970d77",
+        "z-depth.png": "dec0591a9db6a4af27abd44087e777e344dba467fb855472ae10ed5db5375e83"
+      },
+      "classes": {
+        "cracker_box": {
+          "id": 2,
+          "real_pixels": 21479,
+          "sim_pixels": 21441,
+          "intersection_pixels": 21384,
+          "union_pixels": 21536,
+          "iou": 0.9929420505200595,
+          "matched_interior_pixels": 19913,
+          "valid_depth_pixels": 19025,
+          "z_median_abs_m": 0.001852925747688472,
+          "rgb_mae": 0.19706074364662754
+        },
+        "soup_can": {
+          "id": 4,
+          "real_pixels": 5174,
+          "sim_pixels": 5161,
+          "intersection_pixels": 5157,
+          "union_pixels": 5178,
+          "iou": 0.9959443800695249,
+          "matched_interior_pixels": 4322,
+          "valid_depth_pixels": 3587,
+          "z_median_abs_m": 0.005418946629795363,
+          "rgb_mae": 0.24015358418548663
+        },
+        "mustard_bottle": {
+          "id": 5,
+          "real_pixels": 24413,
+          "sim_pixels": 24257,
+          "intersection_pixels": 24251,
+          "union_pixels": 24419,
+          "iou": 0.9931201113886727,
+          "matched_interior_pixels": 22676,
+          "valid_depth_pixels": 21761,
+          "z_median_abs_m": 0.0011129311833486533,
+          "rgb_mae": 0.16072361207668814
+        },
+        "banana": {
+          "id": 10,
+          "real_pixels": 13748,
+          "sim_pixels": 13756,
+          "intersection_pixels": 13716,
+          "union_pixels": 13788,
+          "iou": 0.9947780678851175,
+          "matched_interior_pixels": 12290,
+          "valid_depth_pixels": 11572,
+          "z_median_abs_m": 0.0009329126518576314,
+          "rgb_mae": 0.16952078580279414
+        },
+        "power_drill": {
+          "id": 15,
+          "real_pixels": 27001,
+          "sim_pixels": 27011,
+          "intersection_pixels": 26970,
+          "union_pixels": 27042,
+          "iou": 0.9973374750388285,
+          "matched_interior_pixels": 24681,
+          "valid_depth_pixels": 20909,
+          "z_median_abs_m": 0.0017642395362698071,
+          "rgb_mae": 0.1716825914353424
+        }
+      },
+      "iou_macro": 0.9948244169804406,
+      "z_median_abs_m": 0.001469454260695613,
+      "rgb_mae": 0.17795583680966087,
+      "valid_depth_pixels": 76854,
+      "matched_rgb_channels": 251646
+    },
+    {
+      "frame": 2,
+      "scene": "real_scene_50",
+      "reference": "000050_001593",
+      "real_sha256": {
+        "rgb.png": "6fc362de57b1b29c35ca3ea061cb464a22fcd8c6857bf8862e48bb5678dbd6f2",
+        "classes.png": "6e705018047a22e44689cb6efcb4712092515d7743c6c646905d000b82472b29",
+        "z-depth.png": "3fd4460174c8b8d227739e4788335bcf6cab16c840dcfd29d6732dee786a77da"
+      },
+      "classes": {
+        "cracker_box": {
+          "id": 2,
+          "real_pixels": 23387,
+          "sim_pixels": 24284,
+          "intersection_pixels": 23248,
+          "union_pixels": 24423,
+          "iou": 0.9518896122507472,
+          "matched_interior_pixels": 20885,
+          "valid_depth_pixels": 17850,
+          "z_median_abs_m": 0.0017088757746026584,
+          "rgb_mae": 0.2078925206663944
+        },
+        "soup_can": {
+          "id": 4,
+          "real_pixels": 7052,
+          "sim_pixels": 7037,
+          "intersection_pixels": 7028,
+          "union_pixels": 7061,
+          "iou": 0.9953264410140207,
+          "matched_interior_pixels": 6207,
+          "valid_depth_pixels": 5252,
+          "z_median_abs_m": 0.004398611565639088,
+          "rgb_mae": 0.20370570439657523
+        },
+        "mustard_bottle": {
+          "id": 5,
+          "real_pixels": 22628,
+          "sim_pixels": 22438,
+          "intersection_pixels": 22426,
+          "union_pixels": 22640,
+          "iou": 0.990547703180212,
+          "matched_interior_pixels": 20920,
+          "valid_depth_pixels": 20615,
+          "z_median_abs_m": 0.0011161289963024235,
+          "rgb_mae": 0.1819504117772029
+        },
+        "banana": {
+          "id": 10,
+          "real_pixels": 12381,
+          "sim_pixels": 12363,
+          "intersection_pixels": 12352,
+          "union_pixels": 12392,
+          "iou": 0.9967721110393802,
+          "matched_interior_pixels": 11008,
+          "valid_depth_pixels": 10414,
+          "z_median_abs_m": 0.0012000126142562295,
+          "rgb_mae": 0.17869321420428635
+        },
+        "power_drill": {
+          "id": 15,
+          "real_pixels": 26158,
+          "sim_pixels": 26166,
+          "intersection_pixels": 26137,
+          "union_pixels": 26187,
+          "iou": 0.9980906556688434,
+          "matched_interior_pixels": 24040,
+          "valid_depth_pixels": 21046,
+          "z_median_abs_m": 0.0018260010046753927,
+          "rgb_mae": 0.17117217491544592
+        }
+      },
+      "iou_macro": 0.9865253046306407,
+      "z_median_abs_m": 0.0015787021708347782,
+      "rgb_mae": 0.18654795572615432,
+      "valid_depth_pixels": 75177,
+      "matched_rgb_channels": 249180
+    },
+    {
+      "frame": 3,
+      "scene": "real_scene_51",
+      "reference": "000051_000553",
+      "real_sha256": {
+        "rgb.png": "4280b91771992e5b142673a2888f7de5c46f1a56224257b627aee7866485cc36",
+        "classes.png": "5b98723ed5f148e4250f79384090c37b86dc86000791c6b91f131ed8e4006e65",
+        "z-depth.png": "69ac81cdb5749b04bb30337261b945f4dac2c3a4c34d2f71bc21ed5b3a03ffda"
+      },
+      "classes": {
+        "master_chef_can": {
+          "id": 1,
+          "real_pixels": 12582,
+          "sim_pixels": 13476,
+          "intersection_pixels": 12310,
+          "union_pixels": 13748,
+          "iou": 0.8954029677043933,
+          "matched_interior_pixels": 10957,
+          "valid_depth_pixels": 9355,
+          "z_median_abs_m": 0.0015636543349157872,
+          "rgb_mae": 0.19746781983761835
+        },
+        "sugar_box": {
+          "id": 3,
+          "real_pixels": 15530,
+          "sim_pixels": 15668,
+          "intersection_pixels": 15249,
+          "union_pixels": 15949,
+          "iou": 0.9561101009467678,
+          "matched_interior_pixels": 13819,
+          "valid_depth_pixels": 13459,
+          "z_median_abs_m": 0.001985697721078039,
+          "rgb_mae": 0.2277862202603501
+        },
+        "soup_can": {
+          "id": 4,
+          "real_pixels": 8795,
+          "sim_pixels": 8778,
+          "intersection_pixels": 8774,
+          "union_pixels": 8799,
+          "iou": 0.9971587680418229,
+          "matched_interior_pixels": 7830,
+          "valid_depth_pixels": 7285,
+          "z_median_abs_m": 0.0044959256706166295,
+          "rgb_mae": 0.18271137488626785
+        },
+        "cleanser": {
+          "id": 12,
+          "real_pixels": 17209,
+          "sim_pixels": 15957,
+          "intersection_pixels": 15844,
+          "union_pixels": 17322,
+          "iou": 0.914674979794481,
+          "matched_interior_pixels": 14356,
+          "valid_depth_pixels": 14155,
+          "z_median_abs_m": 0.0015564941608241512,
+          "rgb_mae": 0.20700187755979144
+        },
+        "scissors": {
+          "id": 17,
+          "real_pixels": 3734,
+          "sim_pixels": 3677,
+          "intersection_pixels": 3649,
+          "union_pixels": 3762,
+          "iou": 0.9699627857522595,
+          "matched_interior_pixels": 2378,
+          "valid_depth_pixels": 2189,
+          "z_median_abs_m": 0.0025624318140884395,
+          "rgb_mae": 0.19228164492598274
+        }
+      },
+      "iou_macro": 0.946661920447945,
+      "z_median_abs_m": 0.0019510476921703601,
+      "rgb_mae": 0.2061416183822536,
+      "valid_depth_pixels": 46443,
+      "matched_rgb_channels": 148020
+    },
+    {
+      "frame": 4,
+      "scene": "real_scene_51",
+      "reference": "000051_000780",
+      "real_sha256": {
+        "rgb.png": "03299b5b25feaf9012f3c9c3f5cc61b372324111dc6417a59729f63c320964d1",
+        "classes.png": "ec2998e5f0eb789ec40da0b8d8e954b3124048e71e785708a8a176feab0a6515",
+        "z-depth.png": "f81f039bb64454cc07c11d4ed15c7fde3058f008042b979b50d484ccf29ad7d3"
+      },
+      "classes": {
+        "master_chef_can": {
+          "id": 1,
+          "real_pixels": 14427,
+          "sim_pixels": 15496,
+          "intersection_pixels": 14178,
+          "union_pixels": 15745,
+          "iou": 0.9004763416957764,
+          "matched_interior_pixels": 12647,
+          "valid_depth_pixels": 11232,
+          "z_median_abs_m": 0.00140053826965425,
+          "rgb_mae": 0.20924304040690628
+        },
+        "sugar_box": {
+          "id": 3,
+          "real_pixels": 18626,
+          "sim_pixels": 18782,
+          "intersection_pixels": 18345,
+          "union_pixels": 19063,
+          "iou": 0.9623354141530714,
+          "matched_interior_pixels": 16734,
+          "valid_depth_pixels": 15863,
+          "z_median_abs_m": 0.0017422553390979978,
+          "rgb_mae": 0.26535088438785737
+        },
+        "soup_can": {
+          "id": 4,
+          "real_pixels": 10430,
+          "sim_pixels": 10422,
+          "intersection_pixels": 10413,
+          "union_pixels": 10439,
+          "iou": 0.9975093399750934,
+          "matched_interior_pixels": 9409,
+          "valid_depth_pixels": 8915,
+          "z_median_abs_m": 0.00497272618388811,
+          "rgb_mae": 0.23961010769135654
+        },
+        "cleanser": {
+          "id": 12,
+          "real_pixels": 18936,
+          "sim_pixels": 17404,
+          "intersection_pixels": 17347,
+          "union_pixels": 18993,
+          "iou": 0.9133364923919338,
+          "matched_interior_pixels": 15726,
+          "valid_depth_pixels": 15444,
+          "z_median_abs_m": 0.0013761224397777494,
+          "rgb_mae": 0.29921232811238874
+        },
+        "scissors": {
+          "id": 17,
+          "real_pixels": 4015,
+          "sim_pixels": 3899,
+          "intersection_pixels": 3872,
+          "union_pixels": 4042,
+          "iou": 0.9579416130628402,
+          "matched_interior_pixels": 2610,
+          "valid_depth_pixels": 2289,
+          "z_median_abs_m": 0.0025764065181220763,
+          "rgb_mae": 0.2854451205769664
+        }
+      },
+      "iou_macro": 0.9463198402557431,
+      "z_median_abs_m": 0.001738471606841041,
+      "rgb_mae": 0.25892929263806025,
+      "valid_depth_pixels": 53743,
+      "matched_rgb_channels": 171378
+    },
+    {
+      "frame": 5,
+      "scene": "real_scene_51",
+      "reference": "000051_001588",
+      "real_sha256": {
+        "rgb.png": "e17fc1cf21018667cd51ad0bb60c98230a2ab5a67e2b11c8ecf8d598008aa127",
+        "classes.png": "71f0a28eb3c7d6db703a52468ccad1dbb92c8b0c7992fd4fba0defe0a4cee948",
+        "z-depth.png": "18730242c50a809b3616e3d0adf7ce28d9e8e1b3ae7e9c43f2907e46d84b9bb0"
+      },
+      "classes": {
+        "master_chef_can": {
+          "id": 1,
+          "real_pixels": 17654,
+          "sim_pixels": 20412,
+          "intersection_pixels": 17485,
+          "union_pixels": 20581,
+          "iou": 0.8495699917399543,
+          "matched_interior_pixels": 15673,
+          "valid_depth_pixels": 14026,
+          "z_median_abs_m": 0.0010200497506310802,
+          "rgb_mae": 0.18463950117787176
+        },
+        "sugar_box": {
+          "id": 3,
+          "real_pixels": 25215,
+          "sim_pixels": 25079,
+          "intersection_pixels": 24925,
+          "union_pixels": 25369,
+          "iou": 0.982498324727029,
+          "matched_interior_pixels": 23243,
+          "valid_depth_pixels": 22913,
+          "z_median_abs_m": 0.0016283558786974739,
+          "rgb_mae": 0.27030557235729696
+        },
+        "soup_can": {
+          "id": 4,
+          "real_pixels": 13753,
+          "sim_pixels": 13851,
+          "intersection_pixels": 13730,
+          "union_pixels": 13874,
+          "iou": 0.989620873576474,
+          "matched_interior_pixels": 12469,
+          "valid_depth_pixels": 10762,
+          "z_median_abs_m": 0.0017733466255430153,
+          "rgb_mae": 0.26991330656891843
+        },
+        "cleanser": {
+          "id": 12,
+          "real_pixels": 21592,
+          "sim_pixels": 18545,
+          "intersection_pixels": 18513,
+          "union_pixels": 21624,
+          "iou": 0.8561320754716981,
+          "matched_interior_pixels": 16712,
+          "valid_depth_pixels": 16338,
+          "z_median_abs_m": 0.001128586427147471,
+          "rgb_mae": 0.2986172512726169
+        },
+        "scissors": {
+          "id": 17,
+          "real_pixels": 3388,
+          "sim_pixels": 3348,
+          "intersection_pixels": 3300,
+          "union_pixels": 3436,
+          "iou": 0.9604190919674039,
+          "matched_interior_pixels": 2101,
+          "valid_depth_pixels": 1817,
+          "z_median_abs_m": 0.002959887213701662,
+          "rgb_mae": 0.2604001207019378
+        }
+      },
+      "iou_macro": 0.927648071496512,
+      "z_median_abs_m": 0.0013335120790599064,
+      "rgb_mae": 0.25755304277517915,
+      "valid_depth_pixels": 65856,
+      "matched_rgb_channels": 210594
+    }
+  ],
+  "failures": []
+}

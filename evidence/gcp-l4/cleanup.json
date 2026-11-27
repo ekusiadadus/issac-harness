@@ -1,0 +1,37 @@
+{
+  "project": "<redacted-gcp-project>",
+  "provider": "Google Cloud Console, authenticated Compute Engine UI",
+  "temporary_image": {
+    "name": "isaac-harness-tmp-1125a",
+    "scope": "global",
+    "result": "deleted",
+    "observed": [
+      "Available. The image is ready to use isaac-harness-tmp-1125a",
+      "Updating. The image is being deleted",
+      "Images filter isaac-harness-tmp-1125a: No rows to display"
+    ],
+    "checked_utc": "2026-11-24T17:56:52.542452+00:00"
+  },
+  "instance": {
+    "name": "isaac-harness-1125a",
+    "zone": "asia-northeast1-b",
+    "gce_instance_id": "<redacted>",
+    "result": "deleted",
+    "observed": [
+      "Confirmation: instance isaac-harness-1125a and its boot disk isaac-harness-1125a will be deleted",
+      "Deleting isaac-harness-1125a; instance being stopped",
+      "Filtering by isaac-harness-1125a yields a header-only table; Select all rows is disabled."
+    ],
+    "checked_utc": "2026-11-24T18:03:21.409036+00:00"
+  },
+  "boot_disk": {
+    "name": "isaac-harness-1125a",
+    "zone": "asia-northeast1-b",
+    "size_gb": 200,
+    "type": "Balanced persistent disk",
+    "auto_delete": true,
+    "result": "deleted",
+    "observed": "Disks filter isaac-harness-1125a: No rows to display",
+    "checked_utc": "2026-11-24T18:03:21.409036+00:00"
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "campaign_key": "5434f108952d19fc3a091652a8855cb4310e7ca3e698a6b2d1ca29cbf0228d90",
+  "index": 0,
+  "sample": {
+    "layout": "two_packages_fixed",
+    "camera": {
+      "id": "fixed_oblique",
+      "eye_m": [
+        -0.62,
+        -0.58,
+        0.58
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        0.11
+      ],
+      "K": [
+        700.0,
+        0.0,
+        320.0,
+        0.0,
+        700.0,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "objects": {
+      "package_a": {
+        "visible": true,
+        "bottom_xyz_m": [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      },
+      "package_b": {
+        "visible": true,
+        "bottom_xyz_m": [
+          0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      }
+    },
+    "edits": {
+      "environment": "small_workshop",
+      "dome_gain": 0.5,
+      "package_a_geometry": "cracker",
+      "package_b_geometry": "sugar"
+    }
+  },
+  "readback": {
+    "objects": {
+      "package_a": {
+        "visible": true,
+        "matrix_row": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.13,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "package_b": {
+        "visible": true,
+        "matrix_row": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.13,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    },
+    "camera": {
+      "matrix_row": [
+        [
+          0.683157128775741,
+          -0.7302714135188955,
+          -2.7755575615628914e-17,
+          0.0
+        ],
+        [
+          0.35369251830785564,
+          0.3308736461589617,
+          0.8748852683469538,
+          0.0
+        ],
+        [
+          -0.6389037015825882,
+          -0.5976841079320986,
+          0.4843302253932523,
+          0.0
+        ],
+        [
+          -0.62,
+          -0.5799999999999998,
+          0.58,
+          1.0
+        ]
+      ],
+      "K": [
+        700.0000037252904,
+        0,
+        320.0,
+        0,
+        700.0000037252904,
+        240.0,
+        0,
+        0,
+        1
+      ]
+    },
+    "edits": {
+      "package_a_geometry": "cracker",
+      "package_b_geometry": "sugar",
+      "environment": "small_workshop",
+      "dome_gain": 1.0
+    },
+    "geometry": {
+      "package_a": {
+        "selection": "cracker",
+        "local_min": [
+          -0.03586500510573387,
+          -0.08198850601911545,
+          0.0
+        ],
+        "local_max": [
+          0.03586500510573387,
+          0.08198850601911545,
+          0.21348600089550018
+        ]
+      },
+      "package_b": {
+        "selection": "sugar",
+        "local_min": [
+          -0.024772001430392265,
+          -0.04702400043606758,
+          0.0
+        ],
+        "local_max": [
+          0.024772001430392265,
+          0.04702400043606758,
+          0.1760150045156479
+        ]
+      }
+    }
+  },
+  "objects": [
+    {
+      "id": "package_a",
+      "instance_id": 1,
+      "category_id": 1,
+      "class": "retail_package",
+      "area": 19588,
+      "bbox_xywh": [
+        183,
+        180,
+        129,
+        202
+      ],
+      "native_tight_xyxy": [
+        [
+          183,
+          180,
+          311,
+          381
+        ]
+      ]
+    },
+    {
+      "id": "package_b",
+      "instance_id": 2,
+      "category_id": 1,
+      "class": "retail_package",
+      "area": 6666,
+      "bbox_xywh": [
+        348,
+        159,
+        62,
+        127
+      ],
+      "native_tight_xyxy": [
+        [
+          348,
+          159,
+          409,
+          285
+        ]
+      ]
+    }
+  ],
+  "sha256": {
+    "rgb.png": "b8c08fc18b1f313caef826611783e6218da7df65934b3d33615dea41ab9bfe75",
+    "classes.png": "7b3123777768394e78abda7b9cd343b58e8b335dbb4416f4fccc7a5f70f65bbd",
+    "instances.png": "1edc5218444edb2aebb57d9e849c48ff02c88925ce1083d3ce3aa22a8c9c61e1",
+    "range_m.npz": "834c6fbd9d6c0b68d595289a511538f89db15db96754aa7f5c8598ffe5f5e4c8"
+  },
+  "native_audit": {
+    "instance_path_pixels_different": 0,
+    "path_ids": {
+      "0": "BACKGROUND",
+      "1": "UNLABELLED",
+      "2": "/World/Packages/A",
+      "3": "/World/Packages/B"
+    },
+    "semantic_ids": {
+      "0": {
+        "class": "BACKGROUND"
+      },
+      "1": {
+        "class": "UNLABELLED"
+      },
+      "2": {
+        "class": "capture00001"
+      },
+      "3": {
+        "class": "capture00002"
+      }
+    },
+    "unlabelled_object_matches": {}
+  },
+  "annotator_steps": 1
+}

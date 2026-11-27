@@ -1,0 +1,9 @@
+{
+  "name": "Color Brown-Conrady demonstration profile",
+  "provenance": "DESIGN VALUES ONLY: synthetic 64x48 example; no physical camera was measured",
+  "distortion_model": "plumb_bob",
+  "width": 64,
+  "height": 48,
+  "K": [[50.0, 0.0, 32.0], [0.0, 52.0, 24.0], [0.0, 0.0, 1.0]],
+  "D": [-0.06, 0.01, 0.001, -0.0008, 0.0]
+}

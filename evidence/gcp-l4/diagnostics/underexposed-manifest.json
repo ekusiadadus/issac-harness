@@ -1,0 +1,228 @@
+{
+  "status": "captured",
+  "scene": "/var/tmp/isaac-harness-validation/repo/examples/inspection/scene.usda",
+  "scene_sha256": "8cb1746881b976ed4f52283161605d183db989d515ddc76e397b64d46b3bfa07",
+  "usd_layers": [
+    {
+      "path": "/var/tmp/isaac-harness-validation/repo/examples/inspection/assets/handset/handset.usdc",
+      "sha256": "a375d13260fe3e0d5013009579c49481d874613b5ff4479e4b8d6e4e3c011dfa"
+    },
+    {
+      "path": "/var/tmp/isaac-harness-validation/repo/examples/inspection/geometry.usdc",
+      "sha256": "c9db3169433856f1a8464ef0cf300cc26ed1f168695b16cc95e2a022c260af8d"
+    },
+    {
+      "path": "/var/tmp/isaac-harness-validation/repo/examples/inspection/cameras.usda",
+      "sha256": "20ff18ab0f6f23e209b867559d4c40cc2796054d177d2e942786e36ab52b27d0"
+    },
+    {
+      "path": "/var/tmp/isaac-harness-validation/repo/examples/inspection/scene.usda",
+      "sha256": "8cb1746881b976ed4f52283161605d183db989d515ddc76e397b64d46b3bfa07"
+    },
+    {
+      "path": "/var/tmp/isaac-harness-validation/repo/examples/inspection/assets/tray/tray.usdc",
+      "sha256": "9d6f84bf4f955b375a80592a065711b0143cd8d222016aea789938bc756c8502"
+    },
+    {
+      "path": "/var/tmp/isaac-harness-validation/repo/examples/inspection/lighting.usda",
+      "sha256": "6daba473ea62f853de1f7ffe3767a60a34add7d3c4c1cb182374b4005ea3e7e1"
+    },
+    {
+      "path": "/var/tmp/isaac-harness-validation/repo/examples/inspection/environment.usda",
+      "sha256": "497eec1e0728694e3e366d9601b18bb04b228c4f1aaa34e289e731ee28b4b652"
+    },
+    {
+      "path": "/var/tmp/isaac-harness-validation/repo/examples/inspection/assets/carton/carton.usdc",
+      "sha256": "71816dc1dc3071f9409501ae1797a91852d044d40f93c22a3d5c10dfb05b3f28"
+    }
+  ],
+  "versions": {
+    "isaacsim_app": [
+      "6.2.0",
+      "rc.14",
+      "6",
+      "2",
+      "0",
+      "rc",
+      "14",
+      "release.52805.02189a84.gl"
+    ]
+  },
+  "render": {
+    "effective_settings": {
+      "/rtx/rendermode": "PathTracing",
+      "/rtx/post/aa/op": 0,
+      "/rtx/post/histogram/enabled": false,
+      "/rtx/post/tonemap/filmIso": 100.0,
+      "/rtx/post/tonemap/cameraShutter": 1.0,
+      "/rtx/post/tonemap/fNumber": 5.0,
+      "/rtx/post/tonemap/op": 1,
+      "/rtx/post/tonemap/colorMode": 0,
+      "/rtx/pathtracing/spp": 16,
+      "/rtx/pathtracing/maxBounces": 4,
+      "/rtx/pathtracing/totalSpp": 640,
+      "/rtx/pathtracing/optixDenoiser/enabled": true
+    },
+    "resolution": [
+      1536,
+      1024
+    ],
+    "requested_launch": {
+      "renderer": "PathTracing",
+      "max_bounces": 4,
+      "denoiser": true,
+      "multi_gpu": false
+    },
+    "warmup_frames": 32,
+    "rt_subframes": 8,
+    "capture_on_play": false,
+    "configured_engine": "RTX",
+    "active_gpu_index_setting": -1,
+    "gpu_inventory": {
+      "source": "nvidia-smi",
+      "available": true,
+      "rows": [
+        "0, NVIDIA L4, GPU-76e4b7f5-40a4-43bf-5bd1-228ec1089ace, 595.91.07"
+      ],
+      "error": ""
+    }
+  },
+  "captures": [
+    {
+      "name": "overview",
+      "camera_prim": "/World/Cameras/Overview",
+      "png": "overview/rgb.png",
+      "sha256": "f09254b4c9d732af00f93cc51a71789955e878cddabb445aa7d4ad0577ef00a6",
+      "rgb_shape": [
+        1024,
+        1536,
+        4
+      ],
+      "readiness_steps": 1,
+      "camera_model": {
+        "model": "ideal_pinhole",
+        "intrinsics_px": {
+          "fx": 1791.9998728434296,
+          "fy": 1791.9999841054278,
+          "cx": 768.0,
+          "cy": 512.0
+        },
+        "focal_length_mm": 41.999998688697815,
+        "horizontal_aperture_mm": 36.000001430511475,
+        "vertical_aperture_mm": 23.999999463558197,
+        "meters_per_unit": 1.0,
+        "camera_to_world_stage_units": [
+          [
+            0.7983452198481258,
+            0.6022000580750948,
+            0.0,
+            0.0
+          ],
+          [
+            -0.24432978064374905,
+            0.32391148062485586,
+            0.9139936055629662,
+            0.0
+          ],
+          [
+            0.5504070023502836,
+            -0.7296824259729474,
+            0.4057285903039234,
+            0.0
+          ],
+          [
+            1.7499999999999998,
+            -2.3199999999999994,
+            1.6399999999999997,
+            0.9999999999999999
+          ]
+        ],
+        "clipping_range_stage_units": [
+          0.019999999552965164,
+          20.0
+        ],
+        "aperture_offset": [
+          0.0,
+          0.0
+        ],
+        "authored_camera_exposure": {
+          "exposure": 0.0,
+          "exposure:fStop": 5.0,
+          "exposure:iso": 100.0,
+          "exposure:responsivity": 1.0,
+          "exposure:time": 1.0
+        },
+        "lens_distortion": "none modeled",
+        "sensor_noise": "none modeled"
+      }
+    },
+    {
+      "name": "detail",
+      "camera_prim": "/World/Cameras/Detail",
+      "png": "detail/rgb.png",
+      "sha256": "55d5710d6d4d5a276d3739b4ad48d7ceee377dce65eaa3a3d6bf31d1ded3d74c",
+      "rgb_shape": [
+        1024,
+        1536,
+        4
+      ],
+      "readiness_steps": 1,
+      "camera_model": {
+        "model": "ideal_pinhole",
+        "intrinsics_px": {
+          "fx": 2474.6664971245727,
+          "fy": 2474.6666507720943,
+          "cx": 768.0,
+          "cy": 512.0
+        },
+        "focal_length_mm": 57.999998331069946,
+        "horizontal_aperture_mm": 36.000001430511475,
+        "vertical_aperture_mm": 23.999999463558197,
+        "meters_per_unit": 1.0,
+        "camera_to_world_stage_units": [
+          [
+            0.9743911956946197,
+            0.22485950669875845,
+            6.938893903907227e-18,
+            0.0
+          ],
+          [
+            -0.061595243448989055,
+            0.26691272161228585,
+            0.9617502924491274,
+            0.0
+          ],
+          [
+            0.21625869632749747,
+            -0.9371210174191557,
+            0.2739276820148301,
+            0.0
+          ],
+          [
+            0.51,
+            -0.7200000000000002,
+            1.1900000000000002,
+            1.0000000000000002
+          ]
+        ],
+        "clipping_range_stage_units": [
+          0.019999999552965164,
+          20.0
+        ],
+        "aperture_offset": [
+          0.0,
+          0.0
+        ],
+        "authored_camera_exposure": {
+          "exposure": 0.0,
+          "exposure:fStop": 5.0,
+          "exposure:iso": 100.0,
+          "exposure:responsivity": 1.0,
+          "exposure:time": 1.0
+        },
+        "lens_distortion": "none modeled",
+        "sensor_noise": "none modeled"
+      }
+    }
+  ]
+}

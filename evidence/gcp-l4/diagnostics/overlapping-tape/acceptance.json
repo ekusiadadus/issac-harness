@@ -1,0 +1,35 @@
+{
+  "status": "fail",
+  "issues": [
+    "nominal/detail: 要修正 (check observation and frame hash)",
+    "low_overhead/detail: 要修正 (check observation and frame hash)"
+  ],
+  "frames": [
+    {
+      "case": "nominal",
+      "view": "overview",
+      "observation": "作業台の脚と床の接地、照明で生じる箱の影を確認。ラベルのある面とフラップが見分けられる。参照写真にある角の潰れ・折れ筋は少ない。",
+      "decision": "合格"
+    },
+    {
+      "case": "nominal",
+      "view": "detail",
+      "observation": "印字と切断面のフルートは読める。右のテープに直線的な三角形の明暗が横切り、角の剥離が一様な淡色のシールに見える。実写の繊維と異なる。",
+      "decision": "要修正"
+    },
+    {
+      "case": "low_overhead",
+      "view": "overview",
+      "observation": "脚とコンクリートの輝度は下がるが、端末トレーと箱の影の位置関係は保たれる。実写とは床と照明が異なる。",
+      "decision": "合格"
+    },
+    {
+      "case": "low_overhead",
+      "view": "detail",
+      "observation": "フラップの下の影が濃くなる。バーコードは読めるが、右端テープの三角境界が照度を変えても残り、スキャン紙面から浮いて見える。",
+      "decision": "要修正"
+    }
+  ],
+  "review_sha256": "6520b47753ef3bb6cb13a1f2cc8099673da4baa892f3e96e77e8c89f5799cae0",
+  "run_sha256": "7d490e802a284daa1fbd49b444e3df53aa38f6626a2ff2b99ed01ac1f64e0c5e"
+}

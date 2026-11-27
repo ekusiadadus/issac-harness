@@ -1,0 +1,65 @@
+# Starter camera distances, lighting and jitter are authored estimates. Set ranges from your deployment.
+stage = "studio.usda"
+camera_prim = "/_HarnessCapture/Camera"
+width = 640
+height = 480
+
+[classes]
+"retail_package" = 1
+
+[[instances]]
+id = "object1"
+class = "retail_package"
+prim = "/World/Packages/A"
+jitter_xy_m = [0.0, 0.0]
+yaw_deg = [0.0, 0.0]
+
+[[instances]]
+id = "object2"
+class = "retail_package"
+prim = "/World/Packages/B"
+jitter_xy_m = [0.0, 0.0]
+yaw_deg = [0.0, 0.0]
+
+[[layouts]]
+id = "authored"
+[layouts.anchors]
+object1 = [-0.13, 0.0, 0.0]
+object2 = [0.13, 0.0, 0.0]
+
+[[cameras]]
+id = "oblique"
+target = [0.0, 0.0, 0.10674300044775009]
+azimuth_deg = [-125, -63]
+elevation_deg = [22, 48]
+distance_m = [0.7262592853729265, 0.9825860919751359]
+focal_px = [668.4444444444443, 753.7777777777778]
+
+[[cameras]]
+id = "top"
+target = [0.0, 0.0, 0.10674300044775009]
+azimuth_deg = [-115, -67]
+elevation_deg = [62, 82]
+distance_m = [0.7262592853729265, 0.9825860919751359]
+focal_px = [668.4444444444443, 753.7777777777778]
+
+[[edits]]
+id = "key_intensity"
+kind = "scale"
+prim = "/_HarnessStudio/Key"
+attribute = "inputs:intensity"
+uniform = [0.8, 1.2]
+
+[[edits]]
+id = "package_a_geometry"
+kind = "geometry_variant"
+prim = "/World/Packages/A"
+variant_set = "geometry"
+choices = ["cracker", "sugar"]
+
+[[edits]]
+id = "package_b_geometry"
+kind = "geometry_variant"
+prim = "/World/Packages/B"
+variant_set = "geometry"
+choices = ["cracker", "sugar"]

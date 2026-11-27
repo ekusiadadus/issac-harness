@@ -1,0 +1,9 @@
+{
+  "name": "Campaign color Brown-Conrady design demonstration",
+  "provenance": "DESIGN VALUES ONLY. K copies readback from evidence/campaign-l4/registered/frames/00000000/annotation.json at b89bb636; distortion coefficients are illustrative and are not measured for a physical camera.",
+  "distortion_model": "plumb_bob",
+  "width": 640,
+  "height": 480,
+  "K": [[1066.7779554197311, 0.0, 312.9869002996227], [0.0, 1067.4869422253835, 241.31089994682586], [0.0, 0.0, 1.0]],
+  "D": [-0.06, 0.01, 0.001, -0.0008, 0.0]
+}

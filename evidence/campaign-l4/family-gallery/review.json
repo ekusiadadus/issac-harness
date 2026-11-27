@@ -1,0 +1,26 @@
+{
+  "campaign_key": "028b0d0ff7bf29bc1400980e15882405e1cb5ad714002a51039c8693de4b5bbb",
+  "frames": {
+    "0": {
+      "rgb_sha256": "4a657868828ab7300b5a9a229c357d025102447bdd7b0155e31ad07da4e89e8e",
+      "observation": "二つの印刷面と輪郭は対応するが、紙の台面は左下の小さな矩形だけ明るい。",
+      "decision": "fail"
+    },
+    "1": {
+      "rgb_sha256": "e07becb6dbde9b7c351cf6e6de2c17eade0f56ea49859d2ef0810b12ecce38fb",
+      "observation": "俯瞰では暗い台の左下だけが白く、素材が切り替わったような直線の境界が見える。",
+      "decision": "fail"
+    },
+    "3": {
+      "rgb_sha256": "977a8daa8ecbda4db5ce4f40b5252aa176a0fcd0447687aba76385a04c73c760",
+      "observation": "左右の箱は入れ替わり、マスクが別々に追随する。台の角の紙タイルが途切れている。",
+      "decision": "fail"
+    },
+    "6": {
+      "rgb_sha256": "5de5f4dc1da8fa0a1f782a88af6d7fab6cd3a03df193523b29b884241973126d",
+      "observation": "同型の赤い箱は二個体として正しく囲まれる。左手前と台中央の材質がつながらない。",
+      "decision": "fail"
+    }
+  },
+  "review_method": "Visual inspection of the archived RGB, visible instance contours, tight boxes and metric range side by side. Decisions concern appearance for package inspection, or alignment for sensor-color."
+}

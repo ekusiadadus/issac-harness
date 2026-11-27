@@ -1,0 +1,131 @@
+{
+  "status": "sampled_configuration",
+  "rendered_frames": 0,
+  "draws": 50000,
+  "seed": 20261125,
+  "config_sha256": "7229b9961e95774ae2f3713b04f312d577c906bfa5e2d3f3c8d5945436834e79",
+  "camera_by_layout": {
+    "left": {
+      "packing_right": 3125,
+      "scan_queue": 3125,
+      "cross_pick": 3125,
+      "packing_left": 3125
+    },
+    "right": {
+      "packing_right": 3125,
+      "scan_queue": 3125,
+      "cross_pick": 3125,
+      "packing_left": 3125
+    },
+    "overhead": {
+      "packing_right": 3125,
+      "scan_queue": 3125,
+      "cross_pick": 3125,
+      "packing_left": 3125
+    },
+    "front": {
+      "packing_right": 3125,
+      "scan_queue": 3125,
+      "cross_pick": 3125,
+      "packing_left": 3125
+    }
+  },
+  "categorical_edits": {
+    "bench": {
+      "/World/Materials/Concrete": 16905,
+      "/World/Materials/BrushedSteel": 16522,
+      "/World/Materials/Wood": 16573
+    },
+    "wall": {
+      "/World/Materials/Wall_Paint": 24859,
+      "/World/Materials/Concrete": 25141
+    },
+    "polymer": {
+      "matte": 25125,
+      "standard": 24875
+    },
+    "carton_tape": {
+      "False": 24857,
+      "True": 25143
+    },
+    "foam_pad": {
+      "False": 50000
+    },
+    "paper": {
+      "finish01": 6221,
+      "finish00": 6318,
+      "finish02": 6289,
+      "finish05": 6230,
+      "finish03": 6163,
+      "finish06": 6281,
+      "finish07": 6228,
+      "finish04": 6270
+    }
+  },
+  "ranges": {
+    "azimuth_deg": [
+      -155.99230350731426,
+      -27.00935544378954
+    ],
+    "elevation_deg": [
+      26.00121610305703,
+      83.99916926824808
+    ],
+    "camera_distance_m": [
+      1.2000518761590677,
+      2.0498391126487543
+    ],
+    "focal_x_px": [
+      770.0015632639808,
+      1119.969973069073
+    ],
+    "key": [
+      0.420024832584696,
+      2.3999664487305417
+    ],
+    "side": [
+      0.25007224816815543,
+      2.1499385818383274
+    ],
+    "fill": [
+      0.3100138107713211,
+      1.899879206963259
+    ],
+    "dome": [
+      0.5500016387991284,
+      1.8498667686901313
+    ],
+    "crate_yaw_deg": [
+      -47.998444134552216,
+      47.99790851593095
+    ],
+    "bin_yaw_deg": [
+      -6.998914057552913,
+      6.999541634204808
+    ],
+    "device_yaw_deg": [
+      -114.99841082835307,
+      114.99633539164984
+    ],
+    "crackers_yaw_deg": [
+      -164.98596767696932,
+      164.99362950086194
+    ],
+    "sugar_yaw_deg": [
+      -169.99857908342094,
+      169.9993493233629
+    ],
+    "mustard_yaw_deg": [
+      -179.99739907291115,
+      179.9952044085002
+    ]
+  },
+  "instances_requested": {
+    "crate": 45605,
+    "bin": 50000,
+    "device": 45900,
+    "crackers": 47957,
+    "sugar": 48001,
+    "mustard": 47062
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "campaign_key": "726defd51066c45b4cc3014735d0eb77852ce9336e0dd07703225f8337e9ed04",
+  "commit": "0396678a6f545e7bd471b3a6c40aaceeba28979d",
+  "capture_code_commit": "f24c59eea74d3088fafaff6a9fa31cdfbec71d1a",
+  "items": [
+    {
+      "input": "../../ycb/models/obj_000002.jpg",
+      "read_from": "git",
+      "sha256": "73e8d2ad7e6259dbc02a484d83609de51a3b605acfc107c02da1990f0ee85b4d",
+      "observed": "73e8d2ad7e6259dbc02a484d83609de51a3b605acfc107c02da1990f0ee85b4d",
+      "matches": true
+    },
+    {
+      "input": "../../ycb/models/obj_000002.usdc",
+      "read_from": "git",
+      "sha256": "246c69cca8be78654cd31ea01fa227876efa9affe7ae4ef36b608d8856b79d86",
+      "observed": "246c69cca8be78654cd31ea01fa227876efa9affe7ae4ef36b608d8856b79d86",
+      "matches": true
+    },
+    {
+      "input": "../../ycb/models/obj_000003.jpg",
+      "read_from": "git",
+      "sha256": "e6633e1bb92b9ca5e463817fdc84ff028d4a1250bb989c3115bb482b8c5e3a41",
+      "observed": "e6633e1bb92b9ca5e463817fdc84ff028d4a1250bb989c3115bb482b8c5e3a41",
+      "matches": true
+    },
+    {
+      "input": "../../ycb/models/obj_000003.usdc",
+      "read_from": "git",
+      "sha256": "9f89d2d76bf177ffe44e92dbb20699e1d7cfcddfecd72e61a1e7fb4ed3de85c4",
+      "observed": "9f89d2d76bf177ffe44e92dbb20699e1d7cfcddfecd72e61a1e7fb4ed3de85c4",
+      "matches": true
+    },
+    {
+      "input": "../paper_fleck.png",
+      "read_from": "git",
+      "sha256": "e77c96b7be077100dcca7983614d13e42e1739f5335e4d018f7c45bd37d56a18",
+      "observed": "e77c96b7be077100dcca7983614d13e42e1739f5335e4d018f7c45bd37d56a18",
+      "matches": true
+    },
+    {
+      "input": "../retail_package.usda",
+      "read_from": "git",
+      "sha256": "b8fa891e2ac2f8d52ee26176e2d253a90208926cecd81213d62e1f330ca08c98",
+      "observed": "b8fa891e2ac2f8d52ee26176e2d253a90208926cecd81213d62e1f330ca08c98",
+      "matches": true
+    },
+    {
+      "input": "../scene.usda",
+      "read_from": "git",
+      "sha256": "ed075b930a0aef9346191e932d1b1b672cc30753b78f31d4b6134877ef484970",
+      "observed": "ed075b930a0aef9346191e932d1b1b672cc30753b78f31d4b6134877ef484970",
+      "matches": true
+    },
+    {
+      "input": "campaign.toml",
+      "read_from": "git",
+      "sha256": "f20b2a4da2ab94bd536a227b528098e54e8e8c2600b8e37b8b218ae10f37bd5f",
+      "observed": "f20b2a4da2ab94bd536a227b528098e54e8e8c2600b8e37b8b218ae10f37bd5f",
+      "matches": true
+    },
+    {
+      "input": "studio.usda",
+      "read_from": "git",
+      "sha256": "b11563b22744e3825b58f544c221a50b2862156a78155ed61138c4d24ad8d48e",
+      "observed": "b11563b22744e3825b58f544c221a50b2862156a78155ed61138c4d24ad8d48e",
+      "matches": true
+    },
+    {
+      "input": "capture_campaign.py",
+      "read_from": "git",
+      "sha256": "d2d56bfcb53877534c31267e257954aa4fc720d2ddd848ea7ea22c016678b61a",
+      "observed": "d2d56bfcb53877534c31267e257954aa4fc720d2ddd848ea7ea22c016678b61a",
+      "matches": true
+    },
+    {
+      "input": "capture_isaac.py",
+      "read_from": "git",
+      "sha256": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+      "observed": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+      "matches": true
+    },
+    {
+      "input": "generate_dataset.py",
+      "read_from": "git",
+      "sha256": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+      "observed": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+      "matches": true
+    },
+    {
+      "input": "campaign.py",
+      "read_from": "git",
+      "sha256": "d1f681197d7bda93cc174b3640831f8531c68f2773bc3756e6379b84913ee820",
+      "observed": "d1f681197d7bda93cc174b3640831f8531c68f2773bc3756e6379b84913ee820",
+      "matches": true
+    },
+    {
+      "input": "visibility.py",
+      "read_from": "git",
+      "sha256": "de9b5861db8de97e9f5c63da97fb0799dbc1d3da5f92cad2ab6407fc1aa9f09d",
+      "observed": "de9b5861db8de97e9f5c63da97fb0799dbc1d3da5f92cad2ab6407fc1aa9f09d",
+      "matches": true
+    }
+  ],
+  "status": "pass"
+}

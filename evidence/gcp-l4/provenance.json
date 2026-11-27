@@ -1,0 +1,74 @@
+{
+  "gcp_project": "<redacted-gcp-project>",
+  "zone": "asia-northeast1-b",
+  "tested_clean_git_commits": {
+    "fixed_rtx_and_physics": "a97265389ad60ef4e3f6e50f0ee278916c3a36a4",
+    "replicator_and_training_export": "c357538737eb26a6035360b165f064629ec9b203"
+  },
+  "between_revisions": {
+    "usd_inputs_capture_lab_and_pinned_images_identical": true
+  },
+  "checkout_asset_hashes": {
+    "pilot": {
+      "entries": 65,
+      "all_match_checkout": true
+    },
+    "replay": {
+      "entries": 65,
+      "all_match_checkout": true
+    },
+    "capture/nominal": {
+      "entries": 65,
+      "all_match_checkout": true
+    },
+    "capture/low_overhead": {
+      "entries": 66,
+      "all_match_checkout": true
+    },
+    "capture-replay/nominal": {
+      "entries": 65,
+      "all_match_checkout": true
+    },
+    "capture-replay/low_overhead": {
+      "entries": 66,
+      "all_match_checkout": true
+    }
+  },
+  "artifact_sha256": {
+    "host.json": "676876bdc1dc6ae52d7b2b862ad81d121eb7f3e290150c8f80543d12f102882c",
+    "dataset-host.json": "9f4304e3045d06aab0384781b128ae0eff9e0fc0e0a7bb5f2074ed7d66b50f35",
+    "gce-instance.json": "8ca90ce3162d98592ac33001d62e5c6729e394014771754c96d4e134bb0f211b",
+    "tasks.tsv": "82373915fef43455621fd154071b470acc4ddee822b187c033d5713349776f30",
+    "dataset-check.json": "b7d2f74617e9d3ab1846612d1fcf640716d41bbde176e75b6da10dbbae0df92f",
+    "regression.json": "feee11d9dcd82fbb939146fe60a5b0790034bb822652242fab816978dd728f7e",
+    "capture/run.json": "09a46634bb857951fb3bc95e2dba9c77fab66b22e50db70649dd9a9d7535280f",
+    "capture-replay/run.json": "fd79d84de0791e35ac7c8d9c626f60efaf451c458d471fc153c443f47687d7af",
+    "pilot/manifest.json": "a348dcb7e2490a6ed5d4152964975c52aa8964bdfd1427e8516b00f48b4a3560",
+    "replay/manifest.json": "11aaaa82bd4f59d0a30a5e14482def6882bff94c30ecda7aba76224e6cf421b0",
+    "lab-carton.json": "c045324a54ea2f899959b30c4338dda0c43b2d21d7f97ff524a0cf275ba3ca70",
+    "lab-handset.json": "05e2224cead9f380c5c9ff361286d8ac61350d52bf03f1dc381fab01c930fa6c",
+    "scene-check.json": "6d89330bb1ce5a2cbfe2eb22701163f047cece2e4e4ac4a0e6abc017c5356f22",
+    "simready/summary.json": "0e23b12ed6a3c580c1fb04881aa9a4035ee5391241be258f53aa84ecc619e349",
+    "capture/acceptance.json": "16c5b3351a535abb5b28174fc997a9d438db46671e8a7754b7ee3fbc1c11292e",
+    "training/training.json": "f6ea4689be7b54aa7778235ca886a5f31913b303f9ccda7469b7433f5aa41e47",
+    "dataset-tasks.tsv": "88295d942cd52e4763c72ca6ebb434ff29d5dba85dff05c61e1cefb222f509e4",
+    "upstream/replay-rgb-diff.gif": "aef62b80e4714122279d6b22ab0f274d6f28fe398c5ebf1624fdd874e3589588",
+    "cleanup.json": "b4155ddd68d131516adf75a598d5b1ef23948e85b931916eee3a85ed5e1b5b44"
+  },
+  "argv": {
+    "capture_and_capture_replay": "uv run --locked python -m harness render examples/inspection --capture-only --backend rtx --isaac-python \"$PWD/scripts/isaac_python.sh\" --width 1536 --samples 16 --out \"$OUT\"",
+    "pilot_and_replay": "scripts/isaac_python.sh \"$PWD/runtime/generate_dataset.py\" --scene \"$PWD/examples/inspection/scene.usda\" --output-dir \"$OUT\" --width 768 --height 512 --spp 16 --rt-subframes 8 --warmup-frames 8 --seed 20261125 --frames 4",
+    "lab_carton_and_handset": "HARNESS_RUNTIME=lab scripts/isaac_python.sh \"$PWD/runtime/lab_smoke.py\" --asset \"$PWD/examples/inspection/environment.usda\" --marker-prim /World/Props/$BODY/$MARKER --drop-prim /World/Props/$BODY --steps 240 --drop-height 0.06 --settle-tolerance 0.006 --report \"$REPORT\" --visualizer none",
+    "lab_body_and_marker": [
+      [
+        "Carton",
+        "Base"
+      ],
+      [
+        "Handset",
+        "Body"
+      ]
+    ]
+  },
+  "validator_environment": "macOS: NVIDIA USD and SimReady CLIs; GCP Ubuntu L4: Isaac Sim/Replicator and Isaac Lab/PhysX"
+}

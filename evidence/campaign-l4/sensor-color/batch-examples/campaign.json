@@ -1,0 +1,565 @@
+{
+  "format": 2,
+  "seed": 20261125,
+  "classes": {
+    "cracker_box": 2,
+    "sugar_box": 3,
+    "mustard_bottle": 5,
+    "carton": 21,
+    "handset": 22,
+    "tray": 23
+  },
+  "instances": [
+    {
+      "id": "crate",
+      "class": "carton",
+      "prim": "/World/Props/Carton",
+      "jitter_xy_m": [
+        0.018,
+        0.013
+      ],
+      "yaw_deg": [
+        -48,
+        48
+      ],
+      "probability": 0.91
+    },
+    {
+      "id": "bin",
+      "class": "tray",
+      "prim": "/World/Props/Tray",
+      "jitter_xy_m": [
+        0.008,
+        0.008
+      ],
+      "yaw_deg": [
+        -7,
+        7
+      ],
+      "probability": 1.0
+    },
+    {
+      "id": "device",
+      "class": "handset",
+      "prim": "/World/Props/Handset",
+      "jitter_xy_m": [
+        0.07,
+        0.05
+      ],
+      "yaw_deg": [
+        -115,
+        115
+      ],
+      "probability": 0.92
+    },
+    {
+      "id": "crackers",
+      "class": "cracker_box",
+      "prim": "/World/Props/CrackerBox",
+      "jitter_xy_m": [
+        0.028,
+        0.025
+      ],
+      "yaw_deg": [
+        -165,
+        165
+      ],
+      "probability": 0.96,
+      "asset": "ycb/models/obj_000002.usdc"
+    },
+    {
+      "id": "sugar",
+      "class": "sugar_box",
+      "prim": "/World/Props/Sugar",
+      "jitter_xy_m": [
+        0.03,
+        0.03
+      ],
+      "yaw_deg": [
+        -170,
+        170
+      ],
+      "probability": 0.96,
+      "asset": "ycb/models/obj_000003.usdc"
+    },
+    {
+      "id": "mustard",
+      "class": "mustard_bottle",
+      "prim": "/World/Props/Mustard",
+      "jitter_xy_m": [
+        0.024,
+        0.027
+      ],
+      "yaw_deg": [
+        -180,
+        180
+      ],
+      "probability": 0.94,
+      "asset": "ycb/models/obj_000005.usdc"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../campaign/finishes/finish00/base.png",
+      "sha256": "76d6161d433044b376d4794255c9fd5f675e9611a6016a85e344e6b20c5cdbc3"
+    },
+    {
+      "path": "../campaign/finishes/finish00/normal.png",
+      "sha256": "a85e1bd6a2d95ac5e829cb881974c879eab6ff255eccab7351f85e1faf6aae41"
+    },
+    {
+      "path": "../campaign/finishes/finish00/rough.png",
+      "sha256": "9b80702737fceaeeb1f1f8abf78224914f5542bce8976a8504ed7552b607bc97"
+    },
+    {
+      "path": "../campaign/finishes/finish01/base.png",
+      "sha256": "6766ba0d22c8505df9720fcb4aefa0d9dc56a3bf472fc5bb082c0b160ab13a47"
+    },
+    {
+      "path": "../campaign/finishes/finish01/normal.png",
+      "sha256": "566b66964cc58d0dd0c758be9cd99af8213a0771f4b85931973bbf55cc0f2e69"
+    },
+    {
+      "path": "../campaign/finishes/finish01/rough.png",
+      "sha256": "13987deb7a23b0b8681977c3a1d246fad85fb956bb588b08d092b2cda496540c"
+    },
+    {
+      "path": "../campaign/finishes/finish02/base.png",
+      "sha256": "5f02f6c41ed1befc0bdd5c050e6535fc3a8ecf7bd2258872ed5c59125ad05d88"
+    },
+    {
+      "path": "../campaign/finishes/finish02/normal.png",
+      "sha256": "6444d5a075cd69e3c52b6d0bdae7c5ffd46ea67ace86b3fabbc966f8f73c3d50"
+    },
+    {
+      "path": "../campaign/finishes/finish02/rough.png",
+      "sha256": "5427a361315874aa578fe33e43cf1b8a1676bfd62cc250915a1c46a950a09f89"
+    },
+    {
+      "path": "../campaign/finishes/finish03/base.png",
+      "sha256": "8ce43917599d7d4b550ed7fe54045c79ca2fae98d4edb8f6823e4396294c6322"
+    },
+    {
+      "path": "../campaign/finishes/finish03/normal.png",
+      "sha256": "06bba6009c4d101bee54090fe27fec6c4c3d5036ceba0fc4e48bd110c034739c"
+    },
+    {
+      "path": "../campaign/finishes/finish03/rough.png",
+      "sha256": "81652eb4f16fd2e8dae236180449700ca42739a8e32d04d18977845ed15081ae"
+    },
+    {
+      "path": "../campaign/finishes/finish04/base.png",
+      "sha256": "23901fbae04849caced79b51fb070efabd5eb8fbb1a39bdf93b5b760594ce1b4"
+    },
+    {
+      "path": "../campaign/finishes/finish04/normal.png",
+      "sha256": "d8d3cda1c34ee3a3f245cf8b75a86b2a56d19be2b44771cc80f058fe9998d5a0"
+    },
+    {
+      "path": "../campaign/finishes/finish04/rough.png",
+      "sha256": "ba793f18e81ce63317a7c2e0b34ded223a4c0faf4d7de43cbe344e6c416cd16a"
+    },
+    {
+      "path": "../campaign/finishes/finish05/base.png",
+      "sha256": "dac0d4236501d707b6679b39beb28b9bedae9970a4ccf1d32349fad1b25716a6"
+    },
+    {
+      "path": "../campaign/finishes/finish05/normal.png",
+      "sha256": "865e248857d51943216609ecc13e456207fbb0b226c3cfac84b75a7abcd1ee0d"
+    },
+    {
+      "path": "../campaign/finishes/finish05/rough.png",
+      "sha256": "29fd71e926b77508ed78e9aa0e13f4efb48abeace51b413806618932f27393c4"
+    },
+    {
+      "path": "../campaign/finishes/finish06/base.png",
+      "sha256": "1542fbd30595602998d3c3e259d2a28550bd3792383fe3cfbea0b2c755acdd8a"
+    },
+    {
+      "path": "../campaign/finishes/finish06/normal.png",
+      "sha256": "d656eb286cc7a63900f56401fd225cccdf8373e9ebf40769fd0f610c3327f1ab"
+    },
+    {
+      "path": "../campaign/finishes/finish06/rough.png",
+      "sha256": "080467b620b9d20f5614fb45e5d7201ad19c269dc3b92762fbdc53be372730d4"
+    },
+    {
+      "path": "../campaign/finishes/finish07/base.png",
+      "sha256": "2091533b8625a7e43446069f9b70d4df5e2851cd64c07a78a7b007861d5720bf"
+    },
+    {
+      "path": "../campaign/finishes/finish07/normal.png",
+      "sha256": "2e60be225d3b64d0d7b921870747975bcd3784a0695a9ad8972ca514ab7b2c98"
+    },
+    {
+      "path": "../campaign/finishes/finish07/rough.png",
+      "sha256": "609da204bef5313c418ddcbd758fe80a0bddd361d9d940dd5fbf90ef5a0eb972"
+    },
+    {
+      "path": "../campaign/production.toml",
+      "sha256": "7229b9961e95774ae2f3713b04f312d577c906bfa5e2d3f3c8d5945436834e79"
+    },
+    {
+      "path": "../campaign/ycb/models/obj_000002.jpg",
+      "sha256": "73e8d2ad7e6259dbc02a484d83609de51a3b605acfc107c02da1990f0ee85b4d"
+    },
+    {
+      "path": "../campaign/ycb/models/obj_000002.usdc",
+      "sha256": "246c69cca8be78654cd31ea01fa227876efa9affe7ae4ef36b608d8856b79d86"
+    },
+    {
+      "path": "../campaign/ycb/models/obj_000003.jpg",
+      "sha256": "e6633e1bb92b9ca5e463817fdc84ff028d4a1250bb989c3115bb482b8c5e3a41"
+    },
+    {
+      "path": "../campaign/ycb/models/obj_000003.usdc",
+      "sha256": "9f89d2d76bf177ffe44e92dbb20699e1d7cfcddfecd72e61a1e7fb4ed3de85c4"
+    },
+    {
+      "path": "../campaign/ycb/models/obj_000005.jpg",
+      "sha256": "c086f493b0dc2a44e749297237e43f165907ad2a1b48590464adc6868cba48d5"
+    },
+    {
+      "path": "../campaign/ycb/models/obj_000005.usdc",
+      "sha256": "6c035f0081844c61d646628c03e0d74a6e39c414e1386b4114cd0b61ace22b96"
+    },
+    {
+      "path": "assets/carton/carton.usdc",
+      "sha256": "b9175439640632377d1bb409b7d092166454d0e4c615e31d71477ed23b3d6120"
+    },
+    {
+      "path": "assets/carton/textures/Cardboard002_1K-JPG_Color.jpg",
+      "sha256": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde"
+    },
+    {
+      "path": "assets/carton/textures/Cardboard002_1K-JPG_NormalGL.jpg",
+      "sha256": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a"
+    },
+    {
+      "path": "assets/carton/textures/Cardboard002_1K-JPG_Roughness.jpg",
+      "sha256": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e"
+    },
+    {
+      "path": "assets/carton/textures/Paper005_1K-JPG_Color.jpg",
+      "sha256": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1"
+    },
+    {
+      "path": "assets/carton/textures/Paper005_1K-JPG_NormalGL.jpg",
+      "sha256": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa"
+    },
+    {
+      "path": "assets/carton/textures/Paper005_1K-JPG_Roughness.jpg",
+      "sha256": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c"
+    },
+    {
+      "path": "assets/carton/textures/label_base.png",
+      "sha256": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522"
+    },
+    {
+      "path": "assets/carton/textures/label_normal.png",
+      "sha256": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8"
+    },
+    {
+      "path": "assets/carton/textures/label_print_base.png",
+      "sha256": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b"
+    },
+    {
+      "path": "assets/carton/textures/label_rough.png",
+      "sha256": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d"
+    },
+    {
+      "path": "assets/carton/textures/tape_normal.png",
+      "sha256": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9"
+    },
+    {
+      "path": "assets/carton/textures/tape_rough.png",
+      "sha256": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939"
+    },
+    {
+      "path": "assets/handset/handset.usdc",
+      "sha256": "c4ccdc040b263b4a8cbfe1800724473d1300575fc255f44906545679889e9029"
+    },
+    {
+      "path": "assets/handset/textures/brushed_steel_base.png",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225"
+    },
+    {
+      "path": "assets/handset/textures/brushed_steel_metal.png",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b"
+    },
+    {
+      "path": "assets/handset/textures/brushed_steel_normal.png",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945"
+    },
+    {
+      "path": "assets/handset/textures/brushed_steel_rough.png",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307"
+    },
+    {
+      "path": "assets/handset/textures/polymer_base.png",
+      "sha256": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb"
+    },
+    {
+      "path": "assets/handset/textures/polymer_normal.png",
+      "sha256": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee"
+    },
+    {
+      "path": "assets/handset/textures/polymer_rough.png",
+      "sha256": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3"
+    },
+    {
+      "path": "assets/tray/textures/brushed_steel_base.png",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225"
+    },
+    {
+      "path": "assets/tray/textures/brushed_steel_metal.png",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b"
+    },
+    {
+      "path": "assets/tray/textures/brushed_steel_normal.png",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945"
+    },
+    {
+      "path": "assets/tray/textures/brushed_steel_rough.png",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307"
+    },
+    {
+      "path": "assets/tray/tray.usdc",
+      "sha256": "5ac0496932df11ead9e3ebc2e86840ce322fa18059b1274f97cc054f804dfcc9"
+    },
+    {
+      "path": "cameras.usda",
+      "sha256": "20ff18ab0f6f23e209b867559d4c40cc2796054d177d2e942786e36ab52b27d0"
+    },
+    {
+      "path": "environment.usda",
+      "sha256": "497eec1e0728694e3e366d9601b18bb04b228c4f1aaa34e289e731ee28b4b652"
+    },
+    {
+      "path": "geometry.usdc",
+      "sha256": "157e60327336a027913e9d88686dac38623ef3a05277582c8b7e7e0ac9a9ba78"
+    },
+    {
+      "path": "lighting.usda",
+      "sha256": "ae8d4c64143304f5cdcb290e5ad0bd86d5b7bbf1e472dc00d1b999ac23ff5989"
+    },
+    {
+      "path": "lighting/empty_warehouse_01_1k.hdr",
+      "sha256": "9b3d611cadc32c3a0c7e084ce5611c0650293881c4a041e7fa13748fe0dc6451"
+    },
+    {
+      "path": "scene.usda",
+      "sha256": "8cb1746881b976ed4f52283161605d183db989d515ddc76e397b64d46b3bfa07"
+    },
+    {
+      "path": "textures/Cardboard002_1K-JPG_Color.jpg",
+      "sha256": "94443ec58d123a5bb99a54ae21beb53ce6a70247f52035688678625a31cbddde"
+    },
+    {
+      "path": "textures/Cardboard002_1K-JPG_NormalGL.jpg",
+      "sha256": "29e8ff279deac531a5ca793fdde60fe1da36367eaca82fcab6832448d6a14f5a"
+    },
+    {
+      "path": "textures/Cardboard002_1K-JPG_Roughness.jpg",
+      "sha256": "39ead79d0e19ec7470a6bf95dc69e268ddc4079160763db423d93ca9a1fae90e"
+    },
+    {
+      "path": "textures/Paper005_1K-JPG_Color.jpg",
+      "sha256": "128d5ba17844798610b14e66f98970edc575afde388dccec33e1ff1c082abfe1"
+    },
+    {
+      "path": "textures/Paper005_1K-JPG_NormalGL.jpg",
+      "sha256": "30e5f8f5c11c3ca028729f27ea79443c4342996ed033285642ebafb009e955fa"
+    },
+    {
+      "path": "textures/Paper005_1K-JPG_Roughness.jpg",
+      "sha256": "52da917d7aeac52e5941ded68c7c5c9ecace4d1ade0b29b4b0499deb2b7cab4c"
+    },
+    {
+      "path": "textures/brushed_steel_base.png",
+      "sha256": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225"
+    },
+    {
+      "path": "textures/brushed_steel_metal.png",
+      "sha256": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b"
+    },
+    {
+      "path": "textures/brushed_steel_normal.png",
+      "sha256": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945"
+    },
+    {
+      "path": "textures/brushed_steel_rough.png",
+      "sha256": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307"
+    },
+    {
+      "path": "textures/concrete_floor_painted_base.jpg",
+      "sha256": "f99ff99ed191e924d3bcbf4f345bb9973467ae18dceddee34bc013f01702c358"
+    },
+    {
+      "path": "textures/concrete_floor_painted_normal.png",
+      "sha256": "d41acd3546d47f2ceabddb3b73e0ef9e6bf288866c82604f0f88076734999205"
+    },
+    {
+      "path": "textures/concrete_floor_painted_rough.jpg",
+      "sha256": "2bd547b54210fa2ffd48d212c0d461c8b0f7bd6fb57797c2f114dc5ca552fee9"
+    },
+    {
+      "path": "textures/label_base.png",
+      "sha256": "ee91e18f639a61bc84a31c249ac88f14baf2b2145274d9e133e95b0803a88522"
+    },
+    {
+      "path": "textures/label_normal.png",
+      "sha256": "e68f88dec3f580aebccfa96b3847d3c36d45139f3f392a61ffb209e2a3fe90a8"
+    },
+    {
+      "path": "textures/label_print_base.png",
+      "sha256": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b"
+    },
+    {
+      "path": "textures/label_rough.png",
+      "sha256": "24895b7e7949d1eb2db7413ae4e2a0ccc9d3da2607db8c44e9a50ad97839508d"
+    },
+    {
+      "path": "textures/metal_plate_02_base.jpg",
+      "sha256": "6e80877d0e9d5973d96298c6091df7ace906b0a6760afc4f3592e4855f3f1d4c"
+    },
+    {
+      "path": "textures/metal_plate_02_metal.jpg",
+      "sha256": "fb1b120a2be5887dfeebed7a198a8151b292e963713d914b74ed7669434afb41"
+    },
+    {
+      "path": "textures/metal_plate_02_normal.png",
+      "sha256": "a39eee156a992afef4f1453010f2f2ff3c01cd6b5e0ce408259954ce25dd049f"
+    },
+    {
+      "path": "textures/metal_plate_02_rough.jpg",
+      "sha256": "73a6bd6393f6de7be42058584c2d382f2a3e9148ceabc2d02e748e2c860e74d1"
+    },
+    {
+      "path": "textures/plywood_base.jpg",
+      "sha256": "800905650fc6cab2fe7c77c41851f8ea89669f1287ad5ce67c48f435654c0af8"
+    },
+    {
+      "path": "textures/plywood_normal.png",
+      "sha256": "20e6e3fcfe50bfb295f941df3bd34b02c36788eeca88c8cbeafd87bb4fab4c1e"
+    },
+    {
+      "path": "textures/plywood_rough.jpg",
+      "sha256": "c4600551fa90bf1222de07b5d92e09456501f0449a4f315c203770bfcbd97aaf"
+    },
+    {
+      "path": "textures/polymer_base.png",
+      "sha256": "c075df21a5398cf5d0b698607d9019ad4a0b9b747218dd7f6aa4401b0df90bfb"
+    },
+    {
+      "path": "textures/polymer_normal.png",
+      "sha256": "f84e56df608308a24ed50b087182815265414f533274490d580fa00ab7e10aee"
+    },
+    {
+      "path": "textures/polymer_rough.png",
+      "sha256": "05cbc6bd28ff7c83e8d6d1c350cc2830f18b036aa229e8f97723ed5c483ef9c3"
+    },
+    {
+      "path": "textures/tape_base.png",
+      "sha256": "e4884473bf6b31657d370a65e4c0be246bbb3d31fc9975c3a5838c52739175ad"
+    },
+    {
+      "path": "textures/tape_normal.png",
+      "sha256": "130229f934be11f0ebfcb431e445671f81ff7ae3546d2dfa7c155ae4af002ff9"
+    },
+    {
+      "path": "textures/tape_rough.png",
+      "sha256": "6a36f2dc93cdbe6679a5cc4be60c60eee95b8397b1c22b26b66068acdc405939"
+    },
+    {
+      "path": "textures/wall_paint_base.png",
+      "sha256": "17a27d94869301be83853f776eae66ba1223582f952d8a8719550b29ca5b2532"
+    },
+    {
+      "path": "textures/wall_paint_normal.png",
+      "sha256": "740ea24dc544d8a6adf0f7b1b8414ead0342bdc161ccda5b1a4def2fe453fcc7"
+    },
+    {
+      "path": "textures/wall_paint_rough.png",
+      "sha256": "a81d86850a761301c2b64a32dddfd5c18886895a8f7380ce5228225b9d268a4a"
+    }
+  ],
+  "renderer": {
+    "/rtx/rendermode": "PathTracing",
+    "/rtx/post/aa/op": 0,
+    "/rtx/post/histogram/enabled": false,
+    "/rtx/post/tonemap/filmIso": 100.0,
+    "/rtx/post/tonemap/cameraShutter": 1.0,
+    "/rtx/post/tonemap/fNumber": 5.0,
+    "/rtx/post/tonemap/op": 1,
+    "/rtx/post/tonemap/colorMode": 0,
+    "/rtx/pathtracing/spp": 16,
+    "/rtx/pathtracing/maxBounces": 4,
+    "/rtx/pathtracing/totalSpp": 432,
+    "/rtx/pathtracing/optixDenoiser/enabled": true
+  },
+  "resolution": [
+    640,
+    480
+  ],
+  "rt_subframes": 3,
+  "warmup_frames": 24,
+  "engine": {
+    "isaacsim_app": [
+      "6.2.0",
+      "rc.14",
+      "6",
+      "2",
+      "0",
+      "rc",
+      "14",
+      "release.52805.02189a84.gl"
+    ],
+    "replicator_extension": "omni.replicator.core-1.13.38"
+  },
+  "code": {
+    "capture_campaign.py": "0b96fdba7dd2c430f75e401f8c636d240877b24a86db554caebe95d31c24caa5",
+    "capture_isaac.py": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+    "generate_dataset.py": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+    "campaign.py": "ac779cdf90c831d9743684e679dc0d51577cc39e10926ede5bf61cb108028a59",
+    "visibility.py": "de9b5861db8de97e9f5c63da97fb0799dbc1d3da5f92cad2ab6407fc1aa9f09d"
+  },
+  "depth": "derived radial metres; outside valid field of view is NaN",
+  "exposure": {
+    "iso": 100,
+    "time": 1,
+    "fstop": 5,
+    "responsivity": 1,
+    "compensation_ev": 0
+  },
+  "kind": "sensor-derived",
+  "source_campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+  "source_campaign_sha256": "19e3e244a801a9617e2c8071b2b6e3ec4434c50bdf7f7743cef3af5fcec30ea0",
+  "profile_sha256": "79593f71a1ce9bcf5563e903decb6e5833825a986d41795dcf332ff0bff3101d",
+  "profile_name": "TUM RGB-D Freiburg 1 Kinect RGB",
+  "derivation_code": {
+    "color_sensor.py": "ddd3a4d50246f91f3527442d883016f51901641cf3844db24b3840aba5c243f8",
+    "sensor_dataset.py": "f1c22c520d859295d8720ff635d50e344e5af8d5c731a57df352af061af86c0f"
+  },
+  "profile_provenance": "Numerical camera matrix and five distortion coefficients read from the Freiburg 1 RGB calibration archive ost.txt. Pixel values retain RGB; sensor noise disabled without a compatible flat-field measurement.",
+  "target_K": [
+    517.306408,
+    0.0,
+    318.64304,
+    0.0,
+    516.469215,
+    255.313989,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "target_D": [
+    0.262383,
+    -0.953104,
+    -0.005358,
+    0.002628,
+    1.163314
+  ],
+  "noise_fit_sha256": null,
+  "campaign_key": "963ae63db1f64c65fb0fa12a93a07832aae8f0b3fcb4cfedd96862bc875d7fc1"
+}

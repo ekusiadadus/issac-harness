@@ -1,0 +1,34 @@
+{
+  "case_order": [
+    "hidden",
+    "visible"
+  ],
+  "sample_edit": "mark_visible",
+  "projected_corners_px": [
+    [
+      140.4902539632959,
+      397.433696035805
+    ],
+    [
+      291.24412227241345,
+      397.433696035805
+    ],
+    [
+      288.4532674196442,
+      305.331211479497
+    ],
+    [
+      135.47042393894841,
+      305.331211479497
+    ]
+  ],
+  "projected_area_px": 14228,
+  "mean_abs_srgb_inside": 0.19061686336984424,
+  "mean_abs_srgb_outside": 0.0020416673569762533,
+  "fraction_changed_inside_over_10_percent": 0.9264829912847905,
+  "changed_instance_pixels": 13738,
+  "rgb_sha256": [
+    "ff0f57f67429c6e858d91c6397df4a6801c24b5057224557c01d55ae29026b9d",
+    "4544c42648d46c7ffbb4ab8ec3ddece8b65a9b46ae708a2a653ab372936a99a0"
+  ]
+}

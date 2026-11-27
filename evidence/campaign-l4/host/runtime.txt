@@ -1,0 +1,11 @@
+Wed Nov 25 00:41:19 UTC 2026
+Linux 7.0.0-1017-gcp x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.5 LTS"
+name, uuid, driver_version, memory.total [MiB]
+NVIDIA L4, GPU-1fb876f4-9f0a-51d0-6ef5-b8fc13bee834, 595.91.07, 23034 MiB
+29.1.3
+nvcr.io/nvidia/isaac-sim@sha256:a025b65a7442d56806a1cc3f5eed081caf736c24b72d62dccf68ef66945d8690
+sha256:a025b65a7442d56806a1cc3f5eed081caf736c24b72d62dccf68ef66945d8690 10651019452 ["nvcr.io/nvidia/isaac-sim@sha256:a025b65a7442d56806a1cc3f5eed081caf736c24b72d62dccf68ef66945d8690"]
+nvcr.io/nvidia/isaac-lab@sha256:f70acc9ed3bc3fc67099a0c5715379c432cc9965623cabbaf54f74599997e245
+sha256:f70acc9ed3bc3fc67099a0c5715379c432cc9965623cabbaf54f74599997e245 16709718891 ["nvcr.io/nvidia/isaac-lab@sha256:f70acc9ed3bc3fc67099a0c5715379c432cc9965623cabbaf54f74599997e245"]
+/dev/root       193G   78G  116G  41% /

@@ -1,0 +1,214 @@
+[
+  {
+    "layout": "two_packages_fixed",
+    "camera": {
+      "id": "fixed_oblique",
+      "eye_m": [
+        -0.62,
+        -0.58,
+        0.58
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        0.11
+      ],
+      "K": [
+        700.0,
+        0.0,
+        320.0,
+        0.0,
+        700.0,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "objects": {
+      "package_a": {
+        "visible": true,
+        "bottom_xyz_m": [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      },
+      "package_b": {
+        "visible": true,
+        "bottom_xyz_m": [
+          0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      }
+    },
+    "edits": {
+      "environment": "small_workshop",
+      "dome_gain": 0.5,
+      "package_a_geometry": "cracker",
+      "package_b_geometry": "sugar"
+    }
+  },
+  {
+    "layout": "two_packages_fixed",
+    "camera": {
+      "id": "fixed_oblique",
+      "eye_m": [
+        -0.62,
+        -0.58,
+        0.58
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        0.11
+      ],
+      "K": [
+        700.0,
+        0.0,
+        320.0,
+        0.0,
+        700.0,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "objects": {
+      "package_a": {
+        "visible": true,
+        "bottom_xyz_m": [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      },
+      "package_b": {
+        "visible": true,
+        "bottom_xyz_m": [
+          0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      }
+    },
+    "edits": {
+      "environment": "small_workshop",
+      "dome_gain": 1.0,
+      "package_a_geometry": "cracker",
+      "package_b_geometry": "sugar"
+    }
+  },
+  {
+    "layout": "two_packages_fixed",
+    "camera": {
+      "id": "fixed_oblique",
+      "eye_m": [
+        -0.62,
+        -0.58,
+        0.58
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        0.11
+      ],
+      "K": [
+        700.0,
+        0.0,
+        320.0,
+        0.0,
+        700.0,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "objects": {
+      "package_a": {
+        "visible": true,
+        "bottom_xyz_m": [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      },
+      "package_b": {
+        "visible": true,
+        "bottom_xyz_m": [
+          0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      }
+    },
+    "edits": {
+      "environment": "university_workshop",
+      "dome_gain": 0.5,
+      "package_a_geometry": "cracker",
+      "package_b_geometry": "sugar"
+    }
+  },
+  {
+    "layout": "two_packages_fixed",
+    "camera": {
+      "id": "fixed_oblique",
+      "eye_m": [
+        -0.62,
+        -0.58,
+        0.58
+      ],
+      "target_m": [
+        0.0,
+        0.0,
+        0.11
+      ],
+      "K": [
+        700.0,
+        0.0,
+        320.0,
+        0.0,
+        700.0,
+        240.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "objects": {
+      "package_a": {
+        "visible": true,
+        "bottom_xyz_m": [
+          -0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      },
+      "package_b": {
+        "visible": true,
+        "bottom_xyz_m": [
+          0.13,
+          0.0,
+          0.0
+        ],
+        "yaw_deg": 0.0
+      }
+    },
+    "edits": {
+      "environment": "university_workshop",
+      "dome_gain": 1.0,
+      "package_a_geometry": "cracker",
+      "package_b_geometry": "sugar"
+    }
+  }
+]

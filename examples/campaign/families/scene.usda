@@ -1,0 +1,74 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def Mesh "Surface" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        int[] faceVertexCounts = [4]
+        int[] faceVertexIndices = [0, 1, 2, 3]
+        rel material:binding = </World/PaperMaterial>
+        point3f[] points = [(-0.42, -0.3, 0), (0.42, -0.3, 0), (0.42, 0.3, 0), (-0.42, 0.3, 0)]
+        texCoord2f[] primvars:st = [(0, 0), (5.25, 0), (5.25, 3.75), (0, 3.75)] (
+            interpolation = "vertex"
+        )
+        uniform token subdivisionScheme = "none"
+    }
+
+    def Material "PaperMaterial"
+    {
+        token outputs:surface.connect = </World/PaperMaterial/Surface.outputs:surface>
+
+        def Shader "Surface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </World/PaperMaterial/Texture.outputs:rgb>
+            float inputs:roughness = 0.88
+            token outputs:surface
+        }
+
+        def Shader "UV"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            token inputs:varname = "st"
+            float2 outputs:result
+        }
+
+        def Shader "Texture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            asset inputs:file = @paper_fleck.png@
+            token inputs:sourceColorSpace = "sRGB"
+            float2 inputs:st.connect = </World/PaperMaterial/UV.outputs:result>
+            token inputs:wrapS = "repeat"
+            token inputs:wrapT = "repeat"
+            float3 outputs:rgb
+        }
+    }
+
+    def "Packages"
+    {
+        def Xform "A" (
+            prepend references = @retail_package.usda@
+        )
+        {
+            double3 xformOp:translate = (-0.13, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+
+        def Xform "B" (
+            prepend references = @retail_package.usda@
+        )
+        {
+            double3 xformOp:translate = (0.13, 0, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate"]
+        }
+    }
+}
+

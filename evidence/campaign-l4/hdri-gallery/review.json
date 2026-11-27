@@ -1,0 +1,26 @@
+{
+  "campaign_key": "4a9e841dcec951914b081ed67bda00b531f4e873b2b93b2fed1a15fae149cc70",
+  "frames": {
+    "0": {
+      "rgb_sha256": "ef7ca53f7e91afe6be8bb9a2c422eded262073a7781f08c4166198aaba2fa78a",
+      "observation": "窓を背に二商品の印刷面が暗く、台の大半が黒い。",
+      "decision": "fail"
+    },
+    "1": {
+      "rgb_sha256": "a49119c6e794dee17789742024777c2408b16f2c1d07cc752573ada0b020f7a7",
+      "observation": "工房の窓と箱正面が明るくなる一方、砂糖箱の小さな文字は読みづらい。",
+      "decision": "fail"
+    },
+    "2": {
+      "rgb_sha256": "26d386ce096d389cd8df98f134d042a3b5c4228a74a849dcae67b469395d0f41",
+      "observation": "床と三角コーンが見える環境に変わる。黒い台面と暗い箱の境界が弱い。",
+      "decision": "fail"
+    },
+    "3": {
+      "rgb_sha256": "89b9e46806baef223672b21ccd9822e2472da3d49bd40a3760dca00af2357864",
+      "observation": "環境を工房の二つ目に固定すると強度上昇で床が明るくなる。印刷の正面は暗い。",
+      "decision": "fail"
+    }
+  },
+  "review_method": "Visual inspection of the archived RGB, visible instance contours, tight boxes and metric range side by side. Decisions concern appearance for package inspection, or alignment for sensor-color."
+}

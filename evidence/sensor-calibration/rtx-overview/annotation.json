@@ -1,0 +1,27 @@
+{
+  "sensor_model": {
+    "profile": "TUM Mono-VO sequence_01, IDS uEye UI-3241LE-M-GL monochrome",
+    "exposure_ms": 3.6060349941,
+    "reference_exposure_ms": 3.6060349941,
+    "seed": 0,
+    "noise_sigma_linear": 0.0,
+    "noise_provenance": "disabled; no measured noise profile",
+    "valid_pixel_fraction": 0.507147216796875,
+    "source_K": null,
+    "input": "evidence/inspection/nominal/overview.png",
+    "input_sha256": "b8c98f781e768337012e727c1b94b06826e7b83efa45383d7d2b089b5669dc91",
+    "input_size": [
+      1536,
+      1024
+    ],
+    "sensor_size": [
+      1280,
+      1024
+    ],
+    "input_mode": "RGB_visual_demo_resized",
+    "semantic_and_distance": "unavailable",
+    "output_mean_code": 53.79898452758789,
+    "output_std_code": 57.4713536327379
+  },
+  "source_annotation": null
+}

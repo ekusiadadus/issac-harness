@@ -1,0 +1,38 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "Asset" (
+    variants = {
+        string geometry = "cracker"
+    }
+    prepend variantSets = "geometry"
+)
+{
+    variantSet "geometry" = {
+        "cracker" {
+            def Xform "Geometry" (
+                prepend references = @../ycb/models/obj_000002.usdc@
+            )
+            {
+                double3 xformOp:translate = (0, 0, 0.10674300044775009)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+        }
+        "sugar" {
+            def Xform "Geometry" (
+                prepend references = @../ycb/models/obj_000003.usdc@
+            )
+            {
+                double3 xformOp:translate = (0, 0, 0.08800750225782394)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+
+        }
+    }
+}
+

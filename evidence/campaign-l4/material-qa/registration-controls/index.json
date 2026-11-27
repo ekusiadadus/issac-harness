@@ -1,0 +1,55 @@
+{
+  "tests": [
+    {
+      "case": "mark-reverse",
+      "capture_header_sha256": "c67d72e3cdf71ebfa4010aa56213d01098e53c73b8c21f5939bb529b0d7c34d9",
+      "code_sha256": {
+        "capture_campaign.py": "0b96fdba7dd2c430f75e401f8c636d240877b24a86db554caebe95d31c24caa5",
+        "capture_isaac.py": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+        "generate_dataset.py": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+        "campaign.py": "ac779cdf90c831d9743684e679dc0d51577cc39e10926ede5bf61cb108028a59",
+        "visibility.py": "de9b5861db8de97e9f5c63da97fb0799dbc1d3da5f92cad2ab6407fc1aa9f09d"
+      },
+      "inputs": {
+        "00000000": "f03616dac3209c196e84eebca8e15f5fd7671694588c6003ff9d5705cdd680be",
+        "00000001": "e6db680e5fef441e92b3a4e1ebbc4a57b7569fc52ea9e32a61a2a32d4c75770d"
+      },
+      "raw_capture": "out/rtx-20261125/mark-diagnostics/mark-reverse",
+      "comparison_sha256": "9d1f554d1c6b568881fb6532ba65b55f154a318ff7a2959a4284491aaf700c71"
+    },
+    {
+      "case": "mark-park",
+      "capture_header_sha256": "6c58348268117a88132cb5064a80942cece2fcd4cb72d8087498047350a8ef3a",
+      "code_sha256": {
+        "capture_campaign.py": "96a0e66ad0ede25aea8519ec78f419eae303309df4dd70e3ce1b7d8a98b50d06",
+        "capture_isaac.py": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+        "generate_dataset.py": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+        "campaign.py": "ac779cdf90c831d9743684e679dc0d51577cc39e10926ede5bf61cb108028a59",
+        "visibility.py": "de9b5861db8de97e9f5c63da97fb0799dbc1d3da5f92cad2ab6407fc1aa9f09d"
+      },
+      "inputs": {
+        "00000000": "757e3a659d223c89c09f1ca20fd441f7463668e3b5417976c3ff47e188fbde7a",
+        "00000001": "aff2c031a067b38cfd16454627f33d185f8be131a91740d6722481a4a425e0a0"
+      },
+      "raw_capture": "out/rtx-20261125/mark-diagnostics/mark-park",
+      "comparison_sha256": "e3d5650ddeefda5b96270f072fab9d45e9d15e4aa620f23e239d2595b06834c2"
+    },
+    {
+      "case": "mask-candidate",
+      "capture_header_sha256": "cd99eaf54613da050471c5583e05fc9fd9c4ce2a5cdf31816b157604f84ad155",
+      "code_sha256": {
+        "capture_campaign.py": "84dc1ce7533588e7569346d710abc2628bb9586d32b254af07b468bcab8bd076",
+        "capture_isaac.py": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+        "generate_dataset.py": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+        "campaign.py": "17f5fd4a82723bffb04fef2c8c3c83be2e9e3d4fef41d66567bb3c6eb3ab38c7",
+        "visibility.py": "49d54d6f4b057ba63a77290d5afddbafc4431e1457d6ea84fbe896679be23d1c"
+      },
+      "inputs": {
+        "00000000": "3effdf063eca3df5cfdb09ddc8e26bc9fa8910f5f61c3b99f9acec4d6846e2cb",
+        "00000001": "fb7b5723107ce8cc773ad75ff756a05007214acaa8e11c81e50ba12641926337"
+      },
+      "raw_capture": "out/rtx-20261125/mark-diagnostics/mask-candidate",
+      "comparison_sha256": "c0cad7d79f5499390c77d4d09fe19b48ac031181a20d04bbac48044caa3e05c2"
+    }
+  ]
+}

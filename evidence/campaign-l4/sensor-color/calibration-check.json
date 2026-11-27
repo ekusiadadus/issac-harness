@@ -1,0 +1,45 @@
+{
+  "profile_sha256": "79593f71a1ce9bcf5563e903decb6e5833825a986d41795dcf332ff0bff3101d",
+  "inner_pattern": [
+    8,
+    6
+  ],
+  "images": [
+    {
+      "photo": "left-0000.png",
+      "sha256": "d1cee7766dbe9e17df283bb206671cde0cc10bc0c5c6c27d53206a3bc4c5b07d",
+      "pose_points": 24,
+      "scored_points": 24,
+      "median_pixel_error": 0.23401641845703125,
+      "p95_pixel_error": 0.5098749995231628
+    },
+    {
+      "photo": "left-0024.png",
+      "sha256": "a026fd2c1704add9df715f29207bb258be12ae9d997959a9cd5e1922f8481f53",
+      "pose_points": 24,
+      "scored_points": 24,
+      "median_pixel_error": 0.39884400367736816,
+      "p95_pixel_error": 0.7872424721717834
+    },
+    {
+      "photo": "left-0048.png",
+      "sha256": "0aad87035349b283c41a307e873f0aa24f28ac281bef243f40887bb428f083d4",
+      "pose_points": 24,
+      "scored_points": 24,
+      "median_pixel_error": 0.11625158786773682,
+      "p95_pixel_error": 0.36676308512687683
+    },
+    {
+      "photo": "left-0064.png",
+      "sha256": "37768dd45e71127c44e06bdf59d367b44f1cc02dadc7bf25f383a82c7b7c498a",
+      "pose_points": 24,
+      "scored_points": 24,
+      "median_pixel_error": 0.15940064191818237,
+      "p95_pixel_error": 0.3798355758190155
+    }
+  ],
+  "scored_points": 96,
+  "median_pixel_error": 0.2298295870423317,
+  "p95_pixel_error": 0.5997531712055206,
+  "method": "Hold out alternate detected checkerboard intersections from pose estimation. The lens coefficients are fixed."
+}

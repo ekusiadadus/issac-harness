@@ -1,0 +1,216 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "status": "pass",
+      "frames": 4
+    },
+    {
+      "status": "pass",
+      "frames": 4
+    }
+  ],
+  "native_boxes_checked": 8,
+  "frames": [
+    {
+      "frame": 0,
+      "mask_sha256": "b99002902a3a62b829e011b5a978576e5b6fb33c0d816d7f33afabfd91ca494f",
+      "replay_mask_sha256": "b99002902a3a62b829e011b5a978576e5b6fb33c0d816d7f33afabfd91ca494f",
+      "class_masks_exact": true,
+      "box_checks": [
+        {
+          "class": "carton",
+          "native_xyxy_inclusive": [
+            390,
+            45,
+            561,
+            141
+          ],
+          "observed_class_mask_extrema": [
+            390,
+            45,
+            561,
+            141
+          ],
+          "training_xyxy_half_open": [
+            390,
+            45,
+            562,
+            142
+          ]
+        },
+        {
+          "class": "handheld_scanner",
+          "native_xyxy_inclusive": [
+            266,
+            76,
+            315,
+            89
+          ],
+          "observed_class_mask_extrema": [
+            266,
+            76,
+            315,
+            89
+          ],
+          "training_xyxy_half_open": [
+            266,
+            76,
+            316,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "mask_sha256": "4dcdbbf575282c3691f5ab9491761c2a5d0d1cd86fda093806f303b594402a54",
+      "replay_mask_sha256": "4dcdbbf575282c3691f5ab9491761c2a5d0d1cd86fda093806f303b594402a54",
+      "class_masks_exact": true,
+      "box_checks": [
+        {
+          "class": "carton",
+          "native_xyxy_inclusive": [
+            397,
+            53,
+            565,
+            141
+          ],
+          "observed_class_mask_extrema": [
+            397,
+            53,
+            565,
+            141
+          ],
+          "training_xyxy_half_open": [
+            397,
+            53,
+            566,
+            142
+          ]
+        },
+        {
+          "class": "handheld_scanner",
+          "native_xyxy_inclusive": [
+            266,
+            77,
+            318,
+            89
+          ],
+          "observed_class_mask_extrema": [
+            266,
+            77,
+            318,
+            89
+          ],
+          "training_xyxy_half_open": [
+            266,
+            77,
+            319,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "mask_sha256": "85d49b28043634e690a3b8fd8dbe4166aee99bd82f6aade0e864cb6c4823abb3",
+      "replay_mask_sha256": "85d49b28043634e690a3b8fd8dbe4166aee99bd82f6aade0e864cb6c4823abb3",
+      "class_masks_exact": true,
+      "box_checks": [
+        {
+          "class": "carton",
+          "native_xyxy_inclusive": [
+            398,
+            51,
+            561,
+            139
+          ],
+          "observed_class_mask_extrema": [
+            398,
+            51,
+            561,
+            139
+          ],
+          "training_xyxy_half_open": [
+            398,
+            51,
+            562,
+            140
+          ]
+        },
+        {
+          "class": "handheld_scanner",
+          "native_xyxy_inclusive": [
+            266,
+            76,
+            317,
+            89
+          ],
+          "observed_class_mask_extrema": [
+            266,
+            76,
+            317,
+            89
+          ],
+          "training_xyxy_half_open": [
+            266,
+            76,
+            318,
+            90
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "mask_sha256": "aba38e635c830849ce8fe8866d989e896c80050cee7c08b4f9e49f5db5c91464",
+      "replay_mask_sha256": "aba38e635c830849ce8fe8866d989e896c80050cee7c08b4f9e49f5db5c91464",
+      "class_masks_exact": true,
+      "box_checks": [
+        {
+          "class": "carton",
+          "native_xyxy_inclusive": [
+            402,
+            47,
+            558,
+            138
+          ],
+          "observed_class_mask_extrema": [
+            402,
+            47,
+            558,
+            138
+          ],
+          "training_xyxy_half_open": [
+            402,
+            47,
+            559,
+            139
+          ]
+        },
+        {
+          "class": "handheld_scanner",
+          "native_xyxy_inclusive": [
+            267,
+            76,
+            320,
+            89
+          ],
+          "observed_class_mask_extrema": [
+            267,
+            76,
+            320,
+            89
+          ],
+          "training_xyxy_half_open": [
+            267,
+            76,
+            321,
+            90
+          ]
+        }
+      ]
+    }
+  ]
+}

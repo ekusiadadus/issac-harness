@@ -1,0 +1,21 @@
+# Distances and finish coefficients are example art direction, in metres/mm as named.
+resolution = 512
+repeat_m = 0.25
+seed = 2043
+variants = 8
+scuff_count = [4, 26]
+scuff_length_mm = [3, 54]
+scuff_width_mm = [0.25, 2.6]
+groove_depth_mm = 0.18
+wear_srgb = [0.78, 0.66, 0.48]
+wear_roughness = 0.97
+decals = ["handling-mark.png"]
+decal_width_mm = [28, 68]
+decal_probability = 0.8
+decal_roughness = 0.45
+decal_thickness_mm = 0.075
+
+[maps]
+base = "../inspection/textures/Cardboard002_1K-JPG_Color.jpg"
+rough = "../inspection/textures/Cardboard002_1K-JPG_Roughness.jpg"
+normal = "../inspection/textures/Cardboard002_1K-JPG_NormalGL.jpg"

@@ -1,0 +1,48 @@
+{
+  "rig": "TUM calib_wide_whitePaper, IDS uEye monochrome wide lens",
+  "exposure_reported_units": [
+    2.269192934,
+    2.269192934,
+    2.269192934
+  ],
+  "source": "https://cvg.cit.tum.de/data/datasets/mono-dataset",
+  "interpretation": "upper-bound temporal residual including JPEG and motion; gamma-disabled calibration, not applied to sequence_01 wide-gamma",
+  "results": {
+    "left_paper": {
+      "roi_yxyx": [
+        350,
+        600,
+        470,
+        650
+      ],
+      "mean_code_by_frame": [
+        94.122,
+        94.37142222222222,
+        94.26242222222223
+      ],
+      "temporal_residual_sigma_code_by_pair": [
+        0.9419276038338601,
+        1.0383552967179501
+      ],
+      "median_sigma_code": 0.9901414502759052
+    },
+    "right_paper": {
+      "roi_yxyx": [
+        340,
+        580,
+        840,
+        950
+      ],
+      "mean_code_by_frame": [
+        109.04477272727273,
+        109.32969696969697,
+        108.65295454545455
+      ],
+      "temporal_residual_sigma_code_by_pair": [
+        1.010782773553355,
+        1.134007040025486
+      ],
+      "median_sigma_code": 1.0723949067894205
+    }
+  }
+}

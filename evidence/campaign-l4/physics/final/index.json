@@ -1,0 +1,95 @@
+{
+  "runtime_sha256": "b19f0315fc0b47047ef32fa630534dcfdd90b65d80e37b8e4e017a3c39384f26",
+  "container_digest": "sha256:f70acc9ed3bc3fc67099a0c5715379c432cc9965623cabbaf54f74599997e245",
+  "trials": [
+    {
+      "status": "passed",
+      "trial": "grasp",
+      "device": "cpu",
+      "steps": 360,
+      "metrics": {
+        "max_payload_z_m": 0.18003958463668823,
+        "mean_hold_payload_z_m": 0.1793901847826468,
+        "min_lift_payload_z_m": 0.17064018547534943,
+        "final_payload_z_m": -7.655471563339233e-07,
+        "hold_tail_vertical_span_m": 1.4901161193847656e-08,
+        "release_fall_m": 0.17939095032980312
+      },
+      "report_sha256": "d89f9d97d55ee8e65258b043ef4f1e1e2d1348821a79b0024045bbaf5a1c205a",
+      "log_sha256": "6f8b85cb0ccf1b1e4cd3850c736a21fbf05ed22fb1efec017ad19bd02f0246c3"
+    },
+    {
+      "status": "passed",
+      "trial": "open-control",
+      "device": "cpu",
+      "steps": 360,
+      "metrics": {
+        "max_payload_z_m": -6.705522537231445e-07,
+        "mean_hold_payload_z_m": -7.674098014831543e-07,
+        "min_lift_payload_z_m": -7.674098014831543e-07,
+        "final_payload_z_m": -7.674098014831543e-07,
+        "hold_tail_vertical_span_m": 0.0,
+        "release_fall_m": 0.0
+      },
+      "report_sha256": "892949f73ee481ec94bd77e4a690087199e9ce187c75ddc873839651ada32916",
+      "log_sha256": "8943fd2c5c61980b5d523874ab1994914b9ca335a0fd18b759cdcf9851353593"
+    },
+    {
+      "status": "passed",
+      "trial": "rim",
+      "device": "cuda:0",
+      "steps": 360,
+      "metrics": {
+        "max_x_m": 0.20811963081359863,
+        "inbound_vx_mps": 0.7118450403213501,
+        "outbound_vx_mps": -0.14234280586242676,
+        "effective_rebound_ratio": 0.1999631911436351,
+        "wall_zone_samples": 56,
+        "contact_material_pair": [
+          "asset:RimRight",
+          "probe sphere (friction 0.12, restitution 0.35)"
+        ],
+        "nonrebound": false,
+        "inbound_step": 51,
+        "outbound_step": 54,
+        "probe_final_z_m": 0.031999994069337845
+      },
+      "report_sha256": "47278e11f56c9b93cde6045bc4080a31695b4b9ca6f689514d7e7549e259bf69",
+      "log_sha256": "6df784b045c8b7b2b4a84d627f56d8ac355c5fd0764832b26db0a7aa3d002b85"
+    },
+    {
+      "status": "passed",
+      "trial": "slide",
+      "device": "cuda:0",
+      "steps": 360,
+      "metrics": {
+        "initial_vx_mps": 0.9463212490081787,
+        "final_vx_mps": -2.8945860321982764e-05,
+        "travel_x_m": 0.06937079969793558,
+        "effective_dynamic_friction_fit": 0.6549519020416754,
+        "fit_slope_mps2": -6.425078159028836,
+        "fit_intercept_mps": 0.9998811341144824,
+        "fit_rmse_mps": 4.50830860625031e-06,
+        "fit_samples": 11,
+        "fit_duration_s": 0.08333333333333333,
+        "fit_condition": "steps after first 5; vx > 0.10 m/s; x < 0.35 m",
+        "acceptance": {
+          "mu_min": 0.02,
+          "mu_max": 1.5,
+          "rmse_max_mps": 0.15,
+          "min_samples": 8
+        },
+        "contact_material_pair": [
+          "asset:Body",
+          "support (friction 0.8, restitution 0.0)"
+        ],
+        "max_x_m": 0.07746288925409317
+      },
+      "report_sha256": "c07e7e7ffbd6426f6bc335b9005194ff4305acf152113fe37addf58b7d305690",
+      "log_sha256": "07f4044931f57ea305bac85e2481cffff426208d28d9ed0d9a5ce9ff7378395b"
+    }
+  ],
+  "timestep_seconds": 0.008333333333333333,
+  "measures": "simulated PhysX trajectories",
+  "confirmed_runtime_sha256_on_gcp": true
+}

@@ -1,0 +1,16 @@
+{
+  "frames": 256,
+  "seed": 20261125,
+  "config_sha256": "7229b9961e95774ae2f3713b04f312d577c906bfa5e2d3f3c8d5945436834e79",
+  "status": "planned",
+  "shards": [
+    {
+      "start": 0,
+      "count": 128
+    },
+    {
+      "start": 128,
+      "count": 128
+    }
+  ]
+}

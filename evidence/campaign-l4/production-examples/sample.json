@@ -1,0 +1,11 @@
+{
+  "source": "out/rtx-20261125/production-fixed",
+  "campaign_key": "b37588e855247082358d7c7b79e31c2d34f866ca4da388480478c370ffcf83ac",
+  "frame_ids": [
+    0,
+    2,
+    17,
+    31
+  ],
+  "total_frames": 32
+}

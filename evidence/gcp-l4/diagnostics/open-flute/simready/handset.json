@@ -1,0 +1,205 @@
+{
+    "/Users/ekusiadadus/dev/issac-harness/examples/inspection/assets/handset/handset.usdc": {
+        "features_summary": {
+            "CAP000_Core.0-2-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "passed": true,
+                "version": "0-2-0"
+            },
+            "CAP000_Core.MuJoCo.0-2-0": {
+                "blocking_failure": false,
+                "dependencies": "['CAP000_Core.0-2-0']",
+                "optional requirements": "['com.nvidia.simready.RV.007']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.RV.007\": [\"Default prim </Handset> must declare a 'MuJoCo' physics runtime variant set.\"]}",
+                "version": "0-2-0"
+            },
+            "CAP000_Core.Newton.0-2-0": {
+                "blocking_failure": false,
+                "dependencies": "['CAP000_Core.0-2-0']",
+                "optional requirements": "['com.nvidia.simready.RV.004']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.RV.004\": [\"Default prim </Handset> must declare a 'Newton' physics runtime variant set.\"]}",
+                "version": "0-2-0"
+            },
+            "CAP000_Core.PhysX.0-2-0": {
+                "blocking_failure": false,
+                "dependencies": "['CAP000_Core.0-2-0']",
+                "optional requirements": "['com.nvidia.simready.RV.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.RV.001\": [\"Default prim </Handset> must declare a 'PhysX' physics runtime variant set.\"]}",
+                "version": "0-2-0"
+            },
+            "CAP003_RigidBody.MuJoCo.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "optional requirements": "['com.nvidia.simready.MUJOCO.COL.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.MUJOCO.COL.001\": [\"MuJoCo collider '/Handset/Body' must apply MjcCollisionAPI.\"]}",
+                "version": "0-1-0"
+            },
+            "CAP004_Multibody.MuJoCo.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "['CAP003_RigidBody.MuJoCo.0-1-0']",
+                "optional requirements": "['com.nvidia.simready.MUJOCO.COL.001', 'com.nvidia.simready.RB.MB.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.MUJOCO.COL.001\": [\"MuJoCo collider '/Handset/Body' must apply MjcCollisionAPI.\"], \"com.nvidia.simready.RB.MB.001\": [\"Not enough physics rigid bodies found under the default prim. Found 1, expected at least 2.\"]}",
+                "version": "0-1-0"
+            },
+            "CAP007_NonVisualMaterials.0-2-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "optional requirements": "['com.nvidia.simready.NVM.001', 'com.nvidia.simready.NVM.002', 'com.nvidia.simready.NVM.003']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.NVM.001\": [\"Required attribute \\\"omni:simready:nonvisual:attributes\\\" for nonvisual material doesn't exist.\", \"Required attribute \\\"omni:simready:nonvisual:attributes\\\" for nonvisual material doesn't exist.\"], \"com.nvidia.simready.NVM.002\": [\"Required attribute \\\"omni:simready:nonvisual:base\\\" for nonvisual material doesn't exist.\", \"Required attribute \\\"omni:simready:nonvisual:base\\\" for nonvisual material doesn't exist.\"], \"com.nvidia.simready.NVM.003\": [\"Required attribute \\\"omni:simready:nonvisual:coating\\\" for nonvisual material doesn't exist.\", \"Required attribute \\\"omni:simready:nonvisual:coating\\\" for nonvisual material doesn't exist.\"]}",
+                "version": "0-2-0"
+            },
+            "CAP031_SelfContainedPackage.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "passed": true,
+                "version": "0-1-0"
+            },
+            "CAP033_SimReadyPackage.0-4-0": {
+                "blocking_failure": false,
+                "dependencies": "['CAP031_SelfContainedPackage.0-1-0']",
+                "passed": true,
+                "version": "0-4-0"
+            },
+            "CAP046_WikidataLabels.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "passed": true,
+                "version": "0-1-0"
+            },
+            "CAP100_IsaacComposition.Isaac.0-4-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "optional requirements": "['com.nvidia.simready.ISA.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.ISA.001\": [\"Incomplete Isaac Sim composition: performance robot layout; missing layers: base, geometries, instances, materials.\"]}",
+                "version": "0-4-0"
+            },
+            "FET001_MinimalPlaceableVisual.1-0-1": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "passed": true,
+                "version": "1-0-1"
+            },
+            "FET003_RigidBody.0-2-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "passed": true,
+                "version": "0-2-0"
+            },
+            "FET003_RigidBody.Newton.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "optional requirements": "['com.nvidia.simready.NEWTON.COL.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.NEWTON.COL.001\": [\"Newton mesh collider '/Handset/Body' must apply either NewtonMeshCollisionAPI or NewtonSDFCollisionAPI.\"]}",
+                "version": "0-1-0"
+            },
+            "FET003_RigidBody.PhysX.0-4-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "passed": true,
+                "version": "0-4-0"
+            },
+            "FET004_Multibody.0-2-0": {
+                "blocking_failure": false,
+                "dependencies": "['FET003_RigidBody.0-2-0']",
+                "optional requirements": "['com.nvidia.simready.RB.MB.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.RB.MB.001\": [\"Not enough physics rigid bodies found under the default prim. Found 1, expected at least 2.\"]}",
+                "version": "0-2-0"
+            },
+            "FET004_Multibody.Newton.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "['FET003_RigidBody.Newton.0-1-0']",
+                "optional requirements": "['com.nvidia.simready.NEWTON.COL.001', 'com.nvidia.simready.RB.MB.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.NEWTON.COL.001\": [\"Newton mesh collider '/Handset/Body' must apply either NewtonMeshCollisionAPI or NewtonSDFCollisionAPI.\"], \"com.nvidia.simready.RB.MB.001\": [\"Not enough physics rigid bodies found under the default prim. Found 1, expected at least 2.\"]}",
+                "version": "0-1-0"
+            },
+            "FET004_Multibody.PhysX.0-4-0": {
+                "blocking_failure": false,
+                "dependencies": "['FET003_RigidBody.PhysX.0-4-0']",
+                "optional requirements": "['com.nvidia.simready.RB.MB.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.RB.MB.001\": [\"Not enough physics rigid bodies found under the default prim. Found 1, expected at least 2.\"]}",
+                "version": "0-4-0"
+            },
+            "FET005_Grasp.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "optional requirements": "['com.nvidia.simready.GSP.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.GSP.001\": [\"Asset must have at least one grasp vector prim.\"]}",
+                "version": "0-1-0"
+            },
+            "FET006_Materials.0-3-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "passed": true,
+                "version": "0-3-0"
+            },
+            "FET006_Materials.MDL.0-3-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "optional requirements": "['com.nvidia.simready.VM.MDL.003']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.VM.MDL.003\": [\"material '/Handset/Materials/BrushedSteel' is bound for rendering and connects no 'outputs:mdl:surface', so the asset does not have an MDL final surface on the geometry it renders: it connects outputs:surface\", \"material '/Handset/Materials/Polymer' is bound for rendering and connects no 'outputs:mdl:surface', so the asset does not have an MDL final surface on the geometry it renders: it connects outputs:surface\"]}",
+                "version": "0-3-0"
+            },
+            "FET006_Materials.Openpbr.0-2-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "optional requirements": "['com.nvidia.simready.VM.PBR.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.VM.PBR.001\": [\"material '/Handset/Materials/BrushedSteel' is bound for rendering but connects no OpenPBR final surface: it connects outputs:surface, and not 'outputs:mtlx:surface'\", \"material '/Handset/Materials/Polymer' is bound for rendering but connects no OpenPBR final surface: it connects outputs:surface, and not 'outputs:mtlx:surface'\"]}",
+                "version": "0-2-0"
+            },
+            "FET008_ObjectForward.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "['FET001_MinimalPlaceableVisual.1-0-1']",
+                "passed": true,
+                "version": "0-1-0"
+            },
+            "FET009_MaterialCoverage.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "['FET006_Materials.0-3-0']",
+                "passed": true,
+                "version": "0-1-0"
+            },
+            "FET010_DisplayColor.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "optional requirements": "['com.nvidia.simready.DISP.001']",
+                "passed": false,
+                "requirement_messages": "{\"com.nvidia.simready.DISP.001\": [\"GPrim '/Handset/Body' does not resolve a 'primvars:displayColor', authored on the prim or inherited from an ancestor\", \"GPrim '/Handset/CameraIsland' does not resolve a 'primvars:displayColor', authored on the prim or inherited from an ancestor\", \"GPrim '/Handset/DisplayInset' does not resolve a 'primvars:displayColor', authored on the prim or inherited from an ancestor\", \"GPrim '/Handset/Lens_0' does not resolve a 'primvars:displayColor', authored on the prim or inherited from an ancestor\", \"GPrim '/Handset/Lens_1' does not resolve a 'primvars:displayColor', authored on the prim or inherited from an ancestor\", \"GPrim '/Handset/Screen' does not resolve a 'primvars:displayColor', authored on the prim or inherited from an ancestor\", \"GPrim '/Handset/SideButton' does not resolve a 'primvars:displayColor', authored on the prim or inherited from an ancestor\"]}",
+                "version": "0-1-0"
+            },
+            "FET011_SemanticLabels.0-2-0": {
+                "blocking_failure": false,
+                "dependencies": "[]",
+                "passed": true,
+                "version": "0-2-0"
+            },
+            "FET011_SemanticLabels.RTX.0-1-0": {
+                "blocking_failure": false,
+                "dependencies": "['FET011_SemanticLabels.0-2-0']",
+                "passed": true,
+                "version": "0-1-0"
+            }
+        },
+        "profile_id": "Robotics-Prop",
+        "profile_version": "5.0.0",
+        "simready_validate_version": "2026.10.0",
+        "tier_versions": {
+            "newton": "2026.10.0",
+            "tier_core": "2026.10.0"
+        }
+    }
+}

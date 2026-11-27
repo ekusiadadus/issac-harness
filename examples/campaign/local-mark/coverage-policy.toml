@@ -1,0 +1,11 @@
+# Material/label coverage in the short example; real performance has its own release policy.
+minimum_frames = 32
+minimum_cameras = 4
+minimum_layouts = 4
+min_visible_per_class = 1
+
+[required_edits]
+mark_visible = 2
+
+[min_distinct_texture_sets]
+paper = 8

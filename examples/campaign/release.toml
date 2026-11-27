@@ -1,0 +1,20 @@
+# Example lab acceptance values, chosen before measuring the native RTX campaign.
+# Teams must set image count and performance expectations from their own task.
+minimum_frames = 128
+min_visible_per_class = 40
+minimum_cameras = 4
+minimum_layouts = 4
+require_registered_quality = true
+require_replay = true
+min_macro_ap50_real = 0.50
+required_visual_frames = [0, 17, 43, 95]
+[required_edits]
+bench = 3
+wall = 2
+paper = 8
+polymer = 2
+carton_tape = 2
+
+[registered_inputs]
+poses = "ycb/holdout-poses.json"
+quality_policy = "ycb/quality.toml"

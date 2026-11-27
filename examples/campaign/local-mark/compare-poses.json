@@ -1,0 +1,290 @@
+[
+  {
+    "layout": "fixed_carton_front",
+    "camera": {
+      "id": "fixed_front",
+      "eye_m": [
+        0.0,
+        -0.6,
+        1.05
+      ],
+      "target_m": [
+        0.0,
+        -0.13,
+        0.96
+      ],
+      "K": [
+        1200.0,
+        0.0,
+        480.0,
+        0.0,
+        1200.0,
+        360.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "objects": {
+      "crate": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": true
+      },
+      "bin": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "device": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "crackers": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "sugar": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "mustard": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      }
+    },
+    "edits": {
+      "key": 1.0,
+      "side": 1.0,
+      "fill": 1.0,
+      "dome": 1.0,
+      "bench": "/World/Materials/Wood",
+      "wall": "/World/Materials/Wall_Paint",
+      "polymer": "standard",
+      "carton_tape": true,
+      "foam_pad": false,
+      "paper": "finish07",
+      "mark_visible": false
+    }
+  },
+  {
+    "layout": "fixed_carton_front",
+    "camera": {
+      "id": "fixed_front",
+      "eye_m": [
+        0.0,
+        -0.6,
+        1.05
+      ],
+      "target_m": [
+        0.0,
+        -0.13,
+        0.96
+      ],
+      "K": [
+        1200.0,
+        0.0,
+        480.0,
+        0.0,
+        1200.0,
+        360.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "objects": {
+      "crate": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": true
+      },
+      "bin": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "device": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "crackers": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "sugar": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "mustard": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      }
+    },
+    "edits": {
+      "key": 1.0,
+      "side": 1.0,
+      "fill": 1.0,
+      "dome": 1.0,
+      "bench": "/World/Materials/Wood",
+      "wall": "/World/Materials/Wall_Paint",
+      "polymer": "standard",
+      "carton_tape": true,
+      "foam_pad": false,
+      "paper": "finish07",
+      "mark_visible": true
+    }
+  },
+  {
+    "layout": "fixed_carton_front",
+    "camera": {
+      "id": "fixed_front",
+      "eye_m": [
+        0.0,
+        -0.6,
+        1.05
+      ],
+      "target_m": [
+        0.0,
+        -0.13,
+        0.96
+      ],
+      "K": [
+        1200.0,
+        0.0,
+        480.0,
+        0.0,
+        1200.0,
+        360.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "objects": {
+      "crate": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": true
+      },
+      "bin": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "device": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "crackers": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "sugar": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "mustard": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      }
+    },
+    "edits": {
+      "key": 1.0,
+      "side": 1.0,
+      "fill": 1.0,
+      "dome": 1.0,
+      "bench": "/World/Materials/Wood",
+      "wall": "/World/Materials/Wall_Paint",
+      "polymer": "standard",
+      "carton_tape": true,
+      "foam_pad": false,
+      "paper": "finish07",
+      "mark_visible": false
+    }
+  }
+]

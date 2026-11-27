@@ -1,0 +1,37 @@
+{
+  "format": "isaac-harness-training-v1",
+  "classes": {
+    "background/other": 0,
+    "carton": 1,
+    "handheld_scanner": 2
+  },
+  "non_targets": "BACKGROUND, UNLABELLED, parts_tray and every other class map to background/other (0); they are not detection targets.",
+  "mask": "single-channel uint8 PNG; pixel values are stable class IDs",
+  "distance_to_camera_m": "source float32 NPY, camera range in metres; non-target pixels may be non-finite",
+  "boxes_xyxy_px": "[left, top, right, bottom], integer pixels; right and bottom exclusive",
+  "source_boxes_xyxy_px": "native Replicator integer pixels; right and bottom inclusive",
+  "source_manifest": "../pilot/manifest.json",
+  "source_manifest_sha256": "a348dcb7e2490a6ed5d4152964975c52aa8964bdfd1427e8516b00f48b4a3560",
+  "frames": [
+    {
+      "index": 0,
+      "labels": "frame_0000.json",
+      "mask": "frame_0000_mask.png"
+    },
+    {
+      "index": 1,
+      "labels": "frame_0001.json",
+      "mask": "frame_0001_mask.png"
+    },
+    {
+      "index": 2,
+      "labels": "frame_0002.json",
+      "mask": "frame_0002_mask.png"
+    },
+    {
+      "index": 3,
+      "labels": "frame_0003.json",
+      "mask": "frame_0003_mask.png"
+    }
+  ]
+}

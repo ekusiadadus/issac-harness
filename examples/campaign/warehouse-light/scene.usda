@@ -1,0 +1,21 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [@../families/scene.usda@]
+    upAxis = "Z"
+)
+
+# Only the dome illuminates this comparison. The source HDR is a latitude-longitude
+# photograph; the same orientation is used for both maps and all four cases.
+def "_HarnessWarehouseLight"
+{
+    def DomeLight "Environment"
+    {
+        float inputs:intensity = 2
+        asset inputs:texture:file = @assets/small_workshop_1k.hdr@
+        token inputs:texture:format = "latlong"
+        double3 xformOp:rotateXYZ = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:rotateXYZ"]
+    }
+}

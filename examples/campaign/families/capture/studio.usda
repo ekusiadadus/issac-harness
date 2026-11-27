@@ -1,0 +1,31 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @../scene.usda@
+    ]
+    upAxis = "Z"
+)
+
+def "_HarnessStudio"
+{
+    def RectLight "Key"
+    {
+        float inputs:height = 0.25419074
+        float inputs:intensity = 475
+        float inputs:width = 0.36312965
+        matrix4d xformOp:transform = ( (0.8087360843031884, -0.5881716976750462, 5.551115123125783e-17, 0), (0.4692645386587463, 0.6452387406557762, 0.6028745809157505, 0), (-0.35459376574234897, -0.4875664278957299, 0.7978359729202852, 0), (-0.3417690754696125, -0.4699324787707173, 0.8757234202543782, 0.9999999999999999) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+
+    def RectLight "Fill"
+    {
+        float inputs:height = 0.38876233
+        float inputs:intensity = 212.5
+        float inputs:width = 0.55537474
+        matrix4d xformOp:transform = ( (-0.2631174057921087, 0.9647638212377321, 0, 0), (-0.7127845447177181, -0.194395784923014, 0.6739053877331153, 0), (0.6501595370220958, 0.17731623736966245, 0.738817655706927, -0), (0.46993247877071725, 0.12816340330110468, 0.6407571808690196, 0.9999999999999998) )
+        uniform token[] xformOpOrder = ["xformOp:transform"]
+    }
+}
+

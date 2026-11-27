@@ -1,0 +1,11 @@
+{
+  "frames": 256,
+  "valid_fraction_min": 0.5105240885416666,
+  "valid_fraction_median": 0.729892578125,
+  "valid_fraction_max": 0.987626953125,
+  "camera_model": "TUM RGB-D Freiburg 1 Kinect RGB",
+  "profile_sha256": "79593f71a1ce9bcf5563e903decb6e5833825a986d41795dcf332ff0bff3101d",
+  "source_campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+  "derivative_campaign_key": "963ae63db1f64c65fb0fa12a93a07832aae8f0b3fcb4cfedd96862bc875d7fc1",
+  "raw_output": "../../../out/rtx-20261125/tum-color"
+}

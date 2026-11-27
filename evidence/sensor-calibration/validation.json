@@ -1,0 +1,48 @@
+{
+  "camera.txt": {
+    "sequence_sha256": "c86b07d2ff0cacb20129078446fb98fd4eea0035630867d1405ab310e183add5",
+    "independent_calibration_sha256": "c86b07d2ff0cacb20129078446fb98fd4eea0035630867d1405ab310e183add5",
+    "exact_match": true
+  },
+  "pcalib.txt": {
+    "sequence_sha256": "2bc9e046833cf8abbd57053b028074b8ba3aa4934421e823a554bccf31ae3dd0",
+    "independent_calibration_sha256": "2bc9e046833cf8abbd57053b028074b8ba3aa4934421e823a554bccf31ae3dd0",
+    "exact_match": true
+  },
+  "vignette": {
+    "min": 0,
+    "median": 51222.0,
+    "max": 64877,
+    "shape": [
+      1024,
+      1280
+    ]
+  },
+  "real_frame_00000/00000.jpg": {
+    "shape": [
+      1024,
+      1280
+    ],
+    "mean_code": 126.2731086730957,
+    "std_code": 65.37129245003484,
+    "sha256": "be72d0cabec41744d5743b19a85fc2de722622bacc7ade7468e09ef109eabd07"
+  },
+  "validation/00000.jpg": {
+    "shape": [
+      1024,
+      1280
+    ],
+    "mean_code": 130.18033981323242,
+    "std_code": 51.759817761690336,
+    "sha256": "0f43892e531b22db2a800dced6fcdfd32efd344bd96a3c099f41b44a4bef775c"
+  },
+  "validation/00001.jpg": {
+    "shape": [
+      1024,
+      1280
+    ],
+    "mean_code": 130.4642791748047,
+    "std_code": 51.734704581796095,
+    "sha256": "b5dff44a3fbbc5ab102e14a1a5e332d28429d92050dd5a127ec51e3396d7688e"
+  }
+}

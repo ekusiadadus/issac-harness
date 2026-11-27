@@ -1,0 +1,48 @@
+{
+  "index": 0,
+  "rgb": "../pilot/frame_0000/rgb.png",
+  "distance_to_camera_m": "../pilot/frame_0000/distance_to_camera_m.npy",
+  "mask": "frame_0000_mask.png",
+  "boxes_xyxy_px": [
+    {
+      "class_id": 1,
+      "xyxy": [
+        390,
+        45,
+        562,
+        142
+      ],
+      "visible_pixels": 10719,
+      "median_range_m": 2.7277286052703857
+    },
+    {
+      "class_id": 2,
+      "xyxy": [
+        266,
+        76,
+        316,
+        90
+      ],
+      "visible_pixels": 374,
+      "median_range_m": 3.202364683151245
+    }
+  ],
+  "source_annotation": "../pilot/frame_0000/annotation.json",
+  "source_segmentation_id_to_labels": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "2": {
+      "class": "carton"
+    },
+    "3": {
+      "class": "handheld_scanner"
+    },
+    "4": {
+      "class": "parts_tray"
+    }
+  }
+}

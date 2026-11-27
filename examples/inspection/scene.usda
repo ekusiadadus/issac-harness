@@ -1,0 +1,19 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @environment.usda@,
+        @lighting.usda@,
+        @cameras.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    def PhysicsScene "PhysicsScene"
+    {
+    }
+}
+

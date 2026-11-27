@@ -1,0 +1,34 @@
+{
+  "retrieved_utc": "2026-11-25",
+  "license": "CC0",
+  "license_url": "https://polyhaven.com/license",
+  "api_terms_url": "https://polyhaven.com/our-api",
+  "files": [
+    {
+      "id": "small_workshop",
+      "page": "https://polyhaven.com/a/small_workshop",
+      "api": "https://api.polyhaven.com/files/small_workshop",
+      "author": "Dimitrios Savva (photography); Jarod Guest (processing)",
+      "filename": "small_workshop_1k.hdr",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/small_workshop_1k.hdr",
+      "size_bytes": 1728826,
+      "source_md5": "c61cc25804e783673486214af7455b4a",
+      "sha256": "6693c278f2904a3f450ee431725c605c05d575670307da187cd825e21c13e4c0",
+      "white_balance_kelvin": 5303,
+      "capture_description": "Workshop with fluorescent fixtures and morning sunlight"
+    },
+    {
+      "id": "university_workshop",
+      "page": "https://polyhaven.com/a/university_workshop",
+      "api": "https://api.polyhaven.com/files/university_workshop",
+      "author": "Savva Zakharov",
+      "filename": "university_workshop_1k.hdr",
+      "source_url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/university_workshop_1k.hdr",
+      "size_bytes": 1702577,
+      "source_md5": "7d530f6c8939dc013ad3e775401f1ea2",
+      "sha256": "a125ada38fc602025326f29b68df09531bb16f899f1973b03d9ac5ac98142548",
+      "white_balance_kelvin": 5400,
+      "capture_description": "Industrial workshop with skylights and natural light"
+    }
+  ]
+}

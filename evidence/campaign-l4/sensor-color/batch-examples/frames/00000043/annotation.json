@@ -1,0 +1,478 @@
+{
+  "campaign_key": "963ae63db1f64c65fb0fa12a93a07832aae8f0b3fcb4cfedd96862bc875d7fc1",
+  "index": 43,
+  "sample": {
+    "layout": "cross_pick",
+    "camera": {
+      "id": "front",
+      "eye_m": [
+        0.44690310728753146,
+        -1.3491156584417026,
+        2.166344972206266
+      ],
+      "target_m": [
+        0.13126441547445403,
+        0.06125940507752758,
+        0.9666145475932663
+      ],
+      "azimuth_deg": -77.38520087099558,
+      "elevation_deg": 39.69647562457372,
+      "K": [
+        517.306408,
+        0.0,
+        318.64304,
+        0.0,
+        516.469215,
+        255.313989,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "D": [
+        0.262383,
+        -0.953104,
+        -0.005358,
+        0.002628,
+        1.163314
+      ],
+      "sensor_profile": "TUM RGB-D Freiburg 1 Kinect RGB",
+      "model": "plumb_bob"
+    },
+    "objects": {
+      "crate": {
+        "bottom_xyz_m": [
+          0.4476371516031217,
+          0.022709406190217208,
+          0.8925
+        ],
+        "yaw_deg": -14.29590730715313,
+        "visible": true
+      },
+      "bin": {
+        "bottom_xyz_m": [
+          -0.47229235902996386,
+          0.11760086872658736,
+          0.8925
+        ],
+        "yaw_deg": 0.40930837044134716,
+        "visible": true
+      },
+      "device": {
+        "bottom_xyz_m": [
+          -0.3495755815988241,
+          -0.27976848265849125,
+          0.8925
+        ],
+        "yaw_deg": 99.70240950495372,
+        "visible": true
+      },
+      "crackers": {
+        "bottom_xyz_m": [
+          0.010999211983112869,
+          0.2131381628494608,
+          0.8925
+        ],
+        "yaw_deg": 56.00798926254734,
+        "visible": true
+      },
+      "sugar": {
+        "bottom_xyz_m": [
+          -0.05456622014434539,
+          -0.14259713250122133,
+          0.8925
+        ],
+        "yaw_deg": 114.6732660603787,
+        "visible": true
+      },
+      "mustard": {
+        "bottom_xyz_m": [
+          -0.1524707374531777,
+          0.05289184437077802,
+          0.8925
+        ],
+        "yaw_deg": -81.54106358520221,
+        "visible": true
+      }
+    },
+    "edits": {
+      "key": 1.09456520418259,
+      "side": 1.7391841399000938,
+      "fill": 1.305593034647662,
+      "dome": 1.7288231641942329,
+      "bench": "/World/Materials/Concrete",
+      "wall": "/World/Materials/Wall_Paint",
+      "polymer": "standard",
+      "carton_tape": true,
+      "foam_pad": false,
+      "paper": "finish00"
+    }
+  },
+  "readback": {
+    "objects": {
+      "crate": {
+        "visible": true,
+        "matrix_row": [
+          [
+            0.9690333723126541,
+            -0.24692979436342877,
+            0.0,
+            0.0
+          ],
+          [
+            0.24692979436342877,
+            0.9690333723126541,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.4475322309230445,
+            0.022297572565828417,
+            0.8925,
+            1.0
+          ]
+        ]
+      },
+      "bin": {
+        "visible": true,
+        "matrix_row": [
+          [
+            0.9999744833213161,
+            0.007143717958235384,
+            0.0,
+            0.0
+          ],
+          [
+            -0.007143717958235384,
+            0.9999744833213161,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.47229235902996386,
+            0.11760086872658736,
+            0.8925,
+            1.0
+          ]
+        ]
+      },
+      "device": {
+        "visible": true,
+        "matrix_row": [
+          [
+            -0.16853083198741037,
+            0.9856963825994449,
+            0.0,
+            0.0
+          ],
+          [
+            -0.9856963825994449,
+            -0.16853083198741037,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.3474714211042317,
+            -0.28169135672800616,
+            0.8925,
+            1.0
+          ]
+        ]
+      },
+      "crackers": {
+        "visible": true,
+        "matrix_row": [
+          [
+            0.5590772979176326,
+            0.829115537758833,
+            0.0,
+            0.0
+          ],
+          [
+            -0.829115537758833,
+            0.5590772979176326,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.010999211983112869,
+            0.2131381628494608,
+            0.99924300044775,
+            1.0
+          ]
+        ]
+      },
+      "sugar": {
+        "visible": true,
+        "matrix_row": [
+          [
+            -0.41744312271234385,
+            0.9087030534229361,
+            0.0,
+            0.0
+          ],
+          [
+            -0.9087030534229361,
+            -0.41744312271234385,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.05456622014434539,
+            -0.14259713250122133,
+            0.9805075022578239,
+            1.0
+          ]
+        ]
+      },
+      "mustard": {
+        "visible": true,
+        "matrix_row": [
+          [
+            0.14710055073780803,
+            -0.9891215435792678,
+            0.0,
+            0.0
+          ],
+          [
+            0.9891215435792678,
+            0.14710055073780803,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -0.1524707374531777,
+            0.05289184437077802,
+            0.9882040041685104,
+            1.0
+          ]
+        ]
+      }
+    },
+    "camera": {
+      "matrix_row": [
+        [
+          0.9758603843976315,
+          0.21839530710000785,
+          -1.3877787807814457e-17,
+          0.0
+        ],
+        [
+          -0.13949355735411872,
+          0.6233020219534675,
+          0.7694388454486896,
+          0.0
+        ],
+        [
+          0.16804183294644207,
+          -0.7508648874900281,
+          0.6387204890361572,
+          0.0
+        ],
+        [
+          0.44690310728753146,
+          -1.3491156584417023,
+          2.166344972206266,
+          1.0
+        ]
+      ],
+      "K": [
+        517.306408,
+        0.0,
+        318.64304,
+        0.0,
+        516.469215,
+        255.313989,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "D": [
+        0.262383,
+        -0.953104,
+        -0.005358,
+        0.002628,
+        1.163314
+      ],
+      "model": "plumb_bob"
+    },
+    "edits": {
+      "key": 188.2305908203125,
+      "side": 212.5075225830078,
+      "fill": 369.2774658203125,
+      "dome": 3.5206923484802246,
+      "bench": "/World/Materials/Concrete",
+      "wall": "/World/Materials/Wall_Paint",
+      "polymer": "standard",
+      "carton_tape": "inherited",
+      "foam_pad": "invisible",
+      "paper": "finish00"
+    }
+  },
+  "objects": [
+    {
+      "id": "crate",
+      "class": "carton",
+      "category_id": 21,
+      "instance_id": 1,
+      "bbox_xywh": [
+        337,
+        209,
+        137,
+        121
+      ],
+      "area": 10326
+    },
+    {
+      "id": "bin",
+      "class": "tray",
+      "category_id": 23,
+      "instance_id": 2,
+      "bbox_xywh": [
+        90,
+        197,
+        154,
+        80
+      ],
+      "area": 8228
+    },
+    {
+      "id": "device",
+      "class": "handset",
+      "category_id": 22,
+      "instance_id": 3,
+      "bbox_xywh": [
+        125,
+        304,
+        60,
+        23
+      ],
+      "area": 1148
+    },
+    {
+      "id": "crackers",
+      "class": "cracker_box",
+      "category_id": 2,
+      "instance_id": 4,
+      "bbox_xywh": [
+        276,
+        186,
+        41,
+        68
+      ],
+      "area": 2085
+    },
+    {
+      "id": "sugar",
+      "class": "sugar_box",
+      "category_id": 3,
+      "instance_id": 5,
+      "bbox_xywh": [
+        235,
+        259,
+        33,
+        46
+      ],
+      "area": 1228
+    },
+    {
+      "id": "mustard",
+      "class": "mustard_bottle",
+      "category_id": 5,
+      "instance_id": 6,
+      "bbox_xywh": [
+        232,
+        220,
+        23,
+        42
+      ],
+      "area": 737
+    }
+  ],
+  "sha256": {
+    "rgb.png": "d345073eb44733da41b1fb471cbc8b608fdf4b3e28ea802606bc90b4407c1adf",
+    "classes.png": "b2abdbf704e9720bb50d1515d23d148e37a2834219552e5ea16cf6e48454a329",
+    "instances.png": "3b83396de5577326e3f2a1b17f59ca076ea7ea1100ecf3c3cbbad2835acfb956",
+    "range_m.npz": "4649c1f284ab33b094bedbe93e99cabb210a44f8ac30c1814a70ca4dbc4f3159"
+  },
+  "sensor_derivative": {
+    "kind": "sensor-derived",
+    "source_campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+    "source_index": 43,
+    "source_annotation_sha256": "2979d1a1d5015c6e3eb9be23b0b0bbe139030cbe56d6574388fdbb227eb7eb8f",
+    "source_frame": "frames/00000043",
+    "source_K": [
+      1011.8449380644532,
+      0.0,
+      480.0,
+      0.0,
+      1011.8449077940994,
+      360.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "target_K": [
+      517.306408,
+      0.0,
+      318.64304,
+      0.0,
+      516.469215,
+      255.313989,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "target_D": [
+      0.262383,
+      -0.953104,
+      -0.005358,
+      0.002628,
+      1.163314
+    ],
+    "profile_sha256": "79593f71a1ce9bcf5563e903decb6e5833825a986d41795dcf332ff0bff3101d",
+    "profile_provenance": "Numerical camera matrix and five distortion coefficients read from the Freiburg 1 RGB calibration archive ost.txt. Pixel values retain RGB; sensor noise disabled without a compatible flat-field measurement.",
+    "noise_fit_sha256": null,
+    "noise_provenance": "disabled",
+    "seed": 3014301854,
+    "valid_sha256": "a545e60968ef774a1ace323c3f523057273b50c646d259f75b0b2576d30984c9",
+    "valid_pixel_fraction": 0.6136393229166667,
+    "range_unit": "radial metres, nearest registered source pixel",
+    "emission": "derived from native capture; no Isaac sensor emitted these planes"
+  }
+}

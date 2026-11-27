@@ -1,0 +1,26 @@
+{
+  "creationTimestamp": "2026-11-24T09:00:09.022-08:00",
+  "disks": [
+    {
+      "autoDelete": true
+    }
+  ],
+  "guestAccelerators": [
+    {
+      "acceleratorCount": 1,
+      "acceleratorType": "https://www.googleapis.com/compute/v1/projects/<redacted-gcp-project>/zones/asia-northeast1-b/acceleratorTypes/nvidia-l4"
+    }
+  ],
+  "id": "<redacted>",
+  "lastStartTimestamp": "2026-11-24T09:06:37.984-08:00",
+  "machineType": "https://www.googleapis.com/compute/v1/projects/<redacted-gcp-project>/zones/asia-northeast1-b/machineTypes/g2-standard-8",
+  "name": "isaac-harness-1125a",
+  "scheduling": {
+    "maxRunDuration": {
+      "nanos": 0,
+      "seconds": "7200"
+    }
+  },
+  "status": "RUNNING",
+  "zone": "https://www.googleapis.com/compute/v1/projects/<redacted-gcp-project>/zones/asia-northeast1-b"
+}

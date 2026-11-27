@@ -1,0 +1,72 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+)
+
+def Xform "World"
+{
+    def Camera "Camera"
+    {
+    }
+
+    def RectLight "Key"
+    {
+        float inputs:height = 0.7
+        float inputs:intensity = 2700
+        float inputs:width = 0.8
+        double3 xformOp:translate = (-0.3, -0.4, 1.2)
+        uniform token[] xformOpOrder = ["xformOp:translate"]
+    }
+
+    def DomeLight "Fill"
+    {
+        float inputs:intensity = 300
+        asset inputs:texture:file = @../../inspection/lighting/empty_warehouse_01_1k.hdr@
+    }
+
+    def Mesh "Table" (
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        int[] faceVertexCounts = [4]
+        int[] faceVertexIndices = [0, 1, 2, 3]
+        rel material:binding = </World/TableMaterial>
+        point3f[] points = [(-2, -2, 0), (2, -2, 0), (2, 2, 0), (-2, 2, 0)]
+        texCoord2f[] primvars:st = [(0, 0), (4, 0), (4, 4), (0, 4)] (
+            interpolation = "vertex"
+        )
+        uniform token subdivisionScheme = "none"
+    }
+
+    def Material "TableMaterial"
+    {
+        token outputs:surface.connect = </World/TableMaterial/Surface.outputs:surface>
+
+        def Shader "Surface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor.connect = </World/TableMaterial/Texture.outputs:rgb>
+            float inputs:roughness = 0.66
+            token outputs:surface
+        }
+
+        def Shader "UV"
+        {
+            uniform token info:id = "UsdPrimvarReader_float2"
+            token inputs:varname = "st"
+            float2 outputs:result
+        }
+
+        def Shader "Texture"
+        {
+            uniform token info:id = "UsdUVTexture"
+            asset inputs:file = @../../inspection/textures/plywood_base.jpg@
+            token inputs:sourceColorSpace = "sRGB"
+            float2 inputs:st.connect = </World/TableMaterial/UV.outputs:result>
+            float3 outputs:rgb
+        }
+    }
+}
+

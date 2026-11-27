@@ -1,0 +1,54 @@
+{
+  "status": "fail",
+  "campaign_key": "eef6af2f91b6cf1ce628dd0d410597f29127896912b04d2a4b35f2704eea11a2",
+  "policy_sha256": "9662510b06b269d0ad1c9de18afab04d60bfd570526b5f32ebdfb835ac465ea0",
+  "evidence_sha256": {
+    "appearance_frame_0": "ba3b054573c6a58d8c553d6034498e8420faaf312d116fbe38de75de97061d93",
+    "appearance_frame_1": "f6b929afc0c99b70637d5d7037c5a67fc2f515ffaa88eb89001eaeec81f8306f"
+  },
+  "checks": [
+    {
+      "criterion": "minimum_frames",
+      "observed": 2,
+      "pass": true
+    },
+    {
+      "criterion": "appearance_pair_0",
+      "observed": {
+        "campaign": "evidence/campaign-l4/mark-comparison",
+        "frames": [
+          0,
+          1
+        ],
+        "edits_changed": [
+          "mark_visible"
+        ],
+        "rgb_changed_pixels": 13185,
+        "min_rgb_pixels": 0,
+        "rgb_floor_met": true,
+        "rgb_delta": 0.1,
+        "instance_changed_pixels": 13738,
+        "class_changed_pixels": 13738,
+        "range_changed_pixels": 13738,
+        "range_atol_m": 0.002,
+        "protected_range_max_delta_m": 0.0,
+        "protected_range_violating_pixels": 0,
+        "instance_transitions": {
+          "1->0": 13738
+        },
+        "class_transitions": {
+          "21->0": 13738
+        },
+        "target": "crate",
+        "target_intersection_pixels": 310620,
+        "target_rgb_changed_pixels": 95,
+        "min_target_rgb_pixels": 1000,
+        "target_rgb_floor_met": false,
+        "target_instance_lost_pixels": 13738,
+        "target_class_lost_pixels": 13738,
+        "passed": false
+      },
+      "pass": false
+    }
+  ]
+}

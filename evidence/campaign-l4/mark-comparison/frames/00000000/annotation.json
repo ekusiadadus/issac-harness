@@ -1,0 +1,380 @@
+{
+  "campaign_key": "eef6af2f91b6cf1ce628dd0d410597f29127896912b04d2a4b35f2704eea11a2",
+  "index": 0,
+  "sample": {
+    "layout": "fixed_carton_front",
+    "camera": {
+      "id": "fixed_front",
+      "eye_m": [
+        0.0,
+        -0.6,
+        1.05
+      ],
+      "target_m": [
+        0.0,
+        -0.13,
+        0.96
+      ],
+      "K": [
+        1200.0,
+        0.0,
+        480.0,
+        0.0,
+        1200.0,
+        360.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    "objects": {
+      "crate": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": true
+      },
+      "bin": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "device": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "crackers": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "sugar": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      },
+      "mustard": {
+        "bottom_xyz_m": [
+          0.0,
+          0.0,
+          0.8925
+        ],
+        "yaw_deg": 0.0,
+        "visible": false
+      }
+    },
+    "edits": {
+      "key": 1.0,
+      "side": 1.0,
+      "fill": 1.0,
+      "dome": 1.0,
+      "bench": "/World/Materials/Wood",
+      "wall": "/World/Materials/Wall_Paint",
+      "polymer": "standard",
+      "carton_tape": true,
+      "foam_pad": false,
+      "paper": "finish03",
+      "mark_visible": false
+    }
+  },
+  "readback": {
+    "objects": {
+      "crate": {
+        "visible": true,
+        "matrix_row": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            2.2351741790771484e-08,
+            -0.0004249885678291321,
+            0.8925,
+            1.0
+          ]
+        ]
+      },
+      "bin": {
+        "visible": false,
+        "matrix_row": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -49.707759594607325,
+            10.4536135393929,
+            1.0
+          ]
+        ]
+      },
+      "device": {
+        "visible": false,
+        "matrix_row": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -49.707759594607325,
+            10.4536135393929,
+            1.0
+          ]
+        ]
+      },
+      "crackers": {
+        "visible": false,
+        "matrix_row": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -49.707759594607325,
+            10.4536135393929,
+            1.0
+          ]
+        ]
+      },
+      "sugar": {
+        "visible": false,
+        "matrix_row": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -49.707759594607325,
+            10.4536135393929,
+            1.0
+          ]
+        ]
+      },
+      "mustard": {
+        "visible": false,
+        "matrix_row": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            -49.707759594607325,
+            10.4536135393929,
+            1.0
+          ]
+        ]
+      }
+    },
+    "camera": {
+      "matrix_row": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.18807227078785801,
+          0.9821551918921464,
+          0.0
+        ],
+        [
+          0.0,
+          -0.9821551918921464,
+          0.18807227078785801,
+          0.0
+        ],
+        [
+          0.0,
+          -0.6,
+          1.05,
+          1.0
+        ]
+      ],
+      "K": [
+        1199.9999744551524,
+        0,
+        480.0,
+        0,
+        1200.000017029899,
+        360.0,
+        0,
+        0,
+        1
+      ]
+    },
+    "edits": {
+      "key": 171.96836853027344,
+      "side": 122.18804931640625,
+      "fill": 282.84271240234375,
+      "dome": 2.0364675521850586,
+      "bench": "/World/Materials/Wood",
+      "wall": "/World/Materials/Wall_Paint",
+      "polymer": "standard",
+      "carton_tape": "inherited",
+      "foam_pad": "invisible",
+      "paper": "finish03",
+      "mark_visible": "invisible"
+    }
+  },
+  "objects": [
+    {
+      "id": "crate",
+      "instance_id": 1,
+      "category_id": 21,
+      "class": "carton",
+      "area": 324358,
+      "bbox_xywh": [
+        0,
+        124,
+        960,
+        396
+      ],
+      "native_tight_xyxy": [
+        [
+          0,
+          124,
+          959,
+          519
+        ]
+      ]
+    }
+  ],
+  "sha256": {
+    "rgb.png": "ff0f57f67429c6e858d91c6397df4a6801c24b5057224557c01d55ae29026b9d",
+    "classes.png": "90c75d486c71052107e20cbdf3693920884992d44ceb5dfe93e1014765eb0b16",
+    "instances.png": "242977231d1b6fd6b809342616935abfa01cc09a5608b679fa28055ba24fd30a",
+    "range_m.npz": "9e782469455682a888eb3630172b459a1d6783d72ecbd6e87b748f6ffdf4a6bc"
+  },
+  "native_audit": {
+    "instance_path_pixels_different": 0,
+    "path_ids": {
+      "0": "BACKGROUND",
+      "1": "UNLABELLED",
+      "2": "/World/Props/Carton"
+    },
+    "semantic_ids": {
+      "0": {
+        "class": "BACKGROUND"
+      },
+      "1": {
+        "class": "UNLABELLED"
+      },
+      "2": {
+        "class": "capture00001"
+      }
+    },
+    "unlabelled_object_matches": {}
+  },
+  "annotator_steps": 1
+}

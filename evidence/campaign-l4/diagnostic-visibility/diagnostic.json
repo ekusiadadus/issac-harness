@@ -1,0 +1,33 @@
+{
+  "index": 2,
+  "seed": 20261125,
+  "same_sample": true,
+  "before": {
+    "capture_commit": "58941e887500d0214f4a27851eb5b44c36f1e23d",
+    "campaign_key": "801ad92ae2b02a901b0bc1a9c1622ee0978e04812c91b1c36818e1fd9e6e9191",
+    "labelled": [
+      "crate",
+      "bin",
+      "device",
+      "crackers",
+      "mustard"
+    ],
+    "rgb_sha256": "f3c3810cb4b362b8da8e3b472978d560ab4ee825fbdd9ed8c2672bc9e4e8dce8"
+  },
+  "corrected": {
+    "capture_commit": "cee79ff970f3043d7f504be6c89e559fbf70ad62",
+    "campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+    "labelled": [
+      "crate",
+      "bin",
+      "device",
+      "crackers",
+      "sugar",
+      "mustard"
+    ],
+    "sugar_mask_area": 3694,
+    "rgb_sha256": "3e98b607cc1915ee17c4cd98983a10f492d7aee5c30d7614e81345e97c5b41bc",
+    "native_path_mask_disagreement": 0
+  },
+  "before_used_for_training": false
+}

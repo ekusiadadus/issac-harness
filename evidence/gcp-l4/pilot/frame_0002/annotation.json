@@ -1,0 +1,183 @@
+{
+  "index": 2,
+  "sampled": {
+    "carton": {
+      "xy_offset_m": [
+        -0.002458650041215881,
+        -0.0054082830049381955
+      ],
+      "yaw_deg": 2.248182232754207,
+      "roughness_multiplier": 0.9422343941425313,
+      "surface_finish": "worn"
+    },
+    "handheld_scanner": {
+      "xy_offset_m": [
+        -0.0034700573511493894,
+        0.005400828165415334
+      ],
+      "yaw_deg": -0.36040316162247876,
+      "roughness_multiplier": 0.8711779050003924,
+      "surface_finish": "matte"
+    },
+    "light_multiplier": 1.068247145126898,
+    "tape_visible": false,
+    "back_flap_angle_deg": 3.332140084760706
+  },
+  "readback": {
+    "objects": {
+      "carton": {
+        "translate_stage_units": [
+          0.3575413642638989,
+          0.019591717367590834,
+          0.8924999890327454
+        ],
+        "rotate_z_deg": 2.2481822967529297,
+        "surface_finish": "worn",
+        "roughness": {
+          "variant_base_scale": [
+            0.8500000238418579,
+            0.8500000238418579,
+            0.8500000238418579,
+            1.0
+          ],
+          "effective_scale": [
+            0.8008992671966553,
+            0.8008992671966553,
+            0.8008992671966553,
+            1.0
+          ],
+          "bias": [
+            0.11999999731779099,
+            0.11999999731779099,
+            0.11999999731779099,
+            0.0
+          ],
+          "shader_path": "/World/Props/Carton/Materials/Carton/Roughness"
+        }
+      },
+      "handheld_scanner": {
+        "translate_stage_units": [
+          -0.38347005258277783,
+          -0.024599171164032412,
+          0.9144999985694885
+        ],
+        "rotate_z_deg": -0.3604031503200531,
+        "surface_finish": "matte",
+        "roughness": {
+          "variant_base_scale": [
+            1.100000023841858,
+            1.100000023841858,
+            1.100000023841858,
+            1.0
+          ],
+          "effective_scale": [
+            0.9582957029342651,
+            0.9582957029342651,
+            0.9582957029342651,
+            1.0
+          ],
+          "bias": [
+            0.07999999821186066,
+            0.07999999821186066,
+            0.07999999821186066,
+            0.0
+          ],
+          "shader_path": "/World/Props/Handset/Materials/Polymer/Roughness"
+        }
+      }
+    },
+    "lights": {
+      "/World/Lights/OverheadSoftbox": 183.7047119140625,
+      "/World/Lights/SteelEdge": 130.52703857421875,
+      "/World/Lights/FrontFill": 45.926177978515625,
+      "/World/Lights/LabelSoftbox": 302.14593505859375,
+      "/World/Lights/Ambient": 2.175450563430786
+    },
+    "back_flap": {
+      "angle_deg": 3.3321399688720703,
+      "hinge_local_stage_units": [
+        -2.2351741790771484e-08,
+        0.13499999046325684,
+        0.156000018119812
+      ]
+    },
+    "tape_visibility": "invisible"
+  },
+  "readiness_steps": 1,
+  "boxes": [
+    {
+      "class": "carton",
+      "bbox_semantic_id": 0,
+      "segmentation_ids": [
+        2
+      ],
+      "xyxy_px": [
+        398,
+        51,
+        561,
+        139
+      ],
+      "visible_pixels": 9873,
+      "range_depth_m_median": 2.7239723205566406,
+      "occlusion_ratio": -1.0
+    },
+    {
+      "class": "handheld_scanner",
+      "bbox_semantic_id": 1,
+      "segmentation_ids": [
+        3
+      ],
+      "xyxy_px": [
+        266,
+        76,
+        317,
+        89
+      ],
+      "visible_pixels": 390,
+      "range_depth_m_median": 3.2008605003356934,
+      "occlusion_ratio": -1.0
+    }
+  ],
+  "segmentation_id_to_labels": {
+    "0": {
+      "class": "BACKGROUND"
+    },
+    "1": {
+      "class": "UNLABELLED"
+    },
+    "2": {
+      "class": "carton"
+    },
+    "3": {
+      "class": "handheld_scanner"
+    },
+    "4": {
+      "class": "parts_tray"
+    }
+  },
+  "bbox_id_to_labels": {
+    "0": {
+      "class": "carton"
+    },
+    "1": {
+      "class": "handheld_scanner"
+    },
+    "2": {
+      "class": "parts_tray"
+    }
+  },
+  "files": [
+    {
+      "path": "frame_0002/rgb.png",
+      "sha256": "346b35c0dad8bcd422c752fdf2342616f0e5ac745f54d20e82170e802f5d3143"
+    },
+    {
+      "path": "frame_0002/semantic_ids.npy",
+      "sha256": "279ba0a11d092a34a64ebe3cef40f469da494d666ca3586cada011e1652e79b1"
+    },
+    {
+      "path": "frame_0002/distance_to_camera_m.npy",
+      "sha256": "4b763460d70da6c7a2bc504814c91cb1cf9e8e87f3596433e484f9f046432d3f"
+    }
+  ]
+}

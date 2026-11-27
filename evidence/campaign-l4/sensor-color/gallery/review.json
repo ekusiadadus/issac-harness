@@ -1,0 +1,26 @@
+{
+  "campaign_key": "963ae63db1f64c65fb0fa12a93a07832aae8f0b3fcb4cfedd96862bc875d7fc1",
+  "frames": {
+    "0": {
+      "rgb_sha256": "73bd3bf89c0c6085fe06538fe819252ddb40f18d4755bca9b6b8ea0531c85f70",
+      "observation": "有効視野の縁でトレーの矩形と輪郭が途切れる位置がRGBと合う。黒い外側に対象点はない。",
+      "decision": "pass"
+    },
+    "17": {
+      "rgb_sha256": "625f3d5a5d23e54ae1416d2f67cd7fe87f8a1b70620fd0d65a8171f73de32bf9",
+      "observation": "四隅が縮み、箱のフラップの曲がりに輪郭が追随する。",
+      "decision": "pass"
+    },
+    "43": {
+      "rgb_sha256": "d345073eb44733da41b1fb471cbc8b608fdf4b3e28ea802606bc90b4407c1adf",
+      "observation": "端末と右側の箱に別々の矩形が付き、足元や画角外は対象に数えない。",
+      "decision": "pass"
+    },
+    "95": {
+      "rgb_sha256": "a4cb09911764279bb118d5158f7d548c501e6913912e069b16f0e95c8a1cafa0",
+      "observation": "右端のトレーの見える部分だけが矩形に入り、実写レンズの視野を超えた周辺は無効。",
+      "decision": "pass"
+    }
+  },
+  "review_method": "Visual inspection of the archived RGB, visible instance contours, tight boxes and metric range side by side. Decisions concern appearance for package inspection, or alignment for sensor-color."
+}

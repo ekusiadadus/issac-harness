@@ -1,0 +1,59 @@
+# Photographic HDRI with a controlled local area light. See docs/environment-light.md.
+stage = "inspection.usda"
+camera_prim = "/_HarnessWarehouseLight/Camera"
+width = 1440
+height = 1080
+poses = "inspection-poses.json"
+
+[classes]
+retail_package = 1
+
+[[instances]]
+id = "package_a"
+class = "retail_package"
+prim = "/World/Packages/A"
+
+[[instances]]
+id = "package_b"
+class = "retail_package"
+prim = "/World/Packages/B"
+
+[[edits]]
+id = "environment"
+kind = "texture_set"
+prim = "/_HarnessWarehouseLight/Environment"
+choices = ["small_workshop", "university_workshop"]
+[edits.attributes]
+hdr = "/_HarnessWarehouseLight/Environment.inputs:texture:file"
+[edits.bundles.small_workshop]
+hdr = "assets/small_workshop_1k.hdr"
+[edits.bundles.university_workshop]
+hdr = "assets/university_workshop_1k.hdr"
+
+[[edits]]
+id = "dome_gain"
+kind = "scale"
+prim = "/_HarnessWarehouseLight/Environment"
+attribute = "inputs:intensity"
+choices = [0.5, 1.0]
+
+[[edits]]
+id = "package_a_geometry"
+kind = "geometry_variant"
+prim = "/World/Packages/A"
+variant_set = "geometry"
+choices = ["cracker", "sugar"]
+
+[[edits]]
+id = "package_b_geometry"
+kind = "geometry_variant"
+prim = "/World/Packages/B"
+variant_set = "geometry"
+choices = ["cracker", "sugar"]
+
+[[edits]]
+id = "inspection_key"
+kind = "scale"
+prim = "/_HarnessStudio/Key"
+attribute = "inputs:intensity"
+choices = [0.0, 1.0]

@@ -1,0 +1,7 @@
+{
+  "frozen_root": "https://huggingface.co/datasets/bop-benchmark/ycbv/resolve/5c2c4aa229800355648cd268040aa814f8dc94f0",
+  "archive": "ycbv_train_pbr.zip",
+  "verified_member": "train_pbr/000000/rgb/000050.jpg",
+  "sha256": "e55c1a1a85f06cf04b791ee12ed13a60bf0355e35032736c48d3e4257aefcdfb",
+  "range_bytes_read": 215110212
+}

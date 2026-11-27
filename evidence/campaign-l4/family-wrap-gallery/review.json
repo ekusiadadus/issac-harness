@@ -1,0 +1,26 @@
+{
+  "campaign_key": "210f099e5ffb0f809dc1e633a725b2a2bc688c58dbd6347819bd73a441532187",
+  "frames": {
+    "0": {
+      "rgb_sha256": "102035c316ae5b0c0bb4926f0ceb1f2e127c998e56e4c47f3f945e8845ec189d",
+      "observation": "赤と白の箱の接地影まで紙の表面が連続し、タイル一枚だけの黒い境界が消えた。",
+      "decision": "pass"
+    },
+    "2": {
+      "rgb_sha256": "076829ad31bd8f023ed26e3b27cb8ec23ab576fbf98aaf9498e6294392196593",
+      "observation": "二つの砂糖箱の高さと個体は見分けられるが、台の白さで箱上部と面の境界が弱い。",
+      "decision": "fail"
+    },
+    "3": {
+      "rgb_sha256": "20f9c2cd8768bd4276ea76f39a36814635f4620b686143f00e0eb25bb578c448",
+      "observation": "右の赤い箱と左の白い箱の輪郭が合う。俯瞰の左側で白い紙と白い箱が白飛びする。",
+      "decision": "fail"
+    },
+    "6": {
+      "rgb_sha256": "437f9e571de6132ce4919443201004fa3c358d464e5c3e9517f748740d1e9836",
+      "observation": "赤い二個体が同じ寸法・別々の位置で紙面の上に見え、矩形と接地影も別々に確認できる。",
+      "decision": "pass"
+    }
+  },
+  "review_method": "Visual inspection of the archived RGB, visible instance contours, tight boxes and metric range side by side. Decisions concern appearance for package inspection, or alignment for sensor-color."
+}

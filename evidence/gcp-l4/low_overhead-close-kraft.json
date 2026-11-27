@@ -1,0 +1,44 @@
+{
+  "space": "display-referred 8-bit RGB; JPEG/PNG values, uncalibrated lighting",
+  "photo": {
+    "file": "reference-detail.jpg",
+    "sha256": "88245930f1f148106ded4905a53ee5c655740595f6cf26703fcf8db2b4654aed",
+    "bounds_xyxy_px": [
+      350,
+      355,
+      565,
+      495
+    ],
+    "rgb_median_8bit": [
+      146.0,
+      81.0,
+      37.0
+    ],
+    "luma_percentiles_5_50_95_8bit": [
+      91.0,
+      96.0,
+      103.0
+    ]
+  },
+  "render": {
+    "file": "detail.png",
+    "sha256": "89b7a00591260ffdf7e212c7ee27427291cc11828c83928eeefd29de6ca53d74",
+    "bounds_xyxy_px": [
+      310,
+      675,
+      460,
+      800
+    ],
+    "rgb_median_8bit": [
+      196.0,
+      150.0,
+      85.0
+    ],
+    "luma_percentiles_5_50_95_8bit": [
+      152.0,
+      156.0,
+      160.0
+    ]
+  },
+  "render_minus_photo_luma_median_8bit": 60.0
+}

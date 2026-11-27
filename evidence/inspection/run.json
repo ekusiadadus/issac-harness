@@ -1,0 +1,124 @@
+{
+  "project": "梱包作業台",
+  "backend": "cycles",
+  "started_utc": "2026-11-24T16:37:29.200493+00:00",
+  "status": "rendered",
+  "cases": {
+    "nominal": {
+      "renderer": {
+        "renderer": "Blender Cycles CPU",
+        "version": "4.5.17 LTS",
+        "samples": 64,
+        "seed": 19,
+        "denoiser": "OPENIMAGEDENOISE",
+        "max_bounces": 12,
+        "view_transform": "AgX",
+        "look": "None",
+        "display_device": "sRGB",
+        "display_exposure": 0.0,
+        "light_import_scale": 1
+      },
+      "frames": {
+        "overview": {
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "b8c98f781e768337012e727c1b94b06826e7b83efa45383d7d2b089b5669dc91",
+          "mean_luma_8bit": 113.35,
+          "near_black_pct": 0.219,
+          "near_white_pct": 0.0,
+          "target_rect_px": [
+            789,
+            104,
+            1136,
+            299
+          ],
+          "target_mean_luma_8bit": 143.57
+        },
+        "detail": {
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "5358a79215ca150ae6b65f336edb0eb4bdafceb118d008918a03f65774f0afc9",
+          "mean_luma_8bit": 157.63,
+          "near_black_pct": 0.0,
+          "near_white_pct": 0.0,
+          "target_rect_px": [
+            501,
+            498,
+            980,
+            744
+          ],
+          "target_mean_luma_8bit": 181.84,
+          "barcode": {
+            "expected": "0426112500014",
+            "decoded": [
+              "0426112500014"
+            ],
+            "matches": true
+          }
+        }
+      }
+    },
+    "low_overhead": {
+      "renderer": {
+        "renderer": "Blender Cycles CPU",
+        "version": "4.5.17 LTS",
+        "samples": 64,
+        "seed": 19,
+        "denoiser": "OPENIMAGEDENOISE",
+        "max_bounces": 12,
+        "view_transform": "AgX",
+        "look": "None",
+        "display_device": "sRGB",
+        "display_exposure": 0.0,
+        "light_import_scale": 1
+      },
+      "frames": {
+        "overview": {
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "29e7a5a1021cd575321f4ad5b2a41c5d3cbaff91989c18bd057ab41b03a44762",
+          "mean_luma_8bit": 95.48,
+          "near_black_pct": 0.254,
+          "near_white_pct": 0.0,
+          "target_rect_px": [
+            789,
+            104,
+            1136,
+            299
+          ],
+          "target_mean_luma_8bit": 134.18
+        },
+        "detail": {
+          "size": [
+            1536,
+            1024
+          ],
+          "sha256": "00c27ffa81752742ecc08cdf5922bc64eb6dd22a0baa042c55221862f86ebafb",
+          "mean_luma_8bit": 148.33,
+          "near_black_pct": 0.0,
+          "near_white_pct": 0.0,
+          "target_rect_px": [
+            501,
+            498,
+            980,
+            744
+          ],
+          "target_mean_luma_8bit": 181.22,
+          "barcode": {
+            "expected": "0426112500014",
+            "decoded": [
+              "0426112500014"
+            ],
+            "matches": true
+          }
+        }
+      }
+    }
+  }
+}

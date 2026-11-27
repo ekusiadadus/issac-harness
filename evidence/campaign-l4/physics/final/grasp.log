@@ -1,0 +1,207 @@
+[WARNING] isaaclab.sh is deprecated and will be removed in Isaac Lab 3.1. Use 'uv run isaaclab' instead.
+[INFO] Using Python: "/opt/isaaclab-venv/bin/python"
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1795570757.689841      22 descriptor_database.cc:633] File already exists in database: grpc/health/v1/health.proto
+W0000 00:00:1795570757.689878      22 message.cc:301] Protobuf GeneratedMessageFactory: File is already registered: grpc/health/v1/health.proto
+2026-11-25T01:39:18Z [0ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-11-25T01:39:18Z [41ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+Warning: Possible version incompatibility. Attempting to load carb::ujitso::IFactory with version v0.3 against v0.2.
+[ISAACLAB] KitLauncher initialization complete
+2026-11-25T01:39:20Z [2,263ms] [Warning] [omni.physx.cooking.plugin] PhysX warning: Cooking::cookConvexMesh: GPU-compatible convex hull could not be built because of oblong shape. Will fall back to CPU collision, particles and deformables will not collide with this mesh!, FILE /builds/omniverse/physics/physx/source/geomutils/src/cooking/GuCookingConvexMesh.cpp, LINE 124
+2026-11-25T01:39:20Z [2,263ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/Payload/WallFront
+2026-11-25T01:39:20Z [2,264ms] [Warning] [omni.physx.cooking.plugin] PhysX warning: Cooking::cookConvexMesh: GPU-compatible convex hull could not be built because of oblong shape. Will fall back to CPU collision, particles and deformables will not collide with this mesh!, FILE /builds/omniverse/physics/physx/source/geomutils/src/cooking/GuCookingConvexMesh.cpp, LINE 124
+2026-11-25T01:39:20Z [2,264ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/Payload/WallBack
+2026-11-25T01:39:20Z [2,267ms] [Warning] [usdrt.population.plugin] Last global time was not created. Did you call setEnableUsdNoticeHandling?
+{
+  "status": "passed",
+  "trial": "grasp",
+  "stationary_finger_steps": 2,
+  "asset": "/var/tmp/issac-bench/src/examples/inspection/assets/carton/carton.usdc",
+  "asset_default_prim": "/Carton",
+  "required_colliders": [
+    "WallLeft",
+    "WallRight"
+  ],
+  "authored_collider_count": 5,
+  "geometry_inputs": {
+    "rim_probe_x": -0.12,
+    "rim_probe_z": 0.034,
+    "rim_probe_radius": 0.018,
+    "rim_precontact_x": 0.2,
+    "rim_contact_zone_x": 0.18,
+    "rim_max_x": 0.25,
+    "finger_open_x": 0.185,
+    "finger_closed_x": 0.166,
+    "finger_center_z": 0.09,
+    "finger_size_x": 0.012,
+    "finger_size_y": 0.1,
+    "finger_size_z": 0.12,
+    "grasp_lift_m": 0.18,
+    "support_top_z": 0.0
+  },
+  "physics_backend": "PhysxCfg",
+  "device": "cpu",
+  "device_explicit": true,
+  "dt_s": 0.008333333333333333,
+  "steps": 360,
+  "physics_steps_start": 2,
+  "physics_steps_end": 362,
+  "speed_mps": null,
+  "finger_friction_authored": 1.5,
+  "metric_scope": "effective simulated contact response; no real-world coefficient fit",
+  "tensor_source": "omni.physics.tensors rigid_body_view",
+  "post_reset_payload_state": {
+    "p_m": [
+      5.47879608348012e-09,
+      1.673470251262188e-10,
+      -7.674098014831543e-07
+    ],
+    "q_xyzw": [
+      3.913489763363032e-06,
+      7.240242325678992e-07,
+      -2.1725970356101243e-08,
+      1.0000001192092896
+    ],
+    "v_mps": [
+      -3.4569813578855246e-05,
+      2.114703784172889e-05,
+      -0.00014989671763032675
+    ],
+    "w_radps": [
+      -0.0020929474849253893,
+      -0.0026211971417069435,
+      1.7115896753239213e-06
+    ]
+  },
+  "post_reset_finger_states": [
+    {
+      "p_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "q_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "v_mps": [
+        22.19999885559082,
+        0.0,
+        -10.800000190734863
+      ],
+      "w_radps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "p_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "q_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "v_mps": [
+        -22.19999885559082,
+        0.0,
+        -10.800000190734863
+      ],
+      "w_radps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "initial_payload_state": {
+    "p_m": [
+      -7.275957614183426e-12,
+      -1.4551915228366852e-11,
+      -5.587935447692871e-09
+    ],
+    "q_xyzw": [
+      0.0,
+      0.0,
+      0.0,
+      1.0000001192092896
+    ],
+    "v_mps": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "w_radps": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "initial_finger_states": [
+    {
+      "p_m": [
+        -0.1850000023841858,
+        0.0,
+        0.09000000357627869
+      ],
+      "q_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "v_mps": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "w_radps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "p_m": [
+        0.1850000023841858,
+        0.0,
+        0.09000000357627869
+      ],
+      "q_xyzw": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "v_mps": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "w_radps": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "metrics": {
+    "max_payload_z_m": 0.18003958463668823,
+    "mean_hold_payload_z_m": 0.1793901847826468,
+    "min_lift_payload_z_m": 0.17064018547534943,
+    "final_payload_z_m": -7.655471563339233e-07,
+    "hold_tail_vertical_span_m": 1.4901161193847656e-08,
+    "release_fall_m": 0.17939095032980312
+  },
+  "wall_elapsed_s": 0.5115747649997502,
+  "versions": {
+    "isaaclab": "28.0.0"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "status": "pass",
+  "campaign_key": "e94cb792086983ea872b07b55556ef4f4b0057df0f70089f6b4f8eee464452e2",
+  "policy_sha256": "49140a86d6dc04e1c8376f3215c839f13e9e6b469d1762622498117a2e381d21",
+  "evidence_sha256": {
+    "appearance_frame_0": "d0d0a0e9350f7ae57bcac8eac1ad1dba4ed5239b339c77a463407cb1d7fb20d1",
+    "appearance_frame_1": "288824bbef96dac396a950acf901d686d4c1c19379846f1b7d581903dca5cdc0",
+    "appearance_frame_2": "bf7c849f361df68387e43f4cf9fef5254b84f7ea1e0067119f97fa5f7232b128"
+  },
+  "checks": [
+    {
+      "criterion": "minimum_frames",
+      "observed": 3,
+      "pass": true
+    },
+    {
+      "criterion": "appearance_pair_0",
+      "observed": {
+        "campaign": "evidence/campaign-l4/label-fixed",
+        "frames": [
+          0,
+          1
+        ],
+        "edits_changed": [
+          "mark_visible"
+        ],
+        "rgb_changed_pixels": 13016,
+        "min_rgb_pixels": 0,
+        "rgb_floor_met": true,
+        "rgb_delta": 0.1,
+        "instance_changed_pixels": 0,
+        "class_changed_pixels": 0,
+        "range_changed_pixels": 13670,
+        "range_atol_m": 0.002,
+        "protected_range_max_delta_m": 0.0008512139320373535,
+        "protected_range_violating_pixels": 0,
+        "instance_transitions": {},
+        "class_transitions": {},
+        "target": "crate",
+        "target_intersection_pixels": 324358,
+        "target_rgb_changed_pixels": 13016,
+        "min_target_rgb_pixels": 1000,
+        "target_rgb_floor_met": true,
+        "target_instance_lost_pixels": 0,
+        "target_class_lost_pixels": 0,
+        "passed": true
+      },
+      "pass": true
+    },
+    {
+      "criterion": "appearance_pair_1",
+      "observed": {
+        "campaign": "evidence/campaign-l4/label-fixed",
+        "frames": [
+          1,
+          2
+        ],
+        "edits_changed": [
+          "mark_visible"
+        ],
+        "rgb_changed_pixels": 13021,
+        "min_rgb_pixels": 0,
+        "rgb_floor_met": true,
+        "rgb_delta": 0.1,
+        "instance_changed_pixels": 0,
+        "class_changed_pixels": 0,
+        "range_changed_pixels": 13670,
+        "range_atol_m": 0.002,
+        "protected_range_max_delta_m": 0.0008512139320373535,
+        "protected_range_violating_pixels": 0,
+        "instance_transitions": {},
+        "class_transitions": {},
+        "target": "crate",
+        "target_intersection_pixels": 324358,
+        "target_rgb_changed_pixels": 13021,
+        "min_target_rgb_pixels": 1000,
+        "target_rgb_floor_met": true,
+        "target_instance_lost_pixels": 0,
+        "target_class_lost_pixels": 0,
+        "passed": true
+      },
+      "pass": true
+    }
+  ]
+}

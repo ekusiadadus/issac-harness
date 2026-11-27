@@ -1,0 +1,26 @@
+{
+  "campaign_key": "726defd51066c45b4cc3014735d0eb77852ce9336e0dd07703225f8337e9ed04",
+  "frames": {
+    "0": {
+      "rgb_sha256": "2b1ea3acd44becf647b44a0c2e8f08164f89aac37f338249e23963ed89aba27a",
+      "observation": "赤い箱の側面の折り目と白い箱の印字が見え、二つの箱から左手前に落ちる影が個別に確認できる。",
+      "decision": "pass"
+    },
+    "2": {
+      "rgb_sha256": "6afeae95fe0ab137972083eecefabd908ea8998487bbbf96821ecf074a49b567",
+      "observation": "白い箱の天面・黄色の側面・紙の支持面の明るさを見分けられる。同じ箱２個に個別の輪郭が付く。",
+      "decision": "pass"
+    },
+    "3": {
+      "rgb_sha256": "4609186f86dbe575cac9e0b689c594b80598acd3282f50932fc493aa191926b5",
+      "observation": "俯瞰でも白い箱の左縁が台と分離し、赤い箱の上面のロゴが見える。",
+      "decision": "pass"
+    },
+    "6": {
+      "rgb_sha256": "62723851132d469598cc90e7b154712d73bc9bc9540eaf7af1c3fdc6c27c113d",
+      "observation": "二つの赤い箱の正面の印字と接地影が見える。台面の反復した模様は近距離では判別できる。",
+      "decision": "pass"
+    }
+  },
+  "scope": "Separate studio fixture. Judge clipping, contact shadows and visibility of the two package contours at these views."
+}

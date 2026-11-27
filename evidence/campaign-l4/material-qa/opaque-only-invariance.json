@@ -1,0 +1,34 @@
+{
+  "campaign": "evidence/campaign-l4/mark-cutout",
+  "class_changed_pixels": 13670,
+  "class_transitions": {
+    "21->0": 13670
+  },
+  "edits_changed": [
+    "mark_visible"
+  ],
+  "frames": [
+    0,
+    1
+  ],
+  "instance_changed_pixels": 13670,
+  "instance_transitions": {
+    "1->0": 13670
+  },
+  "min_rgb_pixels": 0,
+  "min_target_rgb_pixels": 1000,
+  "passed": false,
+  "protected_range_max_delta_m": 0.0,
+  "protected_range_violating_pixels": 0,
+  "range_atol_m": 0.002,
+  "range_changed_pixels": 13670,
+  "rgb_changed_pixels": 13016,
+  "rgb_delta": 0.1,
+  "rgb_floor_met": true,
+  "target": "crate",
+  "target_class_lost_pixels": 13670,
+  "target_instance_lost_pixels": 13670,
+  "target_intersection_pixels": 310688,
+  "target_rgb_changed_pixels": 10,
+  "target_rgb_floor_met": false
+}

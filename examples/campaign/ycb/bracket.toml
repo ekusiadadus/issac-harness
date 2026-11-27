@@ -1,0 +1,84 @@
+stage = "paired.usda"
+poses = "bracket-poses.json"
+camera_prim = "/World/Camera"
+table_mesh = "/World/Table"
+width = 640
+height = 480
+[classes]
+master_chef_can = 1
+cracker_box = 2
+sugar_box = 3
+soup_can = 4
+mustard_bottle = 5
+banana = 10
+cleanser = 12
+power_drill = 15
+scissors = 17
+
+[[instances]]
+id = "obj1"
+class = "master_chef_can"
+prim = "/World/Props/Obj1"
+asset = "models/obj_000001.usdc"
+
+[[instances]]
+id = "obj2"
+class = "cracker_box"
+prim = "/World/Props/Obj2"
+asset = "models/obj_000002.usdc"
+
+[[instances]]
+id = "obj3"
+class = "sugar_box"
+prim = "/World/Props/Obj3"
+asset = "models/obj_000003.usdc"
+
+[[instances]]
+id = "obj4"
+class = "soup_can"
+prim = "/World/Props/Obj4"
+asset = "models/obj_000004.usdc"
+
+[[instances]]
+id = "obj5"
+class = "mustard_bottle"
+prim = "/World/Props/Obj5"
+asset = "models/obj_000005.usdc"
+
+[[instances]]
+id = "obj10"
+class = "banana"
+prim = "/World/Props/Obj10"
+asset = "models/obj_000010.usdc"
+
+[[instances]]
+id = "obj12"
+class = "cleanser"
+prim = "/World/Props/Obj12"
+asset = "models/obj_000012.usdc"
+
+[[instances]]
+id = "obj15"
+class = "power_drill"
+prim = "/World/Props/Obj15"
+asset = "models/obj_000015.usdc"
+
+[[instances]]
+id = "obj17"
+class = "scissors"
+prim = "/World/Props/Obj17"
+asset = "models/obj_000017.usdc"
+
+[[edits]]
+id = "light_gain"
+kind = "scale"
+prim = "/World/Key"
+attribute = "inputs:intensity"
+uniform = [0.015625, 1.0]
+
+[[edits]]
+id = "fill_gain"
+kind = "scale"
+prim = "/World/Fill"
+attribute = "inputs:intensity"
+uniform = [0.015625, 1.0]

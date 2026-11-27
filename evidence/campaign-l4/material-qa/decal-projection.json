@@ -1,0 +1,49 @@
+{
+  "projected_corners_px": [
+    [
+      140.4902539632959,
+      397.433696035805
+    ],
+    [
+      291.24412227241345,
+      397.433696035805
+    ],
+    [
+      288.4532674196442,
+      305.331211479497
+    ],
+    [
+      135.47042393894841,
+      305.331211479497
+    ]
+  ],
+  "frames": [
+    {
+      "case": "Hidden",
+      "mark": "hidden",
+      "projected_footprint_pixels": 14228,
+      "owner_pixels_inside_footprint": 14228,
+      "owner_class_pixels_inside_footprint": 14228,
+      "image_sha256": "f7454c99ad1c657bd890ca56fe6cf0075e200c5e7372e3cd3a962eb4360edc5b",
+      "mask_sha256": "242977231d1b6fd6b809342616935abfa01cc09a5608b679fa28055ba24fd30a"
+    },
+    {
+      "case": "Original toggle",
+      "mark": "visible",
+      "projected_footprint_pixels": 14228,
+      "owner_pixels_inside_footprint": 490,
+      "owner_class_pixels_inside_footprint": 490,
+      "image_sha256": "4544c42648d46c7ffbb4ab8ec3ddece8b65a9b46ae708a2a653ab372936a99a0",
+      "mask_sha256": "5afed137a4d8748d95b06c72caa9efad7b8fbbde18409634d6c0c6c0a4b7c838"
+    },
+    {
+      "case": "Corrected toggle",
+      "mark": "visible",
+      "projected_footprint_pixels": 14228,
+      "owner_pixels_inside_footprint": 14228,
+      "owner_class_pixels_inside_footprint": 14228,
+      "image_sha256": "d269c3b82241800197ed0e42592a71b24365bdee1a0335d485a679639151787a",
+      "mask_sha256": "242977231d1b6fd6b809342616935abfa01cc09a5608b679fa28055ba24fd30a"
+    }
+  ]
+}

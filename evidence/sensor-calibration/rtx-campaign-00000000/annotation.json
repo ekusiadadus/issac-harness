@@ -1,0 +1,547 @@
+{
+  "sensor_model": {
+    "profile": "TUM Mono-VO sequence_01, IDS uEye UI-3241LE-M-GL monochrome",
+    "exposure_ms": 3.6060349941,
+    "reference_exposure_ms": 3.6060349941,
+    "seed": 0,
+    "noise_sigma_linear": 0.0,
+    "noise_provenance": "disabled; no measured noise profile",
+    "valid_pixel_fraction": 0.12331619262695312,
+    "source_K": [
+      [
+        915.0595003091016,
+        0.0,
+        480.0
+      ],
+      [
+        0.0,
+        915.0595003091016,
+        360.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "input": "out/rtx-20261125/native/frames/00000000",
+    "input_sha256": "c5b52f96dc196abf498efada29496320baa472b1ed9f6354ac88ea62bd166b91",
+    "input_size": [
+      960,
+      720
+    ],
+    "sensor_size": [
+      1280,
+      1024
+    ],
+    "input_mode": "campaign_registered",
+    "semantic_and_distance": "warped from campaign",
+    "output_mean_code": 12.488250732421875,
+    "output_std_code": 34.90048305167646
+  },
+  "source_annotation": {
+    "campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+    "index": 0,
+    "sample": {
+      "layout": "packing_right",
+      "camera": {
+        "id": "left",
+        "eye_m": [
+          -0.7940541116303815,
+          -0.9001910048769765,
+          1.7809003265910228
+        ],
+        "target_m": [
+          -0.040595188764973596,
+          -0.08330722390132164,
+          0.950948969811847
+        ],
+        "azimuth_deg": -132.68712740833013,
+        "elevation_deg": 36.75332087563245,
+        "K": [
+          915.0595003091016,
+          0.0,
+          480.0,
+          0.0,
+          915.0595003091016,
+          360.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      "objects": {
+        "crate": {
+          "bottom_xyz_m": [
+            0.5302702539103786,
+            0.017289694232830798,
+            0.8925
+          ],
+          "yaw_deg": -31.626313389310315,
+          "visible": true
+        },
+        "bin": {
+          "bottom_xyz_m": [
+            -0.48532958591548964,
+            -0.05544819444392201,
+            0.8925
+          ],
+          "yaw_deg": -5.883325736981264,
+          "visible": true
+        },
+        "device": {
+          "bottom_xyz_m": [
+            -0.18878532378481216,
+            0.18587952614517278,
+            0.8925
+          ],
+          "yaw_deg": -89.7234945195497,
+          "visible": true
+        },
+        "crackers": {
+          "bottom_xyz_m": [
+            -0.029447289527003734,
+            -0.15570042498392714,
+            0.8925
+          ],
+          "yaw_deg": 102.6994300730708,
+          "visible": true
+        },
+        "sugar": {
+          "bottom_xyz_m": [
+            -0.2529503800494591,
+            0.19351006039407417,
+            0.8925
+          ],
+          "yaw_deg": 47.7738724460269,
+          "visible": true
+        },
+        "mustard": {
+          "bottom_xyz_m": [
+            0.20503123614203414,
+            0.12828855643987083,
+            0.8925
+          ],
+          "yaw_deg": 121.51863372184499,
+          "visible": true
+        }
+      },
+      "edits": {
+        "key": 0.5877290076031079,
+        "side": 1.5241739393527651,
+        "fill": 0.7322880738039395,
+        "dome": 0.9697431909434038,
+        "bench": "/World/Materials/Concrete",
+        "wall": "/World/Materials/Wall_Paint",
+        "polymer": "matte",
+        "carton_tape": false,
+        "foam_pad": false,
+        "paper": "finish01"
+      }
+    },
+    "readback": {
+      "objects": {
+        "crate": {
+          "visible": true,
+          "matrix_row": [
+            [
+              0.8514862010359452,
+              -0.5243770107903033,
+              0.0,
+              0.0
+            ],
+            [
+              0.5243770107903033,
+              0.8514862010359452,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.5300474187077601,
+              0.016927810610986714,
+              0.8925,
+              1.0
+            ]
+          ]
+        },
+        "bin": {
+          "visible": true,
+          "matrix_row": [
+            [
+              0.9947326897597836,
+              -0.10250305323875068,
+              0.0,
+              0.0
+            ],
+            [
+              0.10250305323875068,
+              0.9947326897597836,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.48532958591548964,
+              -0.05544819444392201,
+              0.8925,
+              1.0
+            ]
+          ]
+        },
+        "device": {
+          "visible": true,
+          "matrix_row": [
+            [
+              0.0048259123013462135,
+              -0.9999883552174293,
+              0.0,
+              0.0
+            ],
+            [
+              0.9999883552174293,
+              0.0048259123013462135,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.1905461614624242,
+              0.1881210405322152,
+              0.8925,
+              1.0
+            ]
+          ]
+        },
+        "crackers": {
+          "visible": true,
+          "matrix_row": [
+            [
+              -0.2198365006009233,
+              0.9755367307300838,
+              0.0,
+              0.0
+            ],
+            [
+              -0.9755367307300838,
+              -0.2198365006009233,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.029447289527003734,
+              -0.15570042498392714,
+              0.99924300044775,
+              1.0
+            ]
+          ]
+        },
+        "sugar": {
+          "visible": true,
+          "matrix_row": [
+            [
+              0.672058335138964,
+              0.7404982067299312,
+              0.0,
+              0.0
+            ],
+            [
+              -0.7404982067299312,
+              0.672058335138964,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.2529503800494591,
+              0.19351006039407417,
+              0.9805075022578239,
+              1.0
+            ]
+          ]
+        },
+        "mustard": {
+          "visible": true,
+          "matrix_row": [
+            [
+              -0.5227758325413681,
+              0.8524701923883787,
+              0.0,
+              0.0
+            ],
+            [
+              -0.8524701923883787,
+              -0.5227758325413681,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.20503123614203414,
+              0.12828855643987083,
+              0.9882040041685104,
+              1.0
+            ]
+          ]
+        }
+      },
+      "camera": {
+        "matrix_row": [
+          [
+            0.7350669381288732,
+            -0.6779945401475173,
+            -2.7755575615628914e-17,
+            0.0
+          ],
+          [
+            0.40569229837898035,
+            0.43984276853766097,
+            0.8012191323234275,
+            0.0
+          ],
+          [
+            -0.5432221971770149,
+            -0.5889496943672543,
+            0.5983710404079512,
+            0.0
+          ],
+          [
+            -0.7940541116303816,
+            -0.9001910048769765,
+            1.7809003265910226,
+            1.0
+          ]
+        ],
+        "K": [
+          915.0595065623036,
+          0,
+          480.0,
+          0,
+          915.0594570494187,
+          360.0,
+          0,
+          0,
+          1
+        ]
+      },
+      "edits": {
+        "key": 101.07080078125,
+        "side": 186.23583984375,
+        "fill": 207.12234497070312,
+        "dome": 1.9748505353927612,
+        "bench": "/World/Materials/Concrete",
+        "wall": "/World/Materials/Wall_Paint",
+        "polymer": "matte",
+        "carton_tape": "invisible",
+        "foam_pad": "invisible",
+        "paper": "finish01"
+      }
+    },
+    "objects": [
+      {
+        "id": "crate",
+        "instance_id": 1,
+        "category_id": 21,
+        "class": "carton",
+        "area": 30436,
+        "bbox_xywh": [
+          556,
+          115,
+          250,
+          170
+        ],
+        "native_tight_xyxy": [
+          [
+            556,
+            115,
+            805,
+            284
+          ]
+        ]
+      },
+      {
+        "id": "bin",
+        "instance_id": 2,
+        "category_id": 23,
+        "class": "tray",
+        "area": 86582,
+        "bbox_xywh": [
+          0,
+          365,
+          439,
+          353
+        ],
+        "native_tight_xyxy": [
+          [
+            0,
+            365,
+            438,
+            717
+          ]
+        ]
+      },
+      {
+        "id": "device",
+        "instance_id": 3,
+        "category_id": 22,
+        "class": "handset",
+        "area": 2353,
+        "bbox_xywh": [
+          253,
+          318,
+          106,
+          63
+        ],
+        "native_tight_xyxy": [
+          [
+            253,
+            318,
+            358,
+            380
+          ]
+        ]
+      },
+      {
+        "id": "crackers",
+        "instance_id": 4,
+        "category_id": 2,
+        "class": "cracker_box",
+        "area": 13451,
+        "bbox_xywh": [
+          472,
+          261,
+          100,
+          183
+        ],
+        "native_tight_xyxy": [
+          [
+            472,
+            261,
+            571,
+            443
+          ]
+        ]
+      },
+      {
+        "id": "sugar",
+        "instance_id": 5,
+        "category_id": 3,
+        "class": "sugar_box",
+        "area": 6464,
+        "bbox_xywh": [
+          216,
+          268,
+          80,
+          105
+        ],
+        "native_tight_xyxy": [
+          [
+            216,
+            268,
+            295,
+            372
+          ]
+        ]
+      },
+      {
+        "id": "mustard",
+        "instance_id": 6,
+        "category_id": 5,
+        "class": "mustard_bottle",
+        "area": 3937,
+        "bbox_xywh": [
+          476,
+          183,
+          50,
+          105
+        ],
+        "native_tight_xyxy": [
+          [
+            476,
+            183,
+            525,
+            287
+          ]
+        ]
+      }
+    ],
+    "sha256": {
+      "rgb.png": "c5b52f96dc196abf498efada29496320baa472b1ed9f6354ac88ea62bd166b91",
+      "classes.png": "3c24d8c6d9812271b17d39447a38842ec9ac7920b2a5c08ee45810d70711c808",
+      "instances.png": "e6455925a3ccf0d9bd43c6c3907e75455d5f86175321db7b7ffffdc0938b35b5",
+      "range_m.npz": "ced7dd8892c9939aab16f482f9ea7a272ec4779ca50325931ca1d2b2c8d123a0"
+    },
+    "native_audit": {
+      "instance_path_pixels_different": 0,
+      "path_ids": {
+        "0": "BACKGROUND",
+        "1": "UNLABELLED",
+        "2": "/World/Props/Carton",
+        "3": "/World/Props/Handset",
+        "4": "/World/Props/Tray",
+        "5": "/World/Props/CrackerBox",
+        "6": "/World/Props/Mustard",
+        "7": "/World/Props/Sugar"
+      },
+      "semantic_ids": {
+        "0": {
+          "class": "BACKGROUND"
+        },
+        "1": {
+          "class": "UNLABELLED"
+        },
+        "2": {
+          "class": "capture00001"
+        },
+        "3": {
+          "class": "capture00003"
+        },
+        "4": {
+          "class": "capture00002"
+        },
+        "5": {
+          "class": "capture00004"
+        },
+        "6": {
+          "class": "capture00006"
+        },
+        "7": {
+          "class": "capture00005"
+        }
+      },
+      "unlabelled_object_matches": {}
+    },
+    "annotator_steps": 1
+  }
+}

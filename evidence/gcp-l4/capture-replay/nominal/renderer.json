@@ -1,0 +1,6 @@
+{
+  "renderer": "Isaac Sim RTX PathTracing",
+  "manifests": [
+    "replicator-1536x1024/manifest.json"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "scene": "/private/tmp/issac-bench-1125.r7I56g/initial-paper/scene.usda",
+  "meshes": [
+    {
+      "mesh": "/World/Surface",
+      "materials": [
+        {
+          "material": "/World/PaperMaterial",
+          "uv": "st",
+          "texture": "/World/PaperMaterial/Texture",
+          "image": "/Users/ekusiadadus/dev/issac-harness/examples/campaign/families/paper_fleck.png",
+          "image_size": [
+            64,
+            64
+          ],
+          "sha256": "e77c96b7be077100dcca7983614d13e42e1739f5335e4d018f7c45bd37d56a18",
+          "wrapS": null,
+          "wrapT": null,
+          "faces": [
+            0
+          ],
+          "uv_range": [
+            [
+              0.0,
+              5.25
+            ],
+            [
+              0.0,
+              3.75
+            ]
+          ],
+          "repeat_span": [
+            5.25,
+            3.75
+          ],
+          "min_texels_per_metre": 399.99998410542867,
+          "median_texels_per_metre": 399.99998410542867
+        }
+      ],
+      "errors": [
+        "/World/PaperMaterial: wrapS must be explicitly repeat or mirror for out-of-range UVs (found None)",
+        "/World/PaperMaterial: wrapT must be explicitly repeat or mirror for out-of-range UVs (found None)"
+      ],
+      "ok": false
+    }
+  ],
+  "errors": [
+    "/World/PaperMaterial: wrapS must be explicitly repeat or mirror for out-of-range UVs (found None)",
+    "/World/PaperMaterial: wrapT must be explicitly repeat or mirror for out-of-range UVs (found None)"
+  ],
+  "ok": false
+}

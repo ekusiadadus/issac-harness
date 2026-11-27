@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "frames": 8,
+  "resolution": [
+    640,
+    480
+  ],
+  "distinct_rgb": 8,
+  "instances_count_by_class": {
+    "retail_package": 16
+  },
+  "camera_samples": {
+    "oblique": 4,
+    "top": 4
+  },
+  "layouts": {
+    "authored": 8
+  },
+  "empty_frames": 0,
+  "boxes": 16,
+  "campaign_key": "210f099e5ffb0f809dc1e633a725b2a2bc688c58dbd6347819bd73a441532187",
+  "export_sha256": {
+    "frames.sha256.jsonl": "adcb7e50e5f120a465e66a6ed3a2cee0fde565eb63f7b5319e2593ce5ea211d5",
+    "coco.json": "88214c868d860734f688ad455e5914cb89a1af268b9370f3a3d8eb3cc6df910d",
+    "training.jsonl": "a75193db90d594b1261fd953edc69494956de73066563b203e207ff77acabcd0"
+  }
+}

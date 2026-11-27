@@ -1,0 +1,33 @@
+{
+  "worker": 0,
+  "workers": 1,
+  "plan_sha256": "b408c98938769d4c911af341c157f840ec4eda91a3a8d18c7693a13e29707f4d",
+  "shards": [
+    {
+      "shard_index": 0,
+      "start": 0,
+      "count": 128,
+      "attempts": [
+        {
+          "log": "shard-000000-try-1.log",
+          "exit_code": 0
+        }
+      ],
+      "verified_frames": 128
+    },
+    {
+      "shard_index": 1,
+      "start": 128,
+      "count": 128,
+      "attempts": [
+        {
+          "log": "shard-000001-try-1.log",
+          "exit_code": 0
+        }
+      ],
+      "verified_frames": 128
+    }
+  ],
+  "status": "worker_complete",
+  "finished_utc": "2026-11-25T01:19:30.421530+00:00"
+}

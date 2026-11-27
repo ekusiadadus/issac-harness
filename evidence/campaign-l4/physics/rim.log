@@ -1,0 +1,72 @@
+[WARNING] isaaclab.sh is deprecated and will be removed in Isaac Lab 3.1. Use 'uv run isaaclab' instead.
+[INFO] Using Python: "/opt/isaaclab-venv/bin/python"
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1795566831.938148      22 descriptor_database.cc:633] File already exists in database: grpc/health/v1/health.proto
+W0000 00:00:1795566831.938194      22 message.cc:301] Protobuf GeneratedMessageFactory: File is already registered: grpc/health/v1/health.proto
+2026-11-25T00:33:52Z [0ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-11-25T00:33:52Z [5ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+Warning: Possible version incompatibility. Attempting to load carb::ujitso::IFactory with version v0.3 against v0.2.
+Warp 1.17.0 initialized:
+   CUDA Toolkit 12.9, Driver 13.2
+   Devices:
+     "cpu"      : "x86_64"
+     "cuda:0"   : "NVIDIA L4" (22 GiB, sm_89, mempool enabled)
+   Kernel cache:
+     /root/.cache/warp/1.17.0
+[ISAACLAB] KitLauncher initialization complete
+2026-11-25T00:33:55Z [2,657ms] [Warning] [usdrt.population.plugin] Last global time was not created. Did you call setEnableUsdNoticeHandling?
+{
+  "status": "passed",
+  "trial": "rim",
+  "asset": "/var/tmp/issac-bench/src/examples/inspection/assets/tray/tray.usdc",
+  "asset_default_prim": "/Tray",
+  "required_colliders": [
+    "RimRight"
+  ],
+  "authored_collider_count": 5,
+  "geometry_inputs": {
+    "rim_probe_x": -0.12,
+    "rim_probe_z": 0.034,
+    "rim_probe_radius": 0.018,
+    "rim_precontact_x": 0.2,
+    "rim_contact_zone_x": 0.18,
+    "rim_max_x": 0.25,
+    "finger_open_x": 0.185,
+    "finger_closed_x": 0.166,
+    "finger_center_z": 0.09,
+    "finger_size_x": 0.012,
+    "finger_size_y": 0.1,
+    "finger_size_z": 0.12,
+    "grasp_lift_m": 0.18,
+    "support_top_z": 0.0
+  },
+  "physics_backend": "PhysxCfg",
+  "device": "cuda:0",
+  "dt_s": 0.008333333333333333,
+  "steps": 360,
+  "physics_steps_start": 0,
+  "physics_steps_end": 360,
+  "speed_mps": 1.0,
+  "finger_friction_authored": null,
+  "metric_scope": "effective simulated contact response; no real-world coefficient fit",
+  "tensor_source": "omni.physics.tensors rigid_body_view",
+  "metrics": {
+    "max_x_m": 0.20811963081359863,
+    "inbound_vx_mps": 0.7118450403213501,
+    "outbound_vx_mps": -0.14234280586242676,
+    "effective_rebound_ratio": 0.1999631911436351,
+    "wall_zone_samples": 56,
+    "contact_material_pair": [
+      "authored tray rim",
+      "probe sphere (friction 0.12, restitution 0.35)"
+    ],
+    "nonrebound": false,
+    "inbound_step": 51,
+    "outbound_step": 54,
+    "probe_final_z_m": 0.031999994069337845
+  },
+  "wall_elapsed_s": 1.4995070639999994,
+  "versions": {
+    "isaaclab": "28.0.0"
+  }
+}

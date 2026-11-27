@@ -1,0 +1,6 @@
+torch 2.11.0+cu130
+torchvision 0.26.0+cu130
+scikit-learn 1.9.0
+pillow 12.3.0
+numpy 2.5.1
+import 2.11.0+cu130 0.26.0+cu130

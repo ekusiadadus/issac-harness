@@ -1,0 +1,26 @@
+{
+  "campaign_key": "b37588e855247082358d7c7b79e31c2d34f866ca4da388480478c370ffcf83ac",
+  "frames": {
+    "0": {
+      "rgb_sha256": "cca84f8ec5fa81f88e8f88e7afe74251bc08d0ea18350a62d0f8b8318ed0e342",
+      "observation": "近い箱の外面にバーコードが一度だけ現れ、内側とフラップに印刷が反復しない。6 個体の見えている領域に矩形が追随する。",
+      "decision": "pass"
+    },
+    "2": {
+      "rgb_sha256": "ac319335218c1a2b2fba4d477c009cf48b3b5cbe3c73fbe870ae81f7a51db718",
+      "observation": "箱が画角の右下で切れ、見えているフラップは合っている。天板左手前の白い反射が広く、トレーと天板の研磨溝の規則性が目立つ。",
+      "decision": "fail"
+    },
+    "17": {
+      "rgb_sha256": "25cbde12ec696932763ab0a7e12f31a28e29152996b71965163553959678798e",
+      "observation": "箱の中とフラップの紙面は連続し、奥のトレーと赤い箱の輪郭が分かれる。仕上げ差や小印字はこの距離では判別しにくい。",
+      "decision": "pass"
+    },
+    "31": {
+      "rgb_sha256": "d985116433fee3208139efa044cdd4e9b6c462e71af10581be727b8725e6904c",
+      "observation": "左に切れた箱と右のトレーの端はラベルに追随するが、トレー表面と支持面に太い等間隔の縞が強い。",
+      "decision": "fail"
+    }
+  },
+  "scope": "Review sampled images of the later six-class capture for appearance and native alignment at the archived resolution."
+}

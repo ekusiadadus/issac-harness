@@ -1,0 +1,36 @@
+{
+  "campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+  "frames": {
+    "0": {
+      "rgb_sha256": "c5b52f96dc196abf498efada29496320baa472b1ed9f6354ac88ea62bd166b91",
+      "observation": "トレーは画像左端で切れているが、見えている縁とマスクが一致する。段ボールは同じ矢印が内壁・外壁・フラップに繰り返し現れる。個別に貼る荷扱いシールには専用の UV または独立した面が要る。",
+      "decision": "fail"
+    },
+    "17": {
+      "rgb_sha256": "8737795b8fb8bb98e87b25e454f908f38c21a0b1dc384616bc78a72f2f84a309",
+      "observation": "赤い箱の文字、瓶の一部が手前の段ボールで隠れる順序は RGB と教師で対応する。両フラップにほぼ同形の矢印が並び、端末表面は広い灰色の面として見える。",
+      "decision": "fail"
+    },
+    "43": {
+      "rgb_sha256": "d13c77e2fa7d4d5b8f4b61e853d571d1e8897f3ec927eaa58a16ae386f07b72f",
+      "observation": "この距離では商品の印刷面と輪郭を識別できる。トレー縁、端末の角、瓶の黄いろい縁にマスクが重なり、箱と端末はそれぞれ異なる個体として矩形に収まる。",
+      "decision": "pass"
+    },
+    "95": {
+      "rgb_sha256": "86fda5cf0d27036eb3434cfb18293919c56d234c7bc256836e7592270253e928",
+      "observation": "赤い箱と黄色い瓶の接地部に反射があり、右端のトレーは画角に従って切れている。手前の天板の研磨溝とトレーの横縞が揃い、段ボールでも矢印が反復している。",
+      "decision": "fail"
+    },
+    "2": {
+      "rgb_sha256": "3e98b607cc1915ee17c4cd98983a10f492d7aee5c30d7614e81345e97c5b41bc",
+      "observation": "再表示された白い箱にも輪郭が付き、6 個体を区別できる。天板の反射は手前側で白く飽和し、商品の印刷の局所コントラストも低くなる。",
+      "decision": "fail"
+    },
+    "54": {
+      "rgb_sha256": "dc0811c7bba7ae5851bb80bbac1de10e00fbde546d071ef3d01276307e7a6de0",
+      "observation": "木の天板と金属トレーの面が見分けられ、６個体が同じカメラの距離画像にも出ている。天板と同化しやすい段ボールの左フラップも可視輪郭で取れている。",
+      "decision": "pass"
+    }
+  },
+  "review_method": "RGB at native pixel size for the four designated frames, plus native instance contours, tight rectangles and metric range contact sheets. Task focus: object visibility and repeatable material cues."
+}

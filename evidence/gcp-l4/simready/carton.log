@@ -1,0 +1,20 @@
+
+Asset: /Users/ekusiadadus/dev/issac-harness/examples/inspection/assets/carton/carton.usdc
+  [PASSED] Robotics-Prop v5.0.0
+           CAP000_Core.MuJoCo.0-2-0: optional feature, unmet requirements: ['com.nvidia.simready.RV.007'] (nonblocking)
+           CAP000_Core.Newton.0-2-0: optional feature, unmet requirements: ['com.nvidia.simready.RV.004'] (nonblocking)
+           CAP000_Core.PhysX.0-2-0: optional feature, unmet requirements: ['com.nvidia.simready.RV.001'] (nonblocking)
+           CAP003_RigidBody.MuJoCo.0-1-0: optional feature, unmet requirements: ['com.nvidia.simready.MUJOCO.COL.001'] (nonblocking)
+           CAP004_Multibody.MuJoCo.0-1-0: optional feature, unmet requirements: ['com.nvidia.simready.MUJOCO.COL.001', 'com.nvidia.simready.RB.MB.001'] (nonblocking)
+           CAP007_NonVisualMaterials.0-2-0: optional feature, unmet requirements: ['com.nvidia.simready.NVM.001', 'com.nvidia.simready.NVM.002', 'com.nvidia.simready.NVM.003'] (nonblocking)
+           CAP100_IsaacComposition.Isaac.0-4-0: optional feature, unmet requirements: ['com.nvidia.simready.ISA.001'] (nonblocking)
+           FET003_RigidBody.Newton.0-1-0: optional feature, unmet requirements: ['com.nvidia.simready.NEWTON.COL.001'] (nonblocking)
+           FET004_Multibody.0-2-0: optional feature, unmet requirements: ['com.nvidia.simready.RB.MB.001'] (nonblocking)
+           FET004_Multibody.Newton.0-1-0: optional feature, unmet requirements: ['com.nvidia.simready.NEWTON.COL.001', 'com.nvidia.simready.RB.MB.001'] (nonblocking)
+           FET004_Multibody.PhysX.0-4-0: optional feature, unmet requirements: ['com.nvidia.simready.RB.MB.001'] (nonblocking)
+           FET005_Grasp.0-1-0: optional feature, unmet requirements: ['com.nvidia.simready.GSP.001'] (nonblocking)
+           FET006_Materials.MDL.0-3-0: optional feature, unmet requirements: ['com.nvidia.simready.VM.MDL.003'] (nonblocking)
+           FET006_Materials.Openpbr.0-2-0: optional feature, unmet requirements: ['com.nvidia.simready.VM.PBR.001'] (nonblocking)
+           FET010_DisplayColor.0-1-0: optional feature, unmet requirements: ['com.nvidia.simready.DISP.001'] (nonblocking)
+
+Results written to: /private/tmp/isaac-harness-live-1125/tape-profiles/carton.json

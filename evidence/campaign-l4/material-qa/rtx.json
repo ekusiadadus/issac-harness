@@ -1,0 +1,690 @@
+{
+  "families": [
+    {
+      "index": 0,
+      "edits": {
+        "key_intensity": 0.8702622482410236,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          172,
+          175,
+          118,
+          208
+        ],
+        [
+          367,
+          146,
+          61,
+          135
+        ]
+      ],
+      "mean_subject_srgb": 0.5273923420052662,
+      "surface_median_srgb": 0.28627450980392155
+    },
+    {
+      "index": 1,
+      "edits": {
+        "key_intensity": 0.8510232905929122,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          126,
+          78,
+          141,
+          231
+        ],
+        [
+          397,
+          207,
+          79,
+          150
+        ]
+      ],
+      "mean_subject_srgb": 0.6110281099635931,
+      "surface_median_srgb": 0.27058823529411763
+    },
+    {
+      "index": 2,
+      "edits": {
+        "key_intensity": 1.1497187606336525,
+        "package_a_geometry": "sugar",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          181,
+          190,
+          70,
+          175
+        ],
+        [
+          381,
+          158,
+          63,
+          155
+        ]
+      ],
+      "mean_subject_srgb": 0.7197892712762382,
+      "surface_median_srgb": 0.3137254901960784
+    },
+    {
+      "index": 3,
+      "edits": {
+        "key_intensity": 0.9807459908724816,
+        "package_a_geometry": "sugar",
+        "package_b_geometry": "cracker"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          191,
+          201,
+          58,
+          113
+        ],
+        [
+          376,
+          128,
+          93,
+          180
+        ]
+      ],
+      "mean_subject_srgb": 0.6706492698573876,
+      "surface_median_srgb": 0.27450980392156865
+    },
+    {
+      "index": 4,
+      "edits": {
+        "key_intensity": 1.1476334072466623,
+        "package_a_geometry": "sugar",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          165,
+          173,
+          64,
+          176
+        ],
+        [
+          409,
+          154,
+          60,
+          173
+        ]
+      ],
+      "mean_subject_srgb": 0.7822777838258479,
+      "surface_median_srgb": 0.29411764705882354
+    },
+    {
+      "index": 5,
+      "edits": {
+        "key_intensity": 1.0977743713643395,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          178,
+          155,
+          79,
+          182
+        ],
+        [
+          394,
+          172,
+          49,
+          119
+        ]
+      ],
+      "mean_subject_srgb": 0.6290413457514258,
+      "surface_median_srgb": 0.29411764705882354
+    },
+    {
+      "index": 6,
+      "edits": {
+        "key_intensity": 1.1528622153196029,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "cracker"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          162,
+          132,
+          86,
+          220
+        ],
+        [
+          390,
+          130,
+          83,
+          219
+        ]
+      ],
+      "mean_subject_srgb": 0.5134485068520603,
+      "surface_median_srgb": 0.2901960784313726
+    },
+    {
+      "index": 7,
+      "edits": {
+        "key_intensity": 0.978071305986089,
+        "package_a_geometry": "sugar",
+        "package_b_geometry": "cracker"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          204,
+          200,
+          49,
+          85
+        ],
+        [
+          379,
+          160,
+          69,
+          141
+        ]
+      ],
+      "mean_subject_srgb": 0.6979597449980214,
+      "surface_median_srgb": 0.27450980392156865
+    }
+  ],
+  "families-wrap": [
+    {
+      "index": 0,
+      "edits": {
+        "key_intensity": 0.8702622482410236,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          172,
+          175,
+          118,
+          208
+        ],
+        [
+          367,
+          146,
+          61,
+          135
+        ]
+      ],
+      "mean_subject_srgb": 0.6299267704774475,
+      "surface_median_srgb": 1.0
+    },
+    {
+      "index": 1,
+      "edits": {
+        "key_intensity": 0.8510232905929122,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          126,
+          78,
+          141,
+          231
+        ],
+        [
+          397,
+          207,
+          79,
+          150
+        ]
+      ],
+      "mean_subject_srgb": 0.6810811267955492,
+      "surface_median_srgb": 1.0
+    },
+    {
+      "index": 2,
+      "edits": {
+        "key_intensity": 1.1497187606336525,
+        "package_a_geometry": "sugar",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          181,
+          190,
+          70,
+          175
+        ],
+        [
+          381,
+          158,
+          63,
+          155
+        ]
+      ],
+      "mean_subject_srgb": 0.8361531665594645,
+      "surface_median_srgb": 1.0
+    },
+    {
+      "index": 3,
+      "edits": {
+        "key_intensity": 0.9807459908724816,
+        "package_a_geometry": "sugar",
+        "package_b_geometry": "cracker"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          191,
+          201,
+          58,
+          113
+        ],
+        [
+          376,
+          128,
+          93,
+          180
+        ]
+      ],
+      "mean_subject_srgb": 0.7517637343437336,
+      "surface_median_srgb": 1.0
+    },
+    {
+      "index": 4,
+      "edits": {
+        "key_intensity": 1.1476334072466623,
+        "package_a_geometry": "sugar",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          165,
+          173,
+          64,
+          176
+        ],
+        [
+          409,
+          154,
+          60,
+          173
+        ]
+      ],
+      "mean_subject_srgb": 0.8843361436698882,
+      "surface_median_srgb": 1.0
+    },
+    {
+      "index": 5,
+      "edits": {
+        "key_intensity": 1.0977743713643395,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          178,
+          155,
+          79,
+          182
+        ],
+        [
+          394,
+          172,
+          49,
+          119
+        ]
+      ],
+      "mean_subject_srgb": 0.7038348252118092,
+      "surface_median_srgb": 1.0
+    },
+    {
+      "index": 6,
+      "edits": {
+        "key_intensity": 1.1528622153196029,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "cracker"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          162,
+          132,
+          86,
+          220
+        ],
+        [
+          390,
+          130,
+          83,
+          219
+        ]
+      ],
+      "mean_subject_srgb": 0.5975981194894808,
+      "surface_median_srgb": 1.0
+    },
+    {
+      "index": 7,
+      "edits": {
+        "key_intensity": 0.978071305986089,
+        "package_a_geometry": "sugar",
+        "package_b_geometry": "cracker"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          204,
+          200,
+          49,
+          85
+        ],
+        [
+          379,
+          160,
+          69,
+          141
+        ]
+      ],
+      "mean_subject_srgb": 0.7600009132062672,
+      "surface_median_srgb": 1.0
+    }
+  ],
+  "warehouse-light": [
+    {
+      "index": 0,
+      "edits": {
+        "environment": "small_workshop",
+        "dome_gain": 0.5,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          183,
+          180,
+          129,
+          202
+        ],
+        [
+          348,
+          159,
+          62,
+          127
+        ]
+      ],
+      "mean_subject_srgb": 0.08381801515710523,
+      "surface_median_srgb": 0.00784313725490196
+    },
+    {
+      "index": 1,
+      "edits": {
+        "environment": "small_workshop",
+        "dome_gain": 1.0,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          183,
+          180,
+          129,
+          202
+        ],
+        [
+          348,
+          159,
+          62,
+          127
+        ]
+      ],
+      "mean_subject_srgb": 0.1275557387831596,
+      "surface_median_srgb": 0.011764705882352941
+    },
+    {
+      "index": 2,
+      "edits": {
+        "environment": "university_workshop",
+        "dome_gain": 0.5,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          183,
+          180,
+          129,
+          202
+        ],
+        [
+          348,
+          159,
+          62,
+          127
+        ]
+      ],
+      "mean_subject_srgb": 0.0742619487550232,
+      "surface_median_srgb": 0.011764705882352941
+    },
+    {
+      "index": 3,
+      "edits": {
+        "environment": "university_workshop",
+        "dome_gain": 1.0,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          183,
+          180,
+          129,
+          202
+        ],
+        [
+          348,
+          159,
+          62,
+          127
+        ]
+      ],
+      "mean_subject_srgb": 0.11490745761243479,
+      "surface_median_srgb": 0.0196078431372549
+    }
+  ],
+  "warehouse-light-wrap": [
+    {
+      "index": 0,
+      "edits": {
+        "environment": "small_workshop",
+        "dome_gain": 0.5,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          183,
+          180,
+          129,
+          202
+        ],
+        [
+          348,
+          159,
+          62,
+          127
+        ]
+      ],
+      "mean_subject_srgb": 0.08866966303547397,
+      "surface_median_srgb": 0.08627450980392157
+    },
+    {
+      "index": 1,
+      "edits": {
+        "environment": "small_workshop",
+        "dome_gain": 1.0,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          183,
+          180,
+          129,
+          202
+        ],
+        [
+          348,
+          159,
+          62,
+          127
+        ]
+      ],
+      "mean_subject_srgb": 0.13445585135859783,
+      "surface_median_srgb": 0.12941176470588237
+    },
+    {
+      "index": 2,
+      "edits": {
+        "environment": "university_workshop",
+        "dome_gain": 0.5,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          183,
+          180,
+          129,
+          202
+        ],
+        [
+          348,
+          159,
+          62,
+          127
+        ]
+      ],
+      "mean_subject_srgb": 0.08291776018195297,
+      "surface_median_srgb": 0.12549019607843137
+    },
+    {
+      "index": 3,
+      "edits": {
+        "environment": "university_workshop",
+        "dome_gain": 1.0,
+        "package_a_geometry": "cracker",
+        "package_b_geometry": "sugar"
+      },
+      "instance_ids": [
+        1,
+        2
+      ],
+      "boxes": [
+        [
+          183,
+          180,
+          129,
+          202
+        ],
+        [
+          348,
+          159,
+          62,
+          127
+        ]
+      ],
+      "mean_subject_srgb": 0.1271525882641724,
+      "surface_median_srgb": 0.1843137254901961
+    }
+  ]
+}

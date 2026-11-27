@@ -1,0 +1,122 @@
+{
+  "format": 2,
+  "seed": 0,
+  "classes": {
+    "retail_package": 1
+  },
+  "instances": [
+    {
+      "id": "object1",
+      "class": "retail_package",
+      "prim": "/World/Packages/A",
+      "jitter_xy_m": [
+        0.0,
+        0.0
+      ],
+      "yaw_deg": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "object2",
+      "class": "retail_package",
+      "prim": "/World/Packages/B",
+      "jitter_xy_m": [
+        0.0,
+        0.0
+      ],
+      "yaw_deg": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../ycb/models/obj_000002.jpg",
+      "sha256": "73e8d2ad7e6259dbc02a484d83609de51a3b605acfc107c02da1990f0ee85b4d"
+    },
+    {
+      "path": "../../ycb/models/obj_000002.usdc",
+      "sha256": "246c69cca8be78654cd31ea01fa227876efa9affe7ae4ef36b608d8856b79d86"
+    },
+    {
+      "path": "../../ycb/models/obj_000003.jpg",
+      "sha256": "e6633e1bb92b9ca5e463817fdc84ff028d4a1250bb989c3115bb482b8c5e3a41"
+    },
+    {
+      "path": "../../ycb/models/obj_000003.usdc",
+      "sha256": "9f89d2d76bf177ffe44e92dbb20699e1d7cfcddfecd72e61a1e7fb4ed3de85c4"
+    },
+    {
+      "path": "../paper_fleck.png",
+      "sha256": "e77c96b7be077100dcca7983614d13e42e1739f5335e4d018f7c45bd37d56a18"
+    },
+    {
+      "path": "../retail_package.usda",
+      "sha256": "b8fa891e2ac2f8d52ee26176e2d253a90208926cecd81213d62e1f330ca08c98"
+    },
+    {
+      "path": "../scene.usda",
+      "sha256": "ed075b930a0aef9346191e932d1b1b672cc30753b78f31d4b6134877ef484970"
+    },
+    {
+      "path": "campaign.toml",
+      "sha256": "f20b2a4da2ab94bd536a227b528098e54e8e8c2600b8e37b8b218ae10f37bd5f"
+    },
+    {
+      "path": "studio.usda",
+      "sha256": "b110ef4431d826cebc7714e74893a209f50209a1c558c5e89ad7e095e48a37a1"
+    }
+  ],
+  "renderer": {
+    "/rtx/rendermode": "PathTracing",
+    "/rtx/post/aa/op": 0,
+    "/rtx/post/histogram/enabled": false,
+    "/rtx/post/tonemap/filmIso": 100.0,
+    "/rtx/post/tonemap/cameraShutter": 1.0,
+    "/rtx/post/tonemap/fNumber": 5.0,
+    "/rtx/post/tonemap/op": 1,
+    "/rtx/post/tonemap/colorMode": 0,
+    "/rtx/pathtracing/spp": 16,
+    "/rtx/pathtracing/maxBounces": 4,
+    "/rtx/pathtracing/totalSpp": 432,
+    "/rtx/pathtracing/optixDenoiser/enabled": true
+  },
+  "resolution": [
+    640,
+    480
+  ],
+  "rt_subframes": 3,
+  "warmup_frames": 24,
+  "engine": {
+    "isaacsim_app": [
+      "6.2.0",
+      "rc.14",
+      "6",
+      "2",
+      "0",
+      "rc",
+      "14",
+      "release.52805.02189a84.gl"
+    ],
+    "replicator_extension": "omni.replicator.core-1.13.38"
+  },
+  "code": {
+    "capture_campaign.py": "d2d56bfcb53877534c31267e257954aa4fc720d2ddd848ea7ea22c016678b61a",
+    "capture_isaac.py": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+    "generate_dataset.py": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+    "campaign.py": "d1f681197d7bda93cc174b3640831f8531c68f2773bc3756e6379b84913ee820",
+    "visibility.py": "de9b5861db8de97e9f5c63da97fb0799dbc1d3da5f92cad2ab6407fc1aa9f09d"
+  },
+  "depth": "Euclidean metres from optical center; background may be infinite",
+  "exposure": {
+    "iso": 100,
+    "time": 1,
+    "fstop": 5,
+    "responsivity": 1,
+    "compensation_ev": 0
+  },
+  "campaign_key": "210f099e5ffb0f809dc1e633a725b2a2bc688c58dbd6347819bd73a441532187"
+}

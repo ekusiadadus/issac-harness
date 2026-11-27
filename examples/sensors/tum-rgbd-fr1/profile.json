@@ -1,0 +1,35 @@
+{
+  "name": "TUM RGB-D Freiburg 1 Kinect RGB",
+  "provenance": "Numerical camera matrix and five distortion coefficients read from the Freiburg 1 RGB calibration archive ost.txt. Pixel values retain RGB; sensor noise disabled without a compatible flat-field measurement.",
+  "width": 640,
+  "height": 480,
+  "distortion_model": "plumb_bob",
+  "K": [
+    [
+      517.306408,
+      0.0,
+      318.64304
+    ],
+    [
+      0.0,
+      516.469215,
+      255.313989
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "D": [
+    0.262383,
+    -0.953104,
+    -0.005358,
+    0.002628,
+    1.163314
+  ],
+  "source_url": "https://cvg.cit.tum.de/_media/data/datasets/rgbd-dataset/file_formats/fr1_rgb_calibration.tgz",
+  "format_url": "https://cvg.cit.tum.de/data/datasets/rgbd-dataset/file_formats",
+  "archive_sha256": "708518afb94b0e30664129dd05830502e2eb706baca0bb851e35102137c8c1ce",
+  "member_sha256": "81ca0b4d2682e334eb1a214376782d4ee860d9cc4871bba673fa2d44f530785c"
+}

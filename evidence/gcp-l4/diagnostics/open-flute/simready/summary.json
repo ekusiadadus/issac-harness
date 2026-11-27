@@ -1,0 +1,37 @@
+{
+  "profile": "Robotics-Prop",
+  "version": "5.0.0",
+  "assets": [
+    {
+      "asset": "carton.usdc",
+      "sha256": "9bbad1022d7d05e56c3bd9579292f113e8abf5c1188dd3e621f604ac04320cc3",
+      "features": 27,
+      "blocking": [
+        "FET001_MinimalPlaceableVisual.1-0-1",
+        "FET008_ObjectForward.0-1-0"
+      ],
+      "status": "fail",
+      "exit_code": 1,
+      "report": "carton.json"
+    },
+    {
+      "asset": "handset.usdc",
+      "sha256": "f4f71cd0c7c25c613873eafdbbcf5bb443a8534063537d915692f8583f8c4d08",
+      "features": 27,
+      "blocking": [],
+      "status": "pass",
+      "exit_code": 0,
+      "report": "handset.json"
+    },
+    {
+      "asset": "tray.usdc",
+      "sha256": "07d39fe1747d4411f26b7f32a92a5229d11d62c28141b2cd89c0044c1ac4822b",
+      "features": 27,
+      "blocking": [],
+      "status": "pass",
+      "exit_code": 0,
+      "report": "tray.json"
+    }
+  ],
+  "status": "fail"
+}

@@ -1,0 +1,30 @@
+{
+  "campaign": "evidence/campaign-l4/workshop-inspection",
+  "class_changed_pixels": 0,
+  "class_transitions": {},
+  "edits_changed": [
+    "inspection_key"
+  ],
+  "frames": [
+    0,
+    1
+  ],
+  "instance_changed_pixels": 0,
+  "instance_transitions": {},
+  "min_rgb_pixels": 0,
+  "min_target_rgb_pixels": 100,
+  "passed": true,
+  "protected_range_max_delta_m": 0.0,
+  "protected_range_violating_pixels": 0,
+  "range_atol_m": 0.0,
+  "range_changed_pixels": 0,
+  "rgb_changed_pixels": 648774,
+  "rgb_delta": 0.1,
+  "rgb_floor_met": true,
+  "target": "package_a",
+  "target_class_lost_pixels": 0,
+  "target_instance_lost_pixels": 0,
+  "target_intersection_pixels": 99178,
+  "target_rgb_changed_pixels": 69748,
+  "target_rgb_floor_met": true
+}

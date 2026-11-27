@@ -1,0 +1,73 @@
+[WARNING] isaaclab.sh is deprecated and will be removed in Isaac Lab 3.1. Use 'uv run isaaclab' instead.
+[INFO] Using Python: "/opt/isaaclab-venv/bin/python"
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1795569588.962474      22 descriptor_database.cc:633] File already exists in database: grpc/health/v1/health.proto
+W0000 00:00:1795569588.962517      22 message.cc:301] Protobuf GeneratedMessageFactory: File is already registered: grpc/health/v1/health.proto
+2026-11-25T01:19:49Z [0ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-11-25T01:19:49Z [4ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+Warning: Possible version incompatibility. Attempting to load carb::ujitso::IFactory with version v0.3 against v0.2.
+[ISAACLAB] KitLauncher initialization complete
+2026-11-25T01:19:51Z [2,454ms] [Warning] [omni.physx.cooking.plugin] PhysX warning: Cooking::cookConvexMesh: GPU-compatible convex hull could not be built because of oblong shape. Will fall back to CPU collision, particles and deformables will not collide with this mesh!, FILE /builds/omniverse/physics/physx/source/geomutils/src/cooking/GuCookingConvexMesh.cpp, LINE 124
+2026-11-25T01:19:51Z [2,454ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/Payload/WallFront
+2026-11-25T01:19:51Z [2,455ms] [Warning] [omni.physx.cooking.plugin] PhysX warning: Cooking::cookConvexMesh: GPU-compatible convex hull could not be built because of oblong shape. Will fall back to CPU collision, particles and deformables will not collide with this mesh!, FILE /builds/omniverse/physics/physx/source/geomutils/src/cooking/GuCookingConvexMesh.cpp, LINE 124
+2026-11-25T01:19:51Z [2,455ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/Payload/WallBack
+2026-11-25T01:19:51Z [2,458ms] [Warning] [usdrt.population.plugin] Last global time was not created. Did you call setEnableUsdNoticeHandling?
+{
+  "status": "failed",
+  "trial": "open-control",
+  "asset": "/var/tmp/issac-bench/src/examples/inspection/assets/carton/carton.usdc",
+  "asset_default_prim": "/Carton",
+  "required_colliders": [
+    "WallLeft",
+    "WallRight"
+  ],
+  "authored_collider_count": 5,
+  "geometry_inputs": {
+    "rim_probe_x": -0.12,
+    "rim_probe_z": 0.034,
+    "rim_probe_radius": 0.018,
+    "rim_precontact_x": 0.2,
+    "rim_contact_zone_x": 0.18,
+    "rim_max_x": 0.25,
+    "finger_open_x": 0.185,
+    "finger_closed_x": 0.166,
+    "finger_center_z": 0.09,
+    "finger_size_x": 0.012,
+    "finger_size_y": 0.1,
+    "finger_size_z": 0.12,
+    "grasp_lift_m": 0.18,
+    "support_top_z": 0.0
+  },
+  "physics_backend": "PhysxCfg",
+  "device": "cpu",
+  "dt_s": 0.008333333333333333,
+  "steps": 360,
+  "physics_steps_start": 0,
+  "physics_steps_end": 360,
+  "speed_mps": null,
+  "finger_friction_authored": 1.5,
+  "metric_scope": "effective simulated contact response; no real-world coefficient fit",
+  "tensor_source": "omni.physics.tensors rigid_body_view",
+  "metrics": {
+    "max_payload_z_m": 6.748158931732178,
+    "mean_hold_payload_z_m": 4.750260688163139,
+    "min_lift_payload_z_m": 3.736924171447754,
+    "final_payload_z_m": -9.717625617980957,
+    "hold_tail_vertical_span_m": 1.8835372924804688,
+    "release_fall_m": 14.467886306144095
+  },
+  "wall_elapsed_s": 0.5109063190002416,
+  "versions": {
+    "isaaclab": "28.0.0"
+  }
+}
+Traceback (most recent call last):
+  File "/workspace/isaaclab/source/isaaclab/isaaclab/app/sim_launcher.py", line 677, in launch_simulation
+    yield physics_cfg
+  File "/var/tmp/issac-bench/src/runtime/contact_trials.py", line 305, in main
+    run(a, cfg)
+  File "/var/tmp/issac-bench/src/runtime/contact_trials.py", line 295, in run
+    if not passed: raise RuntimeError(f'{a.trial} acceptance threshold failed; report: {a.report}')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: open-control acceptance threshold failed; report: /var/tmp/issac-bench/out/physicsCPU/open-control.json
+[ERROR] Command failed with code 1: "/opt/isaaclab-venv/bin/python /var/tmp/issac-bench/src/runtime/contact_trials.py --trial open-control --asset /var/tmp/issac-bench/src/examples/inspection/assets/carton/carton.usdc --report /var/tmp/issac-bench/out/physicsCPU/open-control.json --device cpu --visualizer none"

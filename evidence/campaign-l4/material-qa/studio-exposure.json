@@ -1,0 +1,166 @@
+{
+  "resolution": [
+    640,
+    480
+  ],
+  "rgb_units": "sRGB in [0,1]",
+  "support_region": "native ID zero, finite radial distance in (0,5) m. The isolated studio contains one support mesh and two labelled products.",
+  "old_and_new_light_intensities": [
+    [
+      1900,
+      850
+    ],
+    [
+      475,
+      212.5
+    ]
+  ],
+  "instance_pixels_changed_per_frame": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "previous": {
+        "rgb_sha256": "102035c316ae5b0c0bb4926f0ceb1f2e127c998e56e4c47f3f945e8845ec189d",
+        "support_pixels": 144845,
+        "support_median_srgb": 1.0,
+        "support_fraction_with_any_channel_at_least_250": 0.8187096551486072,
+        "inside_target_median_srgb": 0.6392156862745098
+      },
+      "reduced": {
+        "rgb_sha256": "2b1ea3acd44becf647b44a0c2e8f08164f89aac37f338249e23963ed89aba27a",
+        "support_pixels": 144845,
+        "support_median_srgb": 0.6,
+        "support_fraction_with_any_channel_at_least_250": 0.0,
+        "inside_target_median_srgb": 0.3333333333333333
+      }
+    },
+    {
+      "index": 1,
+      "previous": {
+        "rgb_sha256": "a93555f123240713be2569fabfdd6425b4988941906c9d9c885a9800463d4b29",
+        "support_pixels": 219866,
+        "support_median_srgb": 1.0,
+        "support_fraction_with_any_channel_at_least_250": 0.879294661293697,
+        "inside_target_median_srgb": 0.796078431372549
+      },
+      "reduced": {
+        "rgb_sha256": "24d77f249d484dd625491938a43e080cd86b1376eadef08a7dbf232c06ac05a6",
+        "support_pixels": 219866,
+        "support_median_srgb": 0.611764705882353,
+        "support_fraction_with_any_channel_at_least_250": 0.0,
+        "inside_target_median_srgb": 0.4235294117647059
+      }
+    },
+    {
+      "index": 2,
+      "previous": {
+        "rgb_sha256": "076829ad31bd8f023ed26e3b27cb8ec23ab576fbf98aaf9498e6294392196593",
+        "support_pixels": 137846,
+        "support_median_srgb": 1.0,
+        "support_fraction_with_any_channel_at_least_250": 0.9853967470945838,
+        "inside_target_median_srgb": 0.9098039215686274
+      },
+      "reduced": {
+        "rgb_sha256": "6afeae95fe0ab137972083eecefabd908ea8998487bbbf96821ecf074a49b567",
+        "support_pixels": 137846,
+        "support_median_srgb": 0.6392156862745098,
+        "support_fraction_with_any_channel_at_least_250": 0.0,
+        "inside_target_median_srgb": 0.48627450980392156
+      }
+    },
+    {
+      "index": 3,
+      "previous": {
+        "rgb_sha256": "20f9c2cd8768bd4276ea76f39a36814635f4620b686143f00e0eb25bb578c448",
+        "support_pixels": 204872,
+        "support_median_srgb": 1.0,
+        "support_fraction_with_any_channel_at_least_250": 0.9439113202389785,
+        "inside_target_median_srgb": 0.7725490196078432
+      },
+      "reduced": {
+        "rgb_sha256": "4609186f86dbe575cac9e0b689c594b80598acd3282f50932fc493aa191926b5",
+        "support_pixels": 204872,
+        "support_median_srgb": 0.611764705882353,
+        "support_fraction_with_any_channel_at_least_250": 0.0,
+        "inside_target_median_srgb": 0.40784313725490196
+      }
+    },
+    {
+      "index": 4,
+      "previous": {
+        "rgb_sha256": "e67b646a08e72249110d13e38cff0c8adf55b503a953749e9696f320f2fd5b9a",
+        "support_pixels": 186434,
+        "support_median_srgb": 1.0,
+        "support_fraction_with_any_channel_at_least_250": 0.9853138376047288,
+        "inside_target_median_srgb": 0.9686274509803922
+      },
+      "reduced": {
+        "rgb_sha256": "fb153cad998779da11191116eaa6ed444db70d1a413f497b08b6242e404dd17b",
+        "support_pixels": 186434,
+        "support_median_srgb": 0.6509803921568628,
+        "support_fraction_with_any_channel_at_least_250": 0.0,
+        "inside_target_median_srgb": 0.5176470588235295
+      }
+    },
+    {
+      "index": 5,
+      "previous": {
+        "rgb_sha256": "cec1e1196470719f4f0a3bf4450d32b9c4c2ec26032a5dc5797b741177443181",
+        "support_pixels": 201669,
+        "support_median_srgb": 1.0,
+        "support_fraction_with_any_channel_at_least_250": 0.9622401063128195,
+        "inside_target_median_srgb": 0.807843137254902
+      },
+      "reduced": {
+        "rgb_sha256": "b377b170d4cb9ada293e5cc5794e243f54e02f337fce00d5923f35261abd8fa5",
+        "support_pixels": 201669,
+        "support_median_srgb": 0.6352941176470588,
+        "support_fraction_with_any_channel_at_least_250": 0.0,
+        "inside_target_median_srgb": 0.42745098039215684
+      }
+    },
+    {
+      "index": 6,
+      "previous": {
+        "rgb_sha256": "437f9e571de6132ce4919443201004fa3c358d464e5c3e9517f748740d1e9836",
+        "support_pixels": 159462,
+        "support_median_srgb": 1.0,
+        "support_fraction_with_any_channel_at_least_250": 0.9552746108790809,
+        "inside_target_median_srgb": 0.6078431372549019
+      },
+      "reduced": {
+        "rgb_sha256": "62723851132d469598cc90e7b154712d73bc9bc9540eaf7af1c3fdc6c27c113d",
+        "support_pixels": 159462,
+        "support_median_srgb": 0.6313725490196078,
+        "support_fraction_with_any_channel_at_least_250": 0.0,
+        "inside_target_median_srgb": 0.3176470588235294
+      }
+    },
+    {
+      "index": 7,
+      "previous": {
+        "rgb_sha256": "d619e770e5ad00e62ebf79ae2882a84a98cd15595092978529607beb33b5fb4a",
+        "support_pixels": 187511,
+        "support_median_srgb": 1.0,
+        "support_fraction_with_any_channel_at_least_250": 0.9479870514263163,
+        "inside_target_median_srgb": 0.7568627450980392
+      },
+      "reduced": {
+        "rgb_sha256": "dbbb1b228bf4615ffbfcef1383888a094f9afe420e84e9d076b8a968827e1814",
+        "support_pixels": 187511,
+        "support_median_srgb": 0.611764705882353,
+        "support_fraction_with_any_channel_at_least_250": 0.0,
+        "inside_target_median_srgb": 0.4
+      }
+    }
+  ]
+}

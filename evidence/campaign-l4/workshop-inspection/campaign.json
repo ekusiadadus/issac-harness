@@ -1,0 +1,146 @@
+{
+  "format": 2,
+  "seed": 20261125,
+  "classes": {
+    "retail_package": 1
+  },
+  "instances": [
+    {
+      "id": "package_a",
+      "class": "retail_package",
+      "prim": "/World/Packages/A"
+    },
+    {
+      "id": "package_b",
+      "class": "retail_package",
+      "prim": "/World/Packages/B"
+    }
+  ],
+  "sources": [
+    {
+      "path": "../../inspection/geometry.usdc",
+      "sha256": "157e60327336a027913e9d88686dac38623ef3a05277582c8b7e7e0ac9a9ba78"
+    },
+    {
+      "path": "../../inspection/textures/plywood_base.jpg",
+      "sha256": "800905650fc6cab2fe7c77c41851f8ea89669f1287ad5ce67c48f435654c0af8"
+    },
+    {
+      "path": "../../inspection/textures/plywood_normal.png",
+      "sha256": "20e6e3fcfe50bfb295f941df3bd34b02c36788eeca88c8cbeafd87bb4fab4c1e"
+    },
+    {
+      "path": "../../inspection/textures/plywood_rough.jpg",
+      "sha256": "c4600551fa90bf1222de07b5d92e09456501f0449a4f315c203770bfcbd97aaf"
+    },
+    {
+      "path": "../families/capture/studio.usda",
+      "sha256": "b11563b22744e3825b58f544c221a50b2862156a78155ed61138c4d24ad8d48e"
+    },
+    {
+      "path": "../families/paper_fleck.png",
+      "sha256": "e77c96b7be077100dcca7983614d13e42e1739f5335e4d018f7c45bd37d56a18"
+    },
+    {
+      "path": "../families/retail_package.usda",
+      "sha256": "b8fa891e2ac2f8d52ee26176e2d253a90208926cecd81213d62e1f330ca08c98"
+    },
+    {
+      "path": "../families/scene.usda",
+      "sha256": "ed075b930a0aef9346191e932d1b1b672cc30753b78f31d4b6134877ef484970"
+    },
+    {
+      "path": "../ycb/models/obj_000002.jpg",
+      "sha256": "73e8d2ad7e6259dbc02a484d83609de51a3b605acfc107c02da1990f0ee85b4d"
+    },
+    {
+      "path": "../ycb/models/obj_000002.usdc",
+      "sha256": "246c69cca8be78654cd31ea01fa227876efa9affe7ae4ef36b608d8856b79d86"
+    },
+    {
+      "path": "../ycb/models/obj_000003.jpg",
+      "sha256": "e6633e1bb92b9ca5e463817fdc84ff028d4a1250bb989c3115bb482b8c5e3a41"
+    },
+    {
+      "path": "../ycb/models/obj_000003.usdc",
+      "sha256": "9f89d2d76bf177ffe44e92dbb20699e1d7cfcddfecd72e61a1e7fb4ed3de85c4"
+    },
+    {
+      "path": "assets/small_workshop_1k.hdr",
+      "sha256": "6693c278f2904a3f450ee431725c605c05d575670307da187cd825e21c13e4c0"
+    },
+    {
+      "path": "assets/small_workshop_1k.hdr",
+      "sha256": "6693c278f2904a3f450ee431725c605c05d575670307da187cd825e21c13e4c0"
+    },
+    {
+      "path": "assets/university_workshop_1k.hdr",
+      "sha256": "a125ada38fc602025326f29b68df09531bb16f899f1973b03d9ac5ac98142548"
+    },
+    {
+      "path": "inspection-poses.json",
+      "sha256": "b66f17230c558efc79b6ec7639e6ac5fe91549d1246932dc4a2bedaa2f6fd44b"
+    },
+    {
+      "path": "inspection.toml",
+      "sha256": "c7040d359649e059c9c812e6bc15679e3a292332da2b299f3a986e4a5888b08c"
+    },
+    {
+      "path": "inspection.usda",
+      "sha256": "68c44db977df9ace19418d394e04bbf80fef751f4d4489533a20c555e5c106b2"
+    },
+    {
+      "path": "scene.usda",
+      "sha256": "3f7d6a2dc2dd57f0d2dc5892e2b27d82e5f04b176791d84e32e3cad418ed32df"
+    }
+  ],
+  "renderer": {
+    "/rtx/rendermode": "PathTracing",
+    "/rtx/post/aa/op": 0,
+    "/rtx/post/histogram/enabled": false,
+    "/rtx/post/tonemap/filmIso": 100.0,
+    "/rtx/post/tonemap/cameraShutter": 1.0,
+    "/rtx/post/tonemap/fNumber": 5.0,
+    "/rtx/post/tonemap/op": 1,
+    "/rtx/post/tonemap/colorMode": 0,
+    "/rtx/pathtracing/spp": 64,
+    "/rtx/pathtracing/maxBounces": 4,
+    "/rtx/pathtracing/totalSpp": 1792,
+    "/rtx/pathtracing/optixDenoiser/enabled": true
+  },
+  "resolution": [
+    1440,
+    1080
+  ],
+  "rt_subframes": 4,
+  "warmup_frames": 24,
+  "engine": {
+    "isaacsim_app": [
+      "6.2.0",
+      "rc.14",
+      "6",
+      "2",
+      "0",
+      "rc",
+      "14",
+      "release.52805.02189a84.gl"
+    ],
+    "replicator_extension": "omni.replicator.core-1.13.38"
+  },
+  "code": {
+    "capture_campaign.py": "d2d56bfcb53877534c31267e257954aa4fc720d2ddd848ea7ea22c016678b61a",
+    "capture_isaac.py": "6ec5b960e688c46e1300983d08583930154bc1b4ea06dc141da6dfa969f63eff",
+    "generate_dataset.py": "d5a04ca22d54879797b2f59c2b6fa834ad6ac172efeac2c5e44b74655c07ee2a",
+    "campaign.py": "d1f681197d7bda93cc174b3640831f8531c68f2773bc3756e6379b84913ee820",
+    "visibility.py": "de9b5861db8de97e9f5c63da97fb0799dbc1d3da5f92cad2ab6407fc1aa9f09d"
+  },
+  "depth": "Euclidean metres from optical center; background may be infinite",
+  "exposure": {
+    "iso": 100,
+    "time": 1,
+    "fstop": 5,
+    "responsivity": 1,
+    "compensation_ev": 0
+  },
+  "campaign_key": "80b608311affb6b5fbf81a88fa620d688d34e3ca5068d7a7560381708ea6c536"
+}

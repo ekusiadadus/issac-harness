@@ -1,0 +1,130 @@
+{
+  "remote_archive_sha256": "45a8e95b3da2e57050d2f5ef2f3d8674e996054c89ac8db0abe96f6e35ef11c0",
+  "local_archive_sha256": "45a8e95b3da2e57050d2f5ef2f3d8674e996054c89ac8db0abe96f6e35ef11c0",
+  "files": {
+    "logs/families.log": {
+      "size": 23800,
+      "sha256": "c584473e1be5ddcf37c9d6354dd925a44bee796f36409beeab3cf71c8a6f2855"
+    },
+    "logs/local-mark.log": {
+      "size": 24214,
+      "sha256": "981b20a8f2e4e0cbec3770722ab5c7f00d4039c930d4908187c886ea9f58cf44"
+    },
+    "logs/mark-final.log": {
+      "size": 23556,
+      "sha256": "ed49c2c5a2dfb4a47e904d64ed2186e122f82019f47e1a6e158f984224fa23c4"
+    },
+    "logs/bracket.log": {
+      "size": 23850,
+      "sha256": "4f3b5d6420d1279a7786f6e6b919d07d33ad883a30934d4a2b03cf49d62794ff"
+    },
+    "logs/neural-uid.log": {
+      "size": 883,
+      "sha256": "7408c7ffb5dffd8e68b327f42f97cccced254592067efc977eb12faf7bf42f75"
+    },
+    "logs/mark-park.log": {
+      "size": 23565,
+      "sha256": "34796f6c075d2fece71153a757ce78c5f042ae3530b42c9d7bf6facd6e213393"
+    },
+    "logs/resume.log": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "logs/families-wrap.log": {
+      "size": 23811,
+      "sha256": "3702a70bc78d69f8beccf0a1e0df286e228f419a127cd1057f196ee6783b6358"
+    },
+    "logs/warehouse-light-wrap.log": {
+      "size": 23396,
+      "sha256": "9a78da80787e413f7392be04a674e9577ffd6e84dc9f4ff5d6d3f60792f0fe03"
+    },
+    "logs/native-resume.log": {
+      "size": 23519,
+      "sha256": "19e04f8e910a03e8e60a94cde8cbe40c950c49d978032d0490810d677d378bf7"
+    },
+    "logs/mark-reverse.log": {
+      "size": 23578,
+      "sha256": "e23e688c07dfa2ffc90528de54d96e3fa03c4655be7c5453a7ce62e606121ca2"
+    },
+    "logs/paired-cold-kit.log.gz": {
+      "size": 1256594,
+      "sha256": "362dc1693e419b1112b3d95bd2d4eff0fdf6f63d78237e712bdc107f662f1e70"
+    },
+    "logs/production-fixed.log": {
+      "size": 24796,
+      "sha256": "c4c198a6551e1c487f929b7370050a97827e6b16d601a23bc1f438ca5a60273d"
+    },
+    "logs/local-mark-missing-asset.log": {
+      "size": 23872,
+      "sha256": "0e290441df91dd03c1e1ab9bad26b0f51e99e2d2b898e581c19673ad9bbaace3"
+    },
+    "logs/warehouse-light.log": {
+      "size": 23387,
+      "sha256": "f9dd79be86c5a85d30f41dbe526710219f51966746c261d8add00e5b6ede06cc"
+    },
+    "logs/production.log": {
+      "size": 24716,
+      "sha256": "f3acaed02e505cef22a8fc1379755f96fa089487f087d0da58856a38b5a8c535"
+    },
+    "logs/native-plan.log": {
+      "size": 71,
+      "sha256": "1fab35a19fd716ddddcc1367bd0baaf039faecd928f84fb876b9e5f08ef2eb19"
+    },
+    "logs/paired-warm.log": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "logs/mark-cutout.log": {
+      "size": 23563,
+      "sha256": "5eea1bf8e7462f528f41133fc5437259db28afbafc2b69bf1d3ac90fcc2305f6"
+    },
+    "logs/core2.log": {
+      "size": 23775,
+      "sha256": "a84ab6874501dfe70405825dfda364b7e30c35a13158816e8b6434ab8ebe6629"
+    },
+    "logs/native-repeat.log": {
+      "size": 23597,
+      "sha256": "97a98cad3e669f0d0a276c6427b4690587c3279771318124e88f114e0bf1d2fa"
+    },
+    "logs/registered.log": {
+      "size": 23685,
+      "sha256": "f429e5b77dcf6019fa9a62625a365388b2e87bb5338e7de37af544722b062f49"
+    },
+    "logs/workshop-inspection.log": {
+      "size": 23669,
+      "sha256": "bf1281eb04d1541ea44efb54fb76e75a2faae9a91269e276a2d4919b20dc8196"
+    },
+    "logs/heldout.log": {
+      "size": 23681,
+      "sha256": "d7e0d6795312cf1022a7396915fa49819a095f3a8b6a2425697d61be7dc17ece"
+    },
+    "logs/paired.log": {
+      "size": 44338022,
+      "sha256": "5c58b956b27b2528b8af118a25fcad5b495319caf6c6fb079c492e378d20d2a9"
+    },
+    "logs/family-studio.log": {
+      "size": 23810,
+      "sha256": "8f404c6f9627d3ecc725b5c51ef2bb506b6c353ea46b0dc1ef08fcc40133e57b"
+    },
+    "logs/mask-candidate.log": {
+      "size": 23575,
+      "sha256": "278db49e2b4f8231394821b547973f4a8a1e2f38610c9233dca44181da05f434"
+    },
+    "logs/neural.log": {
+      "size": 89,
+      "sha256": "387309ad20016086d88ae367c6c7d1e124bc5f88b54494369c17ff4335175f21"
+    },
+    "logs/sync.log": {
+      "size": 617,
+      "sha256": "5d4be9e732067006936d715c25c222955d1aa5daa346709f2845fa928bd1ab83"
+    },
+    "logs/mark-comparison.log": {
+      "size": 23563,
+      "sha256": "32d0bc97f9696d01d6bf3c88d7ff7581904005b996d0df032b2883cba9a4471a"
+    },
+    "logs/label-fixed.log": {
+      "size": 23604,
+      "sha256": "56e0f072c754eefe09f8141cd1b78f83dff522ca99b5afed87a615ef6896bdb5"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "frames": 256,
+  "resolution": [
+    960,
+    720
+  ],
+  "distinct_rgb": 256,
+  "instances_count_by_class": {
+    "carton": 230,
+    "tray": 256,
+    "handset": 241,
+    "cracker_box": 250,
+    "sugar_box": 248,
+    "mustard_bottle": 244
+  },
+  "camera_samples": {
+    "left": 64,
+    "right": 64,
+    "overhead": 64,
+    "front": 64
+  },
+  "layouts": {
+    "packing_right": 64,
+    "scan_queue": 64,
+    "cross_pick": 64,
+    "packing_left": 64
+  },
+  "empty_frames": 0,
+  "boxes": 1469,
+  "campaign_key": "1857a3b50b7a53c08a19954e9fc3148dec08af39774cfc6fe39815f278099e4a",
+  "export_sha256": {
+    "frames.sha256.jsonl": "5d6e9cc501460d3c663f4945688849318e332544daef72dfbbea77529d69a48d",
+    "coco.json": "eed56b02b88e919e2f19085667d4759c89a977dc67ae701d27963f2ca579a033",
+    "training.jsonl": "d58a048f4cda2998cb6571d6e183723fa03a7136a4c032c9814eeb3879dae059"
+  }
+}

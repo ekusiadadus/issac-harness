@@ -1,0 +1,37 @@
+{
+  "status": "fail",
+  "issues": [
+    "nominal/overview: 未確認 (check observation and frame hash)",
+    "nominal/detail: 未確認 (check observation and frame hash)",
+    "low_overhead/overview: 未確認 (check observation and frame hash)",
+    "low_overhead/detail: 未確認 (check observation and frame hash)"
+  ],
+  "frames": [
+    {
+      "case": "nominal",
+      "view": "overview",
+      "observation": "",
+      "decision": "未確認"
+    },
+    {
+      "case": "nominal",
+      "view": "detail",
+      "observation": "",
+      "decision": "未確認"
+    },
+    {
+      "case": "low_overhead",
+      "view": "overview",
+      "observation": "",
+      "decision": "未確認"
+    },
+    {
+      "case": "low_overhead",
+      "view": "detail",
+      "observation": "",
+      "decision": "未確認"
+    }
+  ],
+  "review_sha256": "65d1fd7083f6b41c3ae4a722e4afe701b88ec3b984f224b0261d93ee82eeecaf",
+  "run_sha256": "09a46634bb857951fb3bc95e2dba9c77fab66b22e50db70649dd9a9d7535280f"
+}

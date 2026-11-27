@@ -1,0 +1,23 @@
+{
+  "collected_utc": "2026-11-24T17:51:30.707685+00:00",
+  "os": "Ubuntu 24.04.5 LTS",
+  "gpu": "0, NVIDIA L4, 595.91.07, 23034 MiB",
+  "tested_source": "c357538737eb26a6035360b165f064629ec9b203",
+  "git_status_porcelain": "",
+  "images": [
+    {
+      "requested": "nvcr.io/nvidia/isaac-sim@sha256:a025b65a7442d56806a1cc3f5eed081caf736c24b72d62dccf68ef66945d8690",
+      "repo_digests": [
+        "nvcr.io/nvidia/isaac-sim@sha256:a025b65a7442d56806a1cc3f5eed081caf736c24b72d62dccf68ef66945d8690"
+      ],
+      "image_id": "sha256:a025b65a7442d56806a1cc3f5eed081caf736c24b72d62dccf68ef66945d8690"
+    },
+    {
+      "requested": "nvcr.io/nvidia/isaac-lab@sha256:f70acc9ed3bc3fc67099a0c5715379c432cc9965623cabbaf54f74599997e245",
+      "repo_digests": [
+        "nvcr.io/nvidia/isaac-lab@sha256:f70acc9ed3bc3fc67099a0c5715379c432cc9965623cabbaf54f74599997e245"
+      ],
+      "image_id": "sha256:f70acc9ed3bc3fc67099a0c5715379c432cc9965623cabbaf54f74599997e245"
+    }
+  ]
+}

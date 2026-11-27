@@ -1,0 +1,13 @@
+{
+  "renderer": "Blender Cycles CPU",
+  "version": "4.5.17 LTS",
+  "samples": 64,
+  "seed": 19,
+  "denoiser": "OPENIMAGEDENOISE",
+  "max_bounces": 12,
+  "view_transform": "AgX",
+  "look": "None",
+  "display_device": "sRGB",
+  "display_exposure": 0.0,
+  "light_import_scale": 1
+}

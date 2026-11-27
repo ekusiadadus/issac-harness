@@ -1,0 +1,22 @@
+Processing: rgb
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+  Created: /tmp/issac-bench-1125.r7I56g/repeat-annotators/rgb/diff_animation.gif (3 frames, 10x amplified, 3fps)
+Processing: semantic_segmentation
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+  Created: /tmp/issac-bench-1125.r7I56g/repeat-annotators/semantic_segmentation/diff_animation.gif (3 frames, 10x amplified, 3fps)
+
+Done. Generated difference GIFs for 2 annotation type(s).

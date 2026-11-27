@@ -1,0 +1,11 @@
+# Preset before inspecting the registered RTX captures. One gate per recorded scene.
+# Normalize RGB channel errors by 255 in sRGB encoding; 2 px target-mask erosion.
+[scenes.real_scene_50]
+iou_macro_min = 0.80
+z_median_abs_m_max = 0.015
+rgb_mae_max = 0.10
+
+[scenes.real_scene_51]
+iou_macro_min = 0.80
+z_median_abs_m_max = 0.015
+rgb_mae_max = 0.10

@@ -1,0 +1,35 @@
+{
+  "status": "fail",
+  "issues": [
+    "nominal/detail: 要修正 (check observation and frame hash)",
+    "low_overhead/detail: 要修正 (check observation and frame hash)"
+  ],
+  "frames": [
+    {
+      "case": "nominal",
+      "view": "overview",
+      "observation": "画像左のトレーと端末、右の箱が分かる。天板に板目が通り、四本の脚に接地影がある。発送箱写真より箱の角・ふたは直線的だが、全景での対象識別と配置は妥当。",
+      "decision": "合格"
+    },
+    {
+      "case": "nominal",
+      "view": "detail",
+      "observation": "ラベル下のライナーに細かな濃淡があり、手前の切断面に空隙が見える。前版でテープを横切った三角形は解消した。断面実写の毛羽立ちと層の不揃いさに対し、切り口は等間隔で、右下の剥離は均一な明色の輪郭に見える。損傷の外観に要修正。",
+      "decision": "要修正"
+    },
+    {
+      "case": "low_overhead",
+      "view": "overview",
+      "observation": "天井灯を落とすと左奥の床と机の下面が暗くなり、正面のラベルと箱の外形は分離したまま。端末の輪郭は通常照明より弱い。発送箱資料の折れ癖・外光の映り込みは異なる。全景での対象識別は可能。",
+      "decision": "合格"
+    },
+    {
+      "case": "low_overhead",
+      "view": "detail",
+      "observation": "ラベル領域とふたの真下に明暗差が残り、EAN は同じ値を読める。薄いテープに隣接した紙の粒状感は見えるが、実写で剥離に沿って現れる繊維の影や、透明フィルムの局所的なしわ反射は弱い。損傷・テープの検査用接写に要修正。",
+      "decision": "要修正"
+    }
+  ],
+  "review_sha256": "3b3961321cba48117437f8e04c74f83dd008c3ea28c40b53f74d2197ecdc9809",
+  "run_sha256": "09a46634bb857951fb3bc95e2dba9c77fab66b22e50db70649dd9a9d7535280f"
+}

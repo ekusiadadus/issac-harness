@@ -1,0 +1,18 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    upAxis = "Z"
+    subLayers = [@./scene.usda@]
+)
+
+over "World"
+{
+    over "Lights"
+    {
+        over "OverheadSoftbox"
+        {
+            float inputs:exposure = -2
+        }
+    }
+}

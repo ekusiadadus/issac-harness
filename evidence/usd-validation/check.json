@@ -1,0 +1,1495 @@
+{
+  "project": "梱包作業台",
+  "status": "pass",
+  "usd_version": "0.26.11",
+  "profile_sha256": "54f45c6768f78d6b5d70398a2da6515799a59372b55d5c7d45b320337a4d7032",
+  "cases": {
+    "nominal": {
+      "stage": "scene.usda",
+      "errors": [],
+      "visible_gprims": 56,
+      "materials": {
+        "/World/Materials/Concrete": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/concrete_floor_painted_base.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/concrete_floor_painted_rough.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/concrete_floor_painted_normal.png",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGBA",
+                "varies": true
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Wall_Paint": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/wall_paint_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/wall_paint_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/wall_paint_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/BrushedSteel": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/brushed_steel_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/brushed_steel_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/brushed_steel_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "metallic": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/brushed_steel_metal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": false
+              }
+            ]
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Wood": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/wood_floor_base.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/wood_floor_rough.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/wood_floor_normal.png",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Polymer": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/polymer_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/polymer_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/polymer_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Carton": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/carton_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/carton_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/carton_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Label": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/label_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/label_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/label_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/LabelPrint": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/label_print_base.png",
+                "size": [
+                  1300,
+                  590
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/label_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/label_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Steel": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/metal_plate_02_base.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/metal_plate_02_rough.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/metal_plate_02_normal.png",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "metallic": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/metal_plate_02_metal.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        }
+      },
+      "lights": {
+        "/World/Lights/OverheadSoftbox": {
+          "type": "RectLight",
+          "intensity": 15.199999809265137,
+          "exposure": 0.0
+        },
+        "/World/Lights/SteelEdge": {
+          "type": "RectLight",
+          "intensity": 10.800000190734863,
+          "exposure": 0.0
+        },
+        "/World/Lights/FrontFill": {
+          "type": "SphereLight",
+          "intensity": 3.799999952316284,
+          "exposure": 0.0
+        },
+        "/World/Lights/LabelSoftbox": {
+          "type": "RectLight",
+          "intensity": 25.0,
+          "exposure": 0.0
+        },
+        "/World/Lights/Ambient": {
+          "type": "DomeLight",
+          "intensity": 0.2800000011920929,
+          "exposure": 0.0
+        }
+      },
+      "views": {
+        "overview": {
+          "camera": "/World/Cameras/Overview",
+          "target": "/World/Props/Carton",
+          "inspect": "作業台の高さ、床との接地、荷物の大きさ、落ち影の向き",
+          "reference_size": [
+            1536,
+            1024
+          ],
+          "filmback_mm": [
+            36.000001430511475,
+            23.999999463558197
+          ],
+          "focal_length_mm": 41.999998688697815,
+          "f_stop": 8.0,
+          "focus_distance_m": 3.1794652938842773,
+          "camera_to_world": [
+            [
+              0.7983452198481258,
+              0.6022000580750948,
+              0.0,
+              0.0
+            ],
+            [
+              -0.24432978064374905,
+              0.32391148062485586,
+              0.9139936055629662,
+              0.0
+            ],
+            [
+              0.5504070023502836,
+              -0.7296824259729474,
+              0.4057285903039234,
+              0.0
+            ],
+            [
+              1.7499999999999998,
+              -2.3199999999999994,
+              1.6399999999999997,
+              0.9999999999999999
+            ]
+          ],
+          "required_in_frame": [
+            "/World/Environment/BenchLeg_L_F",
+            "/World/Environment/BenchLeg_L_B",
+            "/World/Environment/BenchLeg_R_F",
+            "/World/Environment/BenchLeg_R_B"
+          ],
+          "target_rect": [
+            0.5137559491597503,
+            0.10180416779797041,
+            0.7393031209558275,
+            0.2912713756012325
+          ],
+          "projected_width_px": 346.44
+        },
+        "detail": {
+          "camera": "/World/Cameras/Detail",
+          "target": "/World/Props/Carton/Label",
+          "inspect": "箱のラベルと折り目、紙の繊維、フラップの端に落ちる影",
+          "reference_size": [
+            1536,
+            1024
+          ],
+          "filmback_mm": [
+            36.000001430511475,
+            23.999999463558197
+          ],
+          "focal_length_mm": 57.999998331069946,
+          "f_stop": 8.0,
+          "focus_distance_m": 0.6936137080192566,
+          "camera_to_world": [
+            [
+              0.9743911956946197,
+              0.22485950669875845,
+              6.938893903907227e-18,
+              0.0
+            ],
+            [
+              -0.061595243448989055,
+              0.26691272161228585,
+              0.9617502924491274,
+              0.0
+            ],
+            [
+              0.21625869632749747,
+              -0.9371210174191557,
+              0.2739276820148301,
+              0.0
+            ],
+            [
+              0.51,
+              -0.7200000000000002,
+              1.1900000000000002,
+              1.0000000000000002
+            ]
+          ],
+          "required_in_frame": [],
+          "target_rect": [
+            0.3267434145341309,
+            0.4871566861312107,
+            0.63777761171915,
+            0.7256440152267118
+          ],
+          "projected_width_px": 477.75
+        }
+      },
+      "dependencies_sha256": {
+        "cameras.usda": "20ff18ab0f6f23e209b867559d4c40cc2796054d177d2e942786e36ab52b27d0",
+        "environment.usda": "497eec1e0728694e3e366d9601b18bb04b228c4f1aaa34e289e731ee28b4b652",
+        "geometry.usdc": "a477d576ce219c3d0453d782d492a6b1a346c18556ba8b328b8bf64799cabf59",
+        "scene.usda": "658e9dee19c7a4fd0c9f4829ae3ab6466bafdbf302ccab397fc3782401731fae",
+        "textures/brushed_steel_base.png": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225",
+        "textures/brushed_steel_metal.png": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b",
+        "textures/brushed_steel_normal.png": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945",
+        "textures/brushed_steel_rough.png": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307",
+        "textures/carton_base.png": "091223492ec36230efd1d9bac5300ae1438e9cb4133867a51d87f19779c13481",
+        "textures/carton_normal.png": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+        "textures/carton_rough.png": "207109956eca4a2ca61134c82f8738791a651736cffc70e339697ca48e284884",
+        "textures/concrete_floor_painted_base.jpg": "f99ff99ed191e924d3bcbf4f345bb9973467ae18dceddee34bc013f01702c358",
+        "textures/concrete_floor_painted_normal.png": "d41acd3546d47f2ceabddb3b73e0ef9e6bf288866c82604f0f88076734999205",
+        "textures/concrete_floor_painted_rough.jpg": "2bd547b54210fa2ffd48d212c0d461c8b0f7bd6fb57797c2f114dc5ca552fee9",
+        "textures/label_base.png": "d75877b1d40476d9431692d7ffa91ef3da4d08d6d4eb3e0ab7ba82f6830597cd",
+        "textures/label_normal.png": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+        "textures/label_print_base.png": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b",
+        "textures/label_rough.png": "6ad014bf85ce5cb9d45ada0f141acb5f8de0d01bd25ab29022afd5f2c85488f2",
+        "textures/metal_plate_02_base.jpg": "6e80877d0e9d5973d96298c6091df7ace906b0a6760afc4f3592e4855f3f1d4c",
+        "textures/metal_plate_02_metal.jpg": "fb1b120a2be5887dfeebed7a198a8151b292e963713d914b74ed7669434afb41",
+        "textures/metal_plate_02_normal.png": "a39eee156a992afef4f1453010f2f2ff3c01cd6b5e0ce408259954ce25dd049f",
+        "textures/metal_plate_02_rough.jpg": "73a6bd6393f6de7be42058584c2d382f2a3e9148ceabc2d02e748e2c860e74d1",
+        "textures/polymer_base.png": "4c01381b19c5b9cd5a36a43215588d3411c6437cb8053dbc8b98e5f1d097acbe",
+        "textures/polymer_normal.png": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+        "textures/polymer_rough.png": "bd6dd05c2cef91494da6bcfff1fb07cf84d4f697e8a53ed80dd65119660f3b6b",
+        "textures/wall_paint_base.png": "c9e93d0c36784976dab6902dd05885e84455f0eb6d4d2bb3140ff6df91474ac5",
+        "textures/wall_paint_normal.png": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+        "textures/wall_paint_rough.png": "2e05da2d1693c15309ea13f69762a4e0676da0b1190af567802886f83b167971",
+        "textures/wood_floor_base.jpg": "2a1c07687b6dbb214c4b9213739c6d92d425f1f0fc8ab3ac157f105d78240789",
+        "textures/wood_floor_normal.png": "70e1a41420a161bb7dd046b1e6c5e5d4cbacb681f1731279c06ffd54855682c6",
+        "textures/wood_floor_rough.jpg": "061f1e1293251b2d28c76e3fac1ea9452b0e8648bb8f9b3728e09db386166e5c"
+      },
+      "up_axis": "Z",
+      "meters_per_unit": 1.0,
+      "supports": [
+        {
+          "object": "/World/Props/InspectionPad",
+          "surface": "/World/Environment/Worktop",
+          "gap_mm": 0.0,
+          "xy_overlap": true,
+          "tolerance_mm": 1
+        },
+        {
+          "object": "/World/Props/Tray/Base",
+          "surface": "/World/Props/InspectionPad",
+          "gap_mm": 0.0,
+          "xy_overlap": true,
+          "tolerance_mm": 1
+        },
+        {
+          "object": "/World/Props/Handset/Body",
+          "surface": "/World/Props/Tray/Base",
+          "gap_mm": -0.0,
+          "xy_overlap": true,
+          "tolerance_mm": 1
+        },
+        {
+          "object": "/World/Props/Carton/Base",
+          "surface": "/World/Environment/Worktop",
+          "gap_mm": 0.0,
+          "xy_overlap": true,
+          "tolerance_mm": 1
+        }
+      ],
+      "status": "pass",
+      "nvidia_validation": {
+        "version": "1.23.0",
+        "status": "PASS",
+        "exit_code": 0,
+        "issue_counts": {}
+      }
+    },
+    "low_overhead": {
+      "stage": "low_overhead.usda",
+      "errors": [],
+      "visible_gprims": 56,
+      "materials": {
+        "/World/Materials/Concrete": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/concrete_floor_painted_base.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/concrete_floor_painted_rough.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/concrete_floor_painted_normal.png",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGBA",
+                "varies": true
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Wall_Paint": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/wall_paint_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/wall_paint_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/wall_paint_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/BrushedSteel": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/brushed_steel_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/brushed_steel_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/brushed_steel_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "metallic": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/brushed_steel_metal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": false
+              }
+            ]
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Wood": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/wood_floor_base.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/wood_floor_rough.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/wood_floor_normal.png",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Polymer": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/polymer_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/polymer_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/polymer_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Carton": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/carton_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/carton_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/carton_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Label": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/label_base.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/label_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/label_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/LabelPrint": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/label_print_base.png",
+                "size": [
+                  1300,
+                  590
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/label_rough.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/label_normal.png",
+                "size": [
+                  512,
+                  512
+                ],
+                "mode": "RGB",
+                "varies": false
+              }
+            ]
+          },
+          "metallic": {
+            "constant": 0.0
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        },
+        "/World/Materials/Steel": {
+          "diffuseColor": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "sRGB",
+            "images": [
+              {
+                "file": "textures/metal_plate_02_base.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "roughness": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/metal_plate_02_rough.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "normal": {
+            "uv": "st",
+            "channel": "rgb",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/metal_plate_02_normal.png",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "RGB",
+                "varies": true
+              }
+            ]
+          },
+          "metallic": {
+            "uv": "st",
+            "channel": "r",
+            "color_space": "raw",
+            "images": [
+              {
+                "file": "textures/metal_plate_02_metal.jpg",
+                "size": [
+                  1024,
+                  1024
+                ],
+                "mode": "L",
+                "varies": true
+              }
+            ]
+          },
+          "surface_outputs": [
+            "outputs:surface"
+          ]
+        }
+      },
+      "lights": {
+        "/World/Lights/OverheadSoftbox": {
+          "type": "RectLight",
+          "intensity": 15.199999809265137,
+          "exposure": -2.0
+        },
+        "/World/Lights/SteelEdge": {
+          "type": "RectLight",
+          "intensity": 10.800000190734863,
+          "exposure": 0.0
+        },
+        "/World/Lights/FrontFill": {
+          "type": "SphereLight",
+          "intensity": 3.799999952316284,
+          "exposure": 0.0
+        },
+        "/World/Lights/LabelSoftbox": {
+          "type": "RectLight",
+          "intensity": 25.0,
+          "exposure": 0.0
+        },
+        "/World/Lights/Ambient": {
+          "type": "DomeLight",
+          "intensity": 0.2800000011920929,
+          "exposure": 0.0
+        }
+      },
+      "views": {
+        "overview": {
+          "camera": "/World/Cameras/Overview",
+          "target": "/World/Props/Carton",
+          "inspect": "作業台の高さ、床との接地、荷物の大きさ、落ち影の向き",
+          "reference_size": [
+            1536,
+            1024
+          ],
+          "filmback_mm": [
+            36.000001430511475,
+            23.999999463558197
+          ],
+          "focal_length_mm": 41.999998688697815,
+          "f_stop": 8.0,
+          "focus_distance_m": 3.1794652938842773,
+          "camera_to_world": [
+            [
+              0.7983452198481258,
+              0.6022000580750948,
+              0.0,
+              0.0
+            ],
+            [
+              -0.24432978064374905,
+              0.32391148062485586,
+              0.9139936055629662,
+              0.0
+            ],
+            [
+              0.5504070023502836,
+              -0.7296824259729474,
+              0.4057285903039234,
+              0.0
+            ],
+            [
+              1.7499999999999998,
+              -2.3199999999999994,
+              1.6399999999999997,
+              0.9999999999999999
+            ]
+          ],
+          "required_in_frame": [
+            "/World/Environment/BenchLeg_L_F",
+            "/World/Environment/BenchLeg_L_B",
+            "/World/Environment/BenchLeg_R_F",
+            "/World/Environment/BenchLeg_R_B"
+          ],
+          "target_rect": [
+            0.5137559491597503,
+            0.10180416779797041,
+            0.7393031209558275,
+            0.2912713756012325
+          ],
+          "projected_width_px": 346.44
+        },
+        "detail": {
+          "camera": "/World/Cameras/Detail",
+          "target": "/World/Props/Carton/Label",
+          "inspect": "箱のラベルと折り目、紙の繊維、フラップの端に落ちる影",
+          "reference_size": [
+            1536,
+            1024
+          ],
+          "filmback_mm": [
+            36.000001430511475,
+            23.999999463558197
+          ],
+          "focal_length_mm": 57.999998331069946,
+          "f_stop": 8.0,
+          "focus_distance_m": 0.6936137080192566,
+          "camera_to_world": [
+            [
+              0.9743911956946197,
+              0.22485950669875845,
+              6.938893903907227e-18,
+              0.0
+            ],
+            [
+              -0.061595243448989055,
+              0.26691272161228585,
+              0.9617502924491274,
+              0.0
+            ],
+            [
+              0.21625869632749747,
+              -0.9371210174191557,
+              0.2739276820148301,
+              0.0
+            ],
+            [
+              0.51,
+              -0.7200000000000002,
+              1.1900000000000002,
+              1.0000000000000002
+            ]
+          ],
+          "required_in_frame": [],
+          "target_rect": [
+            0.3267434145341309,
+            0.4871566861312107,
+            0.63777761171915,
+            0.7256440152267118
+          ],
+          "projected_width_px": 477.75
+        }
+      },
+      "dependencies_sha256": {
+        "cameras.usda": "20ff18ab0f6f23e209b867559d4c40cc2796054d177d2e942786e36ab52b27d0",
+        "environment.usda": "497eec1e0728694e3e366d9601b18bb04b228c4f1aaa34e289e731ee28b4b652",
+        "geometry.usdc": "a477d576ce219c3d0453d782d492a6b1a346c18556ba8b328b8bf64799cabf59",
+        "low_overhead.usda": "b2f3a80dbecb39b3457df532895a35f7cc9258505e0a987a0a93f04a1cda01f8",
+        "scene.usda": "658e9dee19c7a4fd0c9f4829ae3ab6466bafdbf302ccab397fc3782401731fae",
+        "textures/brushed_steel_base.png": "72fe4435ce4ed9a363420ad0d1fbcd993003752d83404d33134303620bdc7225",
+        "textures/brushed_steel_metal.png": "d8acccafa1fdcf03f3bb9112f5f2f30ad1558e446d5c12ec5644fc0d53c1e58b",
+        "textures/brushed_steel_normal.png": "7504abe59ce9ccfcc045701a92f55aee5f5eab2c1abefb3d953cdcbeee757945",
+        "textures/brushed_steel_rough.png": "a982fb2db42d92be274dff0bac423a4f7445b630d4da3136c641e8aa875be307",
+        "textures/carton_base.png": "091223492ec36230efd1d9bac5300ae1438e9cb4133867a51d87f19779c13481",
+        "textures/carton_normal.png": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+        "textures/carton_rough.png": "207109956eca4a2ca61134c82f8738791a651736cffc70e339697ca48e284884",
+        "textures/concrete_floor_painted_base.jpg": "f99ff99ed191e924d3bcbf4f345bb9973467ae18dceddee34bc013f01702c358",
+        "textures/concrete_floor_painted_normal.png": "d41acd3546d47f2ceabddb3b73e0ef9e6bf288866c82604f0f88076734999205",
+        "textures/concrete_floor_painted_rough.jpg": "2bd547b54210fa2ffd48d212c0d461c8b0f7bd6fb57797c2f114dc5ca552fee9",
+        "textures/label_base.png": "d75877b1d40476d9431692d7ffa91ef3da4d08d6d4eb3e0ab7ba82f6830597cd",
+        "textures/label_normal.png": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+        "textures/label_print_base.png": "528335cec1bd26f85cba63ed53139d26a9f0d391ce6ab336d6acdcd858ac4f9b",
+        "textures/label_rough.png": "6ad014bf85ce5cb9d45ada0f141acb5f8de0d01bd25ab29022afd5f2c85488f2",
+        "textures/metal_plate_02_base.jpg": "6e80877d0e9d5973d96298c6091df7ace906b0a6760afc4f3592e4855f3f1d4c",
+        "textures/metal_plate_02_metal.jpg": "fb1b120a2be5887dfeebed7a198a8151b292e963713d914b74ed7669434afb41",
+        "textures/metal_plate_02_normal.png": "a39eee156a992afef4f1453010f2f2ff3c01cd6b5e0ce408259954ce25dd049f",
+        "textures/metal_plate_02_rough.jpg": "73a6bd6393f6de7be42058584c2d382f2a3e9148ceabc2d02e748e2c860e74d1",
+        "textures/polymer_base.png": "4c01381b19c5b9cd5a36a43215588d3411c6437cb8053dbc8b98e5f1d097acbe",
+        "textures/polymer_normal.png": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+        "textures/polymer_rough.png": "bd6dd05c2cef91494da6bcfff1fb07cf84d4f697e8a53ed80dd65119660f3b6b",
+        "textures/wall_paint_base.png": "c9e93d0c36784976dab6902dd05885e84455f0eb6d4d2bb3140ff6df91474ac5",
+        "textures/wall_paint_normal.png": "76944f0bc81a92b281cd35587ae86667b41849efc89093db9fa79cc271e8edfd",
+        "textures/wall_paint_rough.png": "2e05da2d1693c15309ea13f69762a4e0676da0b1190af567802886f83b167971",
+        "textures/wood_floor_base.jpg": "2a1c07687b6dbb214c4b9213739c6d92d425f1f0fc8ab3ac157f105d78240789",
+        "textures/wood_floor_normal.png": "70e1a41420a161bb7dd046b1e6c5e5d4cbacb681f1731279c06ffd54855682c6",
+        "textures/wood_floor_rough.jpg": "061f1e1293251b2d28c76e3fac1ea9452b0e8648bb8f9b3728e09db386166e5c"
+      },
+      "up_axis": "Z",
+      "meters_per_unit": 1.0,
+      "supports": [
+        {
+          "object": "/World/Props/InspectionPad",
+          "surface": "/World/Environment/Worktop",
+          "gap_mm": 0.0,
+          "xy_overlap": true,
+          "tolerance_mm": 1
+        },
+        {
+          "object": "/World/Props/Tray/Base",
+          "surface": "/World/Props/InspectionPad",
+          "gap_mm": 0.0,
+          "xy_overlap": true,
+          "tolerance_mm": 1
+        },
+        {
+          "object": "/World/Props/Handset/Body",
+          "surface": "/World/Props/Tray/Base",
+          "gap_mm": -0.0,
+          "xy_overlap": true,
+          "tolerance_mm": 1
+        },
+        {
+          "object": "/World/Props/Carton/Base",
+          "surface": "/World/Environment/Worktop",
+          "gap_mm": 0.0,
+          "xy_overlap": true,
+          "tolerance_mm": 1
+        }
+      ],
+      "status": "pass",
+      "nvidia_validation": {
+        "version": "1.23.0",
+        "status": "PASS",
+        "exit_code": 0,
+        "issue_counts": {}
+      }
+    }
+  }
+}

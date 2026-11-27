@@ -1,0 +1,49 @@
+name = "梱包作業台"
+# Review framing at this image width (pixels). Height follows each USD camera.
+reference_width = 1536
+
+[cases]
+nominal = "scene.usda"
+low_overhead = "low_overhead.usda"
+
+[views.overview]
+reference = "references/shipping-carton.jpg"
+camera = "/World/Cameras/Overview"
+target = "/World/Props/Carton"
+include = [
+    "/World/Environment/BenchLeg_L_F", "/World/Environment/BenchLeg_L_B",
+    "/World/Environment/BenchLeg_R_F", "/World/Environment/BenchLeg_R_B",
+]
+focal_length_mm = 42
+min_width_px = 50
+inspect = "作業台の高さ、床との接地、荷物の大きさ、落ち影の向き"
+
+[views.detail]
+reference = "references/corrugated-edge.jpg"
+camera = "/World/Cameras/Detail"
+target = "/World/Props/Carton/Label"
+focal_length_mm = 58
+min_width_px = 250
+expected_barcode = "0426112500014"
+inspect = "箱のラベルと折り目、紙の繊維、フラップの端に落ちる影"
+
+# Horizontal bearing surfaces at rest; bounds-based design checks in millimeters.
+[[supports]]
+object = "/World/Props/InspectionPad"
+surface = "/World/Environment/Worktop"
+tolerance_mm = 1
+
+[[supports]]
+object = "/World/Props/Tray/Base"
+surface = "/World/Props/InspectionPad"
+tolerance_mm = 1
+
+[[supports]]
+object = "/World/Props/Handset/Body"
+surface = "/World/Props/Tray/Base"
+tolerance_mm = 1
+
+[[supports]]
+object = "/World/Props/Carton/Base"
+surface = "/World/Environment/Worktop"
+tolerance_mm = 1

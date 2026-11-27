@@ -1,0 +1,32 @@
+[WARNING] isaaclab.sh is deprecated and will be removed in Isaac Lab 3.1. Use 'uv run isaaclab' instead.
+[INFO] Using Python: "/opt/isaaclab-venv/bin/python"
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1795540131.409364      22 descriptor_database.cc:633] File already exists in database: grpc/health/v1/health.proto
+W0000 00:00:1795540131.409420      22 message.cc:301] Protobuf GeneratedMessageFactory: File is already registered: grpc/health/v1/health.proto
+2026-11-24T17:08:51Z [0ms] [Warning] [omni.platforminfo.plugin] failed to open the default display.  Can't verify X Server version.
+2026-11-24T17:08:51Z [11ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+Warning: Possible version incompatibility. Attempting to load carb::ujitso::IFactory with version v0.3 against v0.2.
+Warp 1.17.0 initialized:
+   CUDA Toolkit 12.9, Driver 13.2
+   Devices:
+     "cpu"      : "x86_64"
+     "cuda:0"   : "NVIDIA L4" (22 GiB, sm_89, mempool enabled)
+   Kernel cache:
+     /root/.cache/warp/1.17.0
+[ISAACLAB] KitLauncher initialization complete
+2026-11-24T17:08:55Z [3,973ms] [Warning] [omni.physx.cooking.plugin] PhysX warning: Cooking::cookConvexMesh: GPU-compatible convex hull could not be built because of oblong shape. Will fall back to CPU collision, particles and deformables will not collide with this mesh!, FILE /builds/omniverse/physics/physx/source/geomutils/src/cooking/GuCookingConvexMesh.cpp, LINE 124
+2026-11-24T17:08:55Z [3,974ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/SmokeAsset/Environment/Floor
+2026-11-24T17:08:55Z [3,982ms] [Warning] [omni.physx.cooking.plugin] PhysX warning: Cooking::cookConvexMesh: GPU-compatible convex hull could not be built because of oblong shape. Will fall back to CPU collision, particles and deformables will not collide with this mesh!, FILE /builds/omniverse/physics/physx/source/geomutils/src/cooking/GuCookingConvexMesh.cpp, LINE 124
+2026-11-24T17:08:55Z [3,982ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/SmokeAsset/Props/Carton/WallFront
+2026-11-24T17:08:55Z [3,983ms] [Warning] [omni.physx.cooking.plugin] PhysX warning: Cooking::cookConvexMesh: GPU-compatible convex hull could not be built because of oblong shape. Will fall back to CPU collision, particles and deformables will not collide with this mesh!, FILE /builds/omniverse/physics/physx/source/geomutils/src/cooking/GuCookingConvexMesh.cpp, LINE 124
+2026-11-24T17:08:55Z [3,983ms] [Warning] [omni.physx.cooking.plugin] ConvexMeshCookingTask: failed to cook GPU-compatible mesh, collision detection will fall back to CPU. Collisions with particles and deformables will not work with this mesh. Prim /World/SmokeAsset/Props/Carton/WallBack
+2026-11-24T17:08:55Z [3,993ms] [Warning] [usdrt.population.plugin] Last global time was not created. Did you call setEnableUsdNoticeHandling?
+Traceback (most recent call last):
+  File "/workspace/isaaclab/source/isaaclab/isaaclab/app/sim_launcher.py", line 677, in launch_simulation
+    yield physics_cfg
+  File "/var/tmp/isaac-harness-validation/first/runtime/lab_smoke.py", line 183, in main
+    run(args, sim_cfg)
+  File "/var/tmp/isaac-harness-validation/first/runtime/lab_smoke.py", line 150, in run
+    raise RuntimeError(f"rigid body did not fall: {drop_data}")
+RuntimeError: rigid body did not fall: {'prim': '/World/SmokeAsset/Props/Carton', 'rest_z_m': 0.8924999890327454, 'lifted_z_m': 0.9524999890327455, 'final_z_m': 0.9524999890327455, 'fall_m': 0.0, 'rest_error_m': 0.06000000000000005, 'tail_range_m': 0.0}
+[ERROR] Command failed with code 1: "/opt/isaaclab-venv/bin/python /var/tmp/isaac-harness-validation/first/runtime/lab_smoke.py --asset /var/tmp/isaac-harness-validation/first/examples/inspection/environment.usda --marker-prim /World/Props/Carton/Base --drop-prim /World/Props/Carton --steps 240 --drop-height 0.06 --report /var/tmp/isaac-harness-validation/runs/first-lab.json --visualizer none"

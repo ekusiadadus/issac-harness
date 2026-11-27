@@ -1,0 +1,21 @@
+{
+  "campaign_key": "b05bcc283b5ce576d8b4bd7161970b0a486d14a4784bf249017dbca63a8aea8e",
+  "frames": {
+    "0": {
+      "rgb_sha256": "9e7014b6bdf9f10fe4c4458bf3e83ed2b23580ef72a15c530c99193ccd7bff7a",
+      "observation": "フラップと内側から反復した印が消えた。正面は元のバーコード紙に覆われ、追加した荷扱い印が確認できない。",
+      "decision": "fail"
+    },
+    "2": {
+      "rgb_sha256": "e061344644c53ec4d84218750fa9bd75f13ae10ad959229eb22828f60cfa96dd",
+      "observation": "俯瞰で紙を反復する矢印は見えない。天板の大きな反射が残る。",
+      "decision": "fail"
+    },
+    "17": {
+      "rgb_sha256": "b0d01e0ed021f3d1a04849bbd7067a817fe3a4622bba9ef83a898b4247a37e9b",
+      "observation": "フラップに同じ印が反復しなくなった一方、撮影した面には追加デカールが見えない。",
+      "decision": "fail"
+    }
+  },
+  "review_method": "Visual inspection of the archived RGB, visible instance contours, tight boxes and metric range side by side. Decisions concern appearance for package inspection, or alignment for sensor-color."
+}

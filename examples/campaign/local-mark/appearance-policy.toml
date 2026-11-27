@@ -1,0 +1,20 @@
+# This policy qualifies the fixed-view appearance control, independent of a training-data release.
+minimum_frames = 3
+
+[[appearance_pairs]]
+first = 0
+second = 1
+edits = ["mark_visible"]
+target = "crate"
+rgb_delta = 0.10
+min_target_rgb_pixels = 1000
+range_atol_m = 0.002
+
+[[appearance_pairs]]
+first = 1
+second = 2
+edits = ["mark_visible"]
+target = "crate"
+rgb_delta = 0.10
+min_target_rgb_pixels = 1000
+range_atol_m = 0.002
